@@ -23,11 +23,11 @@ subtitle = ""
 [[feature]]
   icon = "dna"
   icon_pack = "fas"
-  name = "Statistics"
+  name = "Translational BioInformatics"
   description = ""  
   
 [[feature]]
-  icon = "clinic-medical"
+  icon = "user-md"
   icon_pack = "fas"
   name = "Medicine"
   description = ""
