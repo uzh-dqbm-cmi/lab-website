@@ -20,7 +20,7 @@ After brunch, we walked south along the Quaianlagen, the pedestrian promenade al
 
 From Zurich Horn we boarded one of Zurich's water taxis. These low canal boats are built to pass under Zurich's many bridges over the Limmat, and from our seats we were almost at water level as we skimmed to the other side of the lake.
 
-{{< figure src="puppet_at_theaterspektakel.jpg" title="Serenaded by a ventriloquist puppet." > }}
+{{< figure src="puppet_at_theaterspektakel.jpg" title="Serenaded by a ventriloquist puppet." >}}
 
 
 Our outing culminated in the Seepromenade, host to Zurich's 40th annual theater festival, Theaterspektakel. Street performers, sculpture, and musicians filled the park. Upon arrival, we were promptly serenaded by a ventriloquist puppet. We enjoyed the music and festivities over drinks, before splitting off to return our own separate ways.
