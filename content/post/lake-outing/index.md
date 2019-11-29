@@ -6,8 +6,13 @@ tags:
 - Fun
 categories:
 - Fun
-header: 
-  image: "lake_zurich.jpg"
+image:
+  placement: 1
+  caption: 'Lake Zurich'
+  fcal_point: ""
+  preview_only: false
+
+projects = []
 ---
 
 Whereas our first Lab outing toured the old city center, our second excursion explored Zurich's lake. 
