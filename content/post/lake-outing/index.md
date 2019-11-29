@@ -9,7 +9,7 @@ categories:
 image:
   placement: 1
   caption: 'Lake Zurich'
-  fcal_point: ""
+  focal_point: ""
   preview_only: false
 
 projects = []
