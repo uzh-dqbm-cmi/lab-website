@@ -23,7 +23,7 @@ subtitle = ""
 [[feature]]
   icon = "dna"
   icon_pack = "fas"
-  name = "Translational BioInformatics"
+  name = "Bioinformatics"
   description = ""  
   
 [[feature]]
