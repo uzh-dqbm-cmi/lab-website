@@ -53,7 +53,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Principle Investigators
+- Principal Investigators
 ---
 
 After receiving my M.D. degree at the University of Zurich, I obtained a Ph.D. in biomedical informatics at Columbia University in New York. I then joined the Yale University School of Medicine where I led a research team in biomedical informatics and worked on fundamental aspects of cancer genetics. In 2018, I moved back to Zurich to establish a group in Medical Informatics. In my spare time, I like to read and work on various DIY projects.
