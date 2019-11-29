@@ -25,4 +25,4 @@ From Zurich Horn we boarded one of Zurich's water taxis. These low canal boats a
 
 Our outing culminated in the Seepromenade, host to Zurich's 40th annual theater festival, Theaterspektakel. Street performers, sculpture, and musicians filled the park. Upon arrival, we were promptly serenaded by a ventriloquist puppet. We enjoyed the music and festivities over drinks, before splitting off to return our own separate ways.
 
-{{> figure src="lab_at_theaterspektakel.jpg" title="The group at Theaterspektakel." >}}
+{{< figure src="lab_at_theaterspektakel.jpg" title="The group at Theaterspektakel." >}}
