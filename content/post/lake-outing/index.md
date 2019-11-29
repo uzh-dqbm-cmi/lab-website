@@ -11,8 +11,7 @@ image:
   caption: 'Lake Zurich'
   focal_point: ""
   preview_only: false
-
-projects = []
+projects: []
 ---
 
 Whereas our first Lab outing toured the old city center, our second excursion explored Zurich's lake. 
