@@ -22,7 +22,7 @@ font = ""
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
-font_size = "L"
+font_size = "M"
 
 ############################
 ## Basic Info
@@ -90,14 +90,14 @@ phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "SChmelzberg 26", city = "Zurich", region = "", postcode = "8006", country = "Switzerland", country_code = "CH"}
+address = {street = "Schmelzberg 26", city = "Zurich", region = "", postcode = "8006", country = "Switzerland", country_code = "CH"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
 coordinates = {latitude = "47.378486", longitude = "8.551895"}
 
 # Directions for visitors to locate you.
-directions = "First 2 doors on the right on the ground floor."
+directions = "Enter on the ground floor, we are the first 2 doors on the right."
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -110,6 +110,7 @@ appointment_url = ""
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "Twitter", link = "https://twitter.com/krauthammerlab"},
+  {icon = "github", icon_pack = "fab", name = "GitHub", link = "https://github.com/uzh-dqbm-cmi"},
   # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
   # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
