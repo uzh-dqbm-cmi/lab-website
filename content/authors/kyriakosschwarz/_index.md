@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Kyriakos Szhwarz
+name: Kyriakos Schwarz
 
 # Username (this should match the folder name)
 authors:
