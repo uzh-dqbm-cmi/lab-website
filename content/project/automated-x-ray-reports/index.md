@@ -1,5 +1,6 @@
 ---
 title: Automated Reports from Xrays
+summary: Write a short summary here.
 authors: 
 - nicoperez
 date: 2019-10-10

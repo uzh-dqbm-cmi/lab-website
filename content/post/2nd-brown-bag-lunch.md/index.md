@@ -17,7 +17,7 @@ projects: []
 ---
 
 Last week, the Research Data Service Center (RDSC) of [UniSpital Z&uuml;rich
-(USZ)](http://www.en.usz.ch){:target="_blank"} hosted the 2<sup>nd</sup> event
+(USZ)](http://www.en.usz.ch) hosted the 2<sup>nd</sup> event
 of our jointly conducted series of Brown Bag Lunches.
 
 Patrick Hirschi, Data Engineer at the RDSC, gave a presentation about the
@@ -28,7 +28,7 @@ the latest datasets, in the near future even in real-time, thus accelerating
 research in personalized medicine.
 
 The members of the RDSC also commented on their joint effort to integrate the
-USZ into [Swiss Personalized Health Network (SPHN)](https://www.sphn.ch){:target="_blank"}.
+USZ into [Swiss Personalized Health Network (SPHN)](https://www.sphn.ch).
 The latter is a national initiative to combine medical data of all Swiss
 university hospitals in a secure and standardized manner.
 

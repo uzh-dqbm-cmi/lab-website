@@ -55,4 +55,4 @@ healthcare industry. The prototype uses a three-tier software architecture with
 HLF as the main data layer and a modular web application as the logic layer
 using NodeJS.
 
-You can find the full thesis here: [Secure Data Exchange Using Distributed Ledger Technologies](https://github.com/basacul/Mana/raw/master/documents/Bachelor_Thesis_Final_Version.pdf){:target="blank"}
+You can find the full thesis here: [Secure Data Exchange Using Distributed Ledger Technologies](https://github.com/basacul/Mana/raw/master/documents/Bachelor_Thesis_Final_Version.pdf)

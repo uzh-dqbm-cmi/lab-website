@@ -2,7 +2,7 @@
 title: "Lab Outing: City Tour"
 authors: 
 - zsoltbalazs
-date: 2019-10-10
+date: 2019-09-16
 tags: 
 - Fun
 categories:
