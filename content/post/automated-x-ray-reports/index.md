@@ -1,6 +1,7 @@
 ---
-title: Outing Around the Lake
-author: nicoperez
+title: Automated Reports from Xrays
+authors: 
+- nicoperez
 date: 2019-10-10
 tags: 
 - Deep Learning

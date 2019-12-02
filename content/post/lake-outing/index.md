@@ -1,6 +1,7 @@
 ---
 title: Outing Around the Lake
-author: laurakinkead
+authors: 
+- laurakinkead
 date: 2019-10-03
 tags: 
 - Fun
