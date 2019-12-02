@@ -56,6 +56,6 @@ hero_media = "team_at_irchel.jpg"
 **health = f(data)**
 
 **Clinical Data Science** and **Translational Bioinformatics**
-at the Univeristy of Zurich and University Hospital Zurich
+at the Univeristy of Zurich & University Hospital Zurich
 
 <a href="https://twitter.com/krauthammerlab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @krauthammerlab</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
