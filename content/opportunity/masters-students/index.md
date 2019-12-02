@@ -9,6 +9,7 @@ categories:
 - Deep Learning
 - Bioinformatics
 
+# list the projects you want masters students for here, if there are pages for them
 # projects: []
 ---
 
