@@ -56,5 +56,3 @@ hero_media = "team_at_irchel.jpg"
 Univeristy of Zurich and University Hospital Zurich
 
 <a href="https://twitter.com/krauthammerlab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @krauthammerlab</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-#  <span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
