@@ -1,5 +1,7 @@
 ---
 title: Call for Masters Students
+authors:
+- michaelkrauthammer
 tags: 
 - Deep Learning
 - Bioinformatics
