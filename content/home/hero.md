@@ -53,8 +53,9 @@ hero_media = "team_at_irchel.jpg"
 #   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-**Clinical Data Science and Translational Bioinformatics**
+**health = f(data)**
 
-Univeristy of Zurich and University Hospital Zurich
+**Clinical Data Science** and **Translational Bioinformatics**
+at the Univeristy of Zurich and University Hospital Zurich
 
 <a href="https://twitter.com/krauthammerlab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @krauthammerlab</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
