@@ -4,7 +4,8 @@ summary: Comparing neural-networks versus logistic regression for predicting rea
 tags:
 - Deep Learning
 date: "2019-12-02T00:00:00Z"
-author: ahmedallam
+authors: 
+- ahmedallam
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""

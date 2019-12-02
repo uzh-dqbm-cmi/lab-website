@@ -4,7 +4,8 @@ summary: Assessing the quality of online health information with AI.
 tags:
 - Deep Learning
 date: "2019-12-02T00:00:00Z"
-author: laurakinkead
+authors:
+- laurakinkead
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
