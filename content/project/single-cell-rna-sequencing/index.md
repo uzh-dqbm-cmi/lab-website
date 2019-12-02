@@ -1,6 +1,6 @@
 ---
 title: Single Cell RNA Sequencing
-summary: Comparing neural-networks versus logistic regression for predicting readmission.
+summary: Cancer on the cell level.
 tags:
 - Bioinformatics
 date: "2019-12-02T00:00:00Z"

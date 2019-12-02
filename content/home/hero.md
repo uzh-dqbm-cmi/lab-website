@@ -36,11 +36,11 @@ hero_media = "team_at_irchel.jpg"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-# [cta]
-#   url = "https://sourcethemes.com/academic/docs/install/"
-#   label = "Get Started"
-#   icon_pack = "fas"
-#   icon = "download"
+[cta]
+  url = "https://twitter.com/krauthammerlab"
+  label = "Follow us on Twitter"
+  icon_pack = "fab"
+  icon = "twitter"
 #   
 # [cta_alt]
 #   url = "https://sourcethemes.com/academic/"
