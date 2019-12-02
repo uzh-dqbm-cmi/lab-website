@@ -24,11 +24,11 @@ subtitle = ""
   order = "desc"
 
   # Filter posts by a taxonomy term.
-  [content.filters]
-    tag = ""
-    category = ""
-    publication_type = ""
-    exclude_featured = false
+  # [content.filters]
+  #   tag = ""
+  #   category = ""
+  #   publication_type = ""
+  #   exclude_featured = false
 
   [[content.filter_button]]
     name = "All"
