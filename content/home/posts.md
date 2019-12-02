@@ -29,7 +29,19 @@ subtitle = ""
     category = ""
     publication_type = ""
     exclude_featured = false
-  
+
+  [[content.filter_button]]
+    name = "All"
+    tag = "*"
+
+  [[content.filter_button]]
+    name = "Talks"
+    tag = "Talks"
+
+  [[content.filter_button]]
+    name = "Fun"
+    tag = "Fun"
+
 [design]
   # Toggle between the various page layout types.
   #   1 = List
