@@ -41,11 +41,13 @@ hero_media = "team_at_irchel.jpg"
   label = "Follow us on Twitter"
   icon_pack = "fab"
   icon = "twitter"
-#   
-# [cta_alt]
-#   url = "https://sourcethemes.com/academic/"
-#   label = "View Documentation"
-# 
+
+[cta_alt]
+  url = "https://github.com/uzh-dqbm-cmi"
+  label = "We're on GitHub"
+  icon_pack = "fab"
+  icon = "github"
+
 # # Note. An optional note to show underneath the links.
 # [cta_note]
 #   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
