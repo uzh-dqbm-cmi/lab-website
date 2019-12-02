@@ -1,5 +1,5 @@
 ---
-title: Lab Outing: City Tour
+title: "Lab Outing: City Tour"
 authors: 
 - zsoltbalazs
 date: 2019-10-10
