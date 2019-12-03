@@ -17,13 +17,13 @@ subtitle = ""
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Data Science"
+  name = "Clinical Data Science"
   description = ""
   
 [[feature]]
   icon = "dna"
   icon_pack = "fas"
-  name = "Bioinformatics"
+  name = "Translational Bioinformatics"
   description = ""  
   
 [[feature]]
