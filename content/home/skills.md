@@ -17,19 +17,27 @@ subtitle = ""
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Clinical Data Science"
+  name = "Machine Learning in Healthcare"
   description = ""
-  
+
+[[feature]]
+  icon = "book"
+  icon_pack = "fas"
+  name = "Biomedical NLP"
+  description = ""
+
+[[feature]]
+  icon = "x-ray"
+  icon_pack = "fas"
+  name = "Medical Image Processing"
+  description = ""
+
 [[feature]]
   icon = "dna"
   icon_pack = "fas"
   name = "Translational Bioinformatics"
   description = ""  
   
-[[feature]]
-  icon = "user-md"
-  icon_pack = "fas"
-  name = "Medicine"
-  description = ""
+
 
 +++
