@@ -65,5 +65,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-[View All Publications ->]({{< ref "/publication/_index.md" >}})

@@ -78,5 +78,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-[View All Posts ->]({{< ref "/post/_index.md" >}})
