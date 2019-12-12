@@ -1,5 +1,5 @@
 ---
-title: Call for Masters Students
+title: We are looking for Masters Students!
 authors:
 - michaelkrauthammer
 tags: 
