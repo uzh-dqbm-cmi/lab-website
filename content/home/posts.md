@@ -78,3 +78,5 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+[View All Posts]({{< ref "/publication/_index.md" >}}).
