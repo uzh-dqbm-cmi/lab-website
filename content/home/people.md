@@ -17,7 +17,7 @@ subtitle = ""
                  "Researchers",
                  "Grad Students",
                  "Software Developers",
-                 "Administrators"
+                 "Administrators",
                  "Visitors",
                  "Alumni"]
 
