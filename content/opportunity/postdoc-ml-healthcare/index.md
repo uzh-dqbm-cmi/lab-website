@@ -57,6 +57,6 @@ http://www.pa.uzh.ch/en/Willkommen-an-der-UZH.html)).
 Applicants should submit the following documents (preferably in a single PDF) to
 michael.krauthammer@uzh.ch with subject heading “Postdoc (Machine Learning in
 Healthcare)”:
- - CV with list of publications
- - Statement of research interests with a letter of motivation (2-3 pages max, in English)
- - Name, address and email contact of three referees (for letters of recommendation)
+- CV with list of publications
+- Statement of research interests with a letter of motivation (2-3 pages max, in English)
+- Name, address and email contact of three referees (for letters of recommendation)
