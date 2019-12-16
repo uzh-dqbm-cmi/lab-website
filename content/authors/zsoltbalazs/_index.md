@@ -26,14 +26,14 @@ interests:
 - Long-read sequencing
 - cfDNA sequencing
 
-# education:
-#   courses:
-#   - course: PhD in Molecular Biology
-#     institution: University of Szeged
-#     year: 2019
-#   - course: Medical Doctor
-#     institution: University of Szeged
-#     year: 2015
+education:
+  courses:
+  - course: PhD in Molecular Biology
+    institution: University of Szeged
+    year: 2019
+  - course: Medical Doctor
+    institution: University of Szeged
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
