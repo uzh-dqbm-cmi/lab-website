@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Assistant (to the) regional manager
+role: Assistant Regional Manager
 
 # Organizations/Affiliations
 organizations:
