@@ -18,20 +18,21 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Cancer genomics.
+bio:  I am ambitious about developing clinically-useful knowledge and helping health professionals make use of patient-related data.
 
 interests:
 - Bioinformatics
-- Cancer Genomics
+- Computational Pharmacology
+- Deep Learning
 
-# education:
-#   courses:
-#   - course: MS in Computer Science
-#     institution: Rensselaer Polytechnic Institute
-#     year: 2015
-#   - course: BSc in Interdisciplinary Science
-#     institution: Rensselaer Polytechnic Institute
-#     year: 2015
+ education:
+   courses:
+   - course: MSc in Bioinformatics
+     institution: University of Bern
+     year: 2019
+   - course: BSc in Computer Science
+     institution: University of Applied Sciences, FHNW
+     year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,6 +45,9 @@ social:
 # - icon: github
 #   icon_pack: fab
 #   link: https://github.com/lokijuhy
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/tr3quart1sta
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
