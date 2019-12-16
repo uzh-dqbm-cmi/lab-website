@@ -19,7 +19,8 @@ subtitle = ""
                  "Software Developers",
                  "Administrators",
                  "Visitors",
-                 "Alumni"]
+                 "Alumni",
+                 "Mascots"]
 
 [design]
   # Show user's social networking links? (true/false)
