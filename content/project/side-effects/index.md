@@ -1,6 +1,6 @@
 ---
 title: Drug-Drug Interactions
-summary: Write a short summary here.
+summary: Novel computational method for drug-drug interaction predictions which are an important consideration for patient treatment.
 authors: 
 - kyriakosschwarz
 date: 2019-11-27
