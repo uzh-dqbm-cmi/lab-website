@@ -42,7 +42,7 @@ title = "Krauthammer Lab"
   icon_pack = "fab"
   icon = "twitter"
 
-[cta]
+[cta_alt]
   url = "https://github.com/uzh-dqbm-cmi"
   label = "We're on GitHub"
   icon_pack = "fab"
