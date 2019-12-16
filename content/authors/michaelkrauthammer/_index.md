@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am interested in applying data science to improve healthcare.
+# bio: Write something here.
 
 interests:
 - Medical Informatics
