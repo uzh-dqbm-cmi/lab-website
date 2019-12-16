@@ -21,8 +21,8 @@ organizations:
 # bio: I am interested in applying data science to improve healthcare.
 
 interests:
-- Bird Watching
-- Tail Chasing
+- Kinematics of toy mice
+- Hiding in cardboard boxes
 
 
 # Organizational groups that you belong to (for People widget)
@@ -32,4 +32,4 @@ user_groups:
 ---
 
 Sebastian is a foody, and enjoys spending a lot of time in the kitchen.
-His interests include the kinematics of toy mice and hiding in cardboard boxes.
+In the wee hours of the night, he can occasionally be spotted chasing his own tail.

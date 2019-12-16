@@ -21,9 +21,8 @@ organizations:
 # bio: I am interested in applying data science to improve healthcare.
 
 interests:
-- Hugs
-- Sinks
-- Naps
+- Fluid dynamics
+- Burrowing under blankets
 
 
 # Organizational groups that you belong to (for People widget)
@@ -33,4 +32,4 @@ user_groups:
 ---
 
 When not sitting in Laura's lap, Simon enjoys hanging out in sinks, bathtubs, and sometimes even showers.
-His interests include fluid dynamics and burrowing under blankets.
+After a long day of napping, he likes to be picked up and carried around the house.
