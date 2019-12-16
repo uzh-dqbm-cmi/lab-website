@@ -5,7 +5,7 @@ authors:
 - nicoperez
 date: 2019-10-10
 tags: 
-- Deep Learning
+- Data Science
 categories:
 - Deep Learning
 image:

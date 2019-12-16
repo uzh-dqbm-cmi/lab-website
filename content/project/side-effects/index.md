@@ -5,7 +5,8 @@ authors:
 - kyriakosschwarz
 date: 2019-11-27
 tags: 
-- Deep Learning
+- Data Science
+- Bioinformatics
 categories:
 - Deep Learning
 image:

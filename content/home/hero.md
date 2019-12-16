@@ -42,7 +42,7 @@ title = "Krauthammer Lab"
   icon_pack = "fab"
   icon = "twitter"
 
-[cta_alt]
+[cta]
   url = "https://github.com/uzh-dqbm-cmi"
   label = "We're on GitHub"
   icon_pack = "fab"
@@ -53,7 +53,6 @@ title = "Krauthammer Lab"
 #   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-$ health = f(data) $
+Univeristy of Zurich & University Hospital Zurich
 
-**Clinical Data Science** and **Translational Bioinformatics**
-at the Univeristy of Zurich & University Hospital Zurich
+$ health = f(data) $
