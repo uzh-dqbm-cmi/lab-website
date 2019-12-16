@@ -25,14 +25,14 @@ interests:
 - Computational Pharmacology
 - Deep Learning
 
- education:
-   courses:
-   - course: MSc in Bioinformatics
-     institution: University of Bern
-     year: 2019
-   - course: BSc in Computer Science
-     institution: University of Applied Sciences, FHNW
-     year: 2015
+education:
+  courses:
+  - course: MSc in Bioinformatics
+    institution: University of Bern
+    year: 2019
+  - course: BSc in Computer Science
+    institution: University of Applied Sciences, FHNW
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
