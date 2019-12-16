@@ -19,8 +19,13 @@ email_form = 0
 +++
 
 {{% mention "claudiastenger" %}}
+
 *Administrative Assistant*
+
 Winterthurerstrasse 190
+
 CH-8057 Zürich
+
 Building/Room: Y32-F-01
+
 phone: +41 44 635 66 29

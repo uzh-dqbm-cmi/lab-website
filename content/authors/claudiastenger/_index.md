@@ -55,3 +55,10 @@ user_groups:
 - Administrators
 ---
 
+Winterthurerstrasse 190
+
+CH-8057 Zürich
+
+Building/Room: Y32-F-01
+
+phone: +41 44 635 66 29

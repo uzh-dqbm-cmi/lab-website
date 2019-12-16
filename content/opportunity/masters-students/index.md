@@ -3,10 +3,10 @@ title: We are looking for Masters Students!
 authors:
 - michaelkrauthammer
 tags: 
-- Deep Learning
+- Data Science
 - Bioinformatics
 categories:
-- Deep Learning
+- Data Science
 - Bioinformatics
 
 # list the projects you want masters students for here, if there are pages for them
