@@ -47,7 +47,10 @@ social:
 #   link: https://github.com/lokijuhy
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/tr3quart1sta
+  link: "https://twitter.com/tr3quart1sta"
+- icon: linkedin
+  icon_pack: fab
+  link: "https://www.linkedin.com/in/kyriakos-schwarz-85b88b59/"
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
