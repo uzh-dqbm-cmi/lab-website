@@ -23,15 +23,17 @@ bio: Bioinformatics in Oncogenomics.
 interests:
 - Bioinformatics
 - Cancer Genomics
+- Long-read sequencing
+- cfDNA sequencing
 
-# education:
-#   courses:
-#   - course: MS in Computer Science
-#     institution: Rensselaer Polytechnic Institute
-#     year: 2015
-#   - course: BSc in Interdisciplinary Science
-#     institution: Rensselaer Polytechnic Institute
-#     year: 2015
+education:
+  courses:
+  - course: PhD in Molecular Biology
+    institution: University of Szeged
+    year: 2019
+  - course: Medical Doctor
+    institution: University of Szeged
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -41,9 +43,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:zsolt.balazs@uzh.ch"
-# - icon: github
-#   icon_pack: fab
-#   link: https://github.com/lokijuhy
+- icon: github
+  icon_pack: fab
+  link: https://github.com/zsolt-balazs
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -59,4 +61,4 @@ user_groups:
 - Researchers
 ---
 
-I use bioinformatics in Oncogenomics. I did my PhD in Molecular biology at the University of Szeged, where I mostly worked with virus transcriptomics (mainly herpesviruses) with a focus of implementing methods for the analysis of long-read RNA-Seq. Other interests: archeogenetics, linguistics and hiking.
+I use bioinformatics in Oncogenomics. During my PhD, I worked with virus transcriptomics (mainly herpesviruses) with a focus of implementing methods for the analysis of long-read RNA-Seq. I also provided bioinformatic analysis in clinical genetics and population genetics projects. Other interests: archeogenetics, linguistics and hiking.
