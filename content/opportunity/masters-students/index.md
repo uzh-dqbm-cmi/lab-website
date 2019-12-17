@@ -25,4 +25,4 @@ The student should have basic experience with Unix systems and some experience w
 The student will use genome sequencing data in order to discover novel structural variants in various cancer types (melanoma,   colorectal carcinoma, lung cancer, etc.). The clinical significance of the novel and already known structural variants will also be evaluated using genome annotations.
 The student should have basic experience with Unix systems and some experience with at least one scripting language (e.g. Python). Prior experience with genomics software (mappers, samtools or variant callers) is an advantage. 
 
-Applications can be done by sending a CV to this [e-mail](e-mail:michael.krauthammer@uzh.ch) along with a short description of the student's motivation to join our lab.
+Applications can be done by sending a CV to this [e-mail](mailto:michael.krauthammer@uzh.ch) along with a short description of the student's motivation to join our lab.
