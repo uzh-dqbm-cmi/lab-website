@@ -63,4 +63,4 @@ user_groups:
 - Researchers
 ---
 
-I am interested in using data science and image processing in translational medicine. I did my PhD in Chemical Engineering in Johns Hopkins University and my work was highly interdisciplinary, fabricating my own microfluidic devices, performing the bio experiments and writing algorithms myself. Other interests include hiking, dancing and playing ukulele.
+I am interested in using data science and image processing in translational medicine. I did my PhD in Chemical Engineering in Johns Hopkins University and my work was highly interdisciplinary, fabricating my own microfluidic devices, performing the molecular biology and writing algorithms myself. Other interests include hiking, dancing and playing ukulele.
