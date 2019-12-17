@@ -1,10 +1,10 @@
 ---
 # Display name
-name: Nico Perez
+name: Nicolas Perez
 
 # Username (this should match the folder name)
 authors:
-- nicoerez
+- nicoperez
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,16 +22,20 @@ bio: I am interested in using data science and image processing in translational
 
 interests:
 - Machine Learning
+- NLP
 - Image Processing
 
-# education:
-#   courses:
-#   - course: MS in Computer Science
-#     institution: Rensselaer Polytechnic Institute
-#     year: 2015
-#   - course: BSc in Interdisciplinary Science
-#     institution: Rensselaer Polytechnic Institute
-#     year: 2015
+education:
+  courses:
+  - course: PhD in Chemical and Biomolecular Engineering
+    institution: Johns Hopkins University
+    year: 2019
+  - course: MS in Engineering Science
+    institution: Pontificia Universidad Catolica de Chile
+    year: 2014
+  - course: BSc in Physics
+    institution: Pontificia Universidad Catolica de Chile
+    year: 2012
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
