@@ -14,7 +14,7 @@ categories:
 # projects: []
 ---
 
-We are currently looking for Master students in the field of bioinformatics for the following topics
+We are currently looking for Master's students in the field of bioinformatics for the following topics
 
 ### Analyzing the effects of DNA secondary structure on the mutational pattern in cancer.
 
