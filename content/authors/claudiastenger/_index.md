@@ -55,6 +55,8 @@ user_groups:
 - Administrators
 ---
 
+In my free time I read a lot of books and watch movies. I love being around people and to do outdoor activities.
+
 Winterthurerstrasse 190 <br>
 CH-8057 Zürich <br>
 Building/Room: Y32-F-01 <br>
