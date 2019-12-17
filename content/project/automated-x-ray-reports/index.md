@@ -1,6 +1,6 @@
 ---
 title: Automated Reports from Xrays
-summary: Write a short summary here.
+summary: Using deep learning for automatically generated medical reports describing radiological images.
 authors: 
 - nicoperez
 date: 2019-10-10
