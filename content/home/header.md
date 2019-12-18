@@ -5,10 +5,14 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Krauthammer Lab"
+# title = "Krauthammer Lab"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 # hero_media = "team_at_irchel.jpg"
+
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -57,8 +61,6 @@ title = "Krauthammer Lab"
 # Krauthammer Lab
 
 <p style="font-size:20px"> University of Zurich & University Hospital Zurich </p>
-
-# $ health = f(data) $
 
 <br>
 
