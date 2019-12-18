@@ -6,6 +6,7 @@ authors:
 tags: 
 - Data Science
 - Bioinformatics
+- Opportunities
 categories:
 - Data Science
 - Bioinformatics

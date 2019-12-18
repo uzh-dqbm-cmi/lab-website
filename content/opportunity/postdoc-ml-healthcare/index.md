@@ -4,6 +4,7 @@ authors:
 - michaelkrauthammer
 tags:
 - Data Science
+- Opportunities
 categories:
 - Data Science
 

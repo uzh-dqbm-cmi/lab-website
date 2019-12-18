@@ -18,6 +18,15 @@ autolink = true
 email_form = 0
 +++
 
+{{% mention "michaelkrauthammer" %}}<br>
+*Chair of Medical Informatics*
+
+Department of Quantitative Biomedicine <br>
+Schmelzbergstrasse 26 <br>
+8006 Zürich <br>
+
+
+
 {{% mention "claudiastenger" %}}<br>
 *Administrative Assistant*
 
@@ -25,3 +34,5 @@ Winterthurerstrasse 190 <br>
 CH-8057 Zürich <br>
 Building/Room: Y32-F-01 <br>
 phone: +41 44 635 66 29 <br>
+
+---
