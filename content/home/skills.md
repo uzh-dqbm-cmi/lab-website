@@ -17,20 +17,8 @@ subtitle = " $ health = f(data) $ "
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Biomedical Data Science"
+  name = "Clinical Data Science"
   description = ""
-
-# [[feature]]
-#   icon = "book"
-#   icon_pack = "fas"
-#   name = "Biomedical NLP"
-#   description = ""
-# 
-# [[feature]]
-#   icon = "x-ray"
-#   icon_pack = "fas"
-#   name = "Medical Image Processing"
-#   description = ""
 
 [[feature]]
   icon = "dna"
@@ -38,10 +26,5 @@ subtitle = " $ health = f(data) $ "
   name = "Translational Bioinformatics"
   description = ""  
 
-[[feature]]
-  icon = "user-md"
-  icon_pack = "fas"
-  name = "Clinical Informatics"
-  description = ""
 
 +++
