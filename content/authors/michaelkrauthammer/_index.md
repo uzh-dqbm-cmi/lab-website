@@ -21,8 +21,8 @@ organizations:
 bio: Interested in (a) moving data-driven solutions into patient care and (b) knowledge discovery from big biomedical data sources
 
 interests:
-- Clinical data science
-- Translational bioinformatics
+- Clinical Data Science
+- Translational Bioinformatics
 - Cancer Genetics
 
 education:

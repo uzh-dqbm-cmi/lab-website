@@ -1,8 +1,8 @@
 +++
 # Hero widget.
-widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
 title = "Krauthammer Lab"
@@ -36,25 +36,30 @@ title = "Krauthammer Lab"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-[cta]
-  url = "https://twitter.com/krauthammerlab"
-  label = "Follow us on Twitter"
-  icon_pack = "fab"
-  icon = "twitter"
-
-[cta_alt]
-  url = "https://github.com/uzh-dqbm-cmi"
-  label = "We're on GitHub"
-  icon_pack = "fab"
-  icon = "github"
+# [cta]
+#   url = "https://twitter.com/krauthammerlab"
+#   label = "Follow us on Twitter"
+#   icon_pack = "fab"
+#   icon = "twitter"
+# 
+# [cta_alt]
+#   url = "https://github.com/uzh-dqbm-cmi"
+#   label = "We're on GitHub"
+#   icon_pack = "fab"
+#   icon = "github"
 
 # # Note. An optional note to show underneath the links.
 # [cta_note]
 #   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
+<center>
+# Krauthammer Lab
+
 <p style="font-size:20px"> University of Zurich & University Hospital Zurich </p>
 
 # $ health = f(data) $
 
 <br>
+
+</center>
