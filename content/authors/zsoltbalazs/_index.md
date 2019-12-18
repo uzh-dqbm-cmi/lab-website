@@ -58,7 +58,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
+- Senior Researchers and Postdocs
 ---
 
 I use bioinformatics in Oncogenomics. During my PhD, I worked with virus transcriptomics (mainly herpesviruses) with a focus of implementing methods for the analysis of long-read RNA-Seq. I also provided bioinformatic analysis in clinical genetics and population genetics projects. Other interests: archeogenetics, linguistics and hiking.

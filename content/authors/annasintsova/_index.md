@@ -56,7 +56,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
+- Senior Researchers and Postdocs
 ---
 
 I am a bench microbiologist turned bioinformatician interested in the role of the microbiome in response to cancer immunotherapy. Previously, I have used a combination of functional genomics and microbial genetics to reveal common mechanisms that underlie clinical infections.
