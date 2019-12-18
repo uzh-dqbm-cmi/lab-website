@@ -30,6 +30,7 @@ email_form = 0
           <p class="institution">Department of Quantitative Biomedicine</p>
           <p class="institution">Schmelzbergstrasse 26</p>
           <p class="institution">8006 Zürich</p>
+          <p class="institution">Building/Room: SHM 26 A2</p>
           <p class="institution"><a href="mailto:michael.krauthammer@uzh.ch"><i class="fas fa-envelope"></i></a></p>
         </div>
       </li>
