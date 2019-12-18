@@ -16,7 +16,6 @@
   </div>
   {{ end }}
 
-  <center>
     {{ range $page.Params.feature }}
     {{ $pack := or .icon_pack "fas" }}
     {{ $pack_prefix := $pack }}
@@ -29,5 +28,4 @@
       {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
     </div>
     {{ end }}
-  </center>
 </div>
