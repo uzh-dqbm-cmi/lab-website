@@ -20,7 +20,7 @@ email_form = 0
 
 <div class="row">
 
-  <div class="col">
+  <div class="col-sm">
     <ul class="ul-edu fa-ul">
       <li>
         <i class="fa-li fas fa-user"></i>
@@ -36,7 +36,7 @@ email_form = 0
     </ul>
   </div>
   
-  <div class="col">
+  <div class="col-sm">
     <ul class="ul-edu fa-ul">
       <li>
         <i class="fa-li fas fa-user"></i>
@@ -55,4 +55,3 @@ email_form = 0
 
 </div>
 
----
