@@ -10,13 +10,13 @@
   {{ end }}
 
   {{ with $page.Content }}
+
+  <div class="col-md-12">
+    {{ . }}
+  </div>
+  {{ end }}
+
   <center>
-
-    <div class="col-md-12">
-      {{ . }}
-    </div>
-    {{ end }}
-
     {{ range $page.Params.feature }}
     {{ $pack := or .icon_pack "fas" }}
     {{ $pack_prefix := $pack }}
