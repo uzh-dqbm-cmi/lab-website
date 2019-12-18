@@ -58,10 +58,8 @@ weight = 10  # Order that this section will appear.
 +++
 
 <center>
-# Krauthammer Lab
-
-<p style="font-size:20px"> University of Zurich & University Hospital Zurich </p>
-
 <br>
-
+# Krauthammer Lab
+<p style="font-size:20px"> University of Zurich & University Hospital Zurich </p>
+<br>
 </center>
