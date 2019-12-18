@@ -18,10 +18,12 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-# bio: Write something here.
+bio: Interested in (a) moving data-driven solutions into patient care and (b) knowledge discovery from big biomedical data sources
 
 interests:
-- Medical Informatics
+- Clinical data science
+- Translational bioinformatics
+- Cancer Genetics
 
 education:
   courses:

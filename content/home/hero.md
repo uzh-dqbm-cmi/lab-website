@@ -53,6 +53,8 @@ title = "Krauthammer Lab"
 #   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-Univeristy of Zurich & University Hospital Zurich
+<p style="font-size:36px"> University of Zurich & University Hospital Zurich </p>
 
 $ health = f(data) $
+
+<br>

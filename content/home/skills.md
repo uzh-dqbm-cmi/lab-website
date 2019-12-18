@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "Our Research"
-subtitle = ""
+subtitle = " $ health = f(data) $ "
 
 # Showcase personal skills or business features.
 # 
@@ -17,7 +17,7 @@ subtitle = ""
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Clinical Data Science"
+  name = "Biomedical Data Science"
   description = ""
 
 # [[feature]]
@@ -37,7 +37,11 @@ subtitle = ""
   icon_pack = "fas"
   name = "Translational Bioinformatics"
   description = ""  
-  
 
+[[feature]]
+  icon = "user-md"
+  icon_pack = "fas"
+  name = "Clinical Informatics"
+  description = ""
 
 +++
