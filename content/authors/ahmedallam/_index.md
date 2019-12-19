@@ -58,4 +58,4 @@ user_groups:
 - Senior Researchers and Postdocs
 ---
 
-Apparently, this member prefers to keep an air of mystery about them. 
+Apparently, this member prefers to keep an air of mystery about them 👻.
