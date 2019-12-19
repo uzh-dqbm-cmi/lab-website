@@ -29,10 +29,10 @@ education:
   courses:
   - course: PhD in Biomedical Informatics
     institution: Colombia University
-    year: 2015
+    year: 2003
   - course: MD in Medicine
     institution: University of Zurich
-    year: 2015
+    year: 1995
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
