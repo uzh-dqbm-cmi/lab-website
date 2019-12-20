@@ -47,7 +47,7 @@ email_form = 0
           <p class="institution">Winterthurerstrasse 190</p>
           <p class="institution">CH-8057 Zürich</p>
           <p class="institution">Building/Room: Y32-F-01</p>
-          <p class="institution">phone: +41 44 635 66 29</p>
+          <p class="institution">phone: +41 44 635 66 31</p>
           <p class="institution"><a href="mailto:claudia.stenger-gysling@uzh.ch"><i class="fas fa-envelope"></i></a></p>
         </div>
       </li>
