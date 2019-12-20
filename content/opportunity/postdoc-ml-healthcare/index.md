@@ -37,7 +37,7 @@ statistics, applied math or closely related discipline.
 conferences (such as NeurIPS, ICML, ACL, CVPR, AISTATS, AAAI, ICLR,
 etc.)
 - Proficient in Python and the scientific computing stack (SciPy, Numpy, Scikit-
-learn)
+learn, pandas)
 - Proficient in one of the deep learning frameworks (PyTorch, Tensorflow)
 
 ## What we offer
@@ -58,6 +58,7 @@ http://www.pa.uzh.ch/en/Willkommen-an-der-UZH.html)).
 Applicants should submit the following documents (preferably in a single PDF) to
 michael.krauthammer@uzh.ch with subject heading “Postdoc (Machine Learning in
 Healthcare)”:
+
 - CV with list of publications
 - Statement of research interests with a letter of motivation (2-3 pages max, in English)
 - Name, address and email contact of three referees (for letters of recommendation)
