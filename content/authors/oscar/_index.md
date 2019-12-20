@@ -25,7 +25,7 @@ interests:
 -  Knocking over Chess pieces ♟️♕, remote control 📺 and everything in front of him
 -  Playing soccer ⚽ and chasing butterflies 🦋
 -  Sleeping 😴 in front of laptops 💻
--  Participating in origami and crafting activities 🧶🎨
+-  Participating in origami 📄🏮 and crafting activities 🧶🎨
 
 
 # Organizational groups that you belong to (for People widget)
