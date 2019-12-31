@@ -14,20 +14,9 @@ categories:
 
 ## Summary
 
-The University of Zurich together with the University Hospital of Zurich are embarking on a
-concerted effort to develop informatics programs to advance biomedical research and
-healthcare using cutting edge computational approaches. As part of these efforts, the newly
-created Chair of Medical Informatics will establish a research group that will investigate
-topics in clinical data science and translational bioinformatics, such as knowledge discovery
-from Big Data sources (Electronic Medical Record), development of Natural Language
-processing, information retrieval and extraction routines, as well as the analysis of human
-Omics data. One key goal is the building of predictive algorithms for guiding patient therapy
-across all disease stages. The group is headed by Prof. Michael Krauthammer who is joining
-the University of Zurich after having led a research group in biomedical informatics at Yale
-University. For this position, we are looking for motivated PostDoc candidate who is
-interested in applying his computational skills to real world medical problems. We offer an
-interdisciplinary research environment, the possibility to direct your own research and access
-to state-of-the-art computational resources infrastructure (further details are listed below).
+The University of Zurich together with the University Hospital of Zurich are embarking on a concerted effort to develop informatics programs to advance biomedical research and healthcare using cutting edge computational approaches. As part of these efforts, the newly created Chair of Medical Informatics will establish a research group that will investigate topics in clinical data science and translational bioinformatics, such as knowledge discovery from Big Data sources (Electronic Medical Record), development of Natural Language processing, information retrieval and extraction routines, as well as the analysis of human Omics data. The group is headed by Prof. Michael Krauthammer who is joining the University of Zurich after having led a research group in biomedical informatics at Yale University.
+
+**For this position, we are looking for motivated PostDoc candidates who are interested in applying their computational skills to real world medical problems. One key goal is the building of predictive algorithms for guiding patient therapy across all disease stages.** We offer an interdisciplinary research environment, the possibility to direct your own research and access to state-of-the-art computational resources infrastructure (further details are listed below).
 
 ## Qualifications
 
