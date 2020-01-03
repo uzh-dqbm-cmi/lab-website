@@ -1,6 +1,6 @@
 ---
 title: "Neural networks versus Logistic regression for 30 days all-cause readmission prediction"
-date: 2019-01-01
+date: 2019-06-01
 publishDate: 2019-12-12T16:26:43.060803Z
 authors: 
 - ahmedallam
