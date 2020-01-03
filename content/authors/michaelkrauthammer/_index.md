@@ -28,7 +28,7 @@ interests:
 education:
   courses:
   - course: PhD in Biomedical Informatics
-    institution: Colombia University
+    institution: Columbia University
     year: 2003
   - course: MD
     institution: University of Zurich

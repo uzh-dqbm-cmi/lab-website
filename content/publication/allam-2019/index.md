@@ -16,6 +16,6 @@ url_pdf: "https://doi.org/10.1038/s41598-019-45685-z"
 doi: "10.1038/s41598-019-45685-z"
 projects: [readmission]
 tags:
-- Deep Learning
+- Data Science
 ---
 
