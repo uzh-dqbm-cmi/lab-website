@@ -14,7 +14,7 @@
       {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
     {{ end }}
     <li>
-      {{ if .icon = "envelope" }}
+      {{ if eq .icon "envelope" }}
         <a href="#" onclick="u='laura.kinkead'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">Send email</a>
       {{ else }}
         <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
