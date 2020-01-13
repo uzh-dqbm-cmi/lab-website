@@ -39,8 +39,10 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
+  link: "<A HREF="#" onclick="u='laura.kinkead'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">Send email to TEST</A>"
 #  link: "mailto:laura.kinkead@uzh.ch"
-   link: "<A HREF="#" onclick="u='laura.kinkead'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">Send email to TEST</A>"
+
+
 # - icon: github
 #   icon_pack: fab
 #   link: https://github.com/lokijuhy
