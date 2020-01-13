@@ -39,8 +39,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "<A HREF="#" onclick="u='laura.kinkead'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">Send email to TEST</A>"
-#  link: "mailto:laura.kinkead@uzh.ch"
+  link: "laura.kinkead@uzh.ch"
 
 
 # - icon: github
