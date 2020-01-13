@@ -45,7 +45,7 @@ http://www.pa.uzh.ch/en/Willkommen-an-der-UZH.html)).
 ## Application
 
 Applicants should submit the following documents (preferably in a single PDF) to
-michael.krauthammer@uzh.ch with subject heading “Postdoc (Machine Learning in
+<a href="#" onclick="u='michael.krauthammer'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">Prof. Michael Krauthammer</a> with subject heading “Postdoc (Machine Learning in
 Healthcare)”:
 
 - CV with list of publications
