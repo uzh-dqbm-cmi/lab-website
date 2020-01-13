@@ -16,7 +16,7 @@
     <li>
       <!--LKK ADDED THIS TO PROTECT EMAIL ADDRESSES FROM SCRAPING-->
       {{ if eq .icon "envelope" }}
-        <a href="#" onclick="u={{ $link | safeURL }}; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">
+        <a href="#" onclick="u={{ $link }}; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">
       {{ else }}
         <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
       {{ end }}
