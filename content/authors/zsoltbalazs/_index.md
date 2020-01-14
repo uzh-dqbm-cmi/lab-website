@@ -42,7 +42,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:zsolt.balazs@uzh.ch"
+  link: "zsolt.balazs"
 - icon: github
   icon_pack: fab
   link: https://github.com/zsolt-balazs
