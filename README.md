@@ -4,6 +4,8 @@
 
 This website is built with Hugo using the Academic Theme. Academic has excellent documentation, which you can find [here](https://sourcethemes.com/academic/docs/managing-content/).
 
+This website is built by [Netlify](https://app.netlify.com/sites/goofy-bose-72cf26/overview). Within Netlify, you can read the logs if there is a build error, and see previews of the website for each open pull request. Log in with the Lab admin email to access it.
+
 Below is an overview of how to edit the content most relevant to our site.
 
 
