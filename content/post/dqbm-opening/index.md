@@ -1,7 +1,7 @@
 ---
 title: DQBM opening
 authors: 
-- nicolasperez
+- nicoperez
 date: 2020-01-27
 tags: 
 - fun
