@@ -1,0 +1,18 @@
+# Theme metadata
+name = "KLab"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#48A9A6"
+
+# Menu
+menu_primary = "#fff"
+menu_text = "#542344"
+menu_text_active = "#48A9A6"
+menu_title = "#2b2b2b"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"
