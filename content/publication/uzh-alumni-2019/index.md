@@ -9,6 +9,7 @@ authors: ["Michael Krauthammer"]
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
 publication_types: ["0"]
+abstract: "Mobile Health Apps sind in den gängigen App Stores zu Tausenden erhältlich. Der Beitrag geht der Frage nach, wie die Qualität und Datensicherheit dieser Apps durch Regulierung verbessert werden und dadurch der breite Einsatz dieser Technologien im Gesundheitswesen ermöglicht wird."
 featured: true
 publication: "*UZH alumni Informatik readme*"
 url_pdf: "https://www.alumni.ch/readme/archive/readme41_19.pdf"
