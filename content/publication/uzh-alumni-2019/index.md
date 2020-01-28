@@ -10,7 +10,7 @@ authors: ["Michael Krauthammer"]
 # 7 = Thesis; 8 = Patent
 publication_types: ["0"]
 featured: true
-publication: "*readme*"
+publication: "*UZH alumni Informatik readme*"
 url_pdf: "https://www.alumni.ch/readme/archive/readme41_19.pdf"
 
 tags:

@@ -10,7 +10,7 @@ authors: ["Michael Krauthammer"]
 # 7 = Thesis; 8 = Patent
 publication_types: ["0"]
 featured: true
-publication: "* Trendtage Gesundheit LU*"
+publication: "*Trendtage Gesundheit LU*"
 url_pdf: "https://www.trendtage-gesundheit.ch/de/images/PDF/Pressespiegel/TGL%202019/Clinicum%2006-18_TGL.pdf"
 
 tags:
