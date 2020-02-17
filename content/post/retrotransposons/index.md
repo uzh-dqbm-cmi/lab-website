@@ -16,7 +16,7 @@ image:
 projects: []
 ---
 
-I recently needed to explain some aspects of Hawking's [The selfish gene (https://en.wikipedia.org/wiki/The_Selfish_Gene)] and that was when the idea of this post occurred to me. In this post, I aim to explain the concept of "junk DNA" while pointing out similarities to internet memes.
+I recently needed to explain some aspects of Hawking's [The selfish gene(https://en.wikipedia.org/wiki/The_Selfish_Gene)] and that was when the idea of this post occurred to me. In this post, I aim to explain the concept of "junk DNA" while pointing out similarities to internet memes.
 
 Prior to the Human Genome Project, it was believed that humans had about a million genes. Today, we know that this number is somewhere around 25,000-35,000, depending on the definition. The terribly wrong estimate about the number of genes was based on the known size of the genome (3.2Gb) and the average size of genes (3-5kb). The false assumption, however, was that genes comprise most of our genome. After having sequenced the human genome, we know that the protein coding parts of the genes only take up about 1-2% of the genome. Even if we add the regulatory parts of the genes, we only explain the function of maybe 5-10% of the genome. The rest of the genome is frequently referred to as ["junk DNA"(https://en.wikipedia.org/wiki/Non-coding_DNA)].
 
