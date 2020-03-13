@@ -19,12 +19,18 @@ We are currently looking for Master's students in the field of bioinformatics fo
 
 ### Analyzing the effects of DNA secondary structure on the mutational pattern in cancer.
 
-The student will analyze the relationship between mutational patterns detected in various cancer types and the locations of non-B-DNA   secondary structures in the human genome.
+The project's aim is to uncover the relationship between mutational patterns detected in various cancer types and the locations of non-B-DNA secondary structures in the human genome.
 The student should have basic experience with Unix systems and some experience with at least one scripting language (e.g. Python, R or bash). Prior experience with genomics software (mappers, samtools or variant callers) is an advantage.
 
 ### Mapping structural variation in cancer.
 
-The student will use genome sequencing data in order to discover novel structural variants in various cancer types (melanoma,   colorectal carcinoma, lung cancer, etc.). The clinical significance of the novel and already known structural variants will also be evaluated using genome annotations.
+Genome sequencing data are going to be used in order to discover novel structural variants in various cancer types (melanoma,   colorectal carcinoma, lung cancer, etc.). The clinical significance of the novel and already known structural variants will also be evaluated using genome annotations.
 The student should have basic experience with Unix systems and some experience with at least one scripting language (e.g. Python). Prior experience with genomics software (mappers, samtools or variant callers) is an advantage. 
+
+### Analyzing cell-free DNA fragmentation patterns in clinical samples
+
+This project aims to improve diagnosis and prognosis through liquid biopsies in cancer and various other diseases. 
+The student should have basic experience with Unix systems, some experience with at least one scripting language (e.g. Python) and a basic understanding of machine learning algorithms.
+
 
 Applications can be done by sending a CV to this <a href="#" onclick="u='michael.krauthammer'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">e-mail</a> along with a short description of the student's motivation to join our lab.
