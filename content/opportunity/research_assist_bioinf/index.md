@@ -35,7 +35,7 @@ We are looking for a bioinformatics research assistant to expand our multi-natio
 -	Ability to make a real and tangible impact in healthcare research
 -	Solve real-world problems and improve hospital-related processes and workflows
 -	Stimulating research environment and a place to grow academically and professionally
--	Outstanding working conditions at the University of Zurich (more details here).
+-	Outstanding working conditions at the University of Zurich ([more details here](https://www.pa.uzh.ch/en/Willkommen-an-der-UZH.html)).
 
 ## Application:
 Applicants should submit the following documents (preferably in a single PDF) to <a href="#" onclick="u='michael.krauthammer'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">Prof. Michael Krauthammer</a> with subject heading “Bioinformatics Research Assistant”:
