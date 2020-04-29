@@ -4,7 +4,8 @@ authors:
 - matthiasdittberner
 date: 2020-04-29
 tags: 
-- "Blog" "Book Review"
+- Blog
+- Book Review
 image:
   placement: 1
   focal_point: ""
