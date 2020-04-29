@@ -1,15 +1,12 @@
 ---
-title: Book Review: Causality, Probability and Medicine by Donald Gillies
+title: "Book Review: Causality, Probability and Medicine by Donald Gillies"
 authors: 
 - matthiasdittberner
 date: 2020-04-29
 tags: 
-- Talks
-categories:
-- Talks
+- "Blog" "Book Review"
 image:
   placement: 1
-  caption: 
   focal_point: ""
   preview_only: false
 projects: []
