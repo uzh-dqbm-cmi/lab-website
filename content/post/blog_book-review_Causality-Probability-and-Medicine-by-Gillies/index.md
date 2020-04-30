@@ -100,8 +100,8 @@ smoking and cancer? RCTs would not be an option for additional evidence, because
 we can’t force people randomly to smoke.
 
 **Table 1: Examples for classes of evidence.**
-|                       | Observational           | Interventional                                          |
-|-----------------------|-------------------------|---------------------------------------------------------|
+|                         | Observational           | Interventional                                          |
+| ----------------------- | ------------------------- | --------------------------------------------------------- |
 | Statistical evidence  | Epidemiological surveys | Clinical trials                                         |
 | Evidence of Mechanism | Autopsies               | Laboratory experiments on animals, tissues, cells, etc. |
 
