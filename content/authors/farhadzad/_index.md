@@ -61,8 +61,8 @@ user_groups:
 - Senior Researchers and Postdocs
 ---
 
-I did my Ph.D. program in the Language Technology group at the University of Oslo.
+I did my Ph.D. in the Language Technology group at the University of Oslo.
 Before starting a Ph.D., I was a research engineer at the Inria Sophia-Antipolis research center in the WIMMICS team. Before that, I spent one year in the Parsing and Semantics Group at Xerox Research Center Europe in Grenoble (France), which is now Naver Labs Europe. 
 I got my master from Erasmus mundus master program in Data mining and Knowledge Management.
-My research focuses on Low-Resouce Adaptation of Neural NLP Models, where we collaborate with the industry in SIRIUS center to provide scalable data access tools for industry.
+My research in Ph.D was  on Low-Resouce Adaptation of Neural NLP Models, where we collaborated with the industry in SIRIUS center to provide scalable data access tools for industry.
 During summer 2019,  I was on the research stay at the Copenhagen NLU research group and worked on the Joint domain and cross-lingual adaptation methods.
