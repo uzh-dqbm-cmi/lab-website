@@ -22,7 +22,7 @@ bio:
 
 interests:
 - Natural Language Understanding
-- Machien Learning
+- Machine Learning
 - Information Extraction
 - Domain Adaptation
 
