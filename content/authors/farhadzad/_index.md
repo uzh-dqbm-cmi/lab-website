@@ -21,7 +21,7 @@ organizations:
 bio: 
 
 interests:
-- Natural Language Understanding
+- NLP
 - Machine Learning
 - Information Extraction
 - Domain Adaptation
@@ -40,6 +40,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.co.uk/citations?user=iCPxe4UAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/nooralahzadeh
@@ -59,6 +62,7 @@ user_groups:
 ---
 
 I did my Ph.D. program in the Language Technology group at the University of Oslo.
-Before starting a Ph.D., I was a research engineer at the Inria Sophia-Antipolis research center in the WIMMICS team. Before that, I spent one year in the Parsing and Semantics Group at Xerox Research Center Europe in Grenoble (France), which is now Naver Labs Europe. I got my master from Erasmus mundus master program in Data mining and Knowledge Management.
-My research focuses on Low-Resouce Adaptation of Neural NLP Models, where we collaborate with the industry in SIRIUS center to provide scalable data access tools for Oil and Gas domain.
+Before starting a Ph.D., I was a research engineer at the Inria Sophia-Antipolis research center in the WIMMICS team. Before that, I spent one year in the Parsing and Semantics Group at Xerox Research Center Europe in Grenoble (France), which is now Naver Labs Europe. 
+I got my master from Erasmus mundus master program in Data mining and Knowledge Management.
+My research focuses on Low-Resouce Adaptation of Neural NLP Models, where we collaborate with the industry in SIRIUS center to provide scalable data access tools for industry.
 During summer 2019,  I was on the research stay at the Copenhagen NLU research group and worked on the Joint domain and cross-lingual adaptation methods.
