@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am interested monitoring / preventing diseases through the use of smart sensors and machine learning.
+bio: I am interested in monitoring / preventing diseases through the use of smart sensors and machine learning.
 
 interests:
 - Human Disease Monitoring
@@ -56,4 +56,4 @@ user_groups:
 - Research Assistant
 ---
 
-I am interested monitoring / preventing diseases through the use of smart sensors and machine learning. I studied at ETH Zurich and during my master I focused on developing algorithms for risk quantification for complex engineering problems. Other interests of mine include triathlon, hiking & climbing and playing piano and drum-set.
+I am interested in monitoring / preventing diseases through the use of smart sensors and machine learning. I studied at ETH Zurich and during my master I focused on developing algorithms for risk quantification for complex engineering problems. Other interests of mine include triathlon, hiking & climbing and playing piano and drum-set.
