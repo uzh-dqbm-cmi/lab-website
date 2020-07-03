@@ -23,7 +23,7 @@ organizations:
 interests:
 - Belly rubs
 - Staying at home
-- Hanging with her dog
+- Hanging around with her dog
 
 
 # Organizational groups that you belong to (for People widget)
