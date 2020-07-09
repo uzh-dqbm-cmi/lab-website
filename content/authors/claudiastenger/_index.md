@@ -54,7 +54,7 @@ user_groups:
 - Administrators
 ---
 
-In my free time I read a lot of books and watch movies. I love being around people and to do outdoor activities.
+Claudia was born and grew up in Zurich. She lived for several years abroad working at the Swiss Embassy in Lagos, Nigeria and later at the Swiss Consulate in Chicago, USA. After her return to Switzerland, she worked for different companies in Zurich before she started a job at the UZH in 1997. In May 2019, she joined the DQBM as an administrative assistant. In her free time she reads a lot of books, plays Tennis and watches movies. She loves being around people and doing outdoor activities.
 
 Winterthurerstrasse 190 <br>
 CH-8057 Zürich <br>
