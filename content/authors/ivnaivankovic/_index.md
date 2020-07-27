@@ -26,7 +26,7 @@ interests:
 
 education:
   courses:
-  - course: MS in Computational Biology
+  - course: MSc in Computational Biology
     institution: University of Zagreb
     year: 2019
   - course: BSc in Molecular Biology
