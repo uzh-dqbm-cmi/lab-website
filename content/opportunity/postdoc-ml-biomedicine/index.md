@@ -14,15 +14,22 @@ categories:
 
 ## Summary
 
-The University of Zurich together with the University Hospital of Zurich are embarking on a concerted effort to develop informatics programs to advance biomedical research and healthcare using cutting edge computational approaches. As part of these efforts, the newly created Chair of Medical Informatics will establish a research group that will investigate topics in clinical data science and translational bioinformatics, such as knowledge discovery from Big Data sources (Electronic Medical Record), development of Natural Language processing, information retrieval and extraction routines, as well as the analysis of human Omics data. The group is headed by Prof. Michael Krauthammer who is joining the University of Zurich after having led a research group in biomedical informatics at Yale University.
+The University of Zurich together with the University Hospital of Zurich are embarking on a concerted effort to develop informatics programs to advance biomedical research using cutting edge computational approaches. As part of these efforts, (https://krauthammerlab.ch/)[the Krauthammer research group] investigates topics in clinical data science and translational bioinformatics, such as knowledge discovery from Big Data sources (Electronic Medical Record), development of Natural Language processing, information retrieval and extraction routines, as well as the analysis of human Omics data. The group is headed by Prof. Michael Krauthammer and is part of the (https://www.dqbm.uzh.ch/en.html)[department of Quantitative Biomedicine (DQBM)].
+For this position, we are looking for motivated PostDoc candidates who are interested in applying their computational skills to medical as well as biological problems. An example of Machine Learning (ML) in biology is our latest work on genome editing tools (base editors) for basic research and gene therapy. We developed BE-DICT `[1]`, an attention-based deep learning algorithm capable of predicting base editing outcomes with high accuracy. 
+An example of ML in healthcare is our work on time series analysis for patient readmission prediction. In this work `[2]`, we explored the systematic application of neural network models for predicting 30 days all-cause readmission after discharge from a HF hospitalization.  And more recently, we are focused on the analysis of patient trajectories (i.e. using patients’ medical history) and “patient similarities” (i.e. patient similarity assessment on longitudinal health data) for care pathway/knowledge discovery, and personalized outcome prediction `[3]`. Our goal is to develop state-of-the-art approaches and build best-in-class methods to capitalize on digital clinical information to automatically compare, analyze and visualize complex longitudinal patient journeys focusing on the concept of patient journey similarity. This involves building decision support systems powered by predictive algorithms for guiding patient therapy across all disease stages, the assessment of treatment effects using counterfactual inference and the identification of causal mechanisms driving disease progression.
 
-For this position, we are looking for motivated PostDoc candidates who are interested in applying their computational skills to medical as well as biological problems. One key goal is the building of predictive algorithms for guiding patient therapy across all disease stages. We offer an interdisciplinary research environment, the possibility to direct your own research and access to state-of-the-art computational resources infrastructure (further details are listed below).
+1-	Marquart, K. F., Allam, A., et al. Predicting base editing outcomes with an attention-based deep learning algorithm trained on high-throughput target library screens. bioRxiv 2020.07.05.186544 (2020) doi:10.1101/2020.07.05.186544.
+2-	Allam, A., Nagy, M., Thoma, G. & Krauthammer, M. Neural networks versus Logistic regression for 30 days all-cause readmission prediction. Sci. Rep. 9, 9277 (2019).
+3-	Allam, A., Dittberner, M., Sintsova, A., Brodbeck, D. & Krauthammer, M. Patient Similarity Analysis with Longitudinal Health Data. (2020). http://arxiv.org/abs/2005.06630 
+
+
 ## Qualifications
 
-- PhD degree in computer science (focused on machine learning), optimization, statistics, applied math or closely related discipline.
-- Strong publication record with at least one first-author paper in top-tier conferences (such as NeurIPS, ICML, ACL, CVPR, AISTATS, AAAI, ICLR, etc.)
+-	PhD degree in computer science (focused on machine learning), optimization, statistics, applied math or closely related discipline.
+- Strong publication record with at least one first-author paper in top-tier conferences (such as NeurIPS, ICML , AISTATS, AAAI, ICLR, etc.)
 - Proficient in Python and the scientific computing stack (SciPy, Numpy, Scikit- learn, pandas)
-- Proficient in one of the deep learning frameworks (PyTorch, Tensorflow)
+-	Proficient in one of the deep learning frameworks (PyTorch, Tensorflow)
+
 
 ## What we offer
 
@@ -32,6 +39,7 @@ For this position, we are looking for motivated PostDoc candidates who are inter
 - Stimulating research environment and a place to grow academically and professionally
 - Outstanding working conditions at the University of Zurich (more details [here](http://www.pa.uzh.ch/en/Willkommen-an-der-UZH.html)).
 
+
 ## Application
 
-Applicants should submit their application via [the posting on Nature Careers](https://www.nature.com/naturecareers/job/postdoc-opening-in-machine-learning-in-biomedicine-university-of-zurich-uzh-719816).
+Applicants should submit their application via [the posting on Nature Careers](https://www.nature.com/naturecareers/job/postdoc-opening-in-machine-learning-in-biomedicine-university-of-zurich-uzh-728320).
