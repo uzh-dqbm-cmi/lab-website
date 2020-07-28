@@ -41,7 +41,7 @@ An example of ML in healthcare is our work on time series analysis for patient r
 - Ability to make a real and tangible impact in healthcare research
 - Solve real-world problems and improve hospital-related processes and workflow
 - Stimulating research environment and a place to grow academically and professionally
-- Outstanding working conditions at the University of Zurich (more details [here](http://www.pa.uzh.ch/en/Willkommen-an-der-UZH.html)).
+- Outstanding working conditions at the University of Zurich (more details [here](https://www.pa.uzh.ch/en/Working-at-UZH.html)).
 
 
 ## Application
