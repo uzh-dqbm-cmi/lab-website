@@ -53,7 +53,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistant
+- Research Assistants
 ---
 
 I am interested in monitoring / preventing diseases through the use of smart sensors and machine learning. I studied at ETH Zurich and during my master I focused on developing algorithms for risk quantification for complex engineering problems. Other interests of mine include triathlon, hiking & climbing and playing piano and drum-set.
