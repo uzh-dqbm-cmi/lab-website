@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Scientific Software Developer
+role: Research Software Engineer
 
 # Organizations/Affiliations
 organizations:
