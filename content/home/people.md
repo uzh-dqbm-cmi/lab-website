@@ -18,6 +18,7 @@ subtitle = ""
                  "Grad Students",
                  "Research Assistants",
                  "Software Developers",
+                 "Affiliated Researchers",
                  "Administrators",
                  "Visitors",
                  "Alumni",
