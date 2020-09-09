@@ -1,8 +1,8 @@
 ---
 title: We're hiring for a Junior Research Software Engineer
 authors:
-- michaelkrauthammer
 - laurakinkead
+- michaelkrauthammer
 tags:
 - Data Science
 - Opportunities
@@ -58,4 +58,4 @@ The following skills are advantageous to the role, but not requirements. If you 
 
 ## Application
 
-Please send your CV and cover letter to this <a href="#" onclick="u='laura.kinkead'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">e-mail</a>.
+Please send your CV and cover letter to <a href="#" onclick="u='laura.kinkead'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">Laura Kinkead</a>.
