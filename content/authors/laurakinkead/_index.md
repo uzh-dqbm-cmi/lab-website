@@ -62,6 +62,7 @@ user_groups:
 ---
 
 I'm interested in not only what can you do with Data Science, but _how_ do you do it?
-How can good software tools make it easier to reproduce our data pipelines, more intuitive to collaborate on code, and faster to iterate on our models?
+How can good software tools make it easier to write reproducible data pipelines, more intuitive to collaborate on code, and faster to iterate on your models?
+
 Before joining the lab, I worked as a Data Scientist at a healthcare IT company.
-Other interests include ecology, hiking, and the SBB train network.
+When not writing Python, I can be found hiking, biking, and exploring the SBB train network.
