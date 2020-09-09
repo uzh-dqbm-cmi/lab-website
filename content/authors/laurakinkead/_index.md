@@ -61,7 +61,7 @@ user_groups:
 - Research Software Engineers
 ---
 
-Laura likes to think about not just what can you do with Data Science, but _how_ do you do it?
-How can good software tools make our models more quickly iterated upon, our data pipelines more reproducible, and our code easier to collaborate on?
-Previously, she worked as a Data Scientist at a healthcare IT company. 
+I'm interested in not only what can you do with Data Science, but _how_ do you do it?
+How can good software tools make it easier to reproduce our data pipelines, more intuitive to collaborate on code, and faster to iterate on our models?
+Before joining the lab, I worked as a Data Scientist at a healthcare IT company.
 Other interests include ecology, hiking, and the SBB train network.
