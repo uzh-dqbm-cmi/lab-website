@@ -1,5 +1,5 @@
 ---
-title: We're hiring for a Junior Research Software Engineer
+title: We're hiring a Junior Research Software Engineer
 authors:
 - laurakinkead
 - michaelkrauthammer
