@@ -30,6 +30,6 @@ After reading this manifesto, I asked myself: what can I do to fight the reprodu
 
 Imagine someone told you that you could throw away all the intermediate files because as long as you have raw data, you could get these files anytime. To quote Luis Pedro Coelho, the main developer of NGLess:
 
-Results are equivalent to data, just given more computation.  
+> Results are equivalent to data, just given more computation.  
 
 So let’s make even our supplementary material reproducible!
