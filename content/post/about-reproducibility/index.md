@@ -5,7 +5,8 @@ authors:
 - ivnaivankovic
 date: 2020-09-22
 tags: 
-- Reproducibility, Data Science
+- Reproducibility
+- Data Science
 categories:
 - Research
 image:
