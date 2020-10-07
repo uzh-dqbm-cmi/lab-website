@@ -17,10 +17,9 @@ subtitle = ""
                  "Senior Researchers and Postdocs",
                  "Grad Students",
                  "Research Assistants",
-                 "Software Developers",
+                 "Research Software Engineers",
                  "Affiliated Researchers",
                  "Administrators",
-                 "Visitors",
                  "Alumni",
                  "Mascots"]
 

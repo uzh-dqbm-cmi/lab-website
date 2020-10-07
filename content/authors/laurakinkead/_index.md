@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Software Engineer
+role: Senior Research Software Engineer
 
 # Organizations/Affiliations
 organizations:
@@ -18,9 +18,11 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am interested in applying data science to improve healthcare.
+bio: Building software tools for Data Science.
 
 interests:
+- Data Science Tooling
+- Reproducibility
 - Machine Learning
 
 education:
@@ -56,7 +58,11 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Software Developers
+- Research Software Engineers
 ---
 
-Laura is interested in applying data science to improve healthcare. Previously, she worked as a Data Scientist at a healthcare IT company. Other interests include ecology, hiking, and the SBB train network.
+I'm interested in not only what can you do with Data Science, but _how_ do you do it?
+How can good software tools make it easier to write reproducible data pipelines, more intuitive to collaborate on code, and faster to iterate on your models?
+
+Before joining the lab, I worked as a Data Scientist at a healthcare IT company.
+When not writing Python, I can be found hiking, biking, and exploring the SBB train network.

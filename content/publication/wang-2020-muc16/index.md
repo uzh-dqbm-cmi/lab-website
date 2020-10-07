@@ -26,7 +26,7 @@ Results: Analysis results showed that samples with MUC16 mutations had a higher 
 
 Conclusions: MUC16 mutation appears to be a useful predictive marker of global TMB and patient survival in melanoma."
 publication: "Cancer Epidemiol Biomarkers Prev"
-featured: true
+featured: false
 url_pdf: "https://cebp.aacrjournals.org/content/early/2020/07/27/1055-9965.EPI-20-0307.full-text.pdf"
 doi: "10.1158/1055-9965.EPI-20-0307"
 ---
