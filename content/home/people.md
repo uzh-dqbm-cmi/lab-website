@@ -19,7 +19,7 @@ subtitle = ""
                  "Research Assistants",
                  "Research Software Engineers",
                  "Administrators",
-                 "Visitors",
+                 "Affiliated Researchers",
                  "Alumni",
                  "Mascots"]
 
