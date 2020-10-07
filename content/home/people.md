@@ -18,8 +18,8 @@ subtitle = ""
                  "Grad Students",
                  "Research Assistants",
                  "Research Software Engineers",
-                 "Affiliated Researchers",
                  "Administrators",
+                 "Affiliated Researchers",
                  "Alumni",
                  "Mascots"]
 
