@@ -4,35 +4,37 @@ name: Jan Bartussek
 
 # Username (this should match the folder name)
 authors:
-- laurakinkead
+- janbartussek
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: <Your title here>
+role: Research Group Leader
 
 # Organizations/Affiliations
 organizations:
 - name: University of Zurich
   url: ""
-- name: University Hospital of Zurich
+- name: Institute for Intensive Care, University Hospital of Zurich
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: <your short bio here>
+# bio:
 
 interests:
-- <your interests here>
+- Physiology and Pathophysiology
+- Nonlinear Dynamics
+- Mechanistic Modelling
 
 education:
   courses:
-  - course: <MS Science>
-    institution: <University>
-    year: <1900>
-  - course: <BSc in Science>
-    institution: <University>
-    year: <1900>
+  - course: PhD in Neuroinformatics
+    institution: ETH Zurich
+    year: 2011
+  - course: Diploma in Physics
+    institution: Christian-Albrechts-University Kiel
+    year: 2006
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -61,4 +63,4 @@ user_groups:
 - Affiliated Researchers
 ---
 
-<Write a bio here.>
+My research combines concepts and methods from biology, physics and mathematics to gain fundamental insights in biological processes. Since 2019, I am appointed as a research group leader at the Institute for Intensive Care in the University Hospital Zurich. I am focusing on the analysis of pathophysiological dynamics using high-resolution health data, collected by our patient data management system (PDMS). As a research associate of the Krauthammer lab, I am organizing our efforts to analyze PDMS data for outcome prediction with machine learning algorithms.
