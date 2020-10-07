@@ -14,9 +14,9 @@ role: Research Group Leader
 
 # Organizations/Affiliations
 organizations:
-- name: University of Zurich
-  url: ""
 - name: Institute for Intensive Care, University Hospital of Zurich
+  url: ""
+- name: University of Zurich
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
