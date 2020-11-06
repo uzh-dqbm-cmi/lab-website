@@ -1,5 +1,5 @@
 ---
-title: Lab Hike: Mount Rigi
+title: "Lab Hike: Mount Rigi"
 summary: This is how our lab gatherings look like during the pandemic. 
 authors: 
 - ivnaivankovic
