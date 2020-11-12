@@ -17,9 +17,9 @@ categories:
 
 We are currently looking for Master's students in the field of bioinformatics for the following topics
 
-### Analyzing the effects of DNA secondary structure on the mutational pattern in cancer.
+### Data integration in Cancer Genomics.
 
-The project's aim is to uncover the relationship between mutational patterns detected in various cancer types and the locations of non-B-DNA secondary structures in the human genome.
+The project's aim is to characterize the effect of transcriptional and epigenetic processes on mutational patterns in cancer.
 The student should have basic experience with Unix systems and some experience with at least one scripting language (e.g. Python, R or bash). Prior experience with genomics software (mappers, samtools or variant callers) is an advantage.
 
 ### Mapping structural variation in cancer.
