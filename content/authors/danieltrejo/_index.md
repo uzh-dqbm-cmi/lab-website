@@ -26,8 +26,10 @@ interests:
 - Machine learning
 - Decision support systems for healthcare
 
-education: Ph.D. University of Edinburgh
-
+education: 
+  courses:
+  - course: Ph.D.
+    institution: University of Edinburgh
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
