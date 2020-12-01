@@ -31,7 +31,8 @@ education: Ph.D. University of Edinburgh
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-
+user_groups:
+- Senior Researchers and Postdocs
 ---
 A machine learning and bioinformatics nomad, moving around between different organisms, different algorithms and different countries. Not related Danny Trejo (Machete), but to be fair, no one has really seen us both at the same place and the same time...
 
