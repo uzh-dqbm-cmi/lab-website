@@ -59,4 +59,4 @@ user_groups:
 - Research Assistants
 ---
 
-I'm a third-year master student at ETH Zürich. My interests are broad and lie in the application of machine learning and statistical methods in biomedicine. I joined Krauthammer Lab in 2020 and I am working on cell-free DNA fragmentation pattern analysis. Other interests include cooking, hiking and painting.
+I'm a third-year master student at ETH Zürich. My interests are broad and lie in the application of machine learning and statistical methods in biomedicine. I joined Krauthammer Lab in Dec. 2020 and I am working on cell-free DNA fragmentation pattern analysis. Other interests include cooking, hiking and painting.
