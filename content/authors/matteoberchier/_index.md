@@ -21,9 +21,9 @@ organizations:
 bio: I am interested in monitoring / preventing diseases through the use of smart sensors and machine learning.
 
 interests:
+- Data Science
 - Human Disease Monitoring
-- Smart Sensors
-- IoT
+- IoT & Smart Sensors
 
 education:
   courses:
@@ -63,4 +63,4 @@ user_groups:
 - Research Assistants
 ---
 
-I am interested in monitoring / preventing diseases through the use of smart sensors and machine learning. I studied at ETH Zurich and during my master I focused on developing algorithms for risk quantification for complex engineering problems. Other interests of mine include triathlon, hiking & climbing and playing piano and drum-set.
+I am interested in monitoring / preventing diseases through the use of smart sensors and machine learning. I am currently working on hypoxia prediction for ICU patients at the University Hospital in Zurich. I studied at ETH Zurich and during my master I focused on developing algorithms for risk quantification for complex engineering problems. Other interests of mine include triathlon, hiking & climbing and playing piano and drum-set.
