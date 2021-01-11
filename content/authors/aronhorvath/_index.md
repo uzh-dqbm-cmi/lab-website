@@ -63,7 +63,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Senior Researchers and Postdocs
 ---
 
 I am a biomedical engineer with a Ph.D. in biomechanics from ETH Zurich. My key focus is to leverage state-of-art sensing technologies in combination with machine learning to develop smart human-sensing solutions for monitoring&preventing diseases. In my free time, I enjoy playing the guitar, reading, and doing sport.
