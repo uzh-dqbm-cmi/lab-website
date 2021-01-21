@@ -15,7 +15,8 @@ image:
   preview_only: false
 projects: []
 ---
-In the last three decades, we determined the sequence of the entire human genome, developed computer-based methods for the analysis of genomes and developed new, cheaper, and faster sequencing technologies. Advances in genomics resulted in a million-fold drop in the cost of genome sequencing: it took 13 years and \$2.7 billion to sequence the first human genome and nowadays it takes only one day and roughly $1000. Consequently, genomic approaches today are more available, bringing remarkable advances in medicine, biological research, agriculture and forensics. However, genomics is still a relatively young field and public understanding of genomic technologies lags behind their fast-paced scientific progress. In the following I would like showcase some examples to see how far we have come and what the latest breakthroughs are in the study of genomes — genomics. 
+
+In the last three decades, we determined the sequence of the entire human genome, developed computer-based methods for the analysis of genomes and developed new, cheaper, and faster sequencing technologies. Advances in genomics resulted in a million-fold drop in the cost of genome sequencing: it took 13 years and $2.7 billion to sequence the first human genome and nowadays it takes only one day and roughly $1000. Consequently, genomic approaches today are more available, bringing remarkable advances in medicine, biological research, agriculture and forensics. However, genomics is still a relatively young field and public understanding of genomic technologies lags behind their fast-paced scientific progress. In the following I would like showcase some examples to see how far we have come and what the latest breakthroughs are in the study of genomes — genomics. 
 
 ## Agriculture
 
