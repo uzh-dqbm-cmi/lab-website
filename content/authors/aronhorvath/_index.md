@@ -21,8 +21,8 @@ organizations:
 bio: I am interested in developing human sensing solutions which blend into our life without disrupting the daily routines and thereby provide continuous health tracking for disease monitoring and prevention. 
 
 interests:
-- Biology motivated problems and their solution from an engineering point of view
-- Leveriging ICT for medicine 
+- Finding solutions for biology motivated problems from an engineering point of view
+- Leveraging ICT for medicine 
 - IoT & Smart Sensors
 
 education:
