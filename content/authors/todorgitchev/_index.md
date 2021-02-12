@@ -31,7 +31,7 @@ courses:
 - course: MSc in Bioinformatics and Computational Biology
   institution: University of Bern
   year: 2020
-- course: MSc in Informatics, specialization: Artificial Intelligence
+- course: MSc in Informatics, specialization in Artificial Intelligence
   institution: Sofia University "St. Kliment Ohridski"
   year: 1998
 
