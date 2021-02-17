@@ -27,13 +27,13 @@ interests:
 - Algorithms
 
 education:
-courses:
-- course: MSc in Bioinformatics and Computational Biology
-  institution: University of Bern
-  year: 2020
-- course: MSc in Informatics, specialization in Artificial Intelligence
-  institution: Sofia University "St. Kliment Ohridski"
-  year: 1998
+  courses:
+  - course: MSc in Bioinformatics and Computational Biology
+    institution: University of Bern
+    year: 2020
+  - course: MSc in Informatics, specialization in Artificial Intelligence
+    institution: Sofia University "St. Kliment Ohridski"
+    year: 1998
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
