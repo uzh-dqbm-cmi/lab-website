@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: 
+role: Research Group Leader
 
 # Organizations/Affiliations
 organizations:
@@ -29,7 +29,7 @@ bio:
 #  icon_pack: ai
 #  link: https://scholar.google.co.uk/citations?user=iCPxe4UAAAAJ
 #- icon: github
-3  icon_pack: fab
+#  icon_pack: fab
 #  link: https://github.com/nooralahzadeh
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -43,7 +43,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Senior Researchers and Postdocs
+- Affiliated Researchers
 ---
 
 Fabio has an academic background in computational sciences and more than 25 years experience in NLP research. In recent years his major focus of interest has been applications in the biomedical domain, such as automatic analysis of the scientific literature, of clinical reports, and health-related social media discussions.
