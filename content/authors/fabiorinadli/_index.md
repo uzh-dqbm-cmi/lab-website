@@ -18,10 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio:  Fabio has an academic background in computational sciences and more than 25 years experience in NLP research. 
-In recent years his major focus of interest has been applications in the biomedical domain, such as automatic analysis of the scientific literature, of clinical reports, and health-related social media discussions.
-
-
+bio:
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
