@@ -29,7 +29,7 @@
   weight = 50
 
 [[main]]
-  name = "Opportunities"
+  name = "Job Opportunities"
   url = "#opportunities"
   weight = 55
 
