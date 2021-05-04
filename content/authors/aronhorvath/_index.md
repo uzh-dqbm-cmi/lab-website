@@ -43,7 +43,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "aron.horvath"
+  link: "aronnorbert.horvath"
 - icon: linkedin
   icon_pack: fab
   link: "https://www.linkedin.com/in/áron-horváth-71a55460/"
