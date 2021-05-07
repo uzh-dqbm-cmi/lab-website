@@ -1,39 +1,27 @@
 ---
-title: "Lab Hike: Mount Rigi"
-summary: This is how our lab gatherings look like during the pandemic. 
+title: "Lab Hike: Adlisberg"
+summary: Hiking through the May fog. 
 authors: 
-- ivnaivankovic
-date: 2020-11-06
+- nivithapunniyamoorthy
+date: 2021-05-01
 tags: 
 - Fun
 categories:
 - Fun
 image:
   placement: 2
-  caption: "A view from Rigi Kaltbad."
+  caption: ""
   focal_point: "Center"
   preview_only: false
 projects: []
 ---
 
-On Saturday 24th October, we put on our hiking shoes and headed off for an adventure.
+The first Krauthammer Lab hike in Wittikon. Although it was raining, it was very nice to see some faces of the group and their companions. 
 
-Our meeting point was Rigi Kaltbad, a resort in the Swiss Alps overlooking beautiful Lake Lucerne. It is easily accessible by railway from Vitzanu, a cable car from Weggis or by foot from Küssnacht am Rigi.
+{{< figure src="featured.jpg" title="" >}}
 
-A portion of our lab decided for the latter option and met a few hours earlier for a pre-hike. They met cows, enjoyed stunning views, and elevated heart rates which are all typical for a Swiss hike.
+First we walked along the Elefantenbach to the first stop at Restaurant Degenried. Then, with a well-filled stomach, we walked up to the Loorenkopf tower, our second stop. There we climbed the 30 m high observation tower and could only see the fog because of the bad weather. 
 
-{{< figure src="alpaca.jpg" title="But some cows that time didn’t seem so typical." >}}
+{{< figure src="fog.jpg" title="" >}}
 
-Our paths converged at the Rigi Kaltbad and we started the journey to Rigi Scheidegg. The clouds covered most of the Alps in the early afternoon, but as we were walking and talking, they agreed to reveal us hidden views.
-
-{{< figure src="view.jpg" title="Alpine landscape on the Rigi Kaltbad - Rigi Scheidegg way." >}}
-
-Engaging conversations made us forget about hunger for some time. Not for a very long time, though! We spotted a good bench and Prof Krauthammer surprised us with a variety of tasty snacks, sandwiches, and fruits pulled out of the biggest of all bags. Fueled, we continued to Rigi Scheidegg.
-
-The path we were walking on, once was a Rigi–Scheidegg railway. Nowadays, the rail line’s trackbed serves as a 6.7 kilometers long panoramic footpath ideal for lab outings during pandemic times.
-
-{{< figure src="group_photo.jpg" title="Social distance friendly bench at Rigi-Scheidegg." >}}
-
-At our final destination, we spent some time resting and enjoying warm drinks over the chatter. Then, we went down to Kräbel by a cable car and soaked in the last bits of panoramic views before returning to our cozy homes.
-
-{{< figure src="cable_car.jpg" title="A view of Arth-Goldau and Zugersee." >}}
+After that, we continued to the wooden fountain with carved owls, our last stop. Afterwards it started to rain and so we returned with warm tea on the way.
