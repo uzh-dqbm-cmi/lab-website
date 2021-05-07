@@ -18,8 +18,6 @@ projects: []
 
 The first Krauthammer Lab hike in Wittikon. Although it was raining, it was very nice to see some faces of the group and their companions. 
 
-{{< figure src="featured.jpg" title="" >}}
-
 First we walked along the Elefantenbach to the first stop at Restaurant Degenried. Then, with a well-filled stomach, we walked up to the Loorenkopf tower, our second stop. There we climbed the 30 m high observation tower and could only see the fog because of the bad weather. 
 
 {{< figure src="fog.png" title="" >}}
