@@ -3,6 +3,7 @@ title: We are looking for Masters Students!
 authors:
 - michaelkrauthammer
 - zsoltbalazs
+- danieltrejo
 tags: 
 - Data Science
 - Bioinformatics
@@ -32,5 +33,15 @@ The student should have basic experience with Unix systems and some experience w
 This project aims to improve diagnosis and prognosis through liquid biopsies in cancer and various other diseases. 
 The student should have basic experience with Unix systems, some experience with at least one scripting language (e.g. Python) and a basic understanding of machine learning algorithms.
 
+### Trait prediction using Big data and machine learning
+
+Genome-wide association studies rely on big cohorts of hundreds of thousands of participants with gene sequences amounting to TB of information. This project is interested in predicting relevant traits like disease risk and identifying this risk's genetic component. We also are interested in resolving possible confounders in this kind of data, like pairwise interactions.
+
+The model and data reading are already implemented, objectives of a short project would be to:
+- Accelerate data reading and training
+- Perform experiments on performance and hyperparameter tuning.
+- Select the best performing predictor and test in an external cohort.
+
+The student should have experience with Unix Systems, good experience with Python and ML frameworks (preferably TF 2). Additional experience with quantitative genetic tools like plink would be advantageous.
 
 Applications can be done by sending a CV to this <a href="#" onclick="u='michael.krauthammer'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">e-mail</a> along with a short description of the student's motivation to join our lab.
