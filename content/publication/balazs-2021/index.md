@@ -1,5 +1,5 @@
 ---
-title: "Oncolytic virotherapy-mediated anti-tumor response: a single-cell perspective"
+title: "Oncolytic Virotherapy Mediated Anti-Tumor Response: A Single-Cell Perspective"
 date: 2021-03-08
 publishDate: 2021-03-08
 authors: 
