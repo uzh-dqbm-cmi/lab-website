@@ -2,7 +2,7 @@
 title: "AttentionDDI: Siamese Attention-based Deep Learning method for drug-drug interaction predictions"
 date: 2020-12-24
 publishDate: 2020-12-24
-authors: [
+authors:
 - kyriakosschwarz
 - ahmedallam
 - nicoperez
