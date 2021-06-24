@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Student
+role: Data Scientist
 
 # Organizations/Affiliations
 organizations:
@@ -55,7 +55,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Grad Students
+- Research Assistants
 ---
 
 I received an M.Sc. in Electrical Engineering from ETH Zürich and worked in the USA and Germany prior to joining the lab. During that time, I co-invented multiple patents. My research interests include by are not limited to data science, statistical relational artificial intelligence, causal inference and algorithms. My aim is to apply related methods to medical data in order to extract and discover knowledge as well as using this for general purpose inference and reasoning.
