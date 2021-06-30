@@ -1,6 +1,6 @@
 ---
-title: Data Traffic Control
-summary: Whhrrrr... Voooooosh... That's the sound of your data coming and going exactly where it belongs
+title: Data Traffic Control: a python library for human-friendly data interactions
+summary: Data files are the building materials we work with every day, all day. Working with them should be effortless.
 authors: 
 - laurakinkead
 date: 2021-06-22
@@ -12,45 +12,22 @@ categories:
 projects: []
 ---
 
-# ✈️ data traffic control
+One of my least favorite things to do in my job as a Data Scientist is to open data files. I open data files dozens of times a day- to check on model results, modify configs, and view log files. And yet for being such a common task, it always fills me with a small amount of disgruntlement.
 
-Data files are the building materials we work with *every day, all day*. Working with them should be *effortless*.
+Let's look at an example. Let's say I just trained a model, which I saved to the filesystem as a .pkl. I want to open it up and see what hyper-parameters it landed on. To access that file, I would open up IPython and type the following:
 
-In my work as a data scientist, I kept encountering the same frustrations that slowed me down every day. 
-Some were small, like having to look up a data file format read method multiple times a week. 
-Larger frustrations cost me multiple days worth of work, like not having a record of how I generated a key data file, and spending multiple days trying to recreate it.
-To make my every-day life easier - and so I can focus on the more interesting problems in data science! - I built data traffic control, a python package for data management magic.
-
-Data traffic control solves 3 common problems & annoyances in interacting with data:
-
- 1. Keeping track of finicky filepaths and filenames
- 2. Having to look up data format read and write methods... over and over again...
- 3. Guessing at how I generated a data file, and spending days trying to re-create it
-
-Do you also have these frustrations? Data traffic control is here to help!
-Let me give you a tour!
-
-
-As data scientists, we have a different relationship with our code than most software engineers. 
-We don't just build software- we talk in code. We 
-We don't just write code to build software- we write code to ask questions, test a hypothesis, and see the result.
-And like any other scientist, the speed and ease with which we can ask our questions and get our answers makes a big difference!
-
-A filepath isn't just something we set once and it's done- it's something we have to remember and re-type every day to access that latest version of processed data.
-We're constantly accessing and re-accessing data files from multiple environments - not only programatically in our code but also interactively 
-We spend a lot of time coding interactively- in Jupyter or IPython
-
-For example,
-Say I just trained a model, and after taking a look at the results, I want to open it up and see what hyperparameters it landed on.
-To access that file, I would open up `IPython` and type the following:
- 
 ```python
 import pickle
 data_dir = '/cluster/dataset/tenant/projects/my_project'
 with open(data_dir+'models/2021-03-01_16-55-32.pkl', 'rb+') as f:
     model = pickle.load(f)
+
 ```
-That's 163 characters to type! Not to mention the annoyance of having to look up the time stamp of the lastest model filename.
+
+That's 163 characters to type, just to take a open a file! Not to mention the annoyance of having to look up the time stamp of the latest model filename, and the frustration of remembering _"Does pickle use `r` mode, or `rb`, or `rb+` ...?"_ That is one snippet of code I am _not_ happy about writing and re-writing multiple times every day.
+
+
+I didn't become a computer scientist to memorize long tedious strings- I became a computer scientist to automate all the things! That's why I built data traffic control- a python library that makes it painless to access and open all of your data files.
 
 Here's what the same code looks like in data traffic control:
 
@@ -58,599 +35,95 @@ Here's what the same code looks like in data traffic control:
 import datatc as dtc
 dd = dtc.DataDirectory.load('my_project')
 model = dd['models'].latest().load()
+
 ```
 
-Down to only 99 characters of typing! And more importantly, a lot less to remember- no finicky filepaths, no obtuse file read syntax, and no timestamps to look up.
+That's almost half as much typing! And more importantly, a lot less to remember- no finicky filepaths, no obtuse file read syntax, and no long timestamped filenames to look up.
 
-I know there have been times in my past where the feeling of having to remember and re-type that first code segment at 4pm - for the 7th time that day - is enough for me to think to myself "... eh, the model is probably fine", and keep me from being the thorough and rigorous of a data scientist.
- 
-This kind of simplicity makes the difference between me deciding "let me take a look to make sure that model trained correctly..." and "ehh I don't want to have to type all that... it was probably fine". Make the underlying work of accessing data files easy, so you save your energy for the real challenges of data science!
+Data files are the building materials we work with every day, all day. Working with them should be _effortless_.
 
-Curious how this works in data traffic control?
+## data traffic control: a tour
+Curious how data traffic control makes data interactions easier? Let's take a closer look.
 
-
-Data traffic control's interface for interacting with data directories is called `DataDirectory`.
-To boot up a `DataDirectory`, just call load:
+### Navigate your data directories with ease, without having to memorize long file paths
+Data traffic control remembers your project data directories for you. The first time you use data traffic control for your project, register that project's data directory:
 
 ```python
 import datatc as dtc
+dtc.DataDirectory.register_project('project_name', '/path/to/project/data/dir/')
+```
+From then on, you can boot up a data traffic control `DataDirectory` object with a simple `load` call:
+```python
 dd = dtc.DataDirectory.load('project_name')
 ```
 
-For this magic to happen, you have to have once-upon-a-time registered this project with data traffic contol, by running:
+Why do I need this `DataDirectory` object, you ask? `DataDirectory` provides a human-friendly interface for easily accessing your files.
+
+```
+>>> dd.ls()
+project_data/
+    raw/
+        iris.csv
+    processed/
+        clean_iris.csv
+        clean_iris_bugfix.csv
+    feature_sets/
+        features.csv
+        new_features.csv
+        features_bugfix.csv
+    models/
+        2019-11-05_model.pkl
+        2019-11-27_model_v2.pkl
+        2019-12-04_model_v3.pkl
+        2020-01-13_model_final.pkl
+        2020-01-16_model_final2.pkl
+```
+
+### Load data files without having to think about it (or looking up the syntax yet again)
+
+Navigate the subdirectories using `[]`. Once you've located the right file, just call `.load()`. Don't worry about what format the file is in- data traffic control will intuit how to load the file!
+
+For example, you could access the `clean_iris_bugfix.csv` file like this:
 
 ```python
-dtc.DataDirectory.register_project('project_name', '/path/to/project/data/dir/')
+processed_df = dd['processed']['clean_iris_bugfix.csv'].load()
 ```
 
-`DataDirectory` provides a pythonic way of interacting with your data directory interatively. 
+You can use helper methods like `select` and `latest` to quickly access the file you want.
 
-Use `DataDirectory` to `ls` your project directory:
+For example, you can access the `features_bugfix.csv` file like this:
 
 ```python
-dd.ls()
+features_df = dd['feature_sets']['features_bugfix.csv'].load()
 ```
 
-And you'll see your project data directory as a file tree:
-```
-raw/
-    EntityViews/
-        7 mixed items
-    data_extracts/
-        2019-11-23_Extract_3days/
-            1 mixed items
-        2020-01-05_Extract_3days_withHistory_v2/
-            2 mixed items
-        2020-02-04_Extract_3months/
-            3 mixed items
-```
-
-Access the subdirectories using `[]`.
-
+Or you can use the `select` shortcut, which searches for substrings:
 
 ```python
-dd['data_extracts'].ls()
-```
-```
-data_extracts/
-    2019-11-23_Extract_3days/
-        2019-11-23_Extract_3days.xlsx
-    2020-01-05_Extract_3days_withHistory_v2/
-        2020-01-05_Extract_3days_withHistory_v2.xlsx
-        2020-01-05_Extract_3days_withHistory_v2_sql.sql
-    2020-02-04_Extract_3months/
-        2020-02-04_Extract_3months.sql
-        2020-02-04_Extract_3months.xlsx
-        3_month_export.csv
+features_df = dd['feature_sets'].select('bugfix').load()
 ```
 
-And loading and saving files in your Data Directory is just as simple as `load` and `save`. 
-
-To load a file, navigate the file system using `[]` operators, and then call `.load()`.
-
+Similarly, you could open up the latest model file by writing:
 
 ```python
-raw_df = dd['data_extracts']['2020-02-04_Extract_3months']['2020-02-04_Extract_3months.xlsx'].load()
+latest_model = dd['models']['2020-01-16_model_final2.pkl'].load()
 ```
 
-Don't worry about what format the file is in- `datatc` will intuit how to load the file.
-
-Is your filename long and annoying to type? Use `.select('hint')` method to search for files & directories matching a substring.
-
-For example,
+Or use the `latest` shortcut to get there faster:
 
 ```python
-raw_df = dd['data_extracts']['2020-02-04_Extract_3months']['2020-02-04_Extract_3months.xlsx'].load()
+latest_model = dd['models'].latest().load()
 ```
-can be shortened to...
+
+Saving files works the same way. Navigate to the destination directory, and call save with your data object and a name.
 
 ```python
-raw_df = dd['data_extracts']['2020-02-04_Extract_3months'].select('xlsx').load()
+dd['feature_sets'].save(new_features_df, 'new_features.csv')
+
 ```
-There is also a shortcut to load the latest file or subdirectory within a directory, with `.latest()`
-*(if your data directory is organized by alphabetical time stamps)*
+## pip install datatc
+Could data traffic control save you time interacting with your data files? Install it and give it a whirl!
 
-This means that 
-```python
-raw_df = dd['data_extracts']['2020-02-04_Extract_3months'].select('xlsx').load()
-```
-can be further shortened to:
+`pip install datatc`
 
-```python
-raw_df = dd['data_extracts'].latest().select('xlsx').load()
-```
-
-
-
-
-
-### Let's get some data
-
-
-```python
-import pandas as pd
-
-raw_df = iris = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv')
-
-raw_df.head()
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>sepal_length</th>
-      <th>sepal_width</th>
-      <th>petal_length</th>
-      <th>petal_width</th>
-      <th>species</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>5.1</td>
-      <td>3.5</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>4.9</td>
-      <td>3.0</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>4.7</td>
-      <td>3.2</td>
-      <td>1.3</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4.6</td>
-      <td>3.1</td>
-      <td>1.5</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5.0</td>
-      <td>3.6</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
-```python
-raw_sad = SelfAwareData(raw_df)
-```
-
-### Transform the data
-
-
-```python
-def normalize_sepal_dimensions(raw_df):
-    """Normalize sepal dimensions"""
-    df = raw_df.copy()
-    df['sepal_length'] = df['sepal_length'] / df['sepal_length'].mean()
-    df['sepal_width'] = df['sepal_width'] / df['sepal_width'].mean()
-    return df
-
-processed_sad = raw_sad.transform(normalize_sepal_dimensions, enforce_clean_git=False)
-processed_sad.data.head()
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>sepal_length</th>
-      <th>sepal_width</th>
-      <th>petal_length</th>
-      <th>petal_width</th>
-      <th>species</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>0.872790</td>
-      <td>1.144788</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>0.838562</td>
-      <td>0.981247</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>0.804335</td>
-      <td>1.046664</td>
-      <td>1.3</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>0.787222</td>
-      <td>1.013956</td>
-      <td>1.5</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>0.855676</td>
-      <td>1.177497</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-### Save!
-
-
-```python
-dd['data']['processed'].save(processed_sad, 'normalized_df.csv')
-```
-
-    created new SAD directory /Users/laurakinkead/Documents/Work/projects/datatc/data/processed/sad_dir__2021-02-17_22-26-19__normalized_df
-
-
-### We've saved a data transform
-
-
-```python
-dd['data'].ls()
-```
-
-    data/
-        area.csv              (2020-12-22 17:41)
-        normalized_df.csv     (2020-05-11 09:56)
-        processed/
-            normalized_df.csv     (2021-02-17 22:26)
-        re_sad.csv            (2020-12-22 17:11)
-        re_sad_2.csv          (2020-12-22 17:32)
-        re_sad_direct_3.csv   (2020-12-22 17:33)
-        test.csv
-        test.yaml
-        test_no_index.csv
-        test_pipe_separated.csv
-
-
-Take a look under the hood...
-
-
-```python
-! ls /Users/laurakinkead/Documents/Work/projects/datatc/data/processed
-```
-
-    [1m[36msad_dir__2021-02-17_22-26-19__normalized_df[m[m
-
-
-
-```python
-! ls -l /Users/laurakinkead/Documents/Work/projects/datatc/data/processed/sad_dir__2021-02-17_22-26-19__normalized_df
-```
-
-    total 48
-    -rw-r--r--  1 laurakinkead  staff  8795 Feb 17 22:26 data.csv
-    -rw-r--r--  1 laurakinkead  staff   413 Feb 17 22:26 provenance.yaml
-    -rw-r--r--  1 laurakinkead  staff  7264 Feb 17 22:26 sad.dill
-
-
-### Load the saved data transform
-
-
-```python
-processed_sad = dd['data']['processed'].latest().load()
-```
-
-### Access the data
-
-
-```python
-processed_sad.data.head()
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>sepal_length</th>
-      <th>sepal_width</th>
-      <th>petal_length</th>
-      <th>petal_width</th>
-      <th>species</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>0.872790</td>
-      <td>1.144788</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>0.838562</td>
-      <td>0.981247</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>0.804335</td>
-      <td>1.046664</td>
-      <td>1.3</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>0.787222</td>
-      <td>1.013956</td>
-      <td>1.5</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>0.855676</td>
-      <td>1.177497</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-### Want to know how a dataset was generated? Just take a look at the code!
-
-
-```python
-processed_sad.print_steps()
-```
-
-    --------------------------------------------------------------------------------
-    Step  0               2021-02-17 22:26          no_git_hash
-    --------------------------------------------------------------------------------
-    def normalize_sepal_dimensions(raw_df):
-        """Normalize sepal dimensions"""
-        df = raw_df.copy()
-        df['sepal_length'] = df['sepal_length'] / df['sepal_length'].mean()
-        df['sepal_width'] = df['sepal_width'] / df['sepal_width'].mean()
-        return df
-    
-    
-
-
-### You can even use the saved data transform to reapply the transformer function to a new dataset
-
-
-```python
-raw_df.head(2)
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>sepal_length</th>
-      <th>sepal_width</th>
-      <th>petal_length</th>
-      <th>petal_width</th>
-      <th>species</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>5.1</td>
-      <td>3.5</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>4.9</td>
-      <td>3.0</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
-```python
-processed_sad.rerun(raw_df).head()
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>sepal_length</th>
-      <th>sepal_width</th>
-      <th>petal_length</th>
-      <th>petal_width</th>
-      <th>species</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>0.872790</td>
-      <td>1.144788</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>0.838562</td>
-      <td>0.981247</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>0.804335</td>
-      <td>1.046664</td>
-      <td>1.3</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>0.787222</td>
-      <td>1.013956</td>
-      <td>1.5</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>0.855676</td>
-      <td>1.177497</td>
-      <td>1.4</td>
-      <td>0.2</td>
-      <td>setosa</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-# Summary
-
-`data-traffic-control` automates every day interactions with your data
-
-* Navigate your data directories with ease, without having to memorize long file paths
-
-* Load data files without having to think about it (or looking it up yet again)
-
-* Be certain of how a datafile was generated, and rest easy knowing you could reproduce it. 
-
+You can also find the full documentation on [readthedocs.io](https://data-traffic-control.readthedocs.io/)
