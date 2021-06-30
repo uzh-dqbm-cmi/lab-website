@@ -14,7 +14,7 @@ projects: []
 
 One of my least favorite things to do in my job as a Data Scientist is to open data files. I open data files dozens of times a day- to check on model results, modify configs, and view log files. And yet for being such a common task, it always fills me with a small amount of disgruntlement.
 
-Consider an example. Let's say I just trained a model, which I saved to the filesystem as a .pkl. I want to open it up and see what hyper-parameters it landed on. To access that file, I would open up IPython and type the following:
+Consider an example. Let's say I just trained a model, which I saved to the filesystem as a `.pkl`. I want to open it up and see what hyper-parameters it landed on. To access that file, I would open up IPython and type the following:
 
 ```python
 import pickle
@@ -92,7 +92,7 @@ processed_df = dd['processed']['clean_iris_bugfix.csv'].load()
 
 If that's too much typing (I admire your high standards), you can use helper methods like `select` and `latest` to quickly access the file you want.
 
-#### the select shortcut
+#### The _select_ shortcut
 For example, you can access the `features_bugfix.csv` file like this:
 
 ```python
@@ -105,7 +105,7 @@ features_df = dd['feature_sets']['features_bugfix.csv'].load()
 features_df = dd['feature_sets'].select('bugfix').load()
 ```
 
-#### the latest shortcut
+#### The _latest_ shortcut
 
 Similarly, you could open up the latest model file by writing:
 
@@ -119,7 +119,7 @@ latest_model = dd['models']['2020-01-16_model_final2.pkl'].load()
 latest_model = dd['models'].latest().load()
 ```
 
-#### saving files
+#### Saving files
 
 Saving files works the same way. Navigate to the destination directory, and call save with your data object and a name.
 
@@ -127,7 +127,7 @@ Saving files works the same way. Navigate to the destination directory, and call
 dd['feature_sets'].save(new_features_df, 'new_features.csv')
 
 ```
-## pip install datatc
+## `pip install datatc`
 Could data traffic control save you time interacting with your data files? Install it and give it a whirl!
 
 `pip install datatc`
