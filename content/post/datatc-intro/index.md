@@ -14,7 +14,7 @@ projects: []
 
 One of my least favorite things to do in my job as a Data Scientist is to open data files. I open data files dozens of times a day- to check on model results, modify configs, and view log files. And yet for being such a common task, it always fills me with a small amount of disgruntlement.
 
-Let's look at an example. Let's say I just trained a model, which I saved to the filesystem as a .pkl. I want to open it up and see what hyper-parameters it landed on. To access that file, I would open up IPython and type the following:
+Consider an example. Let's say I just trained a model, which I saved to the filesystem as a .pkl. I want to open it up and see what hyper-parameters it landed on. To access that file, I would open up IPython and type the following:
 
 ```python
 import pickle
@@ -27,9 +27,9 @@ with open(data_dir+'models/2021-03-01_16-55-32.pkl', 'rb+') as f:
 That's 163 characters to type, just to take a open a file! Not to mention the annoyance of having to look up the time stamp of the latest model filename, and the frustration of remembering _"Does pickle use `r` mode, or `rb`, or `rb+` ...?"_ That is one snippet of code I am _not_ happy about writing and re-writing multiple times every day.
 
 
-I didn't become a computer scientist to memorize long tedious strings- I became a computer scientist to automate all the things! That's why I built data traffic control- a python library that makes it painless to access and open all of your data files.
+I didn't become a computer scientist to memorize long tedious strings- I became a computer scientist to automate all the things! That's why I built **data traffic control**- a python library that automates everyday interactions with your data.
 
-Here's what the same code looks like in data traffic control:
+Here's what the same data file access looks like in data traffic control:
 
 ```python
 import datatc as dtc
@@ -59,6 +59,7 @@ dd = dtc.DataDirectory.load('project_name')
 
 Why do I need this `DataDirectory` object, you ask? `DataDirectory` provides a human-friendly interface for easily accessing your files.
 
+For example, `DataDirectory` can `ls` your project directory and print a nicely formatted file tree:
 ```
 >>> dd.ls()
 project_data/
@@ -89,19 +90,22 @@ For example, you could access the `clean_iris_bugfix.csv` file like this:
 processed_df = dd['processed']['clean_iris_bugfix.csv'].load()
 ```
 
-You can use helper methods like `select` and `latest` to quickly access the file you want.
+If that's too much typing (I admire your high standards), you can use helper methods like `select` and `latest` to quickly access the file you want.
 
+#### the select shortcut
 For example, you can access the `features_bugfix.csv` file like this:
 
 ```python
 features_df = dd['feature_sets']['features_bugfix.csv'].load()
 ```
 
-Or you can use the `select` shortcut, which searches for substrings:
+...or you can use the `select` shortcut, which matches filenames with a search substrings:
 
 ```python
 features_df = dd['feature_sets'].select('bugfix').load()
 ```
+
+#### the latest shortcut
 
 Similarly, you could open up the latest model file by writing:
 
@@ -109,11 +113,13 @@ Similarly, you could open up the latest model file by writing:
 latest_model = dd['models']['2020-01-16_model_final2.pkl'].load()
 ```
 
-Or use the `latest` shortcut to get there faster:
+... or use the `latest` shortcut to get there faster:
 
 ```python
 latest_model = dd['models'].latest().load()
 ```
+
+#### saving files
 
 Saving files works the same way. Navigate to the destination directory, and call save with your data object and a name.
 
