@@ -1,5 +1,5 @@
 ---
-title: Data Traffic Control: a python library for human-friendly data interactions
+title: Data Traffic Control- a python library for human-friendly data interactions
 summary: Data files are the building materials we work with every day, all day. Working with them should be effortless.
 authors: 
 - laurakinkead
