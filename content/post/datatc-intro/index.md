@@ -24,7 +24,7 @@ with open(data_dir+'models/2021-03-01_16-55-32.pkl', 'rb+') as f:
 
 ```
 
-That's 163 characters to type, just to take a open a file! Not to mention the annoyance of having to look up the time stamp of the latest model filename, and the frustration of remembering _"Does pickle use `r` mode, or `rb`, or `rb+` ...?"_ That is one snippet of code I am _not_ happy about writing and re-writing multiple times every day.
+That's 163 characters to type, just to open a file! Not to mention the annoyance of having to look up the time stamp of the latest model filename, and the frustration of remembering _"Does pickle use `r` mode, or `rb`, or `rb+` ...?"_ That is one snippet of code I am _not_ happy about writing and re-writing multiple times every day.
 
 
 I didn't become a computer scientist to memorize long tedious strings- I became a computer scientist to automate all the things! That's why I built **data traffic control**- a python library that automates everyday interactions with your data.
