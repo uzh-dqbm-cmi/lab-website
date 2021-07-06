@@ -9,6 +9,11 @@ tags:
 - Data Science
 categories:
 - Research
+image:
+  placement: 2
+  caption: 'Photo by [Matt Ridley](https://unsplash.com/@mattwridley?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/paper-airplanes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)'
+  focal_point: "Center"
+  preview_only: false
 projects: []
 ---
 
