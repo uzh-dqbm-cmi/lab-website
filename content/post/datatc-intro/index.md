@@ -29,10 +29,9 @@ with open(data_dir+'models/2021-03-01_16-55-32.pkl', 'rb+') as f:
 
 ```
 
-That's 163 characters to type, just to open a file! Not to mention the annoyance of having to look up the time stamp of the latest model filename, and the frustration of remembering _"Does pickle use `r` mode, or `rb`, or `rb+` ...?"_ That is one snippet of code I am _not_ happy about writing and re-writing multiple times every day.
+That's 163 characters to type, just to open a file! Not to mention the annoyance of having to look up the time stamp of the latest model filename, and the frustration of remembering _"Does pickle use `r` mode, or `rb`, or `rb+` ...?"_
 
-
-I didn't become a computer scientist to memorize long tedious strings- I became a computer scientist to automate all the things! That's why I built **data traffic control**- a python library that automates everyday interactions with your data.
+I didn't become a computer scientist to memorize long tedious strings! I became a computer scientist to automate all the things! That's why I built **data traffic control**- a python library that automates everyday interactions with your data.
 
 Here's what the same data file access looks like in data traffic control:
 
@@ -43,7 +42,7 @@ model = dd['models'].latest().load()
 
 ```
 
-That's almost half as much typing! And more importantly, a lot less to remember- no finicky filepaths, no obtuse file read syntax, and no long timestamped filenames to look up.
+That's almost half as much typing! And more importantly, a lot less to remember: no finicky filepaths, no obtuse file read syntax, and no long timestamped filenames to look up.
 
 Data files are the building materials we work with every day, all day. Working with them should be _effortless_.
 
@@ -98,13 +97,13 @@ processed_df = dd['processed']['clean_iris_bugfix.csv'].load()
 If that's too much typing (I admire your high standards), you can use helper methods like `select` and `latest` to quickly access the file you want.
 
 #### The _select_ shortcut
-For example, you can access the `features_bugfix.csv` file like this:
+For example, you _could_ access the `features_bugfix.csv` file like this:
 
 ```python
 features_df = dd['feature_sets']['features_bugfix.csv'].load()
 ```
 
-...or you can use the `select` shortcut, which matches filenames with a search substrings:
+...but even better, you can use the `select` shortcut, which matches filenames with a search substring:
 
 ```python
 features_df = dd['feature_sets'].select('bugfix').load()
@@ -135,6 +134,4 @@ dd['feature_sets'].save(new_features_df, 'new_features.csv')
 ## `pip install datatc`
 Could data traffic control save you time interacting with your data files? Install it and give it a whirl!
 
-`pip install datatc`
-
-You can also find the full documentation on [readthedocs.io](https://data-traffic-control.readthedocs.io/)
+You can find the full documentation on [readthedocs.io](https://data-traffic-control.readthedocs.io/)
