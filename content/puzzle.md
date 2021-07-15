@@ -7,5 +7,5 @@ title: Daily Lichess Puzzle
 ---
 
 {{< rawhtml >}}
-  <iframe src="https://lichess.org/training/frame?theme=blue2&bg=dark" style="width: 400px; height: 444px;" allowtransparency="true" frameborder="0"></iframe>
+  <iframe src="https://lichess.org/training/frame?theme=blue&bg=dark" style="width: 600px; height: 644px;" allowtransparency="true" frameborder="0"></iframe>
 {{< /rawhtml >}}
