@@ -42,17 +42,17 @@ title = "Krauthammer Lab"
   icon_pack = "fab"
   icon = "twitter"
 
-[cta_alt]
-  url = "https://github.com/uzh-dqbm-cmi"
-  label = "We're on GitHub"
-  icon_pack = "fab"
-  icon = "github"
+#[cta_alt]
+#  url = "https://github.com/uzh-dqbm-cmi"
+#  label = "We're on GitHub"
+#  icon_pack = "fab"
+#  icon = "github"
   
-[cta_alt2]
+[cta_alt]
   url = "./puzzle/"
   label = "Daily Puzzle"
-  icon_pack = "fas"
-  icon = "fa-chess-knight"
+  icon_pack = "fab"
+  icon = "github"
   
  
 # # Note. An optional note to show underneath the links.
