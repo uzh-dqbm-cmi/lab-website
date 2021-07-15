@@ -40,7 +40,7 @@ title = "Krauthammer Lab"
   url = "https://twitter.com/krauthammerlab"
   label = "Follow us on Twitter"
   icon_pack = "fab"
-  icon = "fa-chess-knight"
+  icon = "twitter"
 
 [cta_alt]
   url = "https://github.com/uzh-dqbm-cmi"
