@@ -50,9 +50,9 @@ title = "Krauthammer Lab"
   
 [cta_alt2]
   url = "./puzzle/"
-  label = "<i class="fas fa-chess-knight"></i> Daily Puzzle"
-#  icon_pack = "fab"
-#  icon = "twitter"
+  label = "Daily Puzzle"
+  icon_pack = "fas"
+  icon = "fa-chess-knight"
   
  
 # # Note. An optional note to show underneath the links.
