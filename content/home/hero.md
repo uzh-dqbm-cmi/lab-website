@@ -47,6 +47,12 @@ title = "Krauthammer Lab"
   label = "We're on GitHub"
   icon_pack = "fab"
   icon = "github"
+  
+[cta_alt2]
+  url = "puzzle"
+  label = "Daily Puzzle"
+  icon_pack = "fas"
+  icon = "fa-chess-knight"
 
 # # Note. An optional note to show underneath the links.
 # [cta_note]
