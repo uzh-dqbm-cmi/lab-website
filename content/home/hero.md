@@ -49,11 +49,12 @@ title = "Krauthammer Lab"
   icon = "github"
   
 [cta_alt2]
-  url = "/puzzle/"
-  label = "Daily Puzzle"
-  icon_pack = "fab"
-  icon = "twitter"
-
+  url = "./puzzle/"
+  label = "<i class="fas fa-chess-knight"></i> Daily Puzzle"
+#  icon_pack = "fab"
+#  icon = "twitter"
+  
+ 
 # # Note. An optional note to show underneath the links.
 # [cta_note]
 #   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
