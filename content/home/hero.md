@@ -48,7 +48,7 @@ title = "Krauthammer Lab"
   icon_pack = "fab"
   icon = "github"
   
-[cta_alt2]
+[cta_alt]
   url = "puzzle"
   label = "Daily Puzzle"
   icon_pack = "fas"
