@@ -1,6 +1,7 @@
 ---
 title: Daily Lichess Puzzle
-
+authors: 
+- kyriakosschwarz
 
 # list the projects you want masters students for here, if there are pages for them
 # projects: []
