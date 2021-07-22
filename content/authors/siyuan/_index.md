@@ -56,7 +56,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 
 I'm a third-year master student at ETH Zürich. My interests are broad and lie in the application of machine learning and statistical methods in biomedicine. I joined Krauthammer Lab in Dec. 2020 and I am working on cell-free DNA fragmentation pattern analysis. Other interests include cooking, hiking and painting.

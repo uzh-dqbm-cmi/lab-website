@@ -59,4 +59,4 @@ Claudia was born and grew up in Zurich. She lived for several years abroad worki
 Winterthurerstrasse 190 <br>
 CH-8057 Zürich <br>
 Building/Room: Y32-F-01 <br>
-phone: +41 44 635 66 29 <br>
+phone: +41 44 635 66 31 <br>

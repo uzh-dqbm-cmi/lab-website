@@ -59,7 +59,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Senior Researchers and Postdocs
+- Alumni
 ---
 
 I am interested in using data science and image processing in translational medicine. I did my PhD in Chemical Engineering in Johns Hopkins University and my work was highly interdisciplinary, fabricating my own microfluidic devices, performing the molecular biology and writing algorithms myself. Other interests include hiking, dancing and playing ukulele.
