@@ -1,12 +1,11 @@
 ---
-title: Federated Learning
+title: Patient Similarity Analysis
 summary: 
-tags:
 - Data Science
 - Featured
 date: "2021-01-01T00:00:00Z"
 authors:
-- matteoberchier
+- ahmedallam
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
