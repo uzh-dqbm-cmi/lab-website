@@ -1,6 +1,6 @@
 ---
 title: Patient Similarity Analysis
-summary: 
+summary:
 - Data Science
 - Featured
 date: "2021-01-01T00:00:00Z"
