@@ -33,7 +33,7 @@ url_video: ""
 # slides: example
 ---
 
-MRIdle solves the problem of underutilization of MRI machines in the radiology department. Currently, USZ’s MRI machines spend 17% of the day idle, equivalent to nearly 2 hours per day. Idle time is a common but costly problem with estimated missed revenue of around CHF 150,000 per MRI machine per year. This underutilization is caused by rudimentary appointment planning and the fact that 12% of patients miss their appointments. With the goal of improving the occupancy of the MRI machines, MRIdle will harness historical data to recommend optimal appointment schedules and to predict and mitigate no-show patients.
+MRIdle solves the problem of underutilization of MRI machines in the radiology department. This underutilization is caused by rudimentary appointment planning and the fact that a sizable chunk of patients don't show up for their appointments. With the goal of improving the occupancy of the MRI machines, MRIdle will harness historical data to recommend optimal appointment schedules and to predict and mitigate no-show patients.
 
 The general objective of the project is to improve the efficiency of the USZ Radiology department by improving patient attendance and reducing machine idle time. Over the next two years, we aim to achieve this goal by building the MRIdle smart scheduling tool that fulfills the following specific objectives:
 
