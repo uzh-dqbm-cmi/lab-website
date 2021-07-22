@@ -3,7 +3,6 @@ title: autoDISCERN
 summary: Assessing the quality of online health information with AI.
 tags:
 - Data Science
-- Featured
 date: "2019-12-02T00:00:00Z"
 authors:
 - laurakinkead
