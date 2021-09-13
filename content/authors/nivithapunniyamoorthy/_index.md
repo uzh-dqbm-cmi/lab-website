@@ -54,8 +54,7 @@ education:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
-#- Research Software Engineers
+- Alumni
 ---
 
 I'm in my last semester of Bachelor in Biotechnology at ZHAW, writing my bachelor thesis on "Identification of SVs with long-read sequencing". Before my studies I worked at FGen GmbH, optimising the expression of proteins. During my studies, I developed further interest in molecular biology and bioinformatics. In summer I will start my MSc in Applied Computational Life Sciences at ZHAW in Wädenswil.
