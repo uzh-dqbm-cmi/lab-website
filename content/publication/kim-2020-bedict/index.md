@@ -1,6 +1,6 @@
 ---
 title: "Predicting base editing outcomes with an attention-based deep learning algorithm trained on high-throughput target library screens"
-date: 2020-07-05
+date: 2021-08-25 25
 publishDate: 2019-12-12T16:26:43.106027Z
 authors: ["Kim F. Marquart", ahmedallam, "Sharan Janjuha", "Anna Sintsova", "Lukas Villiger", "Nina Frey", michaelkrauthammer, "Gerald Schwank"]
 publication_types: ["3"]
