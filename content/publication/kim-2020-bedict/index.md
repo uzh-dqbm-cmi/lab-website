@@ -8,6 +8,7 @@ abstract: "Base editors are chimeric ribonucleoprotein complexes consisting of a
 featured: True
 publication: "Nature Communications"
 url_pdf: "https://www.nature.com/articles/s41467-021-25375-z.pdf"
+summary: Here we perform an extensive analysis of adenine- and cytosine base editors on a library of 28,294 lentivirally integrated genetic sequences and establish BE-DICT, an attention-based deep learning algorithm capable of predicting base editing outcomes with high accuracy.
 doi: "https://doi.org/10.1038/s41467-021-25375-z"
 ---
 
