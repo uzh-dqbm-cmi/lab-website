@@ -49,7 +49,7 @@ We offer an interdisciplinary research environment, the possibility to direct yo
     Ability to make a real and tangible impact in healthcare research
     Solve real-world problems and improve hospital-related processes and workflow
     Stimulating research environment and a place to grow academically and professionally
-    Outstanding working conditions at the University of Zurich (more details here).
+    Outstanding working conditions at the University of Zurich (more details [here](https://www.uzh.ch/cmsssl/en/about/work.html#0-0)).
 
 Application
 
