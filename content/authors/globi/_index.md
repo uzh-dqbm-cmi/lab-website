@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Assistant Regional Manager
+role: Senior Data Masseuse
 
 # Organizations/Affiliations
 organizations:
