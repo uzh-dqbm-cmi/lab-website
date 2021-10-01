@@ -23,33 +23,33 @@ Our goal is to develop state-of-the-art approaches and build best-in-class metho
 
  
 
-Minimum qualifications
+###Minimum qualifications
 
-    Master’s degree (MSc) in computer science (focused on machine learning), optimization, statistics, applied math or closely related discipline
-    Proficient in Python and the scientific computing stack (SciPy, Numpy, Scikit- learn, pandas)
-    Proficient in one of the deep learning frameworks (PyTorch, Tensorflow, or Jax)
-    Text editing using Markdown and LaTeX
+* Master’s degree (MSc) in computer science (focused on machine learning), optimization, statistics, applied math or closely related discipline
+* Proficient in Python and the scientific computing stack (SciPy, Numpy, Scikit- learn, pandas)
+* Proficient in one of the deep learning frameworks (PyTorch, Tensorflow, or Jax)
+* Text editing using Markdown and LaTeX
 
-Additional (preferred) qualifications
+###Additional (preferred) qualifications
 
-    Knowledge of statistical time series modelling and forecasting (such as autoregressive models and exponential smoothing)
-    Knowledge of ODE and SDE
-    Knowledge and experience in using/developing neural network (NN) models for time series / longitudinal data analysis
-    Knowledge of probabilistic graphical models (such as Gaussian processes, Neural Process, Bayesian inference or Bayesian NN)
-    Knowledge of explainable AI methods (i.e., model explainability and interpretability)
-    Experience using Linux systems
-    Experience using Docker and singularity containers
-    Experience using HPC infrastructure
+* Knowledge of statistical time series modelling and forecasting (such as autoregressive models and exponential smoothing)
+* Knowledge of ODE and SDE
+* Knowledge and experience in using/developing neural network (NN) models for time series / longitudinal data analysis
+* Knowledge of probabilistic graphical models (such as Gaussian processes, Neural Process, Bayesian inference or Bayesian NN)
+* Knowledge of explainable AI methods (i.e., model explainability and interpretability)
+* Experience using Linux systems
+* Experience using Docker and singularity containers
+* Experience using HPC infrastructure
 
-What we offer
+###What we offer
 
 We offer an interdisciplinary research environment, the possibility to direct your own research and access to state-of-the-art computational resources infrastructure.
 
-    Access to state-of-the-art infrastructure (computational resources), clinical datasets and medical expertise domain-knowledge (excellent medical doctors and research scientists)
-    Ability to make a real and tangible impact in healthcare research
-    Solve real-world problems and improve hospital-related processes and workflow
-    Stimulating research environment and a place to grow academically and professionally
-    Outstanding working conditions at the University of Zurich (more details [here](https://www.uzh.ch/cmsssl/en/about/work.html#0-0)).
+* Access to state-of-the-art infrastructure (computational resources), clinical datasets and medical expertise domain-knowledge (excellent medical doctors and research scientists)
+* Ability to make a real and tangible impact in healthcare research
+* Solve real-world problems and improve hospital-related processes and workflow
+* Stimulating research environment and a place to grow academically and professionally
+* Outstanding working conditions at the University of Zurich (more details [here](https://www.uzh.ch/cmsssl/en/about/work.html#0-0)).
 
 Application
 
