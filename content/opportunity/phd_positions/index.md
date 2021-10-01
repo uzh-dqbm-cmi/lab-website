@@ -23,14 +23,14 @@ Our goal is to develop state-of-the-art approaches and build best-in-class metho
 
  
 
-###Minimum qualifications
+### Minimum qualifications
 
 * Master’s degree (MSc) in computer science (focused on machine learning), optimization, statistics, applied math or closely related discipline
 * Proficient in Python and the scientific computing stack (SciPy, Numpy, Scikit- learn, pandas)
 * Proficient in one of the deep learning frameworks (PyTorch, Tensorflow, or Jax)
 * Text editing using Markdown and LaTeX
 
-###Additional (preferred) qualifications
+### Additional (preferred) qualifications
 
 * Knowledge of statistical time series modelling and forecasting (such as autoregressive models and exponential smoothing)
 * Knowledge of ODE and SDE
@@ -41,7 +41,7 @@ Our goal is to develop state-of-the-art approaches and build best-in-class metho
 * Experience using Docker and singularity containers
 * Experience using HPC infrastructure
 
-###What we offer
+### What we offer
 
 We offer an interdisciplinary research environment, the possibility to direct your own research and access to state-of-the-art computational resources infrastructure.
 
@@ -51,7 +51,7 @@ We offer an interdisciplinary research environment, the possibility to direct yo
 * Stimulating research environment and a place to grow academically and professionally
 * Outstanding working conditions at the University of Zurich (more details [here](https://www.uzh.ch/cmsssl/en/about/work.html#0-0)).
 
-Application
+### Application
 
 Applicants should submit their application to claudia.stenger-gysling@uzh.ch with subject heading “PhD AI in Healthcare 2021”.
 
