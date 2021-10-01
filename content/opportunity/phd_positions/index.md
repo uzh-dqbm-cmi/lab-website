@@ -56,16 +56,3 @@ We offer an interdisciplinary research environment, the possibility to direct yo
 Applicants should submit their application to claudia.stenger-gysling@uzh.ch with subject heading “PhD AI in Healthcare 2021”.
 
 
-Contact Person
-Neutral salutation Claudia Stenger gysling
-phone +41 44 635 66 31
-email claudia.stenger-gysling@uzh.ch
-
-Quantitative Biomedicine
-Schmelzbergstrasse 26
-8006 Zurich
-Schweiz
-University of Zurich, Krauthammer Lab
-Schmelzbergstrasse 26
-8006 Zurich
-Switzerland
