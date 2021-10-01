@@ -1,9 +1,8 @@
 ---
-title: We are looking for Masters Students!
+title: Ph.D. Position in A.I. for healthcare
 authors:
+- ahmedallam
 - michaelkrauthammer
-- zsoltbalazs
-- danieltrejo
 tags: 
 - Data Science
 - Bioinformatics
@@ -16,40 +15,57 @@ categories:
 # projects: []
 ---
 
-We are currently looking for Master's students in the field of bioinformatics for the following topics
+The Krauthammer lab is looking for a motivated PhD candidate to work on projects in the intersection of healthcare, data science and machine learning with special emphasis on the analysis of patient’s longitudinal data.
 
-### Data integration in Cancer Genomics
+ 
 
-The project's aim is to characterize the effects of transcriptional and epigenetic processes on mutational patterns in cancer.
-The student should have basic experience with Unix systems and some experience with at least one scripting language (e.g. Python or R). Prior experience with genomics software and data formats is an advantage.
+Our goal is to develop state-of-the-art approaches and build best-in-class methods to capitalize on digital clinical information to automatically compare, analyze and visualize complex longitudinal patient journeys focusing on the concept of patient journey similarity. This involves building robust decision support systems powered by (explainable and interpretable) predictive algorithms for guiding patient therapy across all disease stages, the assessment of treatment effects using counterfactual inference and the identification of causal mechanisms driving disease progression. Moreover, there are possibilities to expand the research scope towards working with heterogeneous biomedical data for patient stratification.
 
-### Mapping structural variation in cancer
+ 
 
-Genome sequencing data are going to be used in order to discover novel structural variants in various cancer types (melanoma, colorectal carcinoma, breast cancer, etc.). The clinical significance of the novel and already known structural variants will also be evaluated using genome annotations.
-The student should have basic experience with Unix systems and some experience with at least one scripting language (e.g. Python). Prior experience with genomics software (aligners, samtools or variant callers) is an advantage. 
+Minimum qualifications
 
-### Analyzing cell-free DNA fragmentation patterns in clinical samples
+    Master’s degree (MSc) in computer science (focused on machine learning), optimization, statistics, applied math or closely related discipline
+    Proficient in Python and the scientific computing stack (SciPy, Numpy, Scikit- learn, pandas)
+    Proficient in one of the deep learning frameworks (PyTorch, Tensorflow, or Jax)
+    Text editing using Markdown and LaTeX
 
-This project aims to improve diagnosis and prognosis through liquid biopsies in cancer and various other diseases. 
-The student should have basic experience with Unix systems, some experience with at least one scripting language (e.g. Python), a strong understanding of biostatistics and a basic understanding of machine learning algorithms.
+Additional (preferred) qualifications
 
-### Information extraction from German Radiology Report
+    Knowledge of statistical time series modelling and forecasting (such as autoregressive models and exponential smoothing)
+    Knowledge of ODE and SDE
+    Knowledge and experience in using/developing neural network (NN) models for time series / longitudinal data analysis
+    Knowledge of probabilistic graphical models (such as Gaussian processes, Neural Process, Bayesian inference or Bayesian NN)
+    Knowledge of explainable AI methods (i.e., model explainability and interpretability)
+    Experience using Linux systems
+    Experience using Docker and singularity containers
+    Experience using HPC infrastructure
 
-Large, labeled datasets have driven deep learning methods to achieve expert-level performance on a variety of medical imaging tasks. There are some English radiology report datasets that have been labeled automatically to detect in presence of 14 observations by capturing uncertainties inherent in radiograph interpretation.
-We would like to investigate different approaches such as the information extraction paradigm to label radiology reports in another language such as German. We plan to explore the possibility of incorporating domain knowledge such as http://radlex.org/ and evaluate the effectiveness of it in the proposed framework.
-Since a radiology report comes with radiology images, we also would like to investigate the multi-modal approaches in our study.
+What we offer
 
-### Trait prediction using Big data and machine learning
+We offer an interdisciplinary research environment, the possibility to direct your own research and access to state-of-the-art computational resources infrastructure.
 
-Genome-wide association studies rely on big cohorts of hundreds of thousands of participants with gene sequences amounting to TB of information. This project is interested in predicting relevant traits like disease risk and identifying this risk's genetic component. We also are interested in resolving possible confounders in this kind of data, like pairwise interactions.
+    Access to state-of-the-art infrastructure (computational resources), clinical datasets and medical expertise domain-knowledge (excellent medical doctors and research scientists)
+    Ability to make a real and tangible impact in healthcare research
+    Solve real-world problems and improve hospital-related processes and workflow
+    Stimulating research environment and a place to grow academically and professionally
+    Outstanding working conditions at the University of Zurich (more details here).
 
-The model and data reading are already implemented, objectives of a short project would be to:
-- Accelerate data reading and training
-- Perform experiments on performance and hyperparameter tuning.
-- Select the best performing predictor and test in an external cohort.
+Application
 
-The student should have experience with Unix Systems, good experience with Python and ML frameworks (preferably TF 2). Additional experience with quantitative genetic tools like plink would be advantageous.
-
-Applications can be done by sending a CV to this <a href="#" onclick="u='michael.krauthammer'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">e-mail</a> along with a short description of the student's motivation to join our lab.
+Applicants should submit their application to claudia.stenger-gysling@uzh.ch with subject heading “PhD AI in Healthcare 2021”.
 
 
+Contact Person
+Neutral salutation Claudia Stenger gysling
+phone +41 44 635 66 31
+email claudia.stenger-gysling@uzh.ch
+
+Quantitative Biomedicine
+Schmelzbergstrasse 26
+8006 Zurich
+Schweiz
+University of Zurich, Krauthammer Lab
+Schmelzbergstrasse 26
+8006 Zurich
+Switzerland
