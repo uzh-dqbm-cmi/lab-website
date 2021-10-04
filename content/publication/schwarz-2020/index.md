@@ -18,5 +18,8 @@ Conclusions: We find that a Siamese multi-modal neural network is able to accura
 featured: True
 publication: "*BMC Bioinformatics*"
 url_pdf: "https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-021-04325-y.pdf"
+
+summary: We propose a Siamese self-attention multi-modal neural network for Drug-drug interaction (DDI) prediction that integrates multiple drug similarity measures that have been derived from a comparison of drug characteristics including drug targets, pathways and gene expression profiles.
+
 ---
 
