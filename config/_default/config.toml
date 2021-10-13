@@ -19,6 +19,11 @@ copyright = ""
 ## Advanced options below ##
 ############################
 
+
+
+googleAnalytics = 'G-DD2J0YGL04'
+
+
 # Name of Academic theme folder in `themes/`.
 theme = "academic"
 
