@@ -42,13 +42,13 @@ The range of reproductive options investigated by the URPP H2R includes the pote
 
 This high-risk sub-project unites competencies in biology, reproductive medicine, Artificial intelligence/machine learning, embryology, genetics, philosophy, theology, sociology, and law.
 
-** Goals **
+**Goals**
 
 Our first goal is to assess the efficiency and precision of available CRISPR technologies and to develop improved variants. 
 Our second goal is therefore to evaluate the technical feasibility of introducing multiple precise genetic changes in a single cell or zygote. 
 Our third goal is to systematically introduce and study disease-associated allele variants in mouse models and ex vivo organoid models. Potential target diseases include cardiovascular diseases, obesity, and cancer. 
 
-** Research Agenda **
+**Research Agenda**
 
 In the first four years, we will mainly focus on testing the efficacy and safety of CRIPSR technologies, and in years 5 to 8 we will put an emphasis on the development of improved tools. Likewise, in the first four years, we will mainly try to understand why risk alleles are associated with certain genetic diseases, and in the years 5 to 8, we will attempt to develop CRISPR approaches that can correct mouse models carrying these risk alleles. Concurrent with this cutting-edge medical-technological research, we will conduct an interdisciplinary legal, ethical-
 philosophical, psychological, and social investigation whose findings will inform the evaluation of CRISPR. 
