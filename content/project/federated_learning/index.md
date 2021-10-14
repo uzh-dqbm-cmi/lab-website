@@ -45,7 +45,7 @@ This procedure is repeated until the model performance converges / stabilizes. T
 
 - - -
 
-> The following [slides](https://docs.google.com/presentation/d/1rp7Z1r1GELJYgmI0Ti1AbUa5k46ZvHFKyKLV_t63Yg4/edit?usp=sharing) present an overview of `Federated learning` algorithms in healthcare with pointers to couple of research papers working in this area presented at one of our weekly Lab meetings.
+> The following [slides](https://docs.google.com/presentation/d/1rp7Z1r1GELJYgmI0Ti1AbUa5k46ZvHFKyKLV_t63Yg4/edit?usp=sharing) presented at one of our weekly Lab meetings give an overview of `Federated learning` algorithms in healthcare with pointers to couple of research papers working in this area.
 
 {{< figure src="Federated Machine Learning@RIP.png" title="Federated Machine Learning Overview" >}}
 
