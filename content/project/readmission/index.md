@@ -3,7 +3,6 @@ title: 30 days All-Cause Readmission
 summary: Comparing neural-networks versus logistic regression for predicting readmission.
 tags:
 - Data Science
-- Featured
 date: "2019-12-02T00:00:00Z"
 authors: 
 - ahmedallam
