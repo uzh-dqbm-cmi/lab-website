@@ -4,7 +4,7 @@ date: 2020-06-11
 publishDate: 2019-12-12T16:26:43.106027Z
 authors: 
 - "Martina A Maibach"
-- "Ahmed Allam"
+- ahmedallam
 - "Matthias P Hilty"
 - "Nicolas A Perez Gonzales"
 - "Philipp K Buehler"

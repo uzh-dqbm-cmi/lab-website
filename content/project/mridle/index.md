@@ -38,7 +38,7 @@ MRIdle solves the problem of underutilization of MRI machines in the radiology d
 
 The general objective of the project is to improve the efficiency of the USZ Radiology department by improving patient attendance and reducing machine idle time. Over the next two years, we aim to achieve this goal by building the MRIdle smart scheduling tool that fulfills the following specific objectives:
 
-- **Power targeted appointment** reminders to reduce the frequency with which patients miss their MRI appointments. The scheduling tool will identify patients that are at risk for not showing to their appointments. With these predictions, the scheduling staff may proactively reach out to these patients to increase the likelihood of them attending their appointments.
+- **Power targeted appointment reminders** to reduce the frequency with which patients miss their MRI appointments. The scheduling tool will identify patients that are at risk for not showing to their appointments. With these predictions, the scheduling staff may proactively reach out to these patients to increase the likelihood of them attending their appointments.
 
 - **Improve schedule density** with a smart scheduling application that assists staff in scheduling appointments. The smart scheduling tool’s AI-powered algorithms will recommend optimal durations and timings of appointments to guide the scheduling staff in creating an optimal schedule with minimal idle time.
 
