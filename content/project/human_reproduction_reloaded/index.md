@@ -34,6 +34,9 @@ url_video: ""
 
 
 
+We are proud to be part of the UZH University Research Priority Programs (URPP) where we investigate the use of AI and CRISPR with the [Schwank] (https://schwanklab.org/) and [Brigitte Leeners] (https://www.usz.ch/fachbereich/reproduktions-endokrinologie/team/) labs, which provides policy guidance on the societal impact and legal challenges of rapidly changing medical technology on human reproduction. The goals and objectives of the subproject SP4 `CRISPR Technology in Human Reproduction` we are working on is detailed below and taken from the [URPP Human Reproduction Reloaded official website] (https://www.humanreproduction.uzh.ch/en/Research-Areas/CRISPR-Technology-in-Human-Reproduction.html). 
+
+ 
 The range of reproductive options investigated by the URPP H2R includes the potential future scenarios that rely on CRISPR-based technologies. The opportunities and risks of human germline editing using the CRISPR technology are being discussed extensively worldwide. Genetic modification of the germline with CRISPR might represent a promising approach for curing monogenetic disorders (e.g. cystic fibrosis), and for reducing genetic risk factors associated with common chronic diseases in which multiple genes interact with environmental factors (e.g. obesity, coronary heart disease, diabetes, Alzheimer’s disease, and multiple cancers). However, the consequences of such modifications for future generations are still unclear; indications are ambiguous, and technical feasibility is challenging. Here, we intend to evaluate opportunities, risks, and limitations specific to the CRISPR technology for germline editing. We will address these specific questions:
 
 - Can we improve the precision, reliability, and safety of CRISPR to a point where we can consider its use in human embryos?
