@@ -34,7 +34,7 @@ url_video: ""
 
 
 
-> We are proud to be part of the UZH University Research Priority Programs (URPP) where we investigate the use of AI 🐱‍💻 and CRISPR-based technologies ✂️ 🧬 with the [Schwank](https://schwanklab.org/) lab for germline editing. Moreover, these efforts aim at providing policy guidance on the societal impact and legal challenges of rapidly changing medical technology on human reproduction. The goals and objectives of the subproject SP4 `CRISPR Technology in Human Reproduction` we are working on are detailed below (taken from the [URPP Human Reproduction Reloaded official website](https://www.humanreproduction.uzh.ch/en/Research-Areas/CRISPR-Technology-in-Human-Reproduction.html)). 
+> We are proud to be part of the UZH University Research Priority Programs (URPP) where we with the [Schwank](https://schwanklab.org/) lab investigate the use of AI 🐱‍💻 and CRISPR-based technologies ✂️ 🧬 for germline editing. Moreover, these efforts aim at providing policy guidance on the societal impact and legal challenges of rapidly changing medical technology on human reproduction. The goals and objectives of the subproject SP4 `CRISPR Technology in Human Reproduction` we are working on are detailed below (taken from the [URPP Human Reproduction Reloaded official website](https://www.humanreproduction.uzh.ch/en/Research-Areas/CRISPR-Technology-in-Human-Reproduction.html)). 
 
 - - -
 
