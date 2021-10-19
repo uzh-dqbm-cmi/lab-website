@@ -2,7 +2,7 @@
 
 ## Contributing
 
-Below is an overview of how to:
+Below is an overview of how to: 
 * Add or edit the content on our website
 * Preview your changes before they go live (without breaking the public website!)
 * Request for someone to review your changes (a pull request) before merging and making them live
