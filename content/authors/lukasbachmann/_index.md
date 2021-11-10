@@ -59,7 +59,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 
 I am an Internal Medicine resident at University Hospital Zurich interested in computer science, especially machine learning. In particular, I am fascinated by how computer science can improve the everyday practice of medicine.
