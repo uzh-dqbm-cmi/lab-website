@@ -29,23 +29,29 @@ subtitle = ""
   #   category = ""
   #   publication_type = ""
   #   exclude_featured = false
-
+  [content.filters]
+    tag = "Tasks"
+    category = "tasks"
+    publication_type = ""
+    exclude_featured = false
+    exclude_past = false
+    exclude_future = false
 
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 1
 
   # LK: I don't understand why this doesn't work
-  [[content.filter_button]]
-    name = "All"
-    tag = "*"
+  #[[content.filter_button]]
+  #  name = "All"
+  #  tag = "*"
 
-  [[content.filter_button]]
-    name = "Talks"
-    tag = "Talks"
+  #[[content.filter_button]]
+  #  name = "Talks"
+  #  tag = "Talks"
 
-  [[content.filter_button]]
-    name = "Fun"
-    tag = "Fun"
+  #[[content.filter_button]]
+  #  name = "Fun"
+  #  tag = "Fun"
 
 [design]
   # Toggle between the various page layout types.
