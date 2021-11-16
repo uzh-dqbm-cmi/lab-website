@@ -2,7 +2,7 @@
 # A Recent Blog Posts section created with the Pages widget.
 # This section displays recent blog posts from `content/post/`.
 
-widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
@@ -29,16 +29,9 @@ subtitle = ""
   #   category = ""
   #   publication_type = ""
   #   exclude_featured = false
-  [content.filter]
-    tag = "Talks"
-    category = "talks"
-    publication_type = ""
-    exclude_featured = false
-    exclude_past = false
-    exclude_future = false
 
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
-  filter_default = 1
+  filter_default = 0
 
   # LK: I don't understand why this doesn't work
   #[[content.filter_button]]
