@@ -34,17 +34,17 @@ subtitle = ""
   filter_default = 0
 
   # LK: I don't understand why this doesn't work
-  #[[content.filter_button]]
-  #  name = "All"
-  #  tag = "*"
+  [[content.filter_button]]
+    name = "All"
+    tag = "*"
 
-  #[[content.filter_button]]
-  #  name = "Talks"
-  #  tag = "Talks"
+  [[content.filter_button]]
+    name = "Talks"
+    tag = "Talks"
 
-  #[[content.filter_button]]
-  #  name = "Fun"
-  #  tag = "Fun"
+  [[content.filter_button]]
+    name = "Fun"
+    tag = "Fun"
 
 [design]
   # Toggle between the various page layout types.
