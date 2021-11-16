@@ -30,8 +30,8 @@ subtitle = ""
   #   publication_type = ""
   #   exclude_featured = false
   [content.filter]
-    tag = "Tasks"
-    category = "tasks"
+    tag = "Talks"
+    category = "talks"
     publication_type = ""
     exclude_featured = false
     exclude_past = false
