@@ -35,8 +35,12 @@ subtitle = ""
 
   # LK: I don't understand why this doesn't work
   [[content.filter_button]]
-    name = "All"
-    tag = "*"
+    name = "Recent"
+    tag = "Recent"
+
+[[content.filter_button]]
+    name = "Research"
+    tag = "Research"
 
   [[content.filter_button]]
     name = "Talks"
