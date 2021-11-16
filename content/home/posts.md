@@ -30,6 +30,10 @@ subtitle = ""
   #   publication_type = ""
   #   exclude_featured = false
 
+
+  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
+  filter_default = 1
+
   # LK: I don't understand why this doesn't work
   [[content.filter_button]]
     name = "All"
