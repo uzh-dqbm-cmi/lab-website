@@ -6,6 +6,7 @@ date: 2020-04-29
 tags: 
 - Blog
 - Book Review
+- Fun
 image:
   placement: 1
   focal_point: ""

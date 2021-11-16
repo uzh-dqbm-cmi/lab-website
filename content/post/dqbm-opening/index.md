@@ -4,9 +4,9 @@ authors:
 - nicoperez
 date: 2020-01-27
 tags: 
-- fun
+- Fun
 categories:
-- fun
+- Fun
 image:
   placement: 1
   caption: 'Members of the department of Quantitative Biomedicine at UZH.'
