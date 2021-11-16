@@ -29,7 +29,7 @@ subtitle = ""
   #   category = ""
   #   publication_type = ""
   #   exclude_featured = false
-  [content.filters]
+  [content.filter]
     tag = "Tasks"
     category = "tasks"
     publication_type = ""
