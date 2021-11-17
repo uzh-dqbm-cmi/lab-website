@@ -70,6 +70,5 @@ Some Pull Request Etiquette:
 ### My change isn't working. In the "checks" section of the Pull Request page, it says there are errors. 
 To see the full error messages, you may need to log in to [Netlify](https://app.netlify.com/sites/goofy-bose-72cf26/overview), which is the service that builds our website. Log in with the Lab admin email to access it.
 
-
 ### I want to make a change to how the website looks. Where's the documentation for that?
 This website is built with Hugo using the Academic Theme. Academic has excellent documentation, which you can find [here](https://sourcethemes.com/academic/docs/managing-content/).
