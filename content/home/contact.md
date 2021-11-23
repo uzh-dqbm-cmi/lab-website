@@ -30,7 +30,7 @@ email_form = 0
           <p class="institution">Department of Quantitative Biomedicine</p>
           <p class="institution">Schmelzbergstrasse 26</p>
           <p class="institution">8006 Zürich</p>
-          <p class="institution">Building/Room: SHM 26 A2</p>
+          <p class="institution">Building/Room: SHM 26 C2</p>
           <p class="institution">
             <a href="#" onclick="u='michael.krauthammer'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">
               <i class="fas fa-envelope"></i>
@@ -50,7 +50,7 @@ email_form = 0
           <p class="institution"><i>Administrative Assistant</i></p>
           <p class="institution">Winterthurerstrasse 190</p>
           <p class="institution">CH-8057 Zürich</p>
-          <p class="institution">Building/Room: Y32-F-01</p>
+          <p class="institution">Building/Room: Y38-M-02</p>
           <p class="institution">phone: +41 44 635 66 31</p>
           <p class="institution">
             <a href="#" onclick="u='claudia.stenger-gysling'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">
