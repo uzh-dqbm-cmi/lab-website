@@ -53,7 +53,7 @@ education:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "yuan.han@u.duke.nus.edu"
+email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -62,3 +62,5 @@ user_groups:
 ---
 
 Han is a health data science researcher. He graduated from Nankai University with double B.S. degrees in Biology and Applied Mathematics. After that, he worked as a research scholar at Harvard University and continued his Ph.D. at Duke-NUS Medical School. He is always happy to try different milk tea brands and flavors. Whether looking for a research collaborator or milk tea partner, do not hesitate to email him.
+
+yuan.han@u.duke.nus.edu
