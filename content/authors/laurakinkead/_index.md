@@ -7,7 +7,7 @@ authors:
 - laurakinkead
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Senior Research Software Engineer
@@ -58,7 +58,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Software Engineers
+- Alumni
 ---
 
 I'm interested in not only what can you do with Data Science, but _how_ do you do it?
