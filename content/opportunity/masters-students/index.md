@@ -16,22 +16,26 @@ categories:
 # projects: []
 ---
 
-We are currently looking for Master's students in the field of bioinformatics for the following topics
+We are currently looking for Master's students in the field of **Bioinformatics** for the following topics
+
+### Analyzing cell-free DNA fragmentation patterns in clinical samples
+
+This project aims to improve diagnosis and prognosis through liquid biopsies in cancer and various other diseases. 
+Cell-free DNA (cfDNA) carries information on the epigenetics of distal tissues and organs. We discern epigenetic signatures from cfDNA-sequencing data and connect those to diagnoses and patient outcomes.
+The student should have basic experience with Unix systems, some experience with at least one scripting language (e.g. Python or R), a strong understanding of biostatistics and a basic understanding of machine learning algorithms.
+Depending on the experience and interest of the student we offer projects focusing on either:
+- Feature extraction from cfDNA-sequencing data using bioinformatic tools and comparison to nucleosome coverage or methylation data
+or
+- Representation learning from high-dimensional cfDNA-sequencing data
 
 ### Data integration in Cancer Genomics
 
 The project's aim is to characterize the effects of transcriptional and epigenetic processes on mutational patterns in cancer.
 The student should have basic experience with Unix systems and some experience with at least one scripting language (e.g. Python or R). Prior experience with genomics software and data formats is an advantage.
 
-### Mapping structural variation in cancer
 
-Genome sequencing data are going to be used in order to discover novel structural variants in various cancer types (melanoma, colorectal carcinoma, breast cancer, etc.). The clinical significance of the novel and already known structural variants will also be evaluated using genome annotations.
-The student should have basic experience with Unix systems and some experience with at least one scripting language (e.g. Python). Prior experience with genomics software (aligners, samtools or variant callers) is an advantage. 
 
-### Analyzing cell-free DNA fragmentation patterns in clinical samples
-
-This project aims to improve diagnosis and prognosis through liquid biopsies in cancer and various other diseases. 
-The student should have basic experience with Unix systems, some experience with at least one scripting language (e.g. Python), a strong understanding of biostatistics and a basic understanding of machine learning algorithms.
+We are currently looking for Master's students in **Clinical Data Science** for the following topics
 
 ### Information extraction from German Radiology Report
 
