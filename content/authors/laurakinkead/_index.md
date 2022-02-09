@@ -21,9 +21,9 @@ organizations:
 bio: Building software tools for Data Science.
 
 interests:
-- Data Science Tooling
-- Reproducibility
-- Machine Learning
+#  - Data Science Tooling
+#  - Reproducibility
+#  - Machine Learning
 
 education:
   courses:
