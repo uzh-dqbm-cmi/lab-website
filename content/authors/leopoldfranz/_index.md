@@ -21,7 +21,7 @@ organizations:
 bio: Machine Learning for Health Care
 
 interests:
-- Machine Learning for Health Care
+# - Machine Learning for Health Care
 
 education:
   courses:

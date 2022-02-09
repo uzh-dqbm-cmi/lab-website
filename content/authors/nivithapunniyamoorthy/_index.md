@@ -21,8 +21,8 @@ organizations:
 bio: Biotechnology student learing Bioinformatics.
 
 interests:
-- Bioinformatics
-- Molecular biology
+# - Bioinformatics
+# - Molecular biology
 
 education:
   courses:

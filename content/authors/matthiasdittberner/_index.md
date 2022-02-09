@@ -21,8 +21,8 @@ organizations:
 bio: Data science, statistical relational artificial intelligence, causal inference and algorithms.
 
 interests:
-- Artificial Intelligence
-- Causal Inference
+# - Artificial Intelligence
+# - Causal Inference
 
 # education:
 #   courses:

@@ -21,8 +21,8 @@ organizations:
 bio: Bench microbiologist turned bioinformatician.
 
 interests:
-- Bioinformatics
-- Microbiome
+# - Bioinformatics
+# - Microbiome
 
 # education:
 #   courses:
