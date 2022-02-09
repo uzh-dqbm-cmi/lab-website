@@ -21,8 +21,8 @@ organizations:
 bio: Bioinformatics, Machine learning.
 
 interests:
-- Bioinformatics
-- Machine learning
+# - Bioinformatics
+# - Machine learning
 
 education:
   courses:

@@ -21,9 +21,9 @@ organizations:
 bio: I am interested in using data science and image processing in translational medicine.
 
 interests:
-- Machine Learning
-- NLP
-- Image Processing
+# - Machine Learning
+# - NLP
+# - Image Processing
 
 education:
   courses:
