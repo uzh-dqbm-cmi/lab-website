@@ -21,9 +21,9 @@ organisations:
 bio: I am an Internal Medicine resident at University Hospital Zurich interested in computer science, especially machine learning. In particular, I am fascinated by how computer science can improve the everyday practice of medicine.
 
 interests:
-- Internal Medicine
-- Health Economics
-- Machine Learning in Health Care
+# - Internal Medicine
+# - Health Economics
+# - Machine Learning in Health Care
 
 education:
   courses:
