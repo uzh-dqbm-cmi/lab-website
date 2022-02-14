@@ -32,12 +32,14 @@ The PostDoc will be involved in other ongoing lab activities (particularly the s
 
 ### What we offer
 
-• Access to state-of-the-art infrastructure (computational resources), clinical datasets and medical expertise domain-knowledge (excellent medical doctors and research scientists)
-• Ability to make a real and tangible impact in healthcare research
-• Solve real-world problems and improve hospital-related processes and workflow
-• Stimulating research environment and a place to grow academically and professionally
-• Outstanding working conditions at the University of Zurich (more details at https://www.staff.uzh.ch/de/personal/willkommenspaket.html).
+<ul>
+  <li>Access to state-of-the-art infrastructure (computational resources), clinical datasets and medical expertise domain-knowledge (excellent medical doctors and research scientists)</li>
+  <li>Ability to make a real and tangible impact in healthcare research</li>
+  <li>Solve real-world problems and improve hospital-related processes and workflow</li>
+  <li>Stimulating research environment and a place to grow academically and professionally</li>
+  <li>Outstanding working conditions at the University of Zurich (more details at https://www.staff.uzh.ch/de/personal/willkommenspaket.html).</li>
+</ul>
 
-### Trait prediction using Big data and machine learning
+### Application
 
 Applicants should submit their application to  Claudia.Stenger@usz.ch
