@@ -26,7 +26,6 @@ The PostDoc will be involved in other ongoing lab activities (particularly the s
 ### Qualifications
 
 <ul>
-  <li>The project's aim is to characterize the effects of transcriptional and epigenetic processes on mutational patterns in cancer.</li>
   <li>PhD degree in computer science (focused on machine learning), optimization, statistics, applied math, computational biology or closely related discipline.</li>
   <li>Strong publication record with at least one first-author paper in top-tier conferences (such as NeurIPS, ICML, ACL, CVPR, AISTATS, AAAI, ICLR, etc.)</li>
   <li>Proficient in Python and the scientific computing stack (SciPy, Numpy, Scikit- learn, pandas)</li>
