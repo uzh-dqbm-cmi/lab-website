@@ -28,10 +28,10 @@ education:
   courses:
   - course: Master of Science
     institution: ETH Zürich
-    year: 2019
+    year: 2021
   - course: Bachelor of Engineering
     institution: Dalian University of Technology
-    year: 2016
+    year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -61,4 +61,3 @@ user_groups:
 
 ---
 
-Ivna is a molecular and computational biologist. She graduated on mouse breast tumors at the German Cancer Research Center and continued researching breast cancer at the Genome Institute of Singapore. She joined Krauthammer Lab in 2020. In her free time, she enjoys cooking, yoga, and crocheting. 
