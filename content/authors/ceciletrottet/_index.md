@@ -1,10 +1,10 @@
 ---
 # Display name
-name: Xiaochen Zheng
+name: Cécile Trottet
 
 # Username (this should match the folder name)
 authors:
-- xiaochenzheng
+- ceciletrottet
 
 # Is this the primary user of the site?
 superuser: true
@@ -22,16 +22,15 @@ bio: Data science and machine learning.
 
 interests:
 - Machine Learning
-- Longitudinal Data Analysis
-- 
+- Clinical Decision Support Systems
 
 education:
   courses:
-  - course: Master of Science
-    institution: ETH Zürich
+  - course: Master of Science in Applied Mathematics
+    institution: Ecole Polytechnique Fédérale de Lausanne
     year: 2021
-  - course: Bachelor of Engineering
-    institution: Dalian University of Technology
+  - course: Bachelor of Science in Mathematics
+    institution: Ecole Polytechnique Fédérale de Lausanne
     year: 2017
 
 # Social/Academic Networking
@@ -40,10 +39,10 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "xiaochen.zheng"
+  link: "cecileclairetrottet"
 - icon: github
   icon_pack: fab
-  link: https://github.com/xcvil
+  link: https://github.com/cctrotte
 
 
 # Link to a PDF of your resume/CV from the About widget.
@@ -61,4 +60,7 @@ user_groups:
 - Grad Students
 
 ---
+  
+I completed my masters in Lausanne at EPFL in applied mathematics. During my master thesis, I worked on a dynamic clinical decision support system using machine learning to diagnose the cause of febrile illnesses in children. When away from the screen, I enjoy being outside running, hiking or playing tennis.
+
 
