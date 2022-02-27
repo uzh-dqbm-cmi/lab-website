@@ -21,9 +21,8 @@ organizations:
 bio: Data science and machine learning.
 
 interests:
+- Clinical Data Science
 - Machine Learning
-- Longitudinal Data Analysis
-- 
 
 education:
   courses:
