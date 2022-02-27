@@ -23,7 +23,7 @@ bio: Data science and machine learning.
 interests:
 - Machine Learning
 - Longitudinal Data Analysis
-- 
+- Machine Perception
 
 education:
   courses:
