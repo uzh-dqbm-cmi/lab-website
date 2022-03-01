@@ -62,3 +62,8 @@ user_groups:
 
 ---
 
+I got my M.Sc. degree at [ETH Zürich](https://ethz.ch/en.html) in 2021, working on computer vision and remote sensing, co-advised by Prof. [Devis Tuia](https://people.epfl.ch/devis.tuia) at [EPFL](https://www.epfl.ch/en/), and got my B.Eng. degree at [Dalian University of Technology](https://www.dlut.edu.cn). 
+
+During my master study, I also worked as an algorithm engineer intern at [ABB Group](https://global.abb/group/en), focusing on robot/computer vision. In my spare time, I enjoy hiking and snowboarding in Alps.
+
+
