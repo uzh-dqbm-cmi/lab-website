@@ -33,4 +33,13 @@ Inspired by recent contrastive representation learning in the field of computer 
 
 ### How to apply
 
-To apply, please send **your cv, your MS/BS transcripts** by email to xiaochen.zheng@uzh.ch. For CBB master students at ETH, please check [this form](https://ethz.ch/content/dam/ethz/special-interest/study-programme-websites/master-cbb-dam/documents/2021_CBB%20Master%20Thesis%20UBas_UZH%20Registration%20Form.pdf). For other students at ETH, it is also easier - you need be enrolled at UZH as a mobility student, see [here](https://www.uzh.ch/cmsssl/en/studies/application/chmobilityin.html). If you have any questions regarding ETH regulation, please contact Student Exchange Office: Dr. Francesca Broggi, francesca.broggi@akd.ethz.ch, Tel +41 44 632 43 46.
+<li> To apply, please send **your CV, your MS/BS transcripts** by email to xiaochen.zheng@uzh.ch. </li>
+<li>For CBB master students at ETH, please check [this form](https://ethz.ch/content/dam/ethz/special-interest/study-programme-websites/master-cbb-dam/documents/2021_CBB%20Master%20Thesis%20UBas_UZH%20Registration%20Form.pdf). </li>
+<li>For other students at ETH, it is also easier - you need be enrolled at UZH as a mobility student, see [here](https://www.uzh.ch/cmsssl/en/studies/application/chmobilityin.html). If you have any questions regarding ETH regulation, please contact Student Exchange Office: Dr. Francesca Broggi, francesca.broggi@akd.ethz.ch, Tel +41 44 632 43 46.</li>
+
+### References
+
+[1] Gerald Woo, Chenghao Liu, Doyen Sahoo, Akshat Kumar, and Steven Hoi. “CoST: Contrastive learning of disentangled seasonal-trend representations for time series forecasting.” In *International Conference on Learning Representations* (***ICLR***), 2022.
+[2] H. Yèche, G. Dresdner, F. Locatello, M. Hüser, and G. Rätsch, “Neighborhood Contrastive Learning Applied to Online Patient Monitoring.” In *Proceedings of the 38th International Conference on Machine Learning* (***ICML***), Jul. 2021, vol. 139, pp. 11964–11974. 
+[3] Cheng, Joseph Y., et al. "Subject-aware contrastive learning for biosignals." arXiv preprint arXiv:2007.04871 (2020).
+[4] Zang, Chengxi, and Fei Wang. "SCEHR: Supervised Contrastive Learning for Clinical Risk Prediction using Electronic Health Records." arXiv preprint arXiv:2110.04943 (2021).
