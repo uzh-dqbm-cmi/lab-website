@@ -21,10 +21,10 @@ organizations:
 bio: Machine learning and genetics expert working on biomedicine
 
 interests:
-- Time series analysis
-- Bayesian inference
-- Machine learning
-- Decision support systems for healthcare
+# - Time series analysis
+# - Bayesian inference
+# - Machine learning
+# - Decision support systems for healthcare
 
 education: 
   courses:
