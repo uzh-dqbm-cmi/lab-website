@@ -21,10 +21,10 @@ organizations:
 bio: Machine learning and genetics expert working on biomedicine
 
 interests:
-- Time series analysis
-- Bayesian inference
-- Machine learning
-- Decision support systems for healthcare
+# - Time series analysis
+# - Bayesian inference
+# - Machine learning
+# - Decision support systems for healthcare
 
 education: 
   courses:
@@ -34,7 +34,7 @@ education:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Senior Researchers and Postdocs
+- Alumni
 ---
 A machine learning and bioinformatics nomad, moving around between different organisms, different algorithms and different countries. Not related Danny Trejo (Machete), but to be fair, no one has really seen us both at the same place and the same time...
 
