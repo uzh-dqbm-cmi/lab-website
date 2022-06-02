@@ -61,4 +61,4 @@ user_groups:
 
 ---
 
-Ivna is a molecular and computational biologist. She graduated on mouse breast tumors at the German Cancer Research Center and continued researching breast cancer at the Genome Institute of Singapore. She joined Krauthammer Lab in 2020. In her free time, she enjoys cooking, yoga, and crocheting. 
+Ivna is a molecular and computational biologist. She graduated on mouse breast tumors at the German Cancer Research Center and continued researching breast cancer at the Genome Institute of Singapore. She joined Krauthammer Lab in 2020. In her free time, she enjoys cooking, yoga, and hiking. 
