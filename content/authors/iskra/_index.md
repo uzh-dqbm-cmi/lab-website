@@ -31,4 +31,4 @@ interests:
 user_groups:
 - Mascots
 ---
-Iskra started her position as Ivna's feel-good and security officer in March 2021. She promotes the importance of rest by consistently sleeping for 12-16 hours a day. When she is awake, she enjoys long walks in the forest, guarding her owners and running like as there is no tomorrow. 
+Iskra started her position as Ivna's feel-good and security officer in March 2021. She promotes the importance of rest by consistently sleeping for 12-16 hours a day. When she is awake, she enjoys long walks in the forest, guarding her owners and running like there is no tomorrow. 
