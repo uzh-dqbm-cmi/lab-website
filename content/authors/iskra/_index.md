@@ -21,7 +21,7 @@ organizations:
 # bio: I am interested in applying data science to improve healthcare.
 
 interests:
-- Being the fastest dog in the hood
+- Being the fastest dog in the neighborhood
 - Maintaining owner's physical and mental health
 - Living the best day of her life every day
 
