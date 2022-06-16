@@ -48,9 +48,10 @@ email_form = 0
         <div class="description">
           <p class="course">{{% mention "claudiastenger" %}}</p>
           <p class="institution"><i>Administrative Assistant</i></p>
-          <p class="institution">Winterthurerstrasse 190</p>
-          <p class="institution">CH-8057 Zürich</p>
-          <p class="institution">Building/Room: Y38-M-02</p>
+          <p class="institution">Department of Quantitative Biomedicine</p>
+          <p class="institution">Schmelzbergstr. 26</p>
+          <p class="institution">8006 Zürich</p>
+          <p class="institution">Building/Room: SHM26, D1</p>
           <p class="institution">phone: +41 44 635 66 31</p>
           <p class="institution">
             <a href="#" onclick="u='claudia.stenger-gysling'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">
