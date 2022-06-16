@@ -3,7 +3,6 @@ title: We are looking for Masters Students!
 authors:
 - michaelkrauthammer
 - zsoltbalazs
-- danieltrejo
 tags: 
 - Data Science
 - Bioinformatics

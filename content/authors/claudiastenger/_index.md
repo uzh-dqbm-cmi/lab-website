@@ -56,7 +56,8 @@ user_groups:
 
 Claudia was born and grew up in Zurich. She lived for several years abroad working at the Swiss Embassy in Lagos, Nigeria and later at the Swiss Consulate in Chicago, USA. After her return to Switzerland, she worked for different companies in Zurich before she started a job at the UZH in 1997. In May 2019, she joined the DQBM as an administrative assistant. In her free time she reads a lot of books, plays Tennis and watches movies. She loves being around people and doing outdoor activities.
 
-Winterthurerstrasse 190 <br>
-CH-8057 Zürich <br>
-Building/Room: Y32-F-01 <br>
+Department of Quantitative Biomedicine <br>
+Schmelzbergstr. 26 <br>
+8006 Zürich <br>
+Building/Room SHM26, D1 <br>
 phone: +41 44 635 66 31 <br>
