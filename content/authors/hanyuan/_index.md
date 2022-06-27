@@ -21,8 +21,8 @@ organisations:
 bio: 
 
 interests:
-- Health Data Science
-- Deep Learning
+# - Health Data Science
+# - Deep Learning
 
 
 education:
