@@ -21,9 +21,9 @@ organizations:
 bio: I am interested in developing human sensing solutions which blend into our life without disrupting the daily routines and thereby provide continuous health tracking for disease monitoring and prevention. 
 
 interests:
-- Finding solutions for biology motivated problems from an engineering point of view
-- Leveraging ICT for medicine 
-- IoT & Smart Sensors
+# - Finding solutions for biology motivated problems from an engineering point of view
+# - Leveraging ICT for medicine 
+# - IoT & Smart Sensors
 
 education:
   courses:
@@ -63,7 +63,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Senior Researchers and Postdocs
+- Alumni
 ---
 
 I am a biomedical engineer with a Ph.D. in biomechanics from ETH Zurich. My key focus is to leverage state-of-art sensing technologies in combination with machine learning to develop smart human-sensing solutions for monitoring&preventing diseases. In my free time, I enjoy playing the guitar, reading, and doing sport.
