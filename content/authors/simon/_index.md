@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Chief Napping Officer
+role: Mascot
 
 # Organizations/Affiliations
 organizations:
@@ -28,7 +28,7 @@ interests:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Mascots
+- Alumni
 ---
 
 When not sitting in Laura's lap, Simon enjoys hanging out in sinks, bathtubs, and sometimes even showers.
