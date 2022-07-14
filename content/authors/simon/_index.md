@@ -20,9 +20,9 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: I am interested in applying data science to improve healthcare.
 
-interests:
-- Fluid dynamics
-- Burrowing under blankets
+#interests:
+#- Fluid dynamics
+#- Burrowing under blankets
 
 
 # Organizational groups that you belong to (for People widget)
