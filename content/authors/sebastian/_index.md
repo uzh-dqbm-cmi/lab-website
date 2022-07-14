@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Director of Box Exploration
+role: Mascot
 
 # Organizations/Affiliations
 organizations:
@@ -28,7 +28,7 @@ interests:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Mascots
+- Alumni
 ---
 
 Sebastian is a foody, and enjoys spending a lot of time in the kitchen.
