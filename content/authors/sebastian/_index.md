@@ -20,9 +20,9 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: I am interested in applying data science to improve healthcare.
 
-interests:
-- Kinematics of toy mice
-- Hiding in cardboard boxes
+#interests:
+#- Kinematics of toy mice
+#- Hiding in cardboard boxes
 
 
 # Organizational groups that you belong to (for People widget)
