@@ -22,8 +22,8 @@ bio: Machine learning and Bioinformatics.
 
 interests:
 - Machine Learning
-- Longitudinal Data Analysis
-- Machine Perception
+- Bioinformatics
+- Time Series Analysis
 
 education:
   courses:

@@ -30,7 +30,7 @@ education:
   - course: M.Sc. in Data Science
     institution: ETH Zürich
     year: 
-  - course: B.SC. in Electrical Engineering
+  - course: B.Sc. in Electrical Engineering
     institution: KAIST
     year: 2020
 
