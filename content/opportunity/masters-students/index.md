@@ -35,7 +35,9 @@ For other students at ETH, it is also easier - you need be enrolled at UZH as a 
 
 ### References
 [1](https://www.sciencedirect.com/science/article/pii/S009286741501569X) Snyder, M. W. et al. Cell 164, 57–68 (2016)
+
 [2](https://www.nature.com/articles/s41467-021-23445-w) Peneder, P et al. Nat Comms 12, 3230 (2021) 
+
 [3](https://www.science.org/doi/10.1126/sciadv.abm4358) Rao, S. et al. Sci Adv 8, 34 (2022)
 
 
