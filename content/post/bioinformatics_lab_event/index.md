@@ -6,11 +6,11 @@ date: 2022-07-14
 tags: 
 - Fun
 - Talks
+- Recent
 categories:
 - Talks
 image:
   placement: 1
-  caption: 'Photo by [Matt Briney](https://unsplash.com/@mbriney?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/science-shelf?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)'
   focal_point: ""
   preview_only: false
 ---
