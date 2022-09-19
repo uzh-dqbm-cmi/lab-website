@@ -17,11 +17,6 @@ categories:
 
 ### Cell imaging-based diagnostic platform for patients with rheumatic diseases
 
-*Center of Experimental Rheumatology, Department of Rheumatology,
-University Hospital Zurich Prof. Caroline Ospelt and Dr. Eva Camarillo*
-
-*In collaboration with the Chair of Medical Informatics, Department of Quantitative Biomedicine, University of Zurich
-Prof. Michael Krauthammer, Dr. Ahmed Allam and Mr. Xiaochen Zheng (PhD student)*
 
 We are looking for a motivated student who is skilled in machine learning and algorithm development to explore our large multi-fluorescence imaging datasets at the single cell level, to build and validate a computational workflow for automated image analysis.
 
@@ -35,3 +30,9 @@ The project is located at the Centre for Experimental Rheumatology, a European L
 **Tasks:** 100% data analysis
 **Project start:** Immediately or on agreement.
 **Contact Details:** Dr Eva Camarillo Retamosa: Eva.CamarilloRetamosa@usz.ch,  Prof. Caroline Ospelt: Caroline.Ospelt@usz.ch
+
+*Center of Experimental Rheumatology, Department of Rheumatology,
+University Hospital Zurich Prof. Caroline Ospelt and Dr. Eva Camarillo*
+
+*In collaboration with the Chair of Medical Informatics, Department of Quantitative Biomedicine, University of Zurich
+Prof. Michael Krauthammer, Dr. Ahmed Allam and Mr. Xiaochen Zheng (PhD student)*
