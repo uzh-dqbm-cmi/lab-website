@@ -37,7 +37,7 @@ From a technical point of view, the approaches can broadly be divided into two c
 
 ## Model-based interpretability
 
-Intrinsic model explainability can cost some predictive performance. Indeed, the relationship between input and output is easier to understand in simpler models. A basic example is linear regression, in which the coefficient of a feature reflects the impact a change in this feature would have on the outcome.  Linear models can easily be extended to generalized linear models (GLM) or generalized additive models (GAM)  to take into account interactions or non-linear relationships between features and outcome. Unfortunately, as we increase the model complexity (and thus predictive performance) we lose the direct relationships between input and output variables and therefore a loss in interpretability.
+Intrinsic model explainability can cost some predictive performance. Indeed, the relationship between input and output is easier to understand in simpler models. A basic example is linear regression, in which the coefficient of a feature reflects the impact a change in this feature would have on the outcome.  Linear models can easily be extended to generalized linear models (GLM) or generalized additive models (GAM)  to take into account interactions or non-linear relationships between features and outcome. Unfortunately, as we increase the model complexity (and thus predictive performance) we lose the direct relationships between input and output variables and therefore entail a loss in interpretability.
 
 ## Post-hoc interpretability
 
@@ -49,7 +49,7 @@ The Grad-CAM$^5$ algorithm is a model-specific interpretability method for Convo
 
 Panwar et al.$^6$ developed a deep learning model using Grad-CAM to detect COVID from chest X-rays. These types of visual explanations are particularly useful for the validation of the model by domain experts (physicians). They can directly assess whether the selected parts of the input are indeed relevant for the diagnostic (Figure 1).
 
-{{< figure src="featured.jpg"  title="Figure 1: Visualisation on CXR of COVID-19 infected person using Grad-CAM on the trained model. (a) Original CXR for COVID-19 vs Normal (Experiment-1), (b) Class activation map for COVID-19 vs Normal (Experiment-1), (c) Original CXR for Pneumonia vs COVID-19 (Experiment-2), (d) Class activation map for Pneumonia vs COVID-19 (Experiment-2). (From A deep learning and grad-CAM based color visualization approach for fast detection of COVID-19 cases using chest X-ray and CT-Scan images)">}}
+{{< figure src="featured.png"  title="Figure 1: Visualisation on CXR of COVID-19 infected person using Grad-CAM on the trained model. (a) Original CXR for COVID-19 vs Normal (Experiment-1), (b) Class activation map for COVID-19 vs Normal (Experiment-1), (c) Original CXR for Pneumonia vs COVID-19 (Experiment-2), (d) Class activation map for Pneumonia vs COVID-19 (Experiment-2). (From A deep learning and grad-CAM based color visualization approach for fast detection of COVID-19 cases using chest X-ray and CT-Scan images)">}}
 
 ### SHAP
 
@@ -58,7 +58,7 @@ Shapley values are a concept coming from cooperative game theory, to compute how
 Garriga et al.$^9$ implemented SHAP values to explain the predictions of an XGBoost$^{10}$ model used to predict mental health crises. The SHAP values show for example that the model predictions are negatively correlated with the number of weeks since the last visit and positively correlated with the number of crisis episodes. Shapley values are a powerful tool to assess how the feature values impact the model output and assess whether the model behaves reasonably.
 
 
-{{< figure src="shap_values.jpg"  title="">}}
+{{< figure src="shap_values.png"  title="Figure 2: SHAP values for mental health crisis prediction (https://www.nature.com/articles/s41591-022-01811-5)">}}
 
 
 
@@ -79,4 +79,4 @@ Nowadays, being explainable is one of the many requirements for a model to be de
 | 8 | https://arxiv.org/abs/1602.04938 |
 | 9 | https://www.nature.com/articles/s41591-022-01811-5 |
 | 10 | https://arxiv.org/abs/1603.02754 |
-| 11 | Ethics Guidelines for Trustworthy AI | FUTURIUM | European Commission (europa.eu) |
+| 11 | Ethics Guidelines for Trustworthy AI; FUTURIUM;  European Commission (https://ec.europa.eu/futurium/en/ai-alliance-consultation.1.html)) |
