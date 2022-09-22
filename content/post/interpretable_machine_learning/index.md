@@ -1,6 +1,6 @@
 ---
 title: Interpretable Machine Learning
-summary: ...
+summary: How can we better understand what our models are telling us? 
 authors: 
 - ceciletrottet
 date: 2022-09-22
@@ -8,6 +8,7 @@ tags:
 - Interpretability
 - Data Science
 - Research
+- recent
 categories:
 - Research
 image:
@@ -48,7 +49,7 @@ The Grad-CAM$^5$ algorithm is a model-specific interpretability method for Convo
 
 Panwar et al.$^6$ developed a deep learning model using Grad-CAM to detect COVID from chest X-rays. These types of visual explanations are particularly useful for the validation of the model by domain experts (physicians). They can directly assess whether the selected parts of the input are indeed relevant for the diagnostic (Figure 1).
 
-{{< figure src="featured.jpg" >}}
+{{< figure src="featured.jpg"  title="Figure 1: Visualisation on CXR of COVID-19 infected person using Grad-CAM on the trained model. (a) Original CXR for COVID-19 vs Normal (Experiment-1), (b) Class activation map for COVID-19 vs Normal (Experiment-1), (c) Original CXR for Pneumonia vs COVID-19 (Experiment-2), (d) Class activation map for Pneumonia vs COVID-19 (Experiment-2). (From A deep learning and grad-CAM based color visualization approach for fast detection of COVID-19 cases using chest X-ray and CT-Scan images)">}}
 
 ### SHAP
 
@@ -57,7 +58,7 @@ Shapley values are a concept coming from cooperative game theory, to compute how
 Garriga et al.$^9$ implemented SHAP values to explain the predictions of an XGBoost$^{10}$ model used to predict mental health crises. The SHAP values show for example that the model predictions are negatively correlated with the number of weeks since the last visit and positively correlated with the number of crisis episodes. Shapley values are a powerful tool to assess how the feature values impact the model output and assess whether the model behaves reasonably.
 
 
-{{< figure src="shap_values.jpg" >}}
+{{< figure src="shap_values.jpg"  title="">}}
 
 
 
