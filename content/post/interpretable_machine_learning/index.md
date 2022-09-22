@@ -8,7 +8,7 @@ tags:
 - Interpretability
 - Data Science
 - Research
-- recent
+- Recent
 categories:
 - Research
 image:
