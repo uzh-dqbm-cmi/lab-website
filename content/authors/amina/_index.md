@@ -23,14 +23,14 @@ bio: Apparently, this member prefers to keep an air of mystery about them.
 interests:
 - Machine Learning
 
- education:
-   courses:
-   - course: PhD in Machine learning
-     institution: University of Geneva
+education:
+  courses:
+  - course: PhD in Machine learning
+    institution: University of Geneva
      year: 2021
-   - course: Msc in applied mathematics
-     institution: Erasmus program (Mathmods), University of L'aquila, University of Hamburg, University of Nice-Sophia Antipolis
-     year: 2014
+  - course: Msc in applied mathematics
+    institution: Erasmus program (Mathmods), University of L'aquila, University of Hamburg, University of Nice-Sophia Antipolis
+    year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
