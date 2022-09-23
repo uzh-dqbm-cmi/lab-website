@@ -23,14 +23,14 @@ bio: Apparently, this member prefers to keep an air of mystery about them.
 interests:
 - Machine Learning
 
-#education:
-#  courses:
-#  - course: PhD in Machine learning
-#    institution: University of Geneva
-#    year: 2021
-#  - course: Msc in applied mathematics
-#    institution: Erasmus program (Mathmods), University of L'aquila, University of Hamburg, University of Nice-Sophia Antipolis
-#    year: 2014
+education:
+  courses:
+  - course: PhD in Machine learning
+    institution: University of Zurich
+    year: 2021
+  - course: MSc in applied mathematics (Mathmods)
+    institution: University of L'Aqquila, University of Hamburg, University of Nice Sophia Antipolis
+    year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -57,4 +57,4 @@ user_groups:
 - Senior Researchers and Postdocs
 ---
 
-Apparently, this member prefers to keep an air of mystery about them 👻.
+I did mathemtaics and applied mathematics for my bachelor and master, then I did my PhD in fundemental machine learning research at the University of Geneva. My main focus of research was incorporating domain knowleadge into deep learning models with the form of reguarizer, enabling conditional generation of discrete sturctured data such as molecules. Currently I am interested in applying machine learning models on helath care such as genetic enginering and drug design. 
