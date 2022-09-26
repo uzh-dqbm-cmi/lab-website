@@ -57,4 +57,4 @@ user_groups:
 - Senior Researchers and Postdocs
 ---
 
-I did mathematics and applied mathematics for my bachelor and master, then I did my PhD in fundamental machine learning research at the University of Geneva. My main focus of research was incorporating domain knowledge into deep learning models in the form of regularizer to improve predective modep performance and to enable conditional generation of discrete structured data such as molecules. Currently I am interested in applying machine learning models in healthcare domain such as genetic engineering and drug design. 
+I did mathematics and applied mathematics for my bachelor and master, then I did my PhD in fundamental machine learning research at the University of Geneva. My main focus of research was incorporating domain knowledge into deep learning models in the form of regularizer to improve predictive model generalization  performance and developing generative modles for conditional generation of discrete structured data  such as molecules. Currently I am interested in applying machine learning models in healthcare domain such as genetic engineering and drug design. 
