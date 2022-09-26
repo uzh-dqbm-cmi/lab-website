@@ -27,7 +27,7 @@ As machine learning (ML) models become increasingly used also in high-stake rese
 
 First of all, let us clarify the terminology that we will use throughout this post. While some do not agree with this$^1$, there seems to be a consensus to sacrifice a little bit of exactness for the sake of simplicity and therefore to use *explainability* and *interpretability* interchangeably.
 
-Unsurprisingly, there is no rigorous mathematical definition of interpretability, but there are a variety of less restrictive definitions. For example, Miller$^2$ defines interpretability as *the degree to which a human can understand the cause of a decision*. Murdoch et al.$^3$describe interpretable machine learning slightly more precisely as *the extraction of relevant knowledge from a machine-learning model concerning relationships either contained in data or learned by the model*.
+Unsurprisingly, there is no rigorous mathematical definition of interpretability, but there are a variety of less restrictive definitions. For example, Miller$^2$ defines interpretability as *the degree to which a human can understand the cause of a decision*. Murdoch et al.$^3$describes interpretable machine learning slightly more precisely as *the extraction of relevant knowledge from a machine-learning model concerning relationships either contained in data or learned by the model*.
 
 # Frameworks
 
