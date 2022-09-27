@@ -39,7 +39,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "cecileclairetrottet"
+  link: "cecileclaire.trottet"
 - icon: github
   icon_pack: fab
   link: https://github.com/cctrotte
