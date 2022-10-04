@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Senior Research Assistant
+role: Senior Research Software Engineer
 
 # Organizations/Affiliations
 organizations:
@@ -49,7 +49,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Research Software Engineers
 ---
 
 I've been passionate about mathematics and informatics ever since. Consequently, I have studied informatics and became a software engineer. Later on, I discovered the fascinating world of bioinformatics and computational biology. The subject that first sparked my interest was epigenetics and gene expression with their immense complexity, connecting a "plan", the genetic setup of an organism, with "reality", the multifaceted expression across its cell types. I am happy to participate in filling the gaps in our medical science with my contribution. My research interests are quite interdisciplinary, ranging from applied mathematics and algorithms via genomics and epigenetics to biomedical data science. Apart from science, I enjoy climbing and scuba diving.

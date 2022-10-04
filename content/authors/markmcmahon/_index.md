@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Junior Research Software Engineer
+role: Senior Research Software Engineer
 
 # Organizations/Affiliations
 organisations:
