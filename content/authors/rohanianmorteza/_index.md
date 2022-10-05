@@ -22,7 +22,6 @@ bio:
 
 interests:
 - Natural Language Processing
-- Multimodal Machine Learning
 - Clinical Machine Learning
 - Spoken Dialogue Processing
 
