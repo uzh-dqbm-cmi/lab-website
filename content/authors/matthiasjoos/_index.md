@@ -53,3 +53,4 @@ user_groups:
 - Affiliated Researchers
 ---
 
+I have completed a Bachelors in Environmental Engineering and a Masters in Applied Computational Life Science at Zurich University of Applied Sciences (ZHAW). In my Master's Thesis I’ve analyzed the reliability of the inpatient delirium screening workflow at the USZ and developed a prediction model for the detection of patients at risk of delirium using nursing assessment data. I currently work as a data engineer at the USZ. My main project is to implement and test the database tool i2b2, which is specifically designed for self-service cohort identification and -selection. In my spare time I do outdoor and indoor sports, I also like cooking and playing the guitar.
