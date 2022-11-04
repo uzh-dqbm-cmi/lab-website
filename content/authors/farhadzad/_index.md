@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoc
+role: Senior Researcher
 
 # Organizations/Affiliations
 organizations:
@@ -21,10 +21,9 @@ organizations:
 bio: 
 
 interests:
-- NLP
-- Machine Learning
-- Information Extraction
-- Domain Adaptation
+- Natural Language Processing (NLP)
+- Machine Learning (ML)
+- Multimodal Multilingual NLP
 
 education:
   courses:
