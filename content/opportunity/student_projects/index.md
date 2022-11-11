@@ -1,5 +1,5 @@
 ---
-title: Student Project in Time Series Representation Learning
+title: Student Project in Time Series Representation Learning [Starting Feb 2023]
 authors:
 - xiaochenzheng
 - michaelkrauthammer
@@ -45,6 +45,3 @@ For other students at ETH, it is also easier - you need be enrolled at UZH as a 
 
 [2] H. Yèche, G. Dresdner, F. Locatello, M. Hüser, and G. Rätsch, “Neighborhood Contrastive Learning Applied to Online Patient Monitoring.” In *Proceedings of the 38th International Conference on Machine Learning* (***ICML***), Jul. 2021, vol. 139, pp. 11964–11974. 
 
-[3] Cheng, Joseph Y., et al. "Subject-aware contrastive learning for biosignals." arXiv preprint arXiv:2007.04871 (2020).
-
-[4] Zang, Chengxi, and Fei Wang. "SCEHR: Supervised Contrastive Learning for Clinical Risk Prediction using Electronic Health Records." arXiv preprint arXiv:2110.04943 (2021).
