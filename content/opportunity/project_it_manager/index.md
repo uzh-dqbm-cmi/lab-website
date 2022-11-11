@@ -19,7 +19,7 @@ For the project, the LOOP Zurich is hiring a team of specialists responsible for
 Project Planning: This task will involve in-depth discussion with stakeholders, consensus finding rounds for key technologies, assessment of current IT capabilities of hospitals and academic units, and the development of a project plan that sets the milestones and deliverables for the platform's components. Key deliverables include the project plan with work packages and deliverables for the planned 25-30 FTE, the architecture, and the operations and security concept.
 
 Project Management: This task will involve all matters of successful IT project execution, including team coordination, setting up sprint and milestone meetings, deciding on appropriate testing schedules, and setting up project management tools and communication channels. The expected duration of the project implementation is two years.
-
+ 
 ### Your profile
 
 **Experience with IT project planning and management in the healthcare field**
