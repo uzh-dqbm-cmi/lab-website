@@ -9,6 +9,7 @@ tags:
 # projects: []
 ---
 
+
 The LOOP Zurich is a medical center for translational research and precision medicine. It focuses on new approaches, better diagnostics, and novel therapies that will benefit patients and society as a whole. The goal is to enhance personalized healthcare by efficiently transferring scientific knowledge into medical practice.
 
 As part of its strategy, The LOOP Zurich is developing an IT research platform ("LOOP BMIP Data Platform") between the major Zurich hospitals and academic partners (University of Zurich and ETHZ) of strategic importance to the Zurich medical research ecosystem. The platform will allow for translational data-driven research involving routine clinical data. It is an integral part of The LOOP Zurich's precision medicine vision and aims to be compatible with national and international biomedical data sharing initiatives.
@@ -21,26 +22,28 @@ Project Planning: This task will involve in-depth discussion with stakeholders, 
 Project Management: This task will involve all matters of successful IT project execution, including team coordination, setting up sprint and milestone meetings, deciding on appropriate testing schedules, and setting up project management tools and communication channels. The expected duration of the project implementation is two years.
  
 ### Your profile
-
-**Experience with IT project planning and management in the healthcare field**
-**Experience in multi-party collaborations including consensus building and lateral management**
-**Experience with data integration projects involving diverse and heterogeneous data sources**
-**Experience with scalable data management, ETL, and different database types**
-**Knowledge about common clinical data exchange formats (such as FHIR, RDF), respective APIs and services**
-**Knowledge about clinical data types (labs, images, clinical reports), standards (SNOMED, ICD), and common data models in biomedicine (i2b2, OMOP, SPHN)**
-**Experience with clinical data harmonization**
-**Knowledge of data governance, privacy, and security regulations as well as approaches**
-**Knowledge of university hospital IT environments
-enthusiasm, skills and experience to promote technical topics/projects related to the "LOOP BMIP Data platform".**
+<ul>
+<li>Experience with IT project planning and management in the healthcare field</li>
+<li>Experience in multi-party collaborations including consensus building and lateral management</li>
+<li>Experience with data integration projects involving diverse and heterogeneous data sources</li>
+<li>Experience with scalable data management, ETL, and different database types</li>
+<li>Knowledge about common clinical data exchange formats (such as FHIR, RDF), respective APIs and services</li>
+<li>Knowledge about clinical data types (labs, images, clinical reports), standards (SNOMED, ICD), and common data models in biomedicine (i2b2, OMOP, SPHN)</li>
+<li>Experience with clinical data harmonization</li>
+<li>Knowledge of data governance, privacy, and security regulations as well as approaches</li>
+<li>Knowledge of university hospital IT environments
+enthusiasm, skills and experience to promote technical topics/projects related to the "LOOP BMIP Data platform".</li>
+</ul>
 
 ### What we offer
-
-**Active participation in the highly complex IT landscape**
-**A responsible and varied job**
-**A motivated and committed team that values mutual support, appreciation and respect**
-**An innovative, interdisciplinary and highly specialized work environment**
-**Access to state-of-the-art infrastructure**
-**Outstanding working conditions at the University of Zurich**
+<ul>
+<li>Active participation in the highly complex IT landscape</li>
+<li>A responsible and varied job</li>
+<li>A motivated and committed team that values mutual support, appreciation and respect</li>
+<li>An innovative, interdisciplinary and highly specialized work environment</li>
+<li>Access to state-of-the-art infrastructure</li>
+<li>Outstanding working conditions at the University of Zurich</li>
+</ul>
 
 ### Place of work
 
