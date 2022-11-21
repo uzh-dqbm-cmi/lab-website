@@ -44,7 +44,7 @@ social:
   link: "beatrice.zanchi"
 - icon: linkedin
   icon_pack: fab
-  link: "www.linkedin.com/in/beatrice-zanchi/"
+  link: "https://www.linkedin.com/in/beatrice-zanchi/"
 
 
 # Link to a PDF of your resume/CV from the About widget.
