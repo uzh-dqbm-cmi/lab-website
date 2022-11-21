@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Biomedical Engineer.
+bio: Biomedical Engineer
 
 interests:
 - Electrical heart disease
@@ -63,4 +63,4 @@ user_groups:
 
 ---
   
-I am a Biomedical Engineer, and I obtained my M.Sc degree at Politecnico of Torino in 2021. During my master study, I focused on Machine Learning methods to diagnose Inherited Arrhythmogenic Diseases. Currently, I keep working on electrical heart disease recognition through Artificial Intelligence tools to support healthcare specialist. In my spare time, I enjoy reading and being outside running.
+I am a Biomedical Engineer, and I obtained my M.Sc degree at Politecnico of Torino in 2021. During my master study, I focused on Machine Learning methods to diagnose Inherited Arrhythmogenic Diseases. Currently, I keep working on electrical heart disease recognition through Artificial Intelligence tools to support healthcare specialist. In my spare time, I enjoy reading and being outside running. 
