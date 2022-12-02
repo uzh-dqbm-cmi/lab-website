@@ -17,7 +17,7 @@ categories:
 
 We are currently looking for Master's students in the field of **Bioinformatics** for the topic of
 
-### Epigenetic footprints in cell-free DNA sequencing data
+### Nucleosome footprints in cell-free DNA sequencing data
 
 Cell-free DNA (cfDNA) is released by dying cells into the surrounding tissues and also to the bloodstream. As nucleosomes protect DNA from degradation, plasma cfDNA carries information about the nucleosome organization in the cells of origin. Different characteristics of cfDNA are increasingly being used in the diagnostics of genetic diseases and the monitoring of cancer. We discern nucleosome footprints at transcription binding sites and DNase hypersensitivity sites from cfDNA-sequencing data and infer the contribution of different cell / tissue types to cfDNA. In doing so, we aim to quantify cancer-derived cfDNA and detect inflammation in various tissue types.
 
