@@ -3,9 +3,10 @@ title: AI to support the early diagnosis of Systemic Sclerosis (SSc)
 authors: 
 - michaelkrauthammer
 - farhadzad
-date: 2019-09-02
+date: 2022-12-09
 tags: 
 - Research
+- Recent
 categories:
 - Research
 image:
