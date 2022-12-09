@@ -9,11 +9,6 @@ tags:
 - Recent
 categories:
 - Research
-image:
-  placement: 1
-  caption: ''
-  focal_point: ""
-  preview_only: false
 projects: []
 ---
 
