@@ -17,6 +17,14 @@ a) get a overview about SSc and the classification of the disease,
 b) can check your skills to classify capillaroscopy images,
 c) can play with an AI simulator.   
 
+
+<ol type="a">
+  <li>get a overview about SSc and the classification of the disease, </li>
+  <li>can check your skills to classify capillaroscopy images,</li>
+  <li>can play with an AI simulator. </li>
+</ol>
+
+
 {{< figure src="featured.png" title="" >}}
 
 
