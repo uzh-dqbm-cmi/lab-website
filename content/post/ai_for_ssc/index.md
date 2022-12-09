@@ -13,10 +13,6 @@ projects: []
 ---
 
 Based on our recent publication we have developed a presentation where you 
-a) get a overview about SSc and the classification of the disease, 
-b) can check your skills to classify capillaroscopy images,
-c) can play with an AI simulator.   
-
 
 <ol type="a">
   <li>get a overview about SSc and the classification of the disease, </li>
@@ -25,7 +21,7 @@ c) can play with an AI simulator.
 </ol>
 
 
-{{< figure src="featured.png" title="" >}}
+{{< figure src="slide.png" title="" >}}
 
 
 The work behind is a Vision Transformer (ViT)-based deep-learning model that may assist rheumatologists in generating consistent and high-quality nailfold capillaroscopy (NFC) reports.
