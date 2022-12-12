@@ -3,6 +3,7 @@ title: Automated Image Analysis
 summary: Assessing the quality of online health information with AI.
 tags:
 - Data Science
+- Featured
 date: "2022-12-12T00:00:00Z"
 authors:
 - michaelkrauthammer
