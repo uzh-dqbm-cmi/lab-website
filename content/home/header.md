@@ -59,7 +59,7 @@ weight = 10  # Order that this section will appear.
 
 <center>
 <br>
-<p style="font-size:48px"> <strong> KrauthammerLab </strong> </p>
+<p style="font-size:44px"> <strong> KrauthammerLab </strong> </p>
 <p style="font-size:20px"> University of Zurich & University Hospital Zurich </p>
 <br>
 </center>
