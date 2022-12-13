@@ -15,6 +15,8 @@ authors:
 image:
   caption:
   focal_point: Smart
+  link: https://docs.google.com/presentation/d/1dikPc_HRnhXw7fyZ9bb2uRgvAqlucvsX/present?slide=id.p1
+
 
 links:
 url_code: ""
@@ -42,7 +44,6 @@ Based on our recent publication we have developed a presentation where you
   <li>can play with an AI simulator. </li>
 </ol>
 
-The interactive presentation can be accessed using the below Google Slides link, which will open the presentation in 'presentation' mode:
 
 [<img src="link_image.png">](https://docs.google.com/presentation/d/1dikPc_HRnhXw7fyZ9bb2uRgvAqlucvsX/present?slide=id.p1)
 
