@@ -12,10 +12,6 @@ authors:
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
 
-image:
-  caption:
-  focal_point: Smart
-
 
 links:
 url_code: ""
@@ -46,7 +42,7 @@ Based on our recent publication we have developed a presentation where you
 </ol>
 
 
-[<img src="link_image.png">](https://docs.google.com/presentation/d/1dikPc_HRnhXw7fyZ9bb2uRgvAqlucvsX/present?slide=id.p1)
+[<img src="link_image.png" width="200" height="40">](https://docs.google.com/presentation/d/1dikPc_HRnhXw7fyZ9bb2uRgvAqlucvsX/present?slide=id.p1)
 
 
 *Authors:*
