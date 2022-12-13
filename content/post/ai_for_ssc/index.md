@@ -26,7 +26,7 @@ Based on our recent publication we have developed a presentation where you
 </ol>
 
 
-[<img src="../../project/ai_ssc/link_image.png">](https://docs.google.com/presentation/d/1dikPc_HRnhXw7fyZ9bb2uRgvAqlucvsX/present?slide=id.p1)
+[<img src="../../project/ai_ssc/link_image.png" width="234">](https://docs.google.com/presentation/d/1dikPc_HRnhXw7fyZ9bb2uRgvAqlucvsX/present?slide=id.p1)
 
 *Authors:*
 
