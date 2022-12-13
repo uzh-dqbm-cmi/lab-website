@@ -15,7 +15,6 @@ authors:
 image:
   caption:
   focal_point: Smart
-  link: https://docs.google.com/presentation/d/1dikPc_HRnhXw7fyZ9bb2uRgvAqlucvsX/present?slide=id.p1
 
 
 links:
@@ -31,6 +30,8 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 # slides: example
 ---
+
+[<img src="link_image.png" width="200" height="40">](https://docs.google.com/presentation/d/1dikPc_HRnhXw7fyZ9bb2uRgvAqlucvsX/present?slide=id.p1)
 
 We recently published a joint work with the Department of Rheumatology, University Hospital of Zurich, the Department of Quantitative Biomedicine, and the Department of Rheumatology and Immunology, University Hospital Bern. The study assessed the capacity of AI to detect patterns of microangiopathy in nailfold capillaroscopy (NFC) images of patients with Systemic Sclerosis (SSc). We used local registers from the University Hospital Zurich and ‘off-the-shelf’ artificial intelligence models (ViT).
 
