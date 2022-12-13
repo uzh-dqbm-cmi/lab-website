@@ -31,4 +31,3 @@ Based on our recent publication we have developed a presentation where you
 *Authors:*
 
 Alexandru Garaiman, Farhad Nooralahzadeh, Carina Mihai, Nicolas Perez Gonzalez, Nikitas Gkikopoulos, Mike Oliver Becker, Oliver Distler, Michael Krauthammer, Britta Maurer, Vision transformer assisting rheumatologists in screening for capillaroscopy changes in systemic sclerosis: an artificial intelligence model, Rheumatology, 2022, https://doi.org/10.1093/rheumatology/keac541
-
