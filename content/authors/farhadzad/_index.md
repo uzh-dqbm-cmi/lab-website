@@ -21,10 +21,9 @@ organizations:
 bio: 
 
 interests:
-- NLP
-- Machine Learning
-- Information Extraction
-- Domain Adaptation
+- Natural Language Processing (NLP)
+- Machine Learning (ML)
+- Multimodal Multilingual NLP
 
 education:
   courses:
