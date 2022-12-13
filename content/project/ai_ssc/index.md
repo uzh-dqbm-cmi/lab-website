@@ -1,6 +1,6 @@
 ---
 title: Automated Image Analysis
-summary: Assessing the quality of online health information with AI.
+summary: AI-assisted diagnosis in rheumatology
 tags:
 - Data Science
 - Featured
