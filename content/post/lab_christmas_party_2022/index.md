@@ -4,6 +4,7 @@ authors:
 - manuelschuerch
 date: 2022-12-06
 tags: 
+- Recent
 - Fun
 categories:
 - Fun
@@ -38,7 +39,7 @@ First, we spent the afternoon in the zoo where we could observe many interesting
 After the zoo visit, we went to the near located restaurant “Chäsalp” from where we had a nice view over the city. 
 
 
-{{< figure src="fondue.png" title="We got delicious Fondues with many different flavors" >}}
+{{< figure src="featured.png" title="We got delicious Fondues with many different flavors" >}}
 
 
 {{< figure src="group_2.png" title="Probably, the most of us ate too much cheese, however, we had a lot of fun and a nice evening together" >}}
