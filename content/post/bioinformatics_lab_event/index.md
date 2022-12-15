@@ -6,7 +6,6 @@ date: 2022-07-14
 tags: 
 - Fun
 - Talks
-- Recent
 categories:
 - Talks
 image:
