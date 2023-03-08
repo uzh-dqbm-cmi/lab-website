@@ -2,6 +2,7 @@
 title: Postdoctoral Position in Digital Health at the University of Zurich 100 %
 authors:
 - michaelkrauthammer
+date: 2023-03-08
 tags: 
 - Data Science
 #- Bioinformatics
@@ -42,7 +43,7 @@ We are currently looking for a motivated and innovative PostDoc in Digital Healt
 </ul> 
 
 
-### Additional (preferred) qualifications
+<b>Additional (preferred) qualifications</b>
 <ul> 
 <li>Proficient in one of the deep learning frameworks (PyTorch, Tensorflow, JAX)</li>
 <li>Knowledge and experience in using/developing machine learning or neural network-based models for time series / longitudinal data analysis</li>
