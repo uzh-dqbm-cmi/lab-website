@@ -1,8 +1,8 @@
 ---
 title: Master thesis / Semester project
 authors:
-- ahmedallam
 - xiaochenzheng
+- ahmedallam
 tags: 
 - Data Science
 - Bioinformatics
