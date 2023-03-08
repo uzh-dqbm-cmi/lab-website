@@ -26,7 +26,7 @@ summary: To help patients find high quality health information online, we develo
 
 tags:
 - Data Science
-featured: true
+featured: false
 
 # links:
 # - name: ""
