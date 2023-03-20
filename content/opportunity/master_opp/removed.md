@@ -15,7 +15,7 @@ categories:
 # projects: []
 ---
 
-### Cell imaging-based diagnostic platform for patients with rheumatic diseases
+### Cell imaging-based diagnostic platform for patients with rheumatic diseases 
 
 
 We are looking for a motivated student who is skilled in machine learning and algorithm development to explore our large multi-fluorescence imaging datasets at the single cell level, to build and validate a computational workflow for automated image analysis.
