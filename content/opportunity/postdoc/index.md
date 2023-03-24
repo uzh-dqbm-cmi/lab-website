@@ -34,7 +34,7 @@ We are currently looking for a motivated and innovative PostDoc in Digital Healt
 
 ### Your profile
 <ul>
-<li>A PhD in behavioral science (including psychology, cognitive sciences), computer science, or related fields</li>
+<li>A PhD in Computer Science, Digital Health, or related discipline</li>
 <li>Expertise in digital/mobile health interventions</li>
 <li>Experience with clinical trials, and ethical aspects as well as the regulatory frameworks of medical research</li>
 <li>Familiarity with statistical analysis software (e.g., R) and programming languages (e.g., Python)</li>
