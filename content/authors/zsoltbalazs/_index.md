@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoc
+role: Senior Researcher
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Bioinformatics in Oncogenomics.
+bio: Translational Bioinformatics.
 
 interests:
 - Bioinformatics
@@ -64,4 +64,4 @@ user_groups:
 - Senior Researchers and Postdocs
 ---
 
-I use bioinformatics in Oncogenomics. During my PhD, I worked with virus transcriptomics (mainly herpesviruses) with a focus of implementing methods for the analysis of long-read RNA-Seq. I also provided bioinformatic analysis in clinical genetics and population genetics projects. Other interests: archeogenetics, linguistics and hiking.
+I apply Bioinformatics to answer clinically relevant questions about health and disease. During my PhD, I worked with virus transcriptomics (mainly herpesviruses) with a focus of implementing methods for the analysis of long-read RNA-Seq. I also provided bioinformatic analysis in clinical genetics and population genetics projects. During my postdoc, I analyzed single-cell RNA sequencing and cell-free DNA sequencing data in translational projects. Other interests: Archeogenetics, Linguistics and hiking.
