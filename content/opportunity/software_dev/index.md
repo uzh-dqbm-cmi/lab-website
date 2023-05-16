@@ -13,7 +13,7 @@ categories:
 # list the projects you want masters students for here, if there are pages for them
 # projects: []
 ---
-TheLOOP Zurich is a medical center for translational research and precision medicine. It focuses on new approaches, better diagnostics, and novel therapies that will benefit patients and society as a whole. The goal is to enhance personalized healthcare by efficiently transferring scientific knowledge into medical practice.
+The LOOP Zurich is a medical center for translational research and precision medicine. It focuses on new approaches, better diagnostics, and novel therapies that will benefit patients and society as a whole. The goal is to enhance personalized healthcare by efficiently transferring scientific knowledge into medical practice.
 
 As part of its strategy, The LOOP Zurich is developing an IT research platform ("LOOP BMIP Data Platform") between the major Zurich hospitals and academic partners (University of Zurich and ETHZ) of strategic importance to the Zurich medical research ecosystem. The platform will allow for translational data-driven research involving routine clinical data. It is an integral part of The LOOP Zurich's precision medicine vision and aims to be compatible with national and international biomedical data sharing initiatives.
 
