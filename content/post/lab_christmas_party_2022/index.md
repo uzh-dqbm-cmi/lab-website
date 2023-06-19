@@ -4,7 +4,6 @@ authors:
 - manuelschuerch
 date: 2022-12-06
 tags: 
-- Recent
 - Fun
 categories:
 - Fun
