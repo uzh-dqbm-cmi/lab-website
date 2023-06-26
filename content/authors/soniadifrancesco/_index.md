@@ -25,6 +25,19 @@ interests:
 - Chatbots & Wearable sensors
 - Machine Learning 
 
+education:
+  courses:
+  - course: Epidemiology and Data Science | Doctor of Philosophy
+    institution: Vrije Universiteit Amsterdam, Amsterdam, Netherlands
+    year: 2021
+  - course: Biomedical Engineering | Master of Science
+    institution: University of Pavia, Pavia, Italy
+    year: 2016
+  - course: Biomedical Engineering | Bachelor of Science
+    institution: Polytechnic University of Milan, Milan, Italy
+    year: 2013
+
+
 #education:
 #  courses:
 
