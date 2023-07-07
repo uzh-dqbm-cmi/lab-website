@@ -76,8 +76,6 @@ MINIMUM QUALIFICATIONS
         </li>
     </ul>
     <br/>
-    You can see more about Who we are and How we work here: 
-    <a href="https://krauthammerlab.ch/" target="_blank">krauthammerlab.ch</a>
 </section>
 
 <section id="workplace">
