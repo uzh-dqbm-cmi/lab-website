@@ -62,7 +62,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Grad Students
+- Alumni
 ---
 
 I have a Computer Science and Bioinformatics background and completed my master thesis in the area of Cancer Genomics at the University of Bern. My ambition for developing clinically-useful knowledge led me to start my PhD in Biomedical Informatics. In my free time I am engaged in bouldering, jiu jitsu and deadlifts.

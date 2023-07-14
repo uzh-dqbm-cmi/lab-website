@@ -58,7 +58,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 
 ---
 I am a third year Master student at ETH Zurich. Currently I am doing my master thesis here at the Krauthammer Lab. The topic that I am working on is contrastive representation learning for time series. In my free time I enjoy reading comics, playing tennis and skiing.
