@@ -21,9 +21,7 @@ organizations:
 bio: Machine Learning for Health Care.
 
 interests:
-- Bioinformatics
-- Machine Learning for Health Care
-- Immunology
+-
 
 
 education:

@@ -21,9 +21,6 @@ organizations:
 bio:  I am ambitious about developing clinically-useful knowledge and helping health professionals make use of patient-related data.
 
 interests:
-- Bioinformatics
-- Computational Pharmacology
-- Deep Learning
 
 education:
   courses:

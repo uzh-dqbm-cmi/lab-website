@@ -21,9 +21,6 @@ organizations:
 bio: Machine learning and Bioinformatics.
 
 interests:
-- Machine Learning
-- Bioinformatics
-- Time Series Analysis
 
 education:
   courses:
