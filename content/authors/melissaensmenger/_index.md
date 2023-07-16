@@ -21,9 +21,7 @@ organizations:
 bio: Machine Learning for Health Care.
 
 interests:
-- Bioinformatics
-- Machine Learning for Health Care
-- Immunology
+-
 
 
 education:
@@ -53,7 +51,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 
 ---
 
