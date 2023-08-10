@@ -32,6 +32,6 @@ Diese Masterarbeit hat das Ziel, die Perspektiven der Patientinnen zur Akzeptanz
 Bewerbungen können Sie zusammen mit Ihrem Lebenslauf, Arbeitszeugnissen und einem kurzen Motivationsschreiben an diese E-Mail senden: (sonia.difrancesco@uzh.ch).
 
 
-Earliest start	2023-09-01
+Earliest start:	2023-09-01
 
-Latest end 		No date
+Latest end: 	No date
