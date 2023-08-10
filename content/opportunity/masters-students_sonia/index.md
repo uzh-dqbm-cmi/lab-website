@@ -1,5 +1,5 @@
 ---
-title: Patient\*innenperspektiven zur Akzeptanz und Nutzbarkeit digitaler Gesundheitstechnologien in der Onkologie - eine qualitative Studie
+title: Patient*innenperspektiven zur Akzeptanz und Nutzbarkeit digitaler Gesundheitstechnologien in der Onkologie - eine qualitative Studie
 authors:
 - soniadifrancesco
 - michaelkrauthammer
