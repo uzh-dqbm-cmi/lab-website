@@ -21,9 +21,9 @@ organizations:
 bio: Bioinformatics and Machine Learning.
 
 interests:
-- Bioinformatics
-- Machine Learning
-- Systems Biology
+#- Bioinformatics
+#- Machine Learning
+#- Systems Biology
 
 education:
   courses:
@@ -51,7 +51,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 
 I am fascinated by both the strict regulation and complexity of biological systems.

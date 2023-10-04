@@ -56,7 +56,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Senior Researchers and Postdocs
+- Affiliated Researchers
 ---
 
 After my master's studies in statistics and bioinformatics, I obtained my PhD at the University of Liège, with a primary focus on precision medicine, systems biology and machine learning. I then joined the ETH AI Center in Zurich, where my research revolves around the development of clinical decision support tools to optimize and recommend treatment strategies.

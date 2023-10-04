@@ -21,9 +21,9 @@ organizations:
 bio: Bioinformatics and Genomics.
 
 interests:
-- Bioinformatics
-- Cancer Genomics
-- Liquid biopsy
+#- Bioinformatics
+#- Cancer Genomics
+#- Liquid biopsy
 
 education:
   courses:
@@ -49,7 +49,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 
 During my bachelor studies I found my passion for programming.
