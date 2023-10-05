@@ -21,18 +21,20 @@ organizations:
 bio: 
 
 interests:
-- NLP
-- Machine Learning
-- Information Extraction
-- Domain Adaptation
+- Natural Language Processing
+- Multimodal Multilingual Learning
+
 
 education:
   courses:
-  - course: P.h.D in Computer Science, Language Technology (NLP and ML)
+  - course: Postdoctoral Researcher
+    institution: Krauthammer Lab at the Department of Quantitative Biomedicine (USZ-UZH) and Department of Computational Linguistics (UZH)
+    year: 2022
+  - course: Ph.D. in Computer Science, Language Technology (NLP and ML)
     institution: University of Oslo
     year: 2020
-  - course: MSc. Computer Science (Data Mining and knowledge Management)
-    institution: Erasmus Mundus programe, University of Lyon II
+  - course: MSc. Computer Science (Data Mining and Knowledge Management)
+    institution: Erasmus Mundus program, University of Lyon II
     year: 2013
 
 # Social/Academic Networking
@@ -61,8 +63,10 @@ user_groups:
 - Senior Researchers and Postdocs
 ---
 
-I did my Ph.D. in the Language Technology group at the University of Oslo.
-Before starting a Ph.D., I was a research engineer at the Inria Sophia-Antipolis research center in the WIMMICS team. Before that, I spent one year in the Parsing and Semantics Group at Xerox Research Center Europe in Grenoble (France), which is now Naver Labs Europe. 
-I got my master from Erasmus mundus master program in Data mining and Knowledge Management.
-My research in Ph.D was  on Low-Resouce Adaptation of Neural NLP Models, where we collaborated with the industry in SIRIUS center to provide scalable data access tools for industry.
-During summer 2019,  I was on the research stay at the Copenhagen NLU research group and worked on the Joint domain and cross-lingual adaptation methods.
+As a senior researcher at KrauthammerLab at the University of Zurich (UZH) and at the Institute of Applied Information Technology (IniT) at Zurich University of Applied Sciences (ZHAW), my research interests center around computational approaches to language understanding, adapting neural language models to low- and zero-resource scenarios, multimodal multilingual machine learning, and the application of NLP in Medicine.
+
+I hold a Ph.D. in Language Technology with a computer science background and also have industry experience. I have worked on various natural language processing (NLP) projects before, during, and after the Ph.D. program since 2013, during my Ph.D. I worked on various adaptation techniques for low-resource NLP scenarios. My Ph.D. thesis is a monograph work and consists of a detailed explanation of the six papers published in top computational linguistic venues. During my post-doctoral time at the University of Zurich, I worked on Multimodal Multilingual NLP both in general and medical domains.
+
+Over the last year, I have experience in teaching advanced seminar courses and mentoring students at all levels. Overall, my research focus is on adapting NLP methods with a focus on cross-lingual and cross-modality transfer.
+
+[Link to my CV]([https://website-name.com](https://github.com/uzh-dqbm-cmi/lab-website/blob/master/content/authors/farhadzad/)https://github.com/uzh-dqbm-cmi/lab-website/blob/master/content/authors/farhadzad/CV__FarhadZadeh.pdf])
