@@ -39,12 +39,6 @@ For CBB master students at ETH, please check [this form](https://ethz.ch/content
 For other students at ETH: you need be enrolled at UZH as a mobility student, see [here](https://www.uzh.ch/cmsssl/en/studies/application/chmobilityin.html). If you have any questions regarding ETH regulation, please contact the Student Exchange Office: Dr. Francesca Broggi-Wüthrich, francesca.broggi@akd.ethz.ch, Tel +41 44 632 43 46.
 
 ### References
-[1](https://www.sciencedirect.com/science/article/pii/S009286741501569X) Snyder, M. W. et al. Cell 164, 57–68 (2016)
-
-[2](https://www.nature.com/articles/s41467-021-23445-w) Peneder, P et al. Nat Comms 12, 3230 (2021) 
-
-[3](https://www.science.org/doi/10.1126/sciadv.abm4358) Rao, S. et al. Sci Adv 8, 34 (2022)
-
 [1] Mollaysa, Amina and Paige, Brooks and Kalousis, Alexandros, Goal-directed Generation of Discrete Structures with Conditional Generative Models, (https://proceedings.neurips.cc/paper_files/paper/2020/file/f9b9f0fef2274a6b7009b5d52f44a3b6-Paper.pdf)
 
 [2] Mollaysa, Amina and Paige, Brooks and Kalousis, Alexandros, Conditional generation of molecules from disentangled representations 
