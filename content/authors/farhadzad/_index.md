@@ -67,6 +67,6 @@ As a senior researcher at KrauthammerLab at the University of Zurich (UZH) and a
 
 I hold a Ph.D. in Language Technology with a computer science background and also have industry experience. I have worked on various natural language processing (NLP) projects before, during, and after the Ph.D. program since 2013, during my Ph.D. I worked on various adaptation techniques for low-resource NLP scenarios. My Ph.D. thesis is a monograph work and consists of a detailed explanation of the six papers published in top computational linguistic venues. During my post-doctoral time at the University of Zurich, I worked on Multimodal Multilingual NLP both in general and medical domains.
 
-Over the last year, I have experience in teaching advanced seminar courses and mentoring students at all levels. Overall, my research focus is on adapting NLP methods with a focus on cross-lingual and cross-modality transfer.
+Over the last year, I have experience in teaching advanced seminar courses and mentoring students at all levels. Overall, my research focuses on adapting NLP methods with a focus on cross-lingual and cross-modality transfer.
 
-[Link to my CV]([content/authors/farhadzad/CV__FarhadZadeh.pdf])
+[Link to my CV](https://github.com/uzh-dqbm-cmi/lab-website/blob/master/content/authors/farhadzad/CV__FarhadZadeh.pdf)
