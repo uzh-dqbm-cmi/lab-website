@@ -14,7 +14,7 @@ role: Master student
 
 # Organizations/Affiliations
 organizations:
-- name: ETH Zurich, University of Zurich, University of Basel
+- name: ZHAW (Zürcher Hochschule für Angewandte Wissenschaften)
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
