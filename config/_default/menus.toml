@@ -35,9 +35,15 @@
 
 [[main]]
   name = "Teaching"
+  identifier = "teaching"
   url = "#teaching"
   weight = 55
 
+- name: "Biomedical Informatics"
+  parent: teaching
+  url: teaching/Biomedical Informatics/
+
+weight: 10
 [[main]]
   name = "Contact"
   url = "#contact"

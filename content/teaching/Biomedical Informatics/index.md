@@ -1,5 +1,5 @@
 ---
-title: Test course
+title: Biomedical Informatics
 authors:
 - markmcmahon
 tags: 
