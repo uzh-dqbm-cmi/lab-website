@@ -36,7 +36,7 @@
 [[main]]
   name = "Teaching"
   identifier = "teaching"
-  url = "#teaching"
+  pageRef = "#teaching"
   weight = 55
 
 [[main]]
