@@ -37,6 +37,7 @@
   name = "Teaching"
   identifier = "teaching"
   # pageRef = "#teaching"
+  weight = 57
 
 [[main]]
   name = "Biomedical Informatics"
