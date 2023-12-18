@@ -7,7 +7,8 @@ tags:
 - Bioinformatics
 - Teaching
 categories:
-- Bioinformatics
+- Bioinformatics$
+active: False
 ---
 
 The goals for this course are:
