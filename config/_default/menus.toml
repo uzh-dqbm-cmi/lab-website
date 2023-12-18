@@ -42,7 +42,7 @@
 [[main]]
   name = "Biomedical Informatics"
   parent = "teaching"
-  url = "#teaching/biomedical-informatics/"
+  url = "/teaching/biomedical-informatics/"
   weight = 10
 
 [[main]]
