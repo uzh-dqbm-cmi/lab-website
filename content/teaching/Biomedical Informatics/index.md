@@ -8,7 +8,8 @@ tags:
 - Teaching
 categories:
 - Bioinformatics$
-active: False
+active: 
+- False
 ---
 
 The goals for this course are:
