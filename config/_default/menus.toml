@@ -59,6 +59,14 @@
   parent = "teaching"
   url = "/teaching/Machine-Learning-–-An-Interdisciplinary-Introduction/"
 
+[[main]]
+  name = "Quantitative Biomedicine (Block Course)"
+  parent = "teaching"
+  url = "/teaching/Quantitative-Biomedicine-(Block-Course)/"
+[[main]]
+  name = "Studium Digitale (Data Integration Module)"
+  parent = "teaching"
+  url = "/teaching/Studium-Digitale-(Data-Integration-module)/"
 
 [[main]]
   name = "Contact"
