@@ -1,5 +1,5 @@
 ---
-title: Test course
+title: Machine Learning – An Interdisciplinary Introduction
 authors:
 - markmcmahon
 tags: 

@@ -1,5 +1,5 @@
 ---
-title: Test course
+title: Quantitative Biomedicine (Block Course)
 authors:
 - markmcmahon
 tags: 

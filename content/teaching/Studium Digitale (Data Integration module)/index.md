@@ -1,5 +1,5 @@
 ---
-title: Test course
+title: Studium Digitale (Data Integration module)
 authors:
 - markmcmahon
 tags: 

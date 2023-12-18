@@ -1,5 +1,5 @@
 ---
-title: Test course
+title: Introduction to Digital Health
 authors:
 - markmcmahon
 tags: 

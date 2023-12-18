@@ -1,5 +1,5 @@
 ---
-title: Test course
+title: Fokuswoche Digitalisierung
 authors:
 - markmcmahon
 tags: 
