@@ -36,13 +36,28 @@
 [[main]]
   name = "Teaching"
   identifier = "teaching"
-  pageRef = "#teaching"
+  # pageRef = "#teaching"
   weight = 55
 
 [[main]]
   name = "Biomedical Informatics"
   parent = "teaching"
   url = "/teaching/biomedical-informatics/"
+  weight = 10
+[[main]]
+  name = "Fokuswoche Digitalisierung"
+  parent = "teaching"
+  url = "/teaching/Fokuswoche-Digitalisierung/"
+  weight = 10
+[[main]]
+  name = "Introduction to Digital Health"
+  parent = "teaching"
+  url = "/teaching/Introduction-to-Digital-Health/"
+  weight = 10
+[[main]]
+  name = "Machine Learning – An Interdisciplinary Introduction"
+  parent = "teaching"
+  url = "/teaching/Machine-Learning-–-An-Interdisciplinary-Introduction/"
   weight = 10
 
 [[main]]
