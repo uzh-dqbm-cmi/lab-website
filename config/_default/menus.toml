@@ -43,7 +43,7 @@
   name = "Biomedical Informatics"
   parent = "teaching"
   url = "#teaching/Biomedical Informatics"
-  weight: 10
+  weight = 10
 
 [[main]]
   name = "Contact"
