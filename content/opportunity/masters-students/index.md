@@ -4,8 +4,8 @@ authors:
 - michaelkrauthammer
 - zsoltbalazs
 tags: 
-- Data Science
-#- Bioinformatics
+#- Data Science
+- Bioinformatics
 - Opportunities
 categories:
 #- Data Science
