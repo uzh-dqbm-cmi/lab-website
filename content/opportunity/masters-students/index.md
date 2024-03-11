@@ -8,8 +8,8 @@ tags:
 #- Bioinformatics
 - Opportunities
 categories:
-- Data Science
-#- Bioinformatics
+#- Data Science
+- Bioinformatics
 
 # list the projects you want masters students for here, if there are pages for them
 # projects: []
