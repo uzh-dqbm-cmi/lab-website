@@ -5,10 +5,12 @@ authors:
 - Ahmed Allam
 tags: 
 - Machine learning
+- Data Science
 
 - Opportunities
 categories:
 - Machine learning
+- Data Science
 
 # list the projects you want masters students for here, if there are pages for them
 # projects: []
@@ -24,9 +26,9 @@ High and rising healthcare costs are a significant challenge in many developed c
 
 In this project, you will explore the potential of machine learning models to identify and develop (characteristics of) clinical pathways with low treatment costs and high quality of care. Depending on the background and experience of the student, we offer an applied as well as theoretical projects (and/or master thesis projects) focused on developing machine learning approaches to tackle the problem of:
 
-•	identifying cohorts of patients with similar characteristics and similar clinical pathways
-•	identifying key characteristics (and underlying treatment decisions) of low-cost clinical pathways
-•	developing new (out-of-sample) clinical pathways that lower costs at high quality medical service
+- identifying cohorts of patients with similar characteristics and similar clinical pathways
+- identifying key characteristics (and underlying treatment decisions) of low-cost clinical pathways
+- developing new (out-of-sample) clinical pathways that lower costs at high quality medical service
 
 We are looking for master students who have taken courses in machine learning, data science and/or statistics.  Additionally, students should have a good command of Python programming language (and its scientific stack, such as Scipy, Numpy, Pandas etc.). Preferably, students have also worked with neural network/deep learning frameworks such as Pytorch. 
 
