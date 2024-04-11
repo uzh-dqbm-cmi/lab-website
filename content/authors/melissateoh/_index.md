@@ -46,7 +46,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- alumni
+- Alumni
 ---
 
 Melissa is currently pursuing her Master's degree in Applied Computational Life Sciences. Her Master's Thesis project is on the deconvolution of nucleosome positioning signals from cell-free DNA sequencing data. In addition to her current studies, she enjoys studying complex and dynamic systems that are human fabricated and naturally occurring.
