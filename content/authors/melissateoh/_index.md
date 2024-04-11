@@ -21,10 +21,7 @@ organizations:
 # bio: Bioinformatics and Machine Learning.
 
 interests:
-- Translational Bioinformatics
-- Immuno-oncology
-- Machine Learning
-- Data Science
+
 
 education:
 

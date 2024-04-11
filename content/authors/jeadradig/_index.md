@@ -21,10 +21,6 @@ organizations:
 # bio: Bioinformatics and Machine Learning.
 
 interests:
-- Machine Learning
-- Bioinformatics
-- Medical Physics
-- Biophysics
 
 education:
   courses:
