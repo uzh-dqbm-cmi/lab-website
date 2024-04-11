@@ -21,10 +21,16 @@ organizations:
 # bio: Bioinformatics and Machine Learning.
 
 interests:
+- Bioinformatics
+- Cancer Genomics
  
 
 education:
   courses:
+  - course: BSc in Biomedicine
+    institution: University of Zurich
+    year: 2023
+
 
 
 # Social/Academic Networking
