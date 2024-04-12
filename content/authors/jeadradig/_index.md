@@ -21,6 +21,10 @@ organizations:
 # bio: Bioinformatics and Machine Learning.
 
 interests:
+- Machine Learning
+- Bioinformatics
+- Medical Physics
+- Biophysics
 
 education:
   courses:
@@ -49,7 +53,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Alumni
+- Research Assistants
 ---
 
 After studies in mathematics and physics, I am specialising in medical technologies. I am particularly interested in tackling problems in the realm of genomics and biophysics leveraging computer science. I am currently working on cfDNA sequencing. We use deep learning techniques to enable diagnosis of cancer from the analysis of cfDNA. Outside of work, I am fond of sport. I love to run, bike and swim. If you think you could beat, do not hesitate to contact me!  
