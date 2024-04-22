@@ -24,6 +24,8 @@ interests:
 - Natural Language Processing
 - Computational Neuroscience
 
+education:
+  courses:
 
 
 # Social/Academic Networking
