@@ -25,8 +25,7 @@ interests:
 - Computational Neuroscience
 
 education:
-  courses:
-
+#   courses:
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
