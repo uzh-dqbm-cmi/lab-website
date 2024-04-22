@@ -27,7 +27,7 @@ interests:
 education:
   courses:
   - course: MSc. Applied Mathematics, Machine Learning
-  institution: ETH Zurich
+  	institution: ETH Zurich
   - course: BSc. Mathematics
     institution: ETH Zurich
 
