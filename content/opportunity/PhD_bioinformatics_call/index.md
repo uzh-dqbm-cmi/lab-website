@@ -18,7 +18,7 @@ categories:
 
 We are looking for a PhD candidate to expand our multi-national research team of bioinformaticians and data scientists at the 
 University of Zurich working on cutting-edge translational research problems. The main project that the candidate will be 
-responsible for (and which provides funding for the position) concerns the multimodal data analysis in colorectal cancer (ADD modalities).The candidate 
+responsible for (and which provides funding for the position) concerns the multimodal data analysis in colorectal cancer (clinical records and multiomics).The candidate 
 is expected to contribute to other on-going projects with regard to machine learning in genomics and bioinformatics.
 
 ### Required skills:
