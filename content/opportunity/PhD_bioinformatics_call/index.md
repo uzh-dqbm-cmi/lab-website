@@ -21,14 +21,14 @@ University of Zurich working on cutting-edge translational research problems. Th
 responsible for (and which provides funding for the position) concerns the multimodal data analysis in colorectal cancer (ADD modalities).The candidate 
 is expected to contribute to other on-going projects with regard to machine learning in genomics and bioinformatics.
 
-###Required skills:
+### Required skills:
 - Expert knowledge in at least one programming language
 - Basic knowledge of tumor genomics
 - Basic knowledge in machine learning and openness to learn more
 - Fluency in English
 - Experience in working with large datasets on high-performance computing clusters
 
-###Preferred skills:
+### Preferred skills:
 - Experience with NGS analysis and with bioinformatic tools
 - Proficient in Python and the scientific computing stack (SciPy, Numpy, Scikit- learn, pandas)
 - Familiarity with methods integrating multiple genomic modalities (e.g. epigenetics and transcriptomics)
