@@ -41,12 +41,16 @@ Your responsibilities in this role:
 Technical skills:
 <ul>
     <li>5+ years of overall experience in software development</li>
-    <li>experience with REST API development in Python, Express Js etc. is a plus</li>
+    <li>experience with REST API development in Python, other programming languages and frameworks e.g. Java/Scala, Go, React etc. is a plus</li>
     <li>experience in Unix/Shell scripting is a plus</li>
-    <li>diverse experience utilizing Java tools in business, web and client-server environments including Java platform, J2EE, JDBC technologies</li>
+    <li>experience with data engineering in multiple formats (RDF, JSON, CSV)</li>
     <li>experience or exposure to database design and implementation</li>
     <li>knowledge of multi-tier architecture, rational/visio modeling</li>
-    <li>familiar with cloud technologies like AWS, Google Cloud</li>
+    <li>familiar with cloud technologies like AWS S3/MinIO, MS Azure Cloud, HPC (High Performance Computing) SLURM workload manager is a plus</li>
+    <li>experience working with semantic web (RDF, SPARQL, Virtuoso) is a plus</li>
+    <li>experience working with relational databases (SQL, PostgreSQL) is a plus</li>
+    <li>experience working with workflow managers (Apache Airflow) is a plus</li>
+    <li>experience with different healthcare data models (SPHN, FHIR, etc.) is a plus</li>
 </ul>
 
 
