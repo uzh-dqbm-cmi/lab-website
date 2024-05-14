@@ -57,7 +57,7 @@ Technical skills:
 Preferred experience in:
 <ul>
     <li>data intensive projects (projects with a lot of data engineering, data integration)</li>
-    <li>devops (setting up CI/CD)</li>
+    <li>CI/CD development experience</li>
     <li>working at hospitals or within healthcare</li>
     <li>working with privacy sensitive data</li>
 </ul>
