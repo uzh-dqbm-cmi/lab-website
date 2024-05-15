@@ -83,7 +83,7 @@ Employment start date to be mutually agreed. The position is limited to the proj
 
 Use the Apply Now button at the bottom of the below website: 
 
-https://jobs.uzh.ch/offene-stellen/software-development-engineer/7d5deb02-f264-48bd-9293-bb21ca936051 
+https://jobs.uzh.ch/offene-stellen/data-engineer/93929a65-8731-4d56-8cd5-471eda1c4a19
 
  Claudia Stenger-Gysling (claudia.stenger-gysling@uzh.ch) 
 
