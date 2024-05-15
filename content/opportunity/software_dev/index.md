@@ -1,5 +1,5 @@
 ---
-title: Software development engineer 80 - 100 % 
+title: Data Software Engineer 80 - 100 % 
 authors:
 - michaelkrauthammer
 tags: 
@@ -41,19 +41,23 @@ Your responsibilities in this role:
 Technical skills:
 <ul>
     <li>5+ years of overall experience in software development</li>
-    <li>experience with REST API development in Python, Express Js etc. is a plus</li>
+    <li>experience with REST API development in Python, other programming languages and frameworks e.g. Java/Scala, Go, React etc. is a plus</li>
     <li>experience in Unix/Shell scripting is a plus</li>
-    <li>diverse experience utilizing Java tools in business, web and client-server environments including Java platform, J2EE, JDBC technologies</li>
+    <li>experience with data engineering in multiple formats (RDF, JSON, CSV)</li>
     <li>experience or exposure to database design and implementation</li>
     <li>knowledge of multi-tier architecture, rational/visio modeling</li>
-    <li>familiar with cloud technologies like AWS, Google Cloud</li>
+    <li>familiar with cloud technologies like AWS S3/MinIO, MS Azure Cloud, HPC (High Performance Computing) SLURM workload manager is a plus</li>
+    <li>experience working with semantic web (RDF, SPARQL, Virtuoso) is a plus</li>
+    <li>experience working with relational databases (SQL, PostgreSQL) is a plus</li>
+    <li>experience working with workflow managers (Apache Airflow) is a plus</li>
+    <li>experience with different healthcare data models (SPHN, FHIR, etc.) is a plus</li>
 </ul>
 
 
 Preferred experience in:
 <ul>
     <li>data intensive projects (projects with a lot of data engineering, data integration)</li>
-    <li>devops (setting up CI/CD)</li>
+    <li>CI/CD development experience</li>
     <li>working at hospitals or within healthcare</li>
     <li>working with privacy sensitive data</li>
 </ul>
@@ -73,13 +77,13 @@ We offer you freedom for ideas and the opportunity to use your experience and ex
 Zurich
 
 ### Start of employment
-Employment start date to be mutually agreed. The position is limited to the project length of two years with the possibility of extension. 
+Employment start date to be mutually agreed.
 
 ### Further information
 
 Use the Apply Now button at the bottom of the below website: 
 
-https://jobs.uzh.ch/offene-stellen/software-development-engineer/7d5deb02-f264-48bd-9293-bb21ca936051 
+https://jobs.uzh.ch/offene-stellen/data-engineer/93929a65-8731-4d56-8cd5-471eda1c4a19
 
  Claudia Stenger-Gysling (claudia.stenger-gysling@uzh.ch) 
 
