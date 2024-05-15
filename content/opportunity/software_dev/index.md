@@ -77,7 +77,7 @@ We offer you freedom for ideas and the opportunity to use your experience and ex
 Zurich
 
 ### Start of employment
-Employment start date to be mutually agreed. The position is limited to the project length of two years with the possibility of extension. 
+Employment start date to be mutually agreed.
 
 ### Further information
 
