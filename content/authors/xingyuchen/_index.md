@@ -21,9 +21,6 @@ organizations:
 bio: Data science and machine learning.
 
 interests:
-- Contrastive Learning
-- Time-series analysis
-- Natural Language Processing
 
 
 education:
@@ -53,7 +50,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 
 ---
 
