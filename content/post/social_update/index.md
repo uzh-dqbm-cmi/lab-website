@@ -29,15 +29,15 @@ In the middle of April we had a joined 'welcome and goodbye' dinner for master s
 {{< figure src="masters_dinner.jpg" title="Hello Goodbye" >}}
 
 
-Among all this we also unfortunately had to say ‘goodbye’ to one of our members, Amina, who left the lab at the end of June. We said our goodbyes in a fitting way, with a dinner at Die Waid restaurant with a lovely view over the city one evening, followed by a hike and brunch atop Uetliberg the following weekend. 
+Among all this we also unfortunately had to say ‘goodbye’ to one of our members, Amina, who left the lab at the end of June. We said our goodbyes in a fitting way, with a dinner at Die Waid restaurant with a lovely view over the city one evening, followed by a hike and picnic atop Uetliberg the following weekend. 
 
 
 
 {{< figure src="waid.jpg" title="Amina's farewell dinner at Die Waid." >}}
 
-{{< figure src="featured.jpeg" title="A photo on Uetliberg before we found a spot to have our picnic brunch" >}}
+{{< figure src="featured.jpeg" title="A photo on Uetliberg before we found a spot to have our picnic-brunch" >}}
 
-{{< figure src="picnic.jpg" title="Our aforementioned picnic brunch" >}}
+{{< figure src="picnic.jpg" title="Our aforementioned picnic-brunch" >}}
 
 Looking ahead, we have tried for weeks (or maybe even months) to plan a lab hike or weekend activity, but the weather so far has made this difficult. So we hope this will be doable sometime soon, and until then we will continue to meet up for random drinks after work to pass the time!
 
