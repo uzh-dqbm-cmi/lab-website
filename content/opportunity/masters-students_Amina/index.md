@@ -10,6 +10,7 @@ tags:
 categories:
 - Machine learning
 #- Bioinformatics
+published: False
 
 # list the projects you want masters students for here, if there are pages for them
 # projects: []
