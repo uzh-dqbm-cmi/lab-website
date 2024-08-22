@@ -8,7 +8,7 @@ tags:
 #- Bioinformatics
 - Opportunities
 categories:
-#- Machine learning
+- Machine learning
 #- Bioinformatics
 
 # list the projects you want masters students for here, if there are pages for them
