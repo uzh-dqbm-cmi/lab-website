@@ -32,5 +32,5 @@ You can apply by sending a CV to this <a href="#" onclick="u='maolaaisha.aminanm
 
 For CBB master students at ETH, please check [this form](https://ethz.ch/content/dam/ethz/special-interest/study-programme-websites/master-cbb-dam/documents/2023_forms/2023_MSc%20CBB_Registration_Master-Thesis-UBas_UZH.pdf).
 
-For other students at ETH: you need be enrolled at UZH as a mobility student, see [here](https://www.uzh.ch/cmsssl/en/studies/application/chmobilityin.html). If you have any questions regarding ETH regulation, please contact the Student Exchange Office: Dr. Francesca Broggi-Wüthrich, francesca.broggi@akd.ethz.ch, Tel +41 44 632 43 46.
+For other students at ETH: you need be enrolled at UZH as a mobility student, see [here](https://www.uzh.ch/cmsssl/en/studies/application/chmobilityin.html). If you have any questions regarding ETH regulation, please contact the Student Exchange Office: Dr. Francesca Broggi-Wüthrich, francesca.broggi@akd.ethz.ch, Tel +41 44 632 43 46. 
 
