@@ -23,11 +23,10 @@ authors:
 publication_types: ["2"]
 abstract: "This study demonstrates that surplus human tumor tissues slow-frozen immediately after resection can be used effectively for a variety of research applications, including 2D, 3D, and ex vivo cultures, as well as single-cell RNA sequencing (scRNAseq). The study compares these methods to fresh tissues, showing similar results and validating the use of slow-frozen tissues for translational research and biobanking."
 featured: false
-projects: [biobanking, cryopreservation]
-summary: "Slow-frozen human tumor tissues can be effectively used for 2D, 3D cultures, and scRNAseq, offering a viable option for translational research."
+summary: "Biobanking of surplus human healthy and disease-derived tissues is essential for diagnostics and translational research. An enormous amount of formalin-fixed and paraffin-embedded (FFPE), Tissue-Tek OCT embedded or snap-frozen tissues are preserved in many biobanks worldwide and have been the basis of translational studies. However, their usage is limited to assays that do not require viable cells. The access to intact and viable human material is a prerequisite for translational validation of basic research, for novel therapeutic target discovery, and functional testing. Here we show that surplus tissues from multiple solid human cancers directly slow-frozen after resection can subsequently be used for different types of methods including the establishment of 2D, 3D, and ex vivo cultures as well as single-cell RNA sequencing with similar results when compared to freshly analyzed material.
+"
 tags:
 - Biobanking
-- Cryopreservation
 - Translational Research
 publication: "*Communications Biology*"
 doi: "https://doi.org/10.1038/s42003-022-04025-0"

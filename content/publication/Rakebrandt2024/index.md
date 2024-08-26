@@ -17,9 +17,8 @@ authors:
 - Anneli Peters
 - Nicole Joller
 publication_types: ["2"]
-abstract: "This study identifies a subset of memory T helper 1 (Th1) cells that influence subsequent immune responses regardless of specificity. These innate acting memory Th1 cells are recruited to inflammation sites, rapidly producing cytokines that modulate disease susceptibility. While they offer protection during infections, they can also accelerate autoimmune diseases such as multiple sclerosis."
+abstract: "Through immune memory, infections have a lasting effect on the host. While memory cells enable accelerated and enhanced responses upon rechallenge with the same pathogen, their impact on susceptibility to unrelated diseases is unclear. We identify a subset of memory T helper 1 (Th1) cells termed innate acting memory T (TIA) cells that originate from a viral infection and produce IFN-γ with innate kinetics upon heterologous challenge in vivo. Activation of memory TIA cells is induced in response to IL-12 in combination with IL-18 or IL-33 but is TCR independent. Rapid IFN-γ production by memory TIA cells is protective in subsequent heterologous challenge with the bacterial pathogen Legionella pneumophila. In contrast, antigen-independent reactivation of CD4+ memory TIA cells accelerates disease onset in an autoimmune model of multiple sclerosis. Our findings demonstrate that memory Th1 cells can acquire additional TCR-independent functionality to mount rapid, innate-like responses that modulate susceptibility to heterologous challenges."
 featured: false
-projects: [memory-th1-cells]
 summary: "We identify memory Th1 cells that act as innate cells, impacting the immune response to unrelated diseases and potentially accelerating autoimmune conditions."
 tags:
 - Immunology

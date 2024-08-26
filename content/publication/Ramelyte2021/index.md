@@ -15,10 +15,8 @@ authors:
 - Mitchell Paul Levesque
 - Reinhard Dummer
 publication_types: ["2"]
-abstract: "This study explores the impact of T-VEC, a genetically modified herpes simplex virus, on pCBCL using single-cell RNA sequencing. Findings include rapid tumor cell eradication, immune microenvironment remodeling, and increased NK cells, monocytes, and cytotoxic T-cells."
+abstract: "Talimogene laherparepvec (T-VEC) is a genetically modified herpes simplex 1 virus (HSV-1) approved for cancer therapy. We investigate its effect on the clinical, histological, single-cell transcriptomic, and immune repertoire level using repeated fine-needle aspirates (FNAs) of injected and noninjected lesions in primary cutaneous B cell lymphoma (pCBCL). Thirteen patients received intralesional T-VEC, 11 of which demonstrate tumor response in the injected lesions. Using single-cell sequencing of the FNAs, we identify the malignant population and separate three pCBCL subtypes. Twenty-four hours after the injection, we detect HSV-1T-VEC transcripts in malignant and nonmalignant cells of the injected lesion but not of the noninjected lesion. Oncolytic virotherapy results in a rapid eradication of malignant cells. It also leads to interferon pathway activation and early influx of natural killer cells, monocytes, and dendritic cells. These events are followed by enrichment in cytotoxic T cells and a decrease of regulatory T cells in injected and noninjected lesions."
 featured: false
-projects: [oncolytic-virotherapy, single-cell-sequencing]
-summary: "The study demonstrates the effects of T-VEC in pCBCL, highlighting significant immune changes and tumor microenvironment remodeling."
 tags:
 - Oncolytic Virotherapy
 - Immune Response

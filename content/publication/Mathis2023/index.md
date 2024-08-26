@@ -13,9 +13,8 @@ authors:
 - Michael Krauthammer
 - Gerald Schwank
 publication_types: ["2"]
-abstract: "This study presents PRIDICT, a machine learning model developed to predict prime editing efficiency by analyzing a large dataset of pegRNAs. The model demonstrates high accuracy in predicting editing outcomes across diverse genetic edits and is validated in various cell lines and in vivo."
+abstract: "Prime editing is a versatile genome editing tool but requires experimental optimization of the prime editing guide RNA (pegRNA) to achieve high editing efficiency. Here we conducted a high-throughput screen to analyze prime editing outcomes of 92,423 pegRNAs on a highly diverse set of 13,349 human pathogenic mutations that include base substitutions, insertions and deletions. Based on this dataset, we identified sequence context features that influence prime editing and trained PRIDICT (prime editing guide prediction), an attention-based bidirectional recurrent neural network. PRIDICT reliably predicts editing rates for all small-sized genetic changes with a Spearman’s R of 0.85 and 0.78 for intended and unintended edits, respectively. We validated PRIDICT on endogenous editing sites as well as an external dataset and showed that pegRNAs with high (>70) versus low (<70) PRIDICT scores showed substantially increased prime editing efficiencies in different cell types in vitro (12-fold) and in hepatocytes in vivo (tenfold), highlighting the value of PRIDICT for basic and for translational research applications."
 featured: false
-projects: [prime-editing, machine-learning]
 summary: "PRIDICT is a machine learning model that accurately predicts prime editing efficiency, validated across diverse genetic edits and various experimental conditions."
 tags:
 - Genome Editing

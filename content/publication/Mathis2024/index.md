@@ -19,9 +19,8 @@ authors:
 - Michael Krauthammer
 - Gerald Schwank
 publication_types: ["2"]
-abstract: "This study introduces machine learning models that predict prime editing efficiency across various chromatin contexts. PRIDICT2.0 evaluates pegRNA performance for a wide range of edits, while ePRIDICT assesses the influence of chromatin environments on editing rates. These tools are designed to optimize prime editing strategies across different cellular conditions, enhancing genome editing precision."
+abstract: "The success of prime editing depends on the prime editing guide RNA (pegRNA) design and target locus. Here, we developed machine learning models that reliably predict prime editing efficiency. PRIDICT2.0 assesses the performance of pegRNAs for all edit types up to 15 bp in length in mismatch repair-deficient and mismatch repair-proficient cell lines and in vivo in primary cells. With ePRIDICT, we further developed a model that quantifies how local chromatin environments impact prime editing rates."
 featured: true
-projects: [prime-editing-ml]
 summary: "We developed machine learning models, PRIDICT2.0 and ePRIDICT, to predict prime editing efficiency, offering a robust tool for optimizing genome editing strategies across diverse chromatin contexts."
 tags:
 - Bioinformatics

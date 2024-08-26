@@ -35,9 +35,8 @@ authors:
 - Reinhard Dummer
 - Mitchell P. Levesque
 publication_types: ["2"]
-abstract: "This study identifies a metabolic vulnerability in NRAS-mutated melanoma cells that can be targeted using ROS inducers in combination with MEK inhibitors. Drug-resistant melanoma cells with elevated ROS levels are shown to be highly sensitive to this treatment strategy, offering a potential approach to overcome resistance."
+abstract: "Clinical management of melanomas with NRAS mutations is challenging. Targeting MAPK signaling is only beneficial to a small subset of patients due to resistance that arises through genetic, transcriptional, and metabolic adaptation. Identification of targetable vulnerabilities in NRAS-mutated melanoma could help improve patient treatment. Here, we used multiomics analyses to reveal that NRAS-mutated melanoma cells adopt a mesenchymal phenotype with a quiescent metabolic program to resist cellular stress induced by MEK inhibition. The metabolic alterations elevated baseline reactive oxygen species (ROS) levels, leading these cells to become highly sensitive to ROS induction. In vivo xenograft experiments and single-cell RNA sequencing demonstrated that intratumor heterogeneity necessitates the combination of a ROS inducer and a MEK inhibitor to inhibit both tumor growth and metastasis. Ex vivo pharmacoscopy of 62 human metastatic melanomas confirmed that MEK inhibitor–resistant tumors significantly benefited from the combination therapy. Finally, oxidative stress response and translational suppression corresponded with ROS-inducer sensitivity in 486 cancer cell lines, independent of cancer type. These findings link transcriptional plasticity to a metabolic phenotype that can be inhibited by ROS inducers in melanoma and other cancers."
 featured: false
-projects: [nrased-melanoma, ros-induction]
 summary: "This study explores a new therapeutic approach for NRAS-mutated melanomas, targeting drug-resistant cells through ROS induction and metabolic vulnerabilities."
 tags:
 - Cancer Research
