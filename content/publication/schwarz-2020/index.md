@@ -15,7 +15,7 @@ Methods: We propose a Siamese self-attention multi-modal neural network for DDI 
 Results: Our proposed DDI prediction model provides multiple advantages: 1) It is trained end-to-end, overcoming limitations of models composed of multiple separate steps, 2) it offers model explainability via an Attention mechanism for identifying salient input features and 3) it achieves similar or better prediction performance (AUPR scores ranging from 0.77 to 0.92) compared to state-of-the-art DDI models when tested on various benchmark datasets. Novel DDI predictions are further validated using independent data resources.
 
 Conclusions: We find that a Siamese multi-modal neural network is able to accurately predict DDIs and that an Attention mechanism, typically used in the Natural Language Processing domain, can be beneficially applied to aid in DDI model explainability. "
-featured: True
+featured: false
 publication: "*BMC Bioinformatics*"
 url_pdf: "https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-021-04325-y.pdf"
 
