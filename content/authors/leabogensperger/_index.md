@@ -1,10 +1,10 @@
 ---
 # Display name
-name: Amina Mollaysa
+name: Lea Bogensperger
 
 # Username (this should match the folder name)
 authors:
-- amina
+- leabogensperger
 
 # Is this the primary user of the site?
 superuser: false
@@ -21,16 +21,17 @@ organizations:
 bio: 
 
 interests:
-# - Machine Learning
+- Machine Learning
 
 education:
   courses:
-  - course: PhD in Machine learning
-    institution: University of Geneva
-    year: 2021
-  - course: MSc in applied mathematics (Mathmods)
-    institution: University of L'Aqquila, University of Hamburg, University of Nice Sophia Antipolis
-    year: 2014
+  - course: PhD in Computer Science
+    institution: TU Graz, Austria
+    year: 2024
+  - course: Master in Biomedical Engineering 
+    institution: TU Graz, Austria
+    year: 2020
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -38,7 +39,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "maolaaisha.aminanmu"
+  link: "lea.bogensperger"
 #- icon: github
 #  icon_pack: fab
 #  link: https://github.com/lokijuhy
@@ -54,7 +55,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Alumni
+- Senior Researchers and Postdocs
 ---
 
-I did mathematics and applied mathematics for my bachelor and master, then I did my PhD in fundamental machine learning research at the University of Geneva. My main focus of research was incorporating domain knowledge into deep learning models in the form of regularizer to improve predictive model generalization  performance and developing generative models to enable conditional  generation of discrete structured data  such as molecules. Currently I am interested in applying machine learning models in healthcare domain such as genetic engineering and drug design. 
+I studied Biomedical Engineering at Graz University of Technology. Subsequently, I completed my PhD studies in Computer Science, where I focused on variational methods in medical imaging using machine learning. Lately, I worked on generative models, including diffusion models, for medical image segmentation. My research interests lie at the intersection of deep learning and machine learning with applications in the medical domain.
