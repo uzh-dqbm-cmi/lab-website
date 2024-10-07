@@ -1,16 +1,16 @@
 ---
 # Display name
-name: Manuel Schürch
+name: Dhivyabharathi Ramasamy
 
 # Username (this should match the folder name)
 authors:
-- manuelschuerch
+- dhivya
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Postdoc
+role: Data Engineer
 
 # Organizations/Affiliations
 organizations:
@@ -21,21 +21,10 @@ organizations:
 bio: 
 
 interests:
-- Machine Learning
-- Gaussian Processes
-- Time Series
+
 
 education:
-  courses:
-  - course: Bachelor in Computer Science
-    institution: ETH Zürich
-    year: 2014
-  - course: Master in Statistics
-    institution: ETH Zürich
-    year: 2017
-  - course: PhD in Artificial Intelligence
-    institution: USI/IDSIA Lugano
-    year: 2022
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -62,4 +51,7 @@ user_groups:
 - Affiliated Researchers
 ---
 
-I studied Computer Science and Statistics with focus on Machine Learning and Computational Statistics. Afterwards, I’ve completed my PhD in Artificial Intelligence in the area of probabilistic Machine Learning models. In particular, I’ve work with scalable Gaussian Processes. My current research focus is probabilistic Time Series modelling for medical data. 
+I am passionate about all things data. I completed my PhD in Computer Science in Zurich, specializing in data science, with a focus on enhancing AI-assisted data science development through insights from software engineering and human-computer interaction (HCI).
+In my professional career, I have worked as a software engineer and have several years of experience in full-stack software development and data science. I also have extensive expertise in developing, evaluating, and conducting empirical studies on software systems, particularly in the integration of AI within Human-AI collaboration systems. Additionally, I have teaching experience and have held a leadership role in Women in Data Science, Zurich.
+
+In my free time, I enjoy practicing yoga and painting.

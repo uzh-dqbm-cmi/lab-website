@@ -1,10 +1,10 @@
 ---
 # Display name
-name: Amina Mollaysa
+name: Bowen Fan
 
 # Username (this should match the folder name)
 authors:
-- amina
+- bowenfan
 
 # Is this the primary user of the site?
 superuser: false
@@ -21,16 +21,22 @@ organizations:
 bio: 
 
 interests:
-# - Machine Learning
+- clinical machine learning
+- manifold learning
+- graph learning
 
 education:
   courses:
-  - course: PhD in Machine learning
-    institution: University of Geneva
-    year: 2021
-  - course: MSc in applied mathematics (Mathmods)
-    institution: University of L'Aqquila, University of Hamburg, University of Nice Sophia Antipolis
-    year: 2014
+  - course: PhD in Machine Learning
+    institution: ETH Zürich
+    year: 2024
+  - course: Master in Biomedical Engineering 
+    institution: University of Tokyo
+    year: 2019
+  - course: Bachelor in Engineering Physics
+    institution: Tsinghua University
+    year: 2017
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -38,7 +44,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "maolaaisha.aminanmu"
+  link: "bowen.fan"
 #- icon: github
 #  icon_pack: fab
 #  link: https://github.com/lokijuhy
@@ -54,7 +60,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Alumni
+- Senior Researchers and Postdocs
 ---
 
-I did mathematics and applied mathematics for my bachelor and master, then I did my PhD in fundamental machine learning research at the University of Geneva. My main focus of research was incorporating domain knowledge into deep learning models in the form of regularizer to improve predictive model generalization  performance and developing generative models to enable conditional  generation of discrete structured data  such as molecules. Currently I am interested in applying machine learning models in healthcare domain such as genetic engineering and drug design. 
+I am a postdoctoral researcher at the University of Zurich and the University Hospital of Zurich, with a strong passion for applying machine learning techniques to healthcare data in order to enhance patient outcomes. Outside of research, I enjoy staying active through various sports, including CrossFit, basketball, and swimming.
