@@ -1,13 +1,13 @@
 ---
 # Display name
-name: Beatrice Zanchi
+name: Eline Meijer
 
 # Username (this should match the folder name)
 authors:
-- beatricezanchi
+- elinemeijer
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Affiliated PhD Student
@@ -18,33 +18,23 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Biomedical Engineer
+bio: 
 
 interests:
-- Electrical heart disease
-- Biomedical signal processing
-- Machine Learning
-- Time Series
+- Clinical machine learning
+- Natural Language processing
+- Bioinformatics
 
 education:
   courses:
-  - course: Master in Biomedical Engineering
-    institution: Politecnico di Torino
-    year: 2021
-  - course: Bachelor in Healthcare Technology Engineering
-    institution: Università degli studi di Bergamo
-    year: 2019
+  - course: MSc Human machine interaction
+  - course: BSc Human movement sciences
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and your uzh email up to before the '@'.
-social:
-- icon: envelope
-  icon_pack: fas
-  link: "beatrice.zanchi"
-- icon: linkedin
-  icon_pack: fab
-  link: "https://www.linkedin.com/in/beatrice-zanchi/"
+
+
 
 
 # Link to a PDF of your resume/CV from the About widget.
@@ -63,6 +53,5 @@ user_groups:
 
 ---
   
-I am a Biomedical Engineer, and I obtained my M.Sc degree at Politecnico of Torino in 2021. During my master study, I focused on Machine Learning methods to diagnose Inherited Arrhythmogenic Diseases. Currently, I keep working on electrical heart disease recognition through Artificial Intelligence tools to support healthcare specialists. In my spare time, I enjoy reading and being outside running. 
-
+I am a PhD student specializing in the clinical application of machine learning in microbiology. My current research focuses on improving bacterial identification in matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectrometry using machine learning. I began my academic journey in human movement sciences but discovered a passion for data science along the way. Before starting my PhD, I worked as a data scientist at the University Medical Centre Groningen (UMCG), contributing to various research projects.
 
