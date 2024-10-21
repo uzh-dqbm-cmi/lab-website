@@ -48,7 +48,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Affiliated Researchers
+- Research Software Engineers
 ---
 
 I am passionate about all things data. I completed my PhD in Computer Science in Zurich, specializing in data science, with a focus on enhancing AI-assisted data science development through insights from software engineering and human-computer interaction (HCI).
