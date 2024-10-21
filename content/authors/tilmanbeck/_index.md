@@ -29,10 +29,13 @@ education:
   courses:
   - course: NLP Researcher
     institution: Technical University of Darmstadt
+    year: 
   - course: MSc Computer Science
     institution: University of Kiel
+    year:
   - course: BSc Computer Science
     institution: University Erlangen-Nuremberg
+    year:
 
 
 # Social/Academic Networking
