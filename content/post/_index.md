@@ -12,3 +12,8 @@ header:
   caption: ""
   image: ""
 ---
+
+{{< raw >}}
+<div class='sk-ww-linkedin-page-post' data-embed-id='25477913'></div>
+<script src='https://widgets.sociablekit.com/linkedin-page-posts/widget.js' async defer></script>
+{{< /raw >}}
