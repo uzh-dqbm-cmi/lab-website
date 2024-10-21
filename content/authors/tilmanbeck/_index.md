@@ -13,8 +13,7 @@ superuser: false
 role: Affiliated Researcher
 
 # Organizations/Affiliations
-organizations:
-- 
+
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
