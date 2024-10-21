@@ -49,6 +49,19 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   mediaType = "application/manifest+json"
   rel = "manifest"
 
+[[params.widgets]]
+  widget = "custom"  # Use a custom widget for HTML
+  headless = false  # Ensure this section appears on the homepage
+  weight = 30  # Control the order of this section (lower numbers appear higher on the page)
+  title = "Test Section"  # Title for the section (optional)
+
+[params.widgets.custom]
+  content = """
+  <h1>Hello, World!</h1>
+  <p>This is a test section to check HTML rendering on the website.</p>
+  """
+
+
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
