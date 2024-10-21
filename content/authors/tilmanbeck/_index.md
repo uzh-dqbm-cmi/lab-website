@@ -50,7 +50,7 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/tilman-beck-03066311a
-- icon: twitter
+- icon: x
   icon_pack: fab
   link: https://x.com/devnull90
 
