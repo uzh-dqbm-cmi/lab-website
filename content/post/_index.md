@@ -14,6 +14,9 @@ header:
 ---
 
 {{< rawhtml >}}
-<div class='sk-ww-linkedin-page-post' data-embed-id='25477913'></div>
-<script src='https://widgets.sociablekit.com/linkedin-page-posts/widget.js' async defer></script>
+<div>
+  <h1>Hello, World!</h1>
+  <p>This is a paragraph to test HTML rendering in Hugo.</p>
+
+</div>
 {{< /rawhtml >}}
