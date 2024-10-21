@@ -4,7 +4,7 @@ widget = "custom"  # Do not modify this line!
 active = true  # Activate this widget
 weight = 30  # Control the order that this section appears.
 
-title = "LinkedIn Feed"  # Set the title of the section (optional)
+title = "Test Section"
 
 [design]
   # Choose how many columns the section has. Valid values: 1-12.
@@ -12,9 +12,8 @@ title = "LinkedIn Feed"  # Set the title of the section (optional)
 
 [design.background]
   # Apply a background color. 
-  color = "white"  # Optional: You can set a background color if needed.
+  color = "white"
 
 +++
 
-<div class='sk-ww-linkedin-page-post' data-embed-id='25477913'></div>
-<script src='https://widgets.sociablekit.com/linkedin-page-posts/widget.js' async defer></script>
+<iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/25477913' frameborder='0' width='100%' height='1000'></iframe>
