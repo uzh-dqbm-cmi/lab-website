@@ -16,4 +16,4 @@ title = "LinkedIn Feed"
 
 +++
 
-<iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/25477913' frameborder='0' width='100%' height='1000'></iframe>
+<iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/25477913' frameborder='0' width='100%' height='505'></iframe>
