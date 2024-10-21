@@ -13,10 +13,3 @@ header:
   image: ""
 ---
 
-{{< rawhtml >}}
-<div>
-  <h1>Hello, World!</h1>
-  <p>This is a paragraph to test HTML rendering in Hugo.</p>
-
-</div>
-{{< /rawhtml >}}
