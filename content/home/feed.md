@@ -2,9 +2,9 @@
 # Custom widget.
 widget = "custom"  # Do not modify this line!
 active = true  # Activate this widget
-weight = 30  # Control the order that this section appears.
+weight = 63  # Control the order that this section appears.
 
-title = "Test Section"
+title = "LinkedIn Feed"
 
 [design]
   # Choose how many columns the section has. Valid values: 1-12.
@@ -16,4 +16,4 @@ title = "Test Section"
 
 +++
 
-<iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/25477913' frameborder='0' width='100%' height='1000'></iframe>
+<iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/25477913' frameborder='0' width='100%' height='100'></iframe>
