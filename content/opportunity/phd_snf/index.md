@@ -1,3 +1,23 @@
+---
+title: SNF PhD position in Medical NLP
+draft: false
+authors:
+- farhadzad
+- michaelkrauthammer
+tags: 
+- NLP
+- Machine learning
+#- Bioinformatics
+- Opportunities
+categories:
+- NLP
+- Data Science
+#- Bioinformatics
+
+# list the projects you want masters students for here, if there are pages for them
+# projects: []
+---
+
 We are looking for a PhD student for our SNF project ”Medical, Multilingual, and Privacy-Preserving Natural Language Processing (M2P2-NLP)”  passionate about working on medical problems and can help us create AI tools in the medical field, particularly in oncology and radiology.
 
 🧑🏼‍🔬 You will be someone who loves to do research, design, and build novel AI models. You are used to working in a research environment. You will have experience in building and evaluating machine learning models and preferably have knowledge and experience in the text and image processing domain.
