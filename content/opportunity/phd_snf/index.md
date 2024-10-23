@@ -75,6 +75,7 @@ We offer you freedom for ideas and the opportunity to use your experience and ex
 
 ### Application
 - Starting date: as soon as possible or upon agreement
+- Deadline: Thursday 21st November, 2024
 - Duration: 4 years
 - Please submit your CV with a publication list to claudia.stenger-gysling@uzh.ch
 - If you are selected for the second interview: Two (2) letters of recommendation, submitted confidentially by the letter writers to michael.krauthammer@uzh.ch
