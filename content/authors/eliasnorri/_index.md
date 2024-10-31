@@ -21,9 +21,9 @@ organizations:
 # bio: Bioinformatics and Machine Learning.
 
 interests:
-- Bioinformatics
-- Machine learning
-- Immunology
+#- Bioinformatics
+#- Machine learning
+#- Immunology
 
 education:
   courses:
@@ -51,7 +51,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 
 I obtained my bachelor's degree in life sciences engineering at EPFL (Lausanne), and currently, I am a master's student in health sciences and technology with a focus on bioinformatics and machine learning. In the lab, I am working on a prediction model for kidney transplantations, aiming to provide a usable decision-making tool.

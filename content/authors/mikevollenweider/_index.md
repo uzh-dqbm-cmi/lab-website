@@ -21,10 +21,10 @@ organizations:
 # bio: Bioinformatics and Machine Learning.
 
 interests:
-- Machine Learning for Genomics
-- Causality
-- Optimal Transport
-- Applied Mathematics
+#- Machine Learning for Genomics
+#- Causality
+#- Optimal Transport
+#- Applied Mathematics
 
 education:
   courses:
@@ -53,7 +53,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 
 By helping to model reality and “dust off” available data, as professor Van de Geer termed it, I hope to help uncover some of nature’s hidden truths. To acquire the necessary skills for doing so, I studied Computational Science and Engineering for my Bachelor’s degree and am currently finishing my Master’s degree in Data Science. At the time, I am especially interested in use cases of causality and optimal transport theory in genomics. Besides doing science, I like to dance, practice yoga, and play the piano. 
