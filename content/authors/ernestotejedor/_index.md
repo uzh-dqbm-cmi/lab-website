@@ -21,8 +21,8 @@ organizations:
 # bio: Bioinformatics and Machine Learning.
 
 interests:
-- Causality
-- Machine Learning
+#- Causality
+#- Machine Learning
 
 education:
   courses:
@@ -50,7 +50,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 
 I am a Mathematics student specializing in Statistics. More concretely, I’m interested in the synergy that Causality and Machine Learning can create to help solve some of the most challenging problems in Data Science.

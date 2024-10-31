@@ -21,10 +21,10 @@ organizations:
 # bio: Bioinformatics and Machine Learning.
 
 interests:
-- Computational Biology & Bioinformatics
-- Oncology
-- Immunology
-- Machine Learning
+#- Computational Biology & Bioinformatics
+#- Oncology
+#- Immunology
+#- Machine Learning
 
 education:
   courses:
@@ -50,7 +50,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 
 I got my bachelor’s degree in Health Sciences and Technology from ETH Zürich, during which I spent a exchange semester in Norway. Now I am pursuing my master’s degree in Computational Biology and Bioinformatics and as part of my studies, I am spending a semster here in the lab, working on the implementation of an AI tumor board. In my free time, I enjoy doing sports, especially playing football, and being out in nature.
