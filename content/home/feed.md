@@ -4,7 +4,7 @@ widget = "custom"  # Do not modify this line!
 active = true  # Activate this widget
 weight = 63  # Control the order that this section appears.
 
-title = "LinkedIn Feed"
+title = "Posts"
 
 [design]
   # Choose how many columns the section has. Valid values: 1-12.
