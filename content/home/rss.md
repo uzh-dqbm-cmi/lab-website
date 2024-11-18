@@ -1,7 +1,7 @@
 ---
 widget: custom
 headless: true
-title: "Posts"
+title: "rss"
 weight: 63
 widget_layout: side  # Change to appropriate layout for your site
 ---
