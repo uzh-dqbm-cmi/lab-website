@@ -1,8 +1,8 @@
 ---
 widget: custom
 headless: true
-title: "Latest LinkedIn Posts"
-weight: 30
+title: ""
+weight: 63
 widget_layout: side  # Change to appropriate layout for your site
 ---
 
