@@ -23,7 +23,7 @@ bio:
 interests:
 - Data Science Tooling
 - Statistics
-- Machine Learning
+- Machine Learning 
 
 education:
   courses:
