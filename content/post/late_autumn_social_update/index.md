@@ -27,7 +27,7 @@ In August, we barbecued in the forest to celebrate the time that Cécile and Man
 For our BBQ, we went up to the tower at Loorenkopf and enjoyed some vegetables, sausages and halloumi accompanied by some drinks. And as dessert, we also had some smores.
 {{< figure src="su_bbq.jpg" title="Enjoying the BBQ..." >}}
 
-{{< figure src="su_group.jpg" title="and especially the marshmallows." >}}
+{{< figure src="su_Ahmed_marshmallow.jpg" title="and especially the marshmallows." >}}
 
 October saw the second PhD defence of the lab. Ivna presented her work at Irchel and after some questions by the committee, she came out of the auditorium as Dr. Ivna. Congratulations!
 
