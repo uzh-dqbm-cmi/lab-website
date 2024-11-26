@@ -3,7 +3,7 @@ title: "Late Autumn social update"
 summary:  
 authors: 
 - zsoltbalazs
-date: 2024-07-10
+date: 2024-11-10
 tags: 
 - Fun
 - Recent
