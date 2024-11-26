@@ -69,7 +69,7 @@ user_groups:
 
 ---
   
-I studied biomedicine with a strong focus on bioinformatics and finished my Master of Science at University of Zurich. My strong interest in bioinformatics led me to become a Bioinformatician at [ETH Zurich](https://ethz.ch/en.html), where I offered my bioinformatics expertise in the NCCR Microbiomes. I developed software, performed customized data analysis, developed pipelines and managed sequencing data. In November 2024, I started my PhD in the Krauthammer lab, where I specialize in protein design and machine learning techniques to integrate multiple data modalities.
+I studied biomedicine with a strong focus on bioinformatics and finished my Master of Science at [University of Zurich](https://www.uzh.ch/de.html). My strong interest in bioinformatics led me to become a Bioinformatician at [ETH Zurich](https://ethz.ch/en.html), where I offered my bioinformatics expertise in the [NCCR Microbiomes](https://nccr-microbiomes.ch/). I developed software, performed customized data analysis, developed pipelines and managed sequencing data. In November 2024, I started my PhD in the Krauthammer lab, where I specialize in protein design and machine learning techniques to integrate multiple data modalities.
 In my free time, I enjoy running and being outdoors.
 
 
