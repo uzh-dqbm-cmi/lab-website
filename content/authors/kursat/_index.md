@@ -14,7 +14,7 @@ role: Master student
 
 # Organizations/Affiliations
 organizations:
-- name:University of Uppsala & University of Zurich
+- name: University of Uppsala & University of Zurich
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
