@@ -18,7 +18,7 @@ projects: []
 
 Last week, the Research Data Service Center (RDSC) of [UniSpital Z&uuml;rich
 (USZ)](http://www.en.usz.ch) hosted the 2<sup>nd</sup> event
-of our jointly conducted series of Brown Bag Lunches.
+of our jointly conducted series of Brown Bag Lunches. 
 
 Patrick Hirschi, Data Engineer at the RDSC, gave a presentation about the
 teams Data Platform development. He explained the current status of the Data
