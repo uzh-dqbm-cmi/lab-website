@@ -1,5 +1,5 @@
 ---
-title: Ph.D. Position in AI for Precision Oncology
+title: Content Writer 20 % for 3 months
 draft: false
 authors:
 - oindrilachakraborty
