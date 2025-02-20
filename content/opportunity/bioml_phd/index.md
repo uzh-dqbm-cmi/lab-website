@@ -1,5 +1,5 @@
 ---
-title: Ph.D. Position in AI for Genomics in Precision Medicine
+title: Ph.D. Position in AI for Genomics in Precision Oncology
 draft: false
 authors:
 - zsoltbalazs
