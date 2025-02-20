@@ -17,7 +17,7 @@ The Krauthammer lab (at the University of Zurich) and the Wicki Lab (at the Univ
 
 ### Your Responsibilities
 
-The goal of this position is to develop bioinformatics workflow approaches to improve personalised cancer care. Key focus areas are:
+The goal of this position is to combine genomics and machine-learning approaches to improve personalised cancer care. Key focus areas are:
 
 - Genomic foundation models for processing multi-omic data.
 - Liquid biopsy for disease monitoring.
@@ -29,7 +29,7 @@ You also have the possibilities to expand the research scope to other innovative
 ### Your Profile
 
 Minimum qualifications:
-- Master’s degree (MSc) in computational biology, biology, statistics, or a related discipline with proven experience in both genomic and computational projects.
+- Master’s degree (MSc) in computational biology, bioinformatics, statistics, biology, machine-learning or a related discipline with proven experience in both genomic and computational projects.
 - Proficiency in Python and core scientific computing libraries (e.g., NumPy, SciPy, Scikit-learn, pandas).
 - Strong statistical background and experience with machine learning methods.
 - Strong foundational knowledge of cancer biology and genomics.
