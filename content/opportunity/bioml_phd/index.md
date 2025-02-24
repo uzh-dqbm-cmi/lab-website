@@ -1,9 +1,9 @@
 ---
-title: Ph.D. Position in AI for Genomics in Precision Oncology
+title: Ph.D. Position in AI for Cancer Genomics
 draft: false
 authors:
 - zsoltbalazs
-- michaelkrauthammer
+#- michaelkrauthammer
 tags: 
 - Machine learning
 - Bioinformatics
