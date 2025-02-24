@@ -21,7 +21,7 @@ The goal of this position is to combine genomics and machine-learning approaches
 
 - Genomic foundation models for processing multi-omic data of cancer patients.
 - Liquid biopsy for disease monitoring.
-- Combining multi-omics and clinical data to support treatment decisions.
+- Developing predictive models integrating multi-omics and clinical data in order to identify clinically actionable biomarkers and to support treatment decisions.
 - Collaborating closely with oncologists and data scientists to align data analysis tools with clinical workflows and real-world needs.   
 
 You also have the possibilities to expand the research scope to other innovative projects in Precision Oncology.
