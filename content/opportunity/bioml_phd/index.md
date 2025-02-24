@@ -13,13 +13,13 @@ categories:
 - Bioinformatics
 ---
 
-The Krauthammer lab (at the University of Zurich) and the Wicki Lab (at the University Hospital of Zurich) are seeking a motivated PhD candidate to apply and develop novel AI approaches for the analysis of multi-omic data to advance precision oncology and support cancer treatment decisions.
+The Wicki Lab (at the University Hospital of Zurich) and the Krauthammer lab (at the University of Zurich) are seeking a motivated PhD candidate to join a recently established team from both labs working on the AI Tumorboard project improving precision oncology. The candidate will apply and develop novel AI approaches for the analysis of multi-omic data to advance cancer treatment decisions.
 
 ### Your Responsibilities
 
 The goal of this position is to combine genomics and machine-learning approaches to improve personalised cancer care. Key focus areas are:
 
-- Genomic foundation models for processing multi-omic data.
+- Genomic foundation models for processing multi-omic data of cancer patients.
 - Liquid biopsy for disease monitoring.
 - Combining multi-omics and clinical data to support treatment decisions.
 - Collaborating closely with oncologists and data scientists to align data analysis tools with clinical workflows and real-world needs.   
@@ -29,7 +29,7 @@ You also have the possibilities to expand the research scope to other innovative
 ### Your Profile
 
 Minimum qualifications:
-- Master’s degree (MSc) in computational biology, bioinformatics, statistics, biology, machine-learning or a related discipline with proven experience in both genomic and computational projects.
+- Master’s degree (MSc) in computational biology, bioinformatics, biology, statistics, machine-learning or a related discipline with proven experience in both genomic and computational projects.
 - Proficiency in Python and core scientific computing libraries (e.g., NumPy, SciPy, Scikit-learn, pandas).
 - Strong statistical background and experience with machine learning methods.
 - Strong foundational knowledge of cancer biology and genomics.
