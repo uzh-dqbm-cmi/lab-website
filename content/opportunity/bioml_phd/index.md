@@ -13,7 +13,7 @@ categories:
 - Bioinformatics
 ---
 
-The Wicki Lab (at the University Hospital of Zurich) and the Krauthammer lab (at the University of Zurich) are seeking a motivated PhD candidate to join a recently established team from both labs working on the AI Tumorboard project improving precision oncology. The candidate will apply and develop novel AI approaches for the analysis of multi-omic data to advance cancer treatment decisions.
+The Wicki Lab (at the University and University Hospital of Zurich) and the Krauthammer lab (at the University of Zurich) are seeking a motivated PhD candidate to join a recently established team from both labs working on the AI Tumorboard project improving precision oncology. The candidate will apply and develop novel AI approaches for the analysis of multi-omic data to advance cancer treatment decisions.
 
 ### Your Responsibilities
 
@@ -53,8 +53,11 @@ Zurich, Switzerland
 ### Start of Employment
 The preferred start date is Q2 of 2025.
 
+### Further information
+For further information, contact zsolt.balazs@uzh.ch
+
 ### How to Apply
-Send your application including the following documents to claudia.stenger-gysling@uzh.ch:
+Send your application including the following documents to claudia.stenger-gysling@uzh.ch AND nicola.miglino@usz.ch:
 - a cover letter detailing your motivation and fit for this position.
 - your CV.
 - contact details for three references.
