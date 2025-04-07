@@ -29,4 +29,5 @@ We are interested in investigating the performance of different methods on deep 
 You can apply by sending a CV to this e-mail [lea.bogensperger@uzh.ch] along with a short description of your motivation to join our lab.
 
 [1] Notin, Pascal, et al. "Proteingym: Large-scale benchmarks for protein fitness prediction and design." Advances in Neural Information Processing Systems 36 (2023): 64331-64379.
+
 [2] Lin, Zeming, et al. "Evolutionary-scale prediction of atomic-level protein structure with a language model." Science379.6637 (2023): 1123-1130.
