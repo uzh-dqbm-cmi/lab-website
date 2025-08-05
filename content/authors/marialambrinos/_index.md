@@ -21,8 +21,8 @@ organizations:
 # bio: Bioinformatics and Machine Learning.
 
 interests:
-- Bioinformatics
-- Cancer Genomics
+# - Bioinformatics
+# - Cancer Genomics
  
 
 education:
@@ -51,7 +51,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 
 My name is Maria Rafaela Lambrinos. I am a master student at the university of Zurich, studying biomedicine. I also did biomedicine at the university of Zurich in my bachelor. I am currently doing my master thesis at the Krauthammer lab. I work with cfDNA sequencing data and my goal is to use this data to differentiate between healthy and cancer samples. I am interested in bioinformatics and cancer genomics. In my free time I like to do body combat and pilates. 

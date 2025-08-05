@@ -21,8 +21,8 @@ organisations:
 bio: 
 
 interests:
-- Computational Biology
-- Bioinformatics
+# - Computational Biology
+# - Bioinformatics
 
 education:
   courses:
@@ -52,7 +52,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 I have an interdisciplinary education background in both biology and data sciences. Now, I am a master student in Computational Biology and Bioninformatics(CBB) programme at ETH.  
 

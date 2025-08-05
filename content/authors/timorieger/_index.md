@@ -21,9 +21,9 @@ organizations:
 # bio: Bioinformatics and Machine Learning.
 
 interests:
-- Bioinformatics
-- Machine Learning
-- Data Science
+# - Bioinformatics
+# - Machine Learning
+# - Data Science
  
 
 education:
@@ -55,7 +55,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 
 I studied Biology for my Bachelor's degree at the University of Zurich (UZH), and I'm currently pursuing my Master's degree in Computational Biology and Bioinfromatics (CBB) at ETH.
