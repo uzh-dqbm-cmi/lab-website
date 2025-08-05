@@ -21,8 +21,8 @@ organizations:
 # bio: Bioinformatics and Cancer Genomics.
 
 interests:
-- Bioinformatics
-- Cancer Genomics
+# - Bioinformatics
+# - Cancer Genomics
 
 education:
   courses:
@@ -51,7 +51,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 
 I completed my Bachelor’s degree in Biochemistry at the University of Zurich. As part of my Master’s program in Bioinformatics at the University of Birmingham, I will be working for six months in the Krauthammer Lab to conduct my thesis project. My research focuses on deconvoluting cell-free DNA (cfDNA) data to identify cell-type compositions from nucleosome footprints. In my free time, I enjoy being active and spending time in nature.
