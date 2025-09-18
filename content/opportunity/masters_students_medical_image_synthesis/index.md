@@ -25,7 +25,7 @@ Nailfold capillaroscopy (NFC) is an imaging procedure to detect signs of microan
 We are particulary interested in finetuning latent diffusion models (LDMs) [2,3] to generate label-conditioned NFC images. The main tasks will be to adapt the LDM pipeline to medical NFC images, generate label conditioned images, and conduct a comparison with existing approaches, explore the potential of LDMs in augmenting the medical data set for image classification,
 investigate whether text embeddings extracted from medical reports can be used to improve the quality of the generated images.
 
-You can apply by sending a CV to <a href="#" onclick="u='lea.bogensperger'; d='uzh.ch'; prompt('Copy address to clipboard',u+'@'+d); return false">this e-mail</a>. along with a short description of your motivation to join our lab.
+You can apply by sending a CV to lea.bogensperger@uzh.ch, along with a short description of your motivation to join our lab.
 
 
 [1] Garaiman, Alexandru, et al. "Vision transformer assisting rheumatologists in screening for capillaroscopy changes in systemic sclerosis: an artificial intelligence model." Rheumatology 62.7 (2023): 2492-2500.
