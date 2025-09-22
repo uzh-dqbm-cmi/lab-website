@@ -1,7 +1,7 @@
 ---
 title: "Uncovering Cas9 PAM diversity through metagenomic mining and machine learning"
-date: 2022-12-12
-publishDate: 2022-11-09T00:00:00.000000Z
+date: 2025-08-13
+publishDate: 2025-08-13T00:00:00.000000Z
 authors: [ Tao Fang, leabogenspreger, lilithfeer, ahmedallam, Valentyn Bezshapkin, zsoltbalazs, Christian von Mering, Shinichi Sunagawa, michaelkrauthammer, Gerald Schwank]
 publication_types: ["2"]
 abstract: "
