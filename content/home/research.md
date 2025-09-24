@@ -1,5 +1,5 @@
 +++
-widget = "portfolio"
+widget = "featurette"
 headless = true
 active = true
 weight = 60
@@ -7,13 +7,36 @@ weight = 60
 title = "Our Research"
 subtitle = "Four main aspects of our lab’s work"
 
-[content]
-  page_type = "research"   # must match `type = "research"` in your pages
-  filter_default = 0       # show all by default
-  # Leave out [[content.filter_button]] → no filter bar
+# Add a CSS hook for styling (used below)
+[advanced]
+  css_class = "research-tiles"
 
-[design]
-  columns = "2"
-  view = 2  # Card view
-  flip_alt_rows = false
+# Keep descriptions short (or leave them empty) for a tidy look.
+[[feature]]
+  icon = "chart-line"
+  icon_pack = "fas"
+  name = "Clinical Data Science"
+  description = ""
+  link = "/research/clinical_data_science/"
+
+[[feature]]
+  icon = "dna"
+  icon_pack = "fas"
+  name = "Translational Bioinformatics"
+  description = ""
+  link = "/research/translational-bioinformatics/"
+
+[[feature]]
+  icon = "heartbeat"
+  icon_pack = "fas"
+  name = "Patient-Centered Analytics"
+  description = ""
+  link = "/research/patient-centered-analytics/"
+
+[[feature]]
+  icon = "users"
+  icon_pack = "fas"
+  name = "Collaborative Platforms"
+  description = ""
+  link = "/research/collaborative-platforms/"
 +++
