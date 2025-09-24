@@ -16,7 +16,7 @@ subtitle = "Four main aspects of our lab’s work"
     title = "Clinical Data Science"
     subtitle = "Developing machine learning models to support hospital operations and patient care."
     link = "/research/clinical_data_science/"
-    image = "img/logo.png"
+    image = "https://via.placeholder.com/400x300.png?text=Clinical"
 
 #    icon = "microscope"
 #    icon_pack = "fas"
@@ -26,19 +26,19 @@ subtitle = "Four main aspects of our lab’s work"
     subtitle = "Linking molecular biology with clinical applications to improve diagnostics and therapies."
     link = "/research/clinical_data_science/"
     #link = "/research/translational-bioinformatics/"
-    image = "img/logo.png"
+    image = "https://via.placeholder.com/400x300.png?text=Clinical"
 
   [[content.item]]
     title = "Patient-Centered Analytics"
     subtitle = "Building tools to compare patients, predict outcomes, and support decision-making."
     link = "/research/clinical_data_science/"
     #link = "/research/patient-centered-analytics/"
-    image = "img/logo.png"
+    image = "https://via.placeholder.com/400x300.png?text=Clinical"
 
   [[content.item]]
     title = "Collaborative Platforms"
     subtitle = "Creating infrastructure for federated learning, data sharing, and reproducible science."
     link = "/research/clinical_data_science/"
     #link = "/research/collaborative-platforms/"
-    image = "img/logo.png"
+    image = "https://via.placeholder.com/400x300.png?text=Clinical"
 +++
