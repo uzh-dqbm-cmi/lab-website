@@ -1,15 +1,13 @@
 +++
 # A Research section created with the Featurette widget.
-widget = "featurette"  # Replaces "portfolio" with static structured tiles
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 60  # Order that this section will appear.
+widget = "featurette"
+headless = true
+active = true
+weight = 60
 
 title = "Our Research"
 subtitle = "Four main aspects of our lab’s work"
 
-# Content.
-# Each "feature" below will appear as a tile.
 [[feature]]
   icon = "microscope"
   icon_pack = "fas"
