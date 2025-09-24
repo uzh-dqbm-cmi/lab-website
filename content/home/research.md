@@ -13,7 +13,7 @@ subtitle = "Four main aspects of our lab’s work"
   icon_pack = "fas"
   name = "Clinical Data Science"
   description = "Developing machine learning models to support hospital operations and patient care."
-  link = "/research/clinical-data-science/"
+  link = "/research/clinical_data_science/"
 
 [[feature]]
   icon = "dna"

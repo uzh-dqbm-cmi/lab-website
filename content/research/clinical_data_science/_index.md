@@ -1,7 +1,7 @@
 +++
 title = "Clinical Data Science"
 type = "page"
-layout = "docs"  # or "page" depending on theme
+layout = "page"  # or "page" depending on theme
 +++
 
 Here you can write a **long-form page** with all the details, figures, methods, links, etc.  
