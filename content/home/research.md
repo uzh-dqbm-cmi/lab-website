@@ -14,6 +14,6 @@ subtitle = "Four main aspects of our lab’s work"
 
 [design]
   columns = "2"
-  view = 3   # Card view
+  view = 5   # Card view
   flip_alt_rows = false
 +++
