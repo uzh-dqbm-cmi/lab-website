@@ -15,8 +15,9 @@ subtitle = "Four main aspects of our lab’s work"
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "<a href='/research/clinical_data_science/' class='feature-link'>Clinical Data Science</a>"
+  name = "Clinical Data Science"
   description = ""
+  link = "/research/clinical_data_science/"
 
 [[feature]]
   icon = "dna"
