@@ -2,6 +2,8 @@
 title = "Clinical Data Science"
 type = "research"
 summary = "Developing ML models for hospital operations and patient care."
+authors = []
+show_date = false 
 +++
 
 

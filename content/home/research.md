@@ -5,7 +5,7 @@ active = true
 weight = 60
 
 title = "Our Research"
-subtitle = "Four main aspects of our lab’s work"
+subtitle = "The main aspects of our lab’s work"
 
 # Add a CSS hook for styling (used below)
 [advanced]
