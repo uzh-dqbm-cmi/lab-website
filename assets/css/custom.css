@@ -15,7 +15,7 @@
   border-bottom: 2px solid transparent;
   transition: border-color .15s ease, color .15s ease;
   cursor: pointer;
-}
+} 
 
 .section.research-tiles .featurette h3 a:hover {
   border-bottom-color: currentColor;
