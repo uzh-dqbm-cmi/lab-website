@@ -25,7 +25,7 @@
 
     {{/* If 'url' exists, wrap the feature in a link. Otherwise, don't. */}}
     {{ if .url }}
-    <div class="col-12 col-sm-4">
+    <div class="col-12 col-sm-6">
       <a href="{{ .url | relLangURL }}">
         {{ with .icon }}<div class="featurette-icon"><i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i></div>{{ end }}
         <h3>{{ .name | markdownify | emojify }}</h3>
@@ -33,7 +33,7 @@
       </a>
     </div>
     {{ else }}
-    <div class="col-12 col-sm-4">
+    <div class="col-12 col-sm-6">
       {{ with .icon }}<div class="featurette-icon"><i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i></div>{{ end }}
       <h3>{{ .name | markdownify | emojify }}</h3>
       {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
