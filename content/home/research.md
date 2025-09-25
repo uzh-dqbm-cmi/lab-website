@@ -17,26 +17,26 @@ subtitle = "Four main aspects of our lab’s work"
   icon_pack = "fas"
   name = "Clinical Data Science"
   description = ""
-  link = "/research/clinical_data_science/"
+  url = "/research/clinical_data_science/"
 
 [[feature]]
   icon = "dna"
   icon_pack = "fas"
   name = "Translational Bioinformatics"
   description = ""
-  link = "/research/translational-bioinformatics/"
+  url = "/research/translational-bioinformatics/"
 
 [[feature]]
   icon = "heartbeat"
   icon_pack = "fas"
   name = "Patient-Centered Analytics"
   description = ""
-  link = "/research/patient-centered-analytics/"
+  url = "/research/patient-centered-analytics/"
 
 [[feature]]
   icon = "users"
   icon_pack = "fas"
   name = "Collaborative Platforms"
   description = ""
-  link = "/research/collaborative-platforms/"
+  url = "/research/collaborative-platforms/"
 +++
