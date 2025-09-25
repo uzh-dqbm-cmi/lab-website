@@ -1,31 +1,19 @@
-{{ $ := .root }}
-{{ $page := .page }}
-
-<div class="row featurette justify-content-center">
-  {{ with $page.Title }}
-  <div class="col-md-12 section-heading">
-    <h1>{{ . | markdownify | emojify }}</h1>
-    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
-  </div>
-  {{ end }}
-
-  {{ with $page.Content }}
-
-  <div class="col-md-12">
-    {{ . }}
-  </div>
-  {{ end }}
-
-    {{ range $page.Params.feature }}
-    {{ $pack := or .icon_pack "fas" }}
-    {{ $pack_prefix := $pack }}
-    {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-      {{ $pack_prefix = "fa" }}
-    {{ end }}
-    <div class="col-12 col-sm-4">
-      {{ with .icon }}<div class="featurette-icon"><i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i></div>{{ end }}
-      <h3>{{ .name | markdownify | emojify }}</h3>
-      {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+{{/* Override: make each featurette tile a link when `link` is set */}}
+<div class="row justify-content-center">
+  {{ range .Params.feature }}
+    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+      {{ $href := .link | default "" }}
+      {{ if $href }}<a href="{{ $href | relURL }}" class="d-block text-center text-reset featurette-tile">{{ end }}
+        <div class="featurette text-center">
+          {{ with .icon }}
+            <div class="featurette-icon mb-2">
+              <i class="{{ .icon_pack }} fa-{{ .icon }}"></i>
+            </div>
+          {{ end }}
+          <h3 class="mb-0">{{ .name }}</h3>
+          {{ with .description }}<p class="mt-2 mb-0">{{ . }}</p>{{ end }}
+        </div>
+      {{ if $href }}</a>{{ end }}
     </div>
-    {{ end }}
+  {{ end }}
 </div>

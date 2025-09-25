@@ -28,3 +28,8 @@
 .section.research-tiles .featurette:hover {
   transform: translateY(-2px);
 }
+
+/* assets/css/custom.css */
+.featurette-tile { text-decoration: none; transition: transform .12s ease; }
+.featurette-tile:hover { transform: translateY(-2px); }
+.section.research-tiles .featurette-icon i { font-size: 44px; line-height: 1; }
