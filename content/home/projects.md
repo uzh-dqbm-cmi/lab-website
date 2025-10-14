@@ -81,7 +81,7 @@ subtitle = ""
   
 [advanced]
  # Custom CSS. 
- css_style = ""
+ css_style = "padding-top: 0;"
  
  # CSS class.
  css_class = ""
