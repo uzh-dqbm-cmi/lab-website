@@ -29,3 +29,8 @@
   transform: translateY(-2px);
 }
 
+
+#isotope-filters .btn {
+  font-size: 0.85rem; /* Make the font smaller */
+  padding: 8px 12px;  /* Reduce the padding (top/bottom and left/right) */
+}
