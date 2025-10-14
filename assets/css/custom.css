@@ -34,3 +34,12 @@
   font-size: 0.4rem; /* Make the font smaller */
   padding: 2px 2px;  /* Reduce the padding (top/bottom and left/right) */
 }
+
+/* Reduce space above the project filter buttons */
+#isotope-filters {
+  margin-top: 1.5rem;
+}
+/* Align the Projects section title to the left */
+.wg-portfolio .section-heading {
+  text-align: left;
+}
