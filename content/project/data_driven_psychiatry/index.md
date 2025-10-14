@@ -3,7 +3,7 @@ title: Data-driven psychiatry
 summary: 
 tags:
 - Featured
-- Speech & Cognition
+- Speech and Cognition
 date: "2025-10-01T00:00:00Z"
 authors:
 - rohanianmorteza

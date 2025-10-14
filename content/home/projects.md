@@ -42,8 +42,8 @@ subtitle = ""
     tag = "Translational Bioinformatics"
 
   [[content.filter_button]]
-    name = "Speech & Cognition"
-    tag = "Speech & Cognition" 
+    name = "Speech and Cognition"
+    tag = "Speech and Cognition" 
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
