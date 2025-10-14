@@ -18,3 +18,4 @@ This research area focuses on the initial data analysis and foundational researc
 - Cardiology: Emergency care / ECG outcome prediction; cardiomyopathy
 - Radiology: Radiology Assistant, RL, multilingual learning
 - General: PubMed mining; agentic AI
+ 
