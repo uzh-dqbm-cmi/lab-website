@@ -2,7 +2,7 @@
 title: Single Cell RNA Sequencing
 summary: Cancer on the cell level.
 tags:
-- Bioinformatics
+- Translational Bioinformatics
 date: "2019-12-02T00:00:00Z"
 authors: 
 - zsoltbalazs

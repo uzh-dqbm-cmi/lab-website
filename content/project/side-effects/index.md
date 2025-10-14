@@ -5,8 +5,8 @@ authors:
 - kyriakosschwarz
 date: 2019-11-27
 tags: 
-- Data Science
-- Bioinformatics
+- Clinical Data Science
+- Translational Bioinformatics
 categories:
 - Deep Learning
 image:

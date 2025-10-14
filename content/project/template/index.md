@@ -2,13 +2,15 @@
 title: Template
 summary: 
 tags:
-- Featured
-- Clinical Data Science
-- Translational Bioinformatics
-- Speech & Cognition
+#- Featured
+#- Clinical Data Science
+#- Translational Bioinformatics
+#- Speech & Cognition
 date: "1970-01-01T00:00:00Z"
 authors:
 - 
+
+active: false
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""

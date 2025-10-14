@@ -2,11 +2,10 @@
 title: MRIdle
 summary: Helping reduce idle time in the USZ Radiology department
 tags:
-- Data Science
+- Clinical Data Science
 - Featured
 date: "2020-01-01T00:00:00Z"
 authors:
-- laurakinkead
 - markmcmahon
 
 # Optional external URL for project (replaces project detail page).

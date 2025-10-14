@@ -5,9 +5,9 @@ authors:
 - zsoltbalazs
 date: 2020-01-27
 tags: 
-- Bioinformatics
+- Translational Bioinformatics
 categories:
-- Bioinformatics
+- Translational Bioinformatics
 image:
   placement: 2
   caption: 'Next-generation sequencing. Source: https://www.bmglabtech.com/fileadmin/08_Blog/2019/next-generation-sequencing.jpg'

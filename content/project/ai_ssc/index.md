@@ -2,7 +2,7 @@
 title: Automated Image Analysis
 summary: AI-assisted diagnosis in rheumatology
 tags:
-- Data Science
+- Clinical Data Science
 - Featured
 date: "2022-12-12T00:00:00Z"
 authors:
