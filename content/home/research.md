@@ -43,7 +43,7 @@ subtitle = " $ health = f(data) $ "
 [[feature]]
   icon = "brain"
   icon_pack = "fas"
-  name = "Speech and Cognition"
+  name = "Speech & Cognition"
   description = ""
   #url = "/research/speech_and_cognition/"
 +++
