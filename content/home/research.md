@@ -38,12 +38,12 @@ subtitle = "The main aspects of our lab’s work"
   icon_pack = "fas"
   name = "Translational Bioinformatics"
   description = ""
-  url = "/research/translational_bioinformatics/"
+  #url = "/research/translational_bioinformatics/"
 
 [[feature]]
   icon = "brain"
   icon_pack = "fas"
   name = "Speech and Cognition"
   description = ""
-  url = "/research/speech_and_cognition/"
+  #url = "/research/speech_and_cognition/"
 +++
