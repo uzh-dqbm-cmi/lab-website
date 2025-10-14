@@ -31,8 +31,12 @@ subtitle = ""
   
   [[content.filter_button]]
     name = "Clinical Data Science"
-    tag = "Data Science"
-  
+    tag = "Clinical Data Science"
+
+  [[content.filter_button]]
+    name = "Genome Data Science"
+    tag = "Genome Data Science"
+
   [[content.filter_button]]
     name = "Translational Bioinformatics"
     tag = "Bioinformatics"
@@ -50,10 +54,10 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 2
+  view = 5
 
   # For Showcase view, flip alternate rows?
-  flip_alt_rows = false
+  flip_alt_rows = true
 
 [design.background]
   # Apply a background color, gradient, or image.
