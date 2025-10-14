@@ -15,23 +15,23 @@ subtitle = "The main aspects of our lab’s work"
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Clinical Data Science (Early Research)"
+  name = "Clinical Data Science "
   description = ""
-  url = "/research/clinical_data_science/"
+  # url = "/research/clinical_data_science/"
 
-[[feature]]
-  icon = "clipboard-check"
-  icon_pack = "fas"
-  name = "Clinical Data Science (Late Research)"
-  description = ""
-  url = "/research/clinical_data_science_late/"
+#[[feature]]
+#  icon = "clipboard-check"
+#  icon_pack = "fas"
+#  name = "Clinical Data Science (Late Research)"
+#  description = ""
+  # url = "/research/clinical_data_science_late/"
 
 [[feature]]
   icon = "dna"
   icon_pack = "fas"
   name = "Genome Data Science"
   description = ""
-  url = "/research/genome_data_science/"
+  # url = "/research/genome_data_science/"
 
 [[feature]]
   icon = "laptop-medical"
