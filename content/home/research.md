@@ -2,10 +2,10 @@
 widget = "featurette"
 headless = true
 active = true
-weight = 60
+weight = 30
 
 title = "Our Research"
-subtitle = "The main aspects of our lab’s work"
+subtitle = " $ health = f(data) $ "
 
 # Add a CSS hook for styling (used below)
 [advanced]
