@@ -19,11 +19,11 @@ subtitle = ""
   # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
   
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
-  filter_default = 1
+  filter_default = 0
   
-  [[content.filter_button]]
-    name = "All"
-    tag = "*"
+  #[[content.filter_button]]
+  #  name = "All"
+  #  tag = "*"
   
   [[content.filter_button]]
     name = "Featured"
@@ -31,11 +31,19 @@ subtitle = ""
   
   [[content.filter_button]]
     name = "Clinical Data Science"
-    tag = "Data Science"
-  
+    tag = "Clinical Data Science"
+
+  [[content.filter_button]]
+    name = "Genome Data Science"
+    tag = "Genome Data Science"
+
   [[content.filter_button]]
     name = "Translational Bioinformatics"
-    tag = "Bioinformatics"
+    tag = "Translational Bioinformatics"
+
+  [[content.filter_button]]
+    name = "Speech and Cognition"
+    tag = "Speech and Cognition" 
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -72,10 +80,16 @@ subtitle = ""
   # text_color_light = true  
   
 [advanced]
- # Custom CSS. 
- css_style = ""
- 
- # CSS class.
- css_class = ""
+  css_style = """
+  .isotope-filters a {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.8rem;
+    margin: 0 0.1rem;
+  }
+  .isotope-filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  """
 +++
 
