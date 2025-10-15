@@ -36,5 +36,6 @@ url_video: ""
 # slides: example
 ---
 
-Modeling speech and behavior to support mental health research and assessment
+Modeling speech and behavior to support mental health research and assessment.
+
 We explore how multimodal and speech-based modeling can inform the understanding and detection of psychiatric conditions. This line of work examines how linguistic, acoustic, and behavioral signals reflect underlying mental states and how AI systems can quantify uncertainty in these assessments to support clinical decision-making. (read more here: https://arxiv.org/abs/2502.18285)

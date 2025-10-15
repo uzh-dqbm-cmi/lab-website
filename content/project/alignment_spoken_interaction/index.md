@@ -1,5 +1,5 @@
 ---
-title: Modeling Spoken Language Beyond Text
+title: Alignment in Spoken Interaction
 summary: 
 tags:
 - Featured
@@ -24,7 +24,7 @@ links:
 #  url: https://github.com/uzh-dqbm-cmi/template
 
 url_code: ""
-url_pdf: "https://arxiv.org/pdf/2502.18285"
+url_pdf: "https://aclanthology.org/2023.findings-emnlp.238.pdf"
 url_slides: ""
 url_video: ""
 
@@ -36,5 +36,5 @@ url_video: ""
 # slides: example
 ---
 
-Modeling speech and behavior to support mental health research and assessment
-We explore how multimodal and speech-based modeling can inform the understanding and detection of psychiatric conditions. This line of work examines how linguistic, acoustic, and behavioral signals reflect underlying mental states and how AI systems can quantify uncertainty in these assessments to support clinical decision-making. (read more here: https://arxiv.org/abs/2502.18285)
+Studying how conversational coordination shapes meaning in human and machine communication
+We study how large language models can interpret and adapt to the way people coordinate understanding through speech, including pauses, disfluencies, timing, and repair. Drawing on the view of language as joint action, this work examines how conversational alignment shapes meaning and how AI systems can model these dynamics. The goal is to develop speech technologies that interact more like humans do—responsive, adaptive, and grounded in real communicative behavior. (read more here: https://aclanthology.org/2023.findings-emnlp.238/)
