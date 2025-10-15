@@ -7,9 +7,6 @@ weight = 30
 title = "Our Research"
 subtitle = " $ health = f(data) $ "
 
-# Add a CSS hook for styling (used below)
-[advanced]
-  css_class = "research-tiles"
 
 # Keep descriptions short (or leave them empty) for a tidy look.
 [[feature]]
