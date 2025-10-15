@@ -1,13 +1,4 @@
-/* Scope to this section only */
-.section.research-tiles {
-  /* optional: tighten spacing a bit */
-  --featurette-icon-size: 44px; /* adjust to taste */
-}
 
-.section.research-tiles .featurette-icon i {
-  font-size: var(--featurette-icon-size);
-  line-height: 1;
-}
 
 /* Make the title link look intentional */
 .section.research-tiles .featurette h3 a {
