@@ -17,7 +17,7 @@ image:
 projects: []
 ---
 
-Earlier this autumn, we took some time to unwind and connect outside the lab — welcoming new members and enjoying a couple of cozy outings together. We started with an evening at Frau Gerold’s Garden, sharing good food and drinks while getting to know our newest colleagues. Shortly after, a group set off for an after-work hike up to Üetliberg, where we rewarded ourselves with drinks and the city view. We’re also very proud of Xiaochen for successfully defending his PhD — a milestone we were happy to celebrate together with him!
+Earlier this autumn, we took some time to unwind and connect outside the lab — welcoming new members and enjoying a couple of cozy outings together. We started with an evening at Frau Gerold’s Garden, sharing good food and drinks while getting to know our newest colleagues. Shortly after, a group set off for an after-work hike up to Üetliberg, where we rewarded ourselves with drinks and the city view. We’re also very proud of Xiaochen for successfully defending his PhD — a milestone we were happy to celebrate together with him! 
 
 {{< figure src="Defense.jpeg" title="Congratulations to Xiaochen on the successful defense of his PhD!" >}}
 
