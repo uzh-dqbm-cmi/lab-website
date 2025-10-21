@@ -40,6 +40,3 @@ Among all this we also unfortunately had to say ‘goodbye’ to one of our memb
 {{< figure src="picnic.jpg" title="Our aforementioned picnic-brunch" >}}
 
 Looking ahead, we have tried for weeks (or maybe even months) to plan a lab hike or weekend activity, but the weather so far has made this difficult. So we hope this will be doable sometime soon, and until then we will continue to meet up for random drinks after work to pass the time!
-
-
-
