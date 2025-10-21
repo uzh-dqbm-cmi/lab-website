@@ -30,4 +30,4 @@
     Content-Type = "application/rss+xml"
 
 
-timeout = "30000"
+timeout = "180s"
