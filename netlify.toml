@@ -28,6 +28,3 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
-
-
-timeout = "180s"
