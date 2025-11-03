@@ -27,7 +27,7 @@ links:
 #  url: https://github.com/uzh-dqbm-cmi/template
 
 url_code: "https://github.com/uzh-dqbm-cmi/eustar_npj"
-url_pdf: "https://www.nature.com/articles/s41746-025-01962-y"
+url_pdf: "https://www.nature.com/articles/s41746-025-01962-y.pdf"
 url_slides: ""
 url_video: ""
 
