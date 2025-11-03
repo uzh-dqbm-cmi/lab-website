@@ -4,7 +4,7 @@ summary:
 tags:
 #- Featured
 #- Clinical Data Science
-#- Genome Data Science
+- Genome Data Science
 #- Translational Bioinformatics
 #- Speech & Cognition
 date: "2025-11-01T00:00:00Z"
