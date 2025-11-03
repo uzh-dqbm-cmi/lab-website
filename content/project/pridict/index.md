@@ -30,6 +30,7 @@ url_code: "https://github.com/uzh-dqbm-cmi/PRIDICT2/ "
 url_pdf: "https://www.nature.com/articles/s41587-024-02268-2.pdf"
 url_slides: "https://pridict.it/"
 url_video: ""
+url_app: "https://pridict.it/"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
