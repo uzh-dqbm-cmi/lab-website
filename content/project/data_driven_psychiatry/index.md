@@ -1,6 +1,6 @@
 ---
 title: Data-driven psychiatry
-summary: 
+summary: Modeling speech and behavior to support mental health research and assessment
 tags:
 - Featured
 - Speech and Cognition
@@ -8,7 +8,6 @@ date: "2025-10-01T00:00:00Z"
 authors:
 - rohanianmorteza
 
-active: true
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
@@ -36,6 +35,5 @@ url_video: ""
 # slides: example
 ---
 
-Modeling speech and behavior to support mental health research and assessment.
 
-We explore how multimodal and speech-based modeling can inform the understanding and detection of psychiatric conditions. This line of work examines how linguistic, acoustic, and behavioral signals reflect underlying mental states and how AI systems can quantify uncertainty in these assessments to support clinical decision-making. (read more here: https://arxiv.org/abs/2502.18285)
+We explore how multimodal and speech-based modeling can inform the understanding and detection of psychiatric conditions. This line of work examines how linguistic, acoustic, and behavioral signals reflect underlying mental states and how AI systems can quantify uncertainty in these assessments to support clinical decision-making. (read more here: [click here](https://arxiv.org/abs/2502.18285))

@@ -1,6 +1,6 @@
 ---
 title: Protein Design
-summary: 
+summary: Generative AI for protein fitness optimization
 tags:
 - Featured
 #- Clinical Data Science
@@ -11,7 +11,6 @@ date: "2025-10-01T00:00:00Z"
 authors:
 - leabogensperger
 
-active: true
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
@@ -41,6 +40,6 @@ url_video: ""
 
 Generative AI for protein fitness optimization
 
-This project explores generative modeling for optimizing protein fitness, such as stability, binding affinity, or enzymatic activity. A machine learning-based prior over protein sequences is combined with a property prediction model that guides generation toward high-fitness sequences. The resulting variational framework, VLGPO, can generate new candidate protein sequences predicted to exhibit higher fitness. (read more here: https://arxiv.org/abs/2501.19200)
+This project explores generative modeling for optimizing protein fitness, such as stability, binding affinity, or enzymatic activity. A machine learning-based prior over protein sequences is combined with a property prediction model that guides generation toward high-fitness sequences. The resulting variational framework, VLGPO, can generate new candidate protein sequences predicted to exhibit higher fitness. (read more here: [click here](https://arxiv.org/abs/2501.19200))
 
-Code: https://github.com/uzh-dqbm-cmi/VLGPO
+Code: [click here](https://github.com/uzh-dqbm-cmi/VLGPO)
