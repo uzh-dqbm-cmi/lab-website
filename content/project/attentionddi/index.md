@@ -7,7 +7,7 @@ summary: Predicting drug drug interactions for enhancing patient safety
 #- Translational Bioinformatics
 #- Speech & Cognition
 date: "2025-11-01T00:00:00Z"
-authors: 
+authors:
 - kyriakosschwarz
 - ahmedallam
 
