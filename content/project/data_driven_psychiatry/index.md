@@ -8,7 +8,6 @@ date: "2025-10-01T00:00:00Z"
 authors:
 - rohanianmorteza
 
-active: true
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
