@@ -2,7 +2,7 @@
 title: BEDICT models
 summary: Predicting base editing efficiencies in both lab cells and living models
 tags:
-#- Featured
+- Featured
 #- Clinical Data Science
 - Genome Data Science
 #- Translational Bioinformatics
