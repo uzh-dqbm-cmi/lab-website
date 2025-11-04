@@ -1,6 +1,7 @@
 ---
 title: Drug Synergy Prediction
 summary: Predicting drug synergy for enhancing therapeutic effectiveness
+tags:
 #- Featured
 #- Clinical Data Science
 - Genome Data Science
@@ -11,7 +12,7 @@ authors:
 - kyriakosschwarz
 - ahmedallam
 
-active: false
+active: true
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
