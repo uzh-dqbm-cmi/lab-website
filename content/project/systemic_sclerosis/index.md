@@ -11,7 +11,7 @@ date: "2025-11-01T00:00:00Z"
 authors:
 - ceciletrottet
 
-active: false
+active: true
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""

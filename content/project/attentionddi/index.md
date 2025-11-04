@@ -12,7 +12,6 @@ authors:
 - kyriakosschwarz
 - ahmedallam
 
-active: true
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
@@ -22,12 +21,12 @@ image:
   focal_point: Smart
 
 links:
-#- icon: github
-#  icon_pack: fab
-#  name: View Code
-#  url: https://github.com/uzh-dqbm-cmi/template
+- icon: github
+  icon_pack: fab
+  name: View Code
+  url: https://github.com/uzh-dqbm-cmi/side-effects
 
-url_code: "https://github.com/uzh-dqbm-cmi/side-effects"
+url_code: ""
 url_pdf: "https://link.springer.com/content/pdf/10.1186/s12859-021-04325-y.pdf"
 url_slides: ""
 url_video: ""

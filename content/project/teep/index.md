@@ -12,7 +12,6 @@ authors:
 - ahmedallam
 - amina
 
-active: false
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
@@ -22,14 +21,13 @@ image:
   focal_point: Smart
 
 links:
-#- icon: github
-#  icon_pack: fab
-#  name: View Code
-#  url: https://github.com/uzh-dqbm-cmi/template
+- icon: github
+  icon_pack: fab
+  name: View Code
+  url: https://github.com/uzh-dqbm-cmi/Tnpb
 
-url_code: "https://github.com/uzh-dqbm-cmi/Tnpb"
+url_code: ""
 url_pdf: "https://www.nature.com/articles/s41592-024-02418-z.pdf"
-url_slides: "https://www.tnpb.app/"
 url_video: ""
  
 # Slides (optional).
@@ -43,6 +41,7 @@ url_video: ""
 We optimized the TnpB system from Deinococcus radiodurans into the enhanced TnpBmax for superior performance in mammalian cells, leading to a 4.4-fold average improvement. A large dataset of 10,211 target sites was used to train the TEEP deep learning model, which predicts ωRNA activity with high accuracy (r>0.8). This tool facilitates the application of TnpB as an ultracompact programmable endonuclease, demonstrating high editing efficiencies in both murine liver and brain in vivo. (read [more here](https://www.nature.com/articles/s41592-024-02418-z)).
 
 Code: [click here](https://github.com/uzh-dqbm-cmi/Tnpb)
+
 App: [click here](https://www.tnpb.app/)
 
 

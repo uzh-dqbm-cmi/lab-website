@@ -1,6 +1,6 @@
 ---
 title: Alignment in Spoken Interaction
-summary: 
+summary: Studying how conversational coordination shapes meaning in human and machine communication
 tags:
 - Featured
 - Speech and Cognition
@@ -8,7 +8,6 @@ date: "2025-10-01T00:00:00Z"
 authors:
 - rohanianmorteza
 
-active: true
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
@@ -36,5 +35,4 @@ url_video: ""
 # slides: example
 ---
 
-Studying how conversational coordination shapes meaning in human and machine communication
-We study how large language models can interpret and adapt to the way people coordinate understanding through speech, including pauses, disfluencies, timing, and repair. Drawing on the view of language as joint action, this work examines how conversational alignment shapes meaning and how AI systems can model these dynamics. The goal is to develop speech technologies that interact more like humans do—responsive, adaptive, and grounded in real communicative behavior. (read more here: https://aclanthology.org/2023.findings-emnlp.238/)
+We study how large language models can interpret and adapt to the way people coordinate understanding through speech, including pauses, disfluencies, timing, and repair. Drawing on the view of language as joint action, this work examines how conversational alignment shapes meaning and how AI systems can model these dynamics. The goal is to develop speech technologies that interact more like humans do—responsive, adaptive, and grounded in real communicative behavior. (read more here: [click here](https://aclanthology.org/2023.findings-emnlp.238/))

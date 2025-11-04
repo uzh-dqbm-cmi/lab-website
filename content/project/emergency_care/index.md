@@ -11,7 +11,6 @@ date: "2025-11-01T00:00:00Z"
 authors: 
 - beatricezanchi
 
-active: false
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""

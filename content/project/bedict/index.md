@@ -11,7 +11,7 @@ date: "2025-11-01T00:00:00Z"
 authors: 
 - ahmedallam
 
-active: false
+
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
@@ -28,7 +28,6 @@ links:
 
 url_code: "https://github.com/uzh-dqbm-cmi/BEDICT-V2"
 url_pdf: "https://link.springer.com/content/pdf/10.1186/s13059-025-03586-7.pdf"
-url_slides: "https://go.bedict.app/"
 url_video: ""
 
 # Slides (optional).

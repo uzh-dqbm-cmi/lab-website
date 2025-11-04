@@ -12,7 +12,6 @@ authors:
 - kyriakosschwarz
 - ahmedallam
 
-active: true
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
@@ -22,12 +21,12 @@ image:
   focal_point: Smart
 
 links:
-#- icon: github
-#  icon_pack: fab
-#  name: View Code
-#  url: https://github.com/uzh-dqbm-cmi/template
+- icon: github
+  icon_pack: fab
+  name: View Code
+  url: https://github.com/uzh-dqbm-cmi/graphnn
 
-url_code: "https://github.com/uzh-dqbm-cmi/graphnn"
+url_code: ""
 url_pdf: "https://raw.githubusercontent.com/mlresearch/v248/main/assets/schwarz24a/schwarz24a.pdf"
 url_slides: ""
 url_video: ""
