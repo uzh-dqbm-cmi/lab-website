@@ -1,6 +1,6 @@
 ---
 title: Systemic Sclerosis Subtype Analysis
-summary: 
+summary: Generative DL models patient trajectories 
 tags:
 #- Featured
 - Clinical Data Science

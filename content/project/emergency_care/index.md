@@ -1,6 +1,6 @@
 ---
 title: Emergency care outcome prediction
-summary: 
+summary: ML models rapidly stratify patient cardiac risk in emergency settings
 tags:
 #- Featured
 - Clinical Data Science

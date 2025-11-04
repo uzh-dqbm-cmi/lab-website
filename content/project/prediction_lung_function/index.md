@@ -1,6 +1,6 @@
 ---
 title: Prediction of lung function
-summary: 
+summary: Deep learning models quantify lung disease progression 
 tags:
 #- Featured
 - Clinical Data Science

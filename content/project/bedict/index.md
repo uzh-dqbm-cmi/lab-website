@@ -1,6 +1,6 @@
 ---
 title: BEDICT models
-summary: 
+summary: Predicting base editing efficiencies in both lab cells and living models
 tags:
 #- Featured
 #- Clinical Data Science
@@ -41,13 +41,14 @@ url_video: ""
 
 BEDICT2.0 is a deep learning model that accurately predicts adenine base editing (ABE) efficiency in both lab cells and living models. It was trained on a dataset of 2,195 disease-causing mutations to ensure high accuracy. This tool helps select the best editing strategies for therapeutics while avoiding unwanted changes. (read more here: [link](https://link.springer.com/article/10.1186/s13059-025-03586-7 ))
 
-App: https://go.bedict.app/ 
+App: [click here](https://go.bedict.app/)
 
 {{< figure src="bedict_1.png" >}}
 
 
 BEDICT is the original deep learning algorithm predicting both adenine and cytosine base editing results. It uses data from over 28,000 sequences to account for varying efficiency based on target location. BE-DICT gives reliable predictions that help optimize gene editing strategies. (read more here: [link](https://www.nature.com/articles/s41467-021-25375-z))
 
-Code: https://github.com/uzh-dqbm-cmi/crispr 
-App: http://130.60.24.130/page-set?actionID=5f8c494b8c854d0029ffa9d3 
+Code: [click here](https://github.com/uzh-dqbm-cmi/crispr)
+
+App: [click here](http://130.60.24.130/page-set?actionID=5f8c494b8c854d0029ffa9d3)
 

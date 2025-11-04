@@ -1,6 +1,6 @@
 ---
 title: PRIDICT
-summary: 
+summary: Predicting prime editing efficiencies and optimizing prime editing guide RNA (pegRNA) design
 tags:
 #- Featured
 #- Clinical Data Science
