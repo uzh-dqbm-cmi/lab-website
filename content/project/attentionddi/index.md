@@ -3,15 +3,15 @@ title: AttentionDDI
 summary: Predicting drug drug interactions for enhancing patient safety
 #- Featured
 #- Clinical Data Science
-# - Genome Data Science
+- Genome Data Science
 #- Translational Bioinformatics
 #- Speech & Cognition
 date: "2025-11-01T00:00:00Z"
-authors:
-# - kyriakosschwarz
+authors: 
+- kyriakosschwarz
 - ahmedallam
 
-active: false
+active: true
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
