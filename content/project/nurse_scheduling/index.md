@@ -31,3 +31,4 @@ url_pdf: "https://www.jmir.org/2025/1/e66667/PDF"
 ---
 
 The core objective of this methodical study is to develop a machine learning-based model that can accurately predict patient-related nursing workload in acute care hospital settings, addressing the limitations of static staffing models. The research found that models, particularly lasso regression, consistently outperformed baseline methods for estimating upcoming nursing resource requirements across various hospital wards. (read more here: [link](https://www.jmir.org/2025/1/e66667))
+ 
