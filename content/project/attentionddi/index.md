@@ -39,7 +39,4 @@ url_video: ""
 # slides: example
 ---
 
-The AttentionDDI model presents a method utilizing attention-based deep learning to predict adverse drug-drug interactions (DDIs) by modeling complex relationships between drugs. This approach addresses the critical safety challenge where existing models often fail to capture non-linear, semantic features of drugs effectively. AttentionDDI leverages drug features like chemical structure and target information to achieve superior predictive performance, ultimately enhancing patient safety. (read more [here](https://link.springer.com/article/10.1186/s12859-021-04325-y))
-
-Code: [click here](https://github.com/uzh-dqbm-cmi/side-effects)
-
+test
