@@ -21,9 +21,9 @@ organizations:
 bio: Data science and machine learning.
 
 interests:
-- Machine Learning
-- Longitudinal Data Analysis
-- Machine Perception
+#- Machine Learning
+#- Longitudinal Data Analysis
+#- Machine Perception
 
 education:
   courses:
@@ -58,7 +58,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Grad Students
+- Alumni
 
 ---
 
