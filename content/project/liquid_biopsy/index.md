@@ -1,6 +1,6 @@
 ---
-title: Single-cell multi-omics analysis
-summary: Investigating skin cancers using single-cell multi-omics
+title: Liquid Biopsy
+summary: 
 tags:
 - Translational Bioinformatics
 date: "2026-01-01T00:00:00Z"
