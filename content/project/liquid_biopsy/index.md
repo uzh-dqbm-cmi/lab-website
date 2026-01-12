@@ -1,6 +1,6 @@
 ---
 title: Liquid Biopsy
-summary: 
+summary: Computational solutions to improve liquid biopsies
 tags:
 - Translational Bioinformatics
 date: "2026-01-01T00:00:00Z"
