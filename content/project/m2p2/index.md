@@ -15,9 +15,9 @@ links:
 #- icon: github
 #  icon_pack: fab
 #  name: View Code
-#  url: https://github.com/uzh-dqbm-cmi/mridle
+#  url: 
 #url_code: ""
-# url_pdf: "https://future.hospital/en/projects/pillar-c-patient-staff-empowerment-pse/c2-reduction-of-idle-times-of-mri-systems-in-radiology-departments-through-the-use-of-ai-based-scheduling-software-mridle"
+# url_pdf: ""
 #url_slides: ""
 #url_video: ""
 
