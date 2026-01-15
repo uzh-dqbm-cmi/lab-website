@@ -16,4 +16,4 @@ title = "Posts"
 
 +++ 
 
-<iframe width="100%" height="800"  src="https://rss.app/embed/v1/wall/YNDBYj2DiIqwvdR4" frameborder="0"></iframe>
+<iframe width="900" height="1600" src="https://rss.app/embed/v1/wall/YNDBYj2DiIqwvdR4" frameborder="0"></iframe>
