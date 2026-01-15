@@ -8,7 +8,7 @@ title = "Posts"
 
 [design]
   # Choose how many columns the section has. Valid values: 1-12.
-  columns = "3"
+  columns = "1"
 
 [design.background]
   # Apply a background color. 
