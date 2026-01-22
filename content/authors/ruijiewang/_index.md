@@ -27,7 +27,16 @@ interests:
 - Bioinformatics
 
 education:
-
+  courses: 
+  - course: PhD in Computer Science
+    institution: University of Zurich, Switzerland
+    year: 2025
+  - course: Master in Computer Science
+    institution: Xi’an Jiaotong University, China
+    year: 2020
+  - course: Bachelor in Computer Science and Bachelor in Finance
+    institution: Xi’an Jiaotong University, China
+    year: 2017
 
 
 # Social/Academic Networking
@@ -43,7 +52,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "ruijie.wang"
-  
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
