@@ -27,16 +27,7 @@ interests:
 - Bioinformatics
 
 education:
-  courses: 
-    course: PhD in Computer Science
-    institution: University of Zurich, Switzerland
-    year: 2025
-    course: Master in Computer Science
-    institution: Xi’an Jiaotong University, China
-    year: 2020
-    course: Bachelor in Computer Science and Bachelor in Finance
-    institution: Xi’an Jiaotong University, China
-    year: 2017
+
 
 
 # Social/Academic Networking
