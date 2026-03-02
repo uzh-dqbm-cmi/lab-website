@@ -21,9 +21,7 @@ organisations:
 bio: 
 
 interests:
-- Prediction models for patient outcomes
-- Translation bioinformatics
-- Personalized medicine
+- 
 
 
 education:
@@ -59,7 +57,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Grad Students
+- Alumni
 ---
 
 I am a PhD student working on my thesis Predicting Patient Trajectories in Oncological Surgery at the Technical University of Denmark, in collaboration with the Center for Surgical Science at Zealand University Hospital. I am visiting the Krauthammer lab to collaborate on predicting progression free cancer survival based on NLP-derived data. In my free time, I enjoy reading, knitting and sewing.

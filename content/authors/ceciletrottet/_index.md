@@ -21,9 +21,7 @@ organizations:
 bio: Data science and machine learning.
 
 interests:
-- Machine Learning
-- Clinical Decision Support Systems
-
+- 
 education:
   courses:
   - course: Master of Science in Applied Mathematics
@@ -57,7 +55,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Grad Students
+- Alumni
 
 ---
   
