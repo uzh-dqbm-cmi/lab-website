@@ -21,9 +21,7 @@ organisations:
 bio: 
 
 interests:
-- Prediction models for patient outcomes
-- Translation bioinformatics
-- Personalized medicine
+- 
 
 
 education:
