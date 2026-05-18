@@ -1,5 +1,6 @@
 ---
 title: Our collaborators are looking for Master students in ML for respiratory failure prediction!
+date: 2025-02-20
 authors:
 - zsoltbalazs
 tags: 
