@@ -1,5 +1,6 @@
 ---
 title: "We are hiring an AI Software Engineer (100%)"
+date: 2026-05-18
 authors:
 - michaelkrauthammer
 tags:
