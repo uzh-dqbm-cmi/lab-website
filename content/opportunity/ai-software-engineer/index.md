@@ -1,5 +1,5 @@
 ---
-title: "AI Software Engineer 100%"
+title: "We are hiring an AI Software Engineer (100%)"
 authors:
 - michaelkrauthammer
 tags:
@@ -8,9 +8,7 @@ categories:
 - Opportunities
 ---
 
-**Department of Quantitative Biomedicine**  
-**AI Software Engineer 100%**  
-Start of employment to be determined
+*Department of Quantitative Biomedicine — Start of employment to be determined*
 
 We are looking for an AI Software Engineer with a passion for tackling medical problems to help us create real-world AI tools in the medical field, particularly in Radiology and Cancer research. You will join a group of Medical AI researchers in the Krauthammer Lab and will have the opportunity to collaborate with multiple research teams at the University Hospital of Zurich and the University of Zurich.
 
@@ -18,7 +16,9 @@ You will be someone who loves to code and build high-performance, working system
 
 You can see more about who we are and how we work here: [krauthammerlab.ch](https://krauthammerlab.ch/)
 
-## Your responsibilities
+---
+
+## Responsibilities
 
 In this position, you will be working at the heart of our Medical Language Technology Team, helping us work on the automatic generation of medical reports from medical images and convert unstructured medical text to structured information. Your primary focus will be on creating high-quality, production-ready code and taking end-to-end ownership of our machine learning and deployment pipelines. This would include the following:
 
@@ -30,18 +30,18 @@ In this position, you will be working at the heart of our Medical Language Techn
 - Pre-processing, post-processing, and annotation of data to support production systems.
 - Develop and train large multimodal AI models for pressing medical data.
 
-The successful applicant will contribute to projects related to work, such as:
+The successful applicant will contribute to projects such as:
 
-- **RadVLM:** Conversational Vision-Language Model for Radiology.
-- **RADICAL:** Radiology AI-Driven Clinical Decision-Making with Multi-Modal Exploration
+- **RadVLM** — Conversational Vision-Language Model for Radiology.
+- **RADICAL** — Radiology AI-Driven Clinical Decision-Making with Multi-Modal Exploration.
 
-## Your profile
+---
 
-**MINIMUM QUALIFICATIONS**
+## Minimum Qualifications
 
-**Education:**
+**Education**
 
-- M.Sc. in Machine Learning, Computer Science, Applied Mathematics, Computational Science, or a related field, or equivalent experience
+- M.Sc. in Machine Learning, Computer Science, Applied Mathematics, Computational Science, or a related field, or equivalent experience.
 
 **Experience**
 
@@ -56,13 +56,13 @@ The successful applicant will contribute to projects related to work, such as:
 - Ability to handle multiple projects at the same time.
 - Ability to present research and other types of work, internally and externally.
 
-## Information on your application
-
-**REQUIRED APPLICATION MATERIALS**
-
-- CV with publication list or sample project descriptions
-- If you are selected for the second interview, two (2) letters of recommendation should be submitted confidentially by the letter writers to michael.krauthammer@uzh.ch
-
 ---
 
-[View the official posting on jobs.uzh.ch](https://jobs.uzh.ch/job-vacancies/ai-software-engineer/3306856b-3f3e-40f4-bff8-4b3dcf246e7f)
+## How to apply
+
+Please prepare the following application materials:
+
+- CV with publication list or sample project descriptions.
+- If you are selected for the second interview, two (2) letters of recommendation should be submitted confidentially by the letter writers to michael.krauthammer@uzh.ch.
+
+Applications can be submitted through the official UZH job listing [here](https://jobs.uzh.ch/job-vacancies/ai-software-engineer/3306856b-3f3e-40f4-bff8-4b3dcf246e7f).
