@@ -38,4 +38,4 @@ Am Lehrstuhl für Medizininformatik der Universität Zürich (UZH) ist zum näch
 
 ---
 
-Applications can be submitted through the official UZH job listing [here](https://jobs.uzh.ch/offene-stellen/studentische-hilfskraft-m-w-d/ca773991-7d77-462d-8dcd-3d8886beedbe).
+Bewerbungen können über das offizielle UZH-Stellenportal [hier](https://jobs.uzh.ch/offene-stellen/studentische-hilfskraft-m-w-d/ca773991-7d77-462d-8dcd-3d8886beedbe) eingereicht werden.
