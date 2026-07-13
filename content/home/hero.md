@@ -47,6 +47,13 @@ title = "Krauthammer Lab"
   label = "We're on GitHub"
   icon_pack = "fab"
   icon = "github"
+  
+[cta_alt2]
+  url = "https://www.linkedin.com/company/krauthammerlab/"
+  label = "Connect with us on LinkedIn"
+  icon_pack = "fab"
+  icon = "linkedin"
+  
 
 # # Note. An optional note to show underneath the links.
 # [cta_note]
