@@ -1,0 +1,26 @@
+# LinkedIn posts shown on the website (homepage section + /linkedin/ page).
+# Newest first — display order follows this file.
+#
+# To add a post manually:
+#   1. On the LinkedIn post, open the "..." menu and choose "Embed this post".
+#   2. Copy the URN from the iframe src (e.g. urn:li:activity:1234567890123456789
+#      or urn:li:share:...). You can also just copy the digits after "activity-"
+#      in the post's URL and use urn:li:activity:<digits>.
+#   3. Add an entry at the TOP of the list below, commit, and push.
+#
+# Entry fields:
+#   urn:    the post URN (or use `src:` with a full embed URL instead)
+#   height: optional iframe height in px (default 570) — tune per post
+#   note:   optional human-readable reminder of what the post is
+#
+# A daily GitHub Action (.github/workflows/linkedin-feed.yml) also proposes new
+# entries automatically via a pull request.
+posts:
+  - urn: "urn:li:activity:7421523952058966016"
+    note: "Last Friday the Krauthammer Lab was honored... (2026-07)"
+  - urn: "urn:li:activity:7302704453558673408"
+    note: "Ph.D. Position in AI for Cancer Genomics (2025-03)"
+  - urn: "urn:li:activity:7256616947218345984"
+    note: "Welcome to our new lab member, Bowen Fan (2024-10)"
+  - urn: "urn:li:activity:7191707989643321345"
+    note: "Lab visit to Yale (2024-04)"

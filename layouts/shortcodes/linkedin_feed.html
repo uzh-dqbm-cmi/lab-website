@@ -1,0 +1,12 @@
+{{/* Renders LinkedIn post embeds from data/linkedin_posts.yaml.
+     Usage: {{< linkedin_feed >}} or {{< linkedin_feed count="3" >}} */}}
+{{ $posts := slice }}
+{{ with site.Data.linkedin_posts }}{{ $posts = .posts | default $posts }}{{ end }}
+{{ with .Get "count" }}{{ $posts = first (int .) $posts }}{{ end }}
+<div class="linkedin-feed">
+  {{ range $posts }}{{ if or .src .urn }}
+  <div class="linkedin-post">
+    <iframe src="{{ .src | default (printf "https://www.linkedin.com/embed/feed/update/%s" .urn) }}" height="{{ .height | default 570 }}" width="100%" frameborder="0" allowfullscreen="" loading="lazy" title="Embedded LinkedIn post"></iframe>
+  </div>
+  {{ end }}{{ end }}
+</div>

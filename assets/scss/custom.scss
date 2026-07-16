@@ -1,0 +1,22 @@
+/*
+  Site custom styles.
+  This file overrides the theme's empty assets/scss/custom.scss placeholder
+  and is compiled into academic.css via the theme's main.scss (@import "custom").
+*/
+
+.linkedin-feed {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.linkedin-feed .linkedin-post {
+  flex: 1 1 300px;
+  max-width: 504px; // LinkedIn's native embed width
+}
+
+.linkedin-feed iframe {
+  border: 0;
+  width: 100%;
+}
