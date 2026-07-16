@@ -13,8 +13,8 @@
 #   height: optional iframe height in px (default 570) — tune per post
 #   note:   optional human-readable reminder of what the post is
 #
-# A daily GitHub Action (.github/workflows/linkedin-feed.yml) also proposes new
-# entries automatically via a pull request.
+# Easier: on GitHub go to Actions -> "LinkedIn feed update" -> Run workflow
+# and paste the post's URL — it opens a pull request with the entry for you.
 posts:
   - urn: "urn:li:activity:7421523952058966016"
     note: "Last Friday the Krauthammer Lab was honored... (2026-07)"

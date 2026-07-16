@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
-"""Check an RSS feed of the lab's LinkedIn page for new posts and prepend
-them to data/linkedin_posts.yaml.
+"""Add new LinkedIn posts to data/linkedin_posts.yaml.
 
-The feed URL comes from the LINKEDIN_RSS_URL environment variable (a GitHub
-Actions secret; e.g. an rss.app feed for linkedin.com/company/krauthammerlab).
-The feed is only used to *discover* post IDs — the website renders LinkedIn's
-official embeds, so nothing on the site depends on the feed service.
+Two ways to supply posts:
+  1. Post URLs as command-line arguments (space- or newline-separated) —
+     used by the workflow_dispatch "Run workflow" box on GitHub. Anything
+     containing an activity ID works, e.g.
+     https://www.linkedin.com/posts/krauthammerlab_..._activity-7421...-QEk-
+  2. An RSS feed of the page via the LINKEDIN_RSS_URL environment variable
+     (optional GitHub Actions secret; only if the lab subscribes to a feed
+     service such as rss.app). The feed is only used to *discover* post IDs —
+     the website renders LinkedIn's official embeds, so nothing on the site
+     depends on the feed service.
 
 New entries are inserted as text right below the `posts:` line so the file's
 comments and formatting are preserved. Exits 0 whether or not anything changed;
@@ -50,16 +55,29 @@ def note_for(item):
 
 
 def main():
-    url = os.environ.get("LINKEDIN_RSS_URL")
-    if not url:
-        print("LINKEDIN_RSS_URL is not set; nothing to do.")
+    urls_arg = " ".join(sys.argv[1:]).split()
+    feed_url = os.environ.get("LINKEDIN_RSS_URL")
+    if not urls_arg and not feed_url:
+        print("No post URLs given and LINKEDIN_RSS_URL is not set; nothing to do.")
         return 0
 
     text = DATA_FILE.read_text()
     existing = set(re.findall(r"urn:li:\w+:(\d+)", text))
 
     new_entries = []
-    for item in feed_items(url):
+
+    for url in urls_arg:
+        m = ACTIVITY_RE.search(url)
+        if not m:
+            print(f"No activity ID found in: {url}", file=sys.stderr)
+            return 1
+        if m.group(1) in existing:
+            print(f"Already listed: urn:li:activity:{m.group(1)}")
+            continue
+        existing.add(m.group(1))
+        new_entries.append(f'  - urn: "urn:li:activity:{m.group(1)}"\n')
+
+    for item in feed_items(feed_url) if feed_url else []:
         m = ACTIVITY_RE.search(item["link"])
         if not m or m.group(1) in existing:
             continue
