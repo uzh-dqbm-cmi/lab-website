@@ -6,6 +6,7 @@
 <div class="linkedin-feed">
   {{ range $posts }}{{ if or .src .urn }}
   <div class="linkedin-post">
+    {{ with .label }}<div class="linkedin-post-label"><i class="fas fa-retweet"></i> {{ . }}</div>{{ end }}
     <iframe src="{{ .src | default (printf "https://www.linkedin.com/embed/feed/update/%s" .urn) }}" height="{{ .height | default 570 }}" width="100%" frameborder="0" allowfullscreen="" loading="lazy" title="Embedded LinkedIn post"></iframe>
   </div>
   {{ end }}{{ end }}

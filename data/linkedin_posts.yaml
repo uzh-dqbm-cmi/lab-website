@@ -12,6 +12,11 @@
 #   urn:    the post URN (or use `src:` with a full embed URL instead)
 #   height: optional iframe height in px (default 570) — tune per post
 #   note:   optional human-readable reminder of what the post is
+#   label:  optional caption shown above the embed on the website, e.g.
+#           "Reposted by KrauthammerLab". Use for instant reposts: those have
+#           no embeddable post of their own, so embed the ORIGINAL post's URN
+#           and add this label. (Reposts made with commentary have their own
+#           URN and need no label.)
 #
 # Easier: on GitHub go to Actions -> "LinkedIn feed update" -> Run workflow
 # and paste the post's URL — it opens a pull request with the entry for you.
