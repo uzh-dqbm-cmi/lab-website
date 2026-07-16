@@ -28,7 +28,9 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "linkedin_posts.yaml"
-ACTIVITY_RE = re.compile(r"activity[-:](\d{10,})")
+# Post URLs carry the ID as e.g. "...-activity-71234...-xYz" or
+# "...-ugcPost-71234...-xYz"; embed URNs use the same type names.
+ACTIVITY_RE = re.compile(r"(activity|ugcPost|share)[-:](\d{10,})")
 
 
 def feed_items(url):
@@ -69,20 +71,22 @@ def main():
     for url in urls_arg:
         m = ACTIVITY_RE.search(url)
         if not m:
-            print(f"No activity ID found in: {url}", file=sys.stderr)
+            print(f"No post ID found in: {url}", file=sys.stderr)
             return 1
-        if m.group(1) in existing:
-            print(f"Already listed: urn:li:activity:{m.group(1)}")
+        kind, post_id = m.groups()
+        if post_id in existing:
+            print(f"Already listed: urn:li:{kind}:{post_id}")
             continue
-        existing.add(m.group(1))
-        new_entries.append(f'  - urn: "urn:li:activity:{m.group(1)}"\n')
+        existing.add(post_id)
+        new_entries.append(f'  - urn: "urn:li:{kind}:{post_id}"\n')
 
     for item in feed_items(feed_url) if feed_url else []:
         m = ACTIVITY_RE.search(item["link"])
-        if not m or m.group(1) in existing:
+        if not m or m.group(2) in existing:
             continue
-        existing.add(m.group(1))
-        entry = f'  - urn: "urn:li:activity:{m.group(1)}"\n'
+        kind, post_id = m.groups()
+        existing.add(post_id)
+        entry = f'  - urn: "urn:li:{kind}:{post_id}"\n'
         note = note_for(item)
         if note:
             entry += f'    note: "{note}"\n'
