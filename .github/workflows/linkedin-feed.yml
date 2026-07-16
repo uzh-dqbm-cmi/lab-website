@@ -1,0 +1,45 @@
+# Daily check for new posts on the lab's LinkedIn page. When new posts are
+# found, opens (or updates) a pull request adding them to
+# data/linkedin_posts.yaml — merge the PR to publish them on the website.
+#
+# Setup (one-time):
+#   1. Create an RSS feed for linkedin.com/company/krauthammerlab
+#      (e.g. on rss.app) and store its URL as the repo secret LINKEDIN_RSS_URL.
+#   2. In repo Settings -> Actions -> General, enable
+#      "Allow GitHub Actions to create and approve pull requests".
+name: LinkedIn feed update
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Check feed for new posts
+        env:
+          LINKEDIN_RSS_URL: ${{ secrets.LINKEDIN_RSS_URL }}
+        run: python scripts/fetch_linkedin_posts.py
+
+      - name: Open pull request with new posts
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto/linkedin-feed
+          title: "Add new LinkedIn posts to the website feed"
+          commit-message: "Add new LinkedIn posts to data/linkedin_posts.yaml"
+          body: >
+            Automated daily check found new posts on the lab's LinkedIn page.
+            Review the embeds in the Netlify deploy preview, then merge to
+            publish them on the website.
