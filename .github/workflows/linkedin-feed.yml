@@ -1,26 +1,22 @@
-# Adds LinkedIn posts to data/linkedin_posts.yaml and opens a pull request —
-# merge the PR to publish them on the website.
+# Archives the lab's LinkedIn posts into data/linkedin_posts.yaml.
 #
-# Normal use (free, no external service):
-#   After posting on LinkedIn, copy the post's URL, then on GitHub go to
-#   Actions -> "LinkedIn feed update" -> Run workflow, paste the URL(s) into
-#   the box, and run. Merge the PR it opens.
+# NOTE: this job does NOT affect what visitors see. The website shows the
+# SociableKIT widget, which updates on its own (on the free plan, after a
+# manual sync in the SociableKIT dashboard). This job only keeps a backup
+# of the posts in the repo, so that if SociableKIT ever disappears the
+# site can switch back to self-hosted rendering (see the comments in
+# content/home/linkedin.md) without losing the post history.
 #
-# Optional zero-touch mode:
-#   If the lab subscribes to an RSS feed of the LinkedIn page (e.g. rss.app,
-#   paid), store the feed URL as the repo secret LINKEDIN_RSS_URL and the
-#   daily run below will pick up new posts automatically. Without the secret
-#   the scheduled run exits without doing anything.
-#
-# One-time repo setting either way: Settings -> Actions -> General ->
-# "Allow GitHub Actions to create and approve pull requests".
-name: LinkedIn feed update
+# Runs daily and commits any new posts directly — nothing to review.
+# Can also be run by hand (Actions -> Run workflow), optionally pasting
+# post URLs to archive specific posts.
+name: LinkedIn feed archive
 
 on:
   workflow_dispatch:
     inputs:
       post_urls:
-        description: "LinkedIn post URL(s), separated by spaces"
+        description: "LinkedIn post URL(s), separated by spaces (optional)"
         required: false
         type: string
   schedule:
@@ -28,7 +24,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   update:
@@ -40,7 +35,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Add posts (from the SociableKIT data feed and/or input URLs)
+      - name: Archive posts (from the SociableKIT data feed and/or input URLs)
         env:
           LINKEDIN_RSS_URL: ${{ secrets.LINKEDIN_RSS_URL }}
           POST_URLS: ${{ inputs.post_urls }}
@@ -48,12 +43,14 @@ jobs:
           pip install pyyaml
           python scripts/fetch_linkedin_posts.py $POST_URLS
 
-      - name: Open pull request with new posts
-        uses: peter-evans/create-pull-request@v6
-        with:
-          branch: auto/linkedin-feed
-          title: "Add new LinkedIn posts to the website feed"
-          commit-message: "Add new LinkedIn posts to data/linkedin_posts.yaml"
-          body: >
-            New posts for the website's LinkedIn feed. Review the embeds in
-            the Netlify deploy preview, then merge to publish.
+      - name: Commit any changes
+        run: |
+          if git diff --quiet data/linkedin_posts.yaml; then
+            echo "No new posts."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/linkedin_posts.yaml
+          git commit -m "Archive new LinkedIn posts"
+          git push
