@@ -15,9 +15,9 @@ subtitle = ""
   columns = "1"
 +++
 
-<!-- Custom cards fed by the SociableKIT data feed (see
-     scripts/fetch_linkedin_posts.py). The widget itself is not used. -->
-{{< linkedin_feed count="3" >}}
+<!-- SociableKIT widget. Fallback to our own cards / official embeds:
+     replace the line below with {{</* linkedin_feed count="3" */>}} -->
+{{< sociablekit_feed id="25699324" >}}
 
 <p style="text-align:center">
   <a href="https://www.linkedin.com/company/krauthammerlab" target="_blank" rel="noopener">Follow us on LinkedIn</a>

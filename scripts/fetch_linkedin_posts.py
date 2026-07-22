@@ -33,7 +33,7 @@ from pathlib import Path
 import yaml
 
 DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "linkedin_posts.yaml"
-DEFAULT_SOCIABLEKIT_FEED = "https://data.accentapi.com/feed/25477913.json"
+DEFAULT_SOCIABLEKIT_FEED = "https://data.accentapi.com/feed/25699324.json"
 
 # Post URLs and URNs carry the ID as e.g. "...-activity-71234...-xYz",
 # "urn:li:ugcPost:71234..." etc.
