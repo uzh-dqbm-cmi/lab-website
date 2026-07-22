@@ -15,7 +15,9 @@ subtitle = ""
   columns = "1"
 +++
 
-{{< linkedin_feed count="3" >}}
+<!-- SociableKIT widget trial. Fallback to official embeds:
+     replace the line below with {{</* linkedin_feed count="3" */>}} -->
+{{< sociablekit_feed id="REPLACE_WITH_WIDGET_ID" >}}
 
 <p style="text-align:center">
   <a href="https://www.linkedin.com/company/krauthammerlab" target="_blank" rel="noopener">Follow us on LinkedIn</a>
