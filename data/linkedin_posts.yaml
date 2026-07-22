@@ -12,11 +12,22 @@
 #   urn:    the post URN (or use `src:` with a full embed URL instead)
 #   height: optional iframe height in px (default 570) — tune per post
 #   note:   optional human-readable reminder of what the post is
-#   label:  optional caption shown above the embed on the website, e.g.
+#   label:  optional caption shown above the post on the website, e.g.
 #           "Reposted by KrauthammerLab". Use for instant reposts: those have
 #           no embeddable post of their own, so embed the ORIGINAL post's URN
 #           and add this label. (Reposts made with commentary have their own
 #           URN and need no label.)
+#
+# PREFERRED compact-card fields — when `text:` is present the post renders
+# as a compact LinkedIn-style card (text clamped with an inline "...more",
+# media below). Copy the text from the post on LinkedIn:
+#   text:   the post's text, pasted verbatim (YAML block scalar, see below)
+#   author: display name of the post's author (default "KrauthammerLab")
+#   meta:   optional author subtitle, e.g. their headline
+#   date:   human-readable date shown in the card, e.g. "June 2026"
+#   media: true          — show the post's images/video (official compact embed)
+#   media_height: 300    — optional media height in px
+# Entries without `text:` render as the full LinkedIn embed instead.
 #
 # Easier: on GitHub go to Actions -> "LinkedIn feed update" -> Run workflow
 # and paste the post's URL — it opens a pull request with the entry for you.
@@ -29,6 +40,20 @@ posts:
   - urn: "urn:li:ugcPost:7475160377027194881"
     note: "Farhad Nooralahzadeh: RadVLM / healthcare AI (2026-06)"
     label: "Reposted by KrauthammerLab"
+    author: "Farhad Nooralahzadeh"
+    meta: "Principal Scientist/Lecturer at ZHAW"
+    date: "June 2026"
+    media: true
+    text: |
+      It was a great opportunity to present our RadVLM project at the AWS AI Health Leaders Forum in Zurich and share how we are building a Vision Language Model for Radiology.
+
+      A big thank you to AWS for the invitation and for bringing together healthcare leaders, researchers, and AI innovators to discuss the future of AI in healthcare.
+
+      We are also grateful to AWS for providing the cloud infrastructure that enables us to serve our models efficiently, helping us bring cutting-edge AI capabilities closer to real-world clinical applications.
+
+      It was inspiring to exchange ideas with experts across the healthcare and AI ecosystem, and I look forward to future collaborations.
+
+      #RadVLM #HealthcareAI #MedicalImaging #VisionLanguageModels #AWS #AWSforHealth #AIinHealthcare KrauthammerLab
   - urn: "urn:li:ugcPost:7469736481406910464"
     note: "Farhad Nooralahzadeh: AI / generative AI / LLM (2026-06)"
     label: "Reposted by KrauthammerLab"

@@ -57,3 +57,84 @@
   font-size: 0.85rem;
   margin-top: 0.25rem;
 }
+
+// Custom LinkedIn-style cards (entries with `text:` in the data file).
+// Fixed light colors: the card mimics LinkedIn's white embed either way.
+.linkedin-card {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.9);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+
+  .linkedin-post-label {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.linkedin-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.linkedin-card-author {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.linkedin-card-meta {
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.linkedin-card-logo {
+  color: #0a66c2;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.linkedin-card-body {
+  position: relative;
+}
+
+.linkedin-card-text {
+  max-height: 4.4em; // ~3 lines, like LinkedIn's feed
+  overflow: hidden;
+
+  p {
+    margin-bottom: 0.6em;
+  }
+}
+
+.linkedin-card-text.expanded {
+  max-height: none;
+}
+
+.linkedin-more {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  padding-left: 0.4em;
+  color: #666;
+  font-size: 0.85rem;
+
+  &:hover {
+    color: #0a66c2;
+    text-decoration: none;
+  }
+}
+
+.linkedin-card-media {
+  margin-top: 0.6rem;
+
+  iframe {
+    border: 0;
+    width: 100%;
+    border-radius: 4px;
+  }
+}
