@@ -14,7 +14,7 @@ header:
 
 <!-- SociableKIT widget trial. Fallback to official embeds:
      replace the line below with {{</* linkedin_feed */>}} -->
-{{< sociablekit_feed id="REPLACE_WITH_WIDGET_ID" >}}
+{{< sociablekit_feed id="25477913" >}}
 
 <p style="text-align:center">
   <a href="https://www.linkedin.com/company/krauthammerlab" target="_blank" rel="noopener">Follow us on LinkedIn</a>
