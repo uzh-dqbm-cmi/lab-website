@@ -26,3 +26,34 @@
   color: #696969;
   margin-bottom: 0.3rem;
 }
+
+// Compact cards: clip tall embeds, fade out at the bottom, expand on demand.
+.linkedin-collapse {
+  position: relative;
+  max-height: 360px;
+  overflow: hidden;
+}
+
+.linkedin-collapse.expanded {
+  max-height: none;
+}
+
+.linkedin-collapse:not(.expanded)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 70px;
+  // The embed's own background is always white, so fade to white
+  // regardless of the site theme.
+  background: linear-gradient(rgba(255, 255, 255, 0), #fff);
+  pointer-events: none;
+}
+
+.linkedin-readmore {
+  display: block;
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}

@@ -1,13 +1,22 @@
 {{/* Renders LinkedIn post embeds from data/linkedin_posts.yaml.
-     Usage: {{< linkedin_feed >}} or {{< linkedin_feed count="3" >}} */}}
+     Usage: {{< linkedin_feed >}} or {{< linkedin_feed count="3" >}}
+     Tall embeds are collapsed to a compact card with a Read more toggle. */}}
 {{ $posts := slice }}
 {{ with site.Data.linkedin_posts }}{{ $posts = .posts | default $posts }}{{ end }}
 {{ with .Get "count" }}{{ $posts = first (int .) $posts }}{{ end }}
 <div class="linkedin-feed">
   {{ range $posts }}{{ if or .src .urn }}
+  {{ $height := .height | default 570 }}
   <div class="linkedin-post">
     {{ with .label }}<div class="linkedin-post-label"><i class="fas fa-retweet"></i> {{ . }}</div>{{ end }}
-    <iframe src="{{ .src | default (printf "https://www.linkedin.com/embed/feed/update/%s" .urn) }}" height="{{ .height | default 570 }}" width="100%" frameborder="0" allowfullscreen="" loading="lazy" title="Embedded LinkedIn post"></iframe>
+    {{ if gt $height 420 }}
+    <div class="linkedin-collapse">
+      <iframe src="{{ .src | default (printf "https://www.linkedin.com/embed/feed/update/%s" .urn) }}" height="{{ $height }}" width="100%" frameborder="0" allowfullscreen="" loading="lazy" title="Embedded LinkedIn post"></iframe>
+    </div>
+    <a class="linkedin-readmore" href="#" onclick="var c=this.previousElementSibling;this.textContent=c.classList.toggle('expanded')?'Show less':'Read more';return false;">Read more</a>
+    {{ else }}
+    <iframe src="{{ .src | default (printf "https://www.linkedin.com/embed/feed/update/%s" .urn) }}" height="{{ $height }}" width="100%" frameborder="0" allowfullscreen="" loading="lazy" title="Embedded LinkedIn post"></iframe>
+    {{ end }}
   </div>
   {{ end }}{{ end }}
 </div>
