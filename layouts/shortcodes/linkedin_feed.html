@@ -16,9 +16,10 @@
   <div class="linkedin-post">
     <div class="linkedin-card">
       {{ with .label }}<div class="linkedin-post-label"><i class="fas fa-retweet"></i> {{ . }}</div>{{ end }}
+      {{ $author := .author }}{{ if and (not $author) (not .label) }}{{ $author = "KrauthammerLab" }}{{ end }}
       <div class="linkedin-card-header">
         <div>
-          <a class="linkedin-card-author" href="{{ $url }}" target="_blank" rel="noopener">{{ .author | default "KrauthammerLab" }}</a>
+          {{ with $author }}<a class="linkedin-card-author" href="{{ $url }}" target="_blank" rel="noopener">{{ . }}</a>{{ end }}
           <div class="linkedin-card-meta">{{ with .meta }}{{ . }} &middot; {{ end }}{{ .date }}</div>
         </div>
         <a class="linkedin-card-logo" href="{{ $url }}" target="_blank" rel="noopener" aria-label="View on LinkedIn"><i class="fab fa-linkedin"></i></a>
@@ -29,7 +30,11 @@
         </div>
         <a class="linkedin-more" href="#" onclick="this.parentNode.querySelector('.linkedin-card-text').classList.add('expanded');this.style.display='none';return false;">&hellip;more</a>
       </div>
-      {{ if .media }}
+      {{ if .image }}
+      <div class="linkedin-card-media">
+        <a href="{{ $url }}" target="_blank" rel="noopener"><img src="{{ .image }}" alt="Image from LinkedIn post" loading="lazy"></a>
+      </div>
+      {{ else if .media }}
       <div class="linkedin-card-media">
         <iframe src="https://www.linkedin.com/embed/feed/update/{{ .urn }}?compact=true" height="{{ .media_height | default 300 }}" width="100%" frameborder="0" allowfullscreen="" loading="lazy" title="Media from LinkedIn post"></iframe>
       </div>

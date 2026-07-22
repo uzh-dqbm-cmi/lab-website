@@ -1,112 +1,167 @@
 #!/usr/bin/env python3
-"""Add new LinkedIn posts to data/linkedin_posts.yaml.
+"""Sync data/linkedin_posts.yaml with the lab's LinkedIn posts.
 
-Two ways to supply posts:
+Sources, all optional and merged together:
   1. Post URLs as command-line arguments (space- or newline-separated) —
-     used by the workflow_dispatch "Run workflow" box on GitHub. Anything
-     containing an activity ID works, e.g.
-     https://www.linkedin.com/posts/krauthammerlab_..._activity-7421...-QEk-
-  2. An RSS feed of the page via the LINKEDIN_RSS_URL environment variable
-     (optional GitHub Actions secret; only if the lab subscribes to a feed
-     service such as rss.app). The feed is only used to *discover* post IDs —
-     the website renders LinkedIn's official embeds, so nothing on the site
-     depends on the feed service.
+     used by the workflow_dispatch "Run workflow" box on GitHub. Adds a
+     minimal entry (no text); fill in details in the PR if wanted.
+  2. The SociableKIT data feed of the page (JSON) — the default source.
+     Provides text, date, repost flag and a durable image URL, so posts
+     arrive as complete compact cards. Override the URL with the
+     SOCIABLEKIT_FEED_URL environment variable. NOTE: on SociableKIT's
+     free plan the feed only updates after a manual sync in their
+     dashboard (widget id 25477913, see layouts/shortcodes docs).
+  3. An RSS feed via LINKEDIN_RSS_URL (legacy fallback, normally unset).
 
-New entries are inserted as text right below the `posts:` line so the file's
-comments and formatting are preserved. Exits 0 whether or not anything changed;
-the workflow opens a PR only if the file was modified.
+Existing entries are never overwritten: new posts are added, and existing
+entries only gain fields they are missing (e.g. text arriving later from
+the feed). Entries are kept sorted newest-first using the timestamp
+embedded in the post ID. The file's header comment block is preserved.
 
-Stdlib only — no pip install needed.
+Requires PyYAML (pip install pyyaml).
 """
 
+import json
 import os
 import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
-from email.utils import parsedate_to_datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
+import yaml
+
 DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "linkedin_posts.yaml"
-# Post URLs carry the ID as e.g. "...-activity-71234...-xYz" or
-# "...-ugcPost-71234...-xYz"; embed URNs use the same type names.
-ACTIVITY_RE = re.compile(r"(activity|ugcPost|share)[-:](\d{10,})")
+DEFAULT_SOCIABLEKIT_FEED = "https://data.accentapi.com/feed/25477913.json"
+
+# Post URLs and URNs carry the ID as e.g. "...-activity-71234...-xYz",
+# "urn:li:ugcPost:71234..." etc.
+URN_RE = re.compile(r"(activity|ugcPost|share)[-:](\d{10,})")
 
 
-def feed_items(url):
-    with urllib.request.urlopen(url, timeout=30) as resp:
-        root = ET.fromstring(resp.read())
-    for item in root.iter("item"):
-        yield {
-            "link": (item.findtext("link") or "").strip(),
-            "title": (item.findtext("title") or "").strip(),
-            "pubdate": (item.findtext("pubDate") or "").strip(),
-        }
+def urn_id(urn):
+    m = URN_RE.search(urn or "")
+    return m.group(2) if m else None
 
 
-def note_for(item):
-    title = re.sub(r"\s+", " ", item["title"]).replace('"', "'")
-    if len(title) > 70:
-        title = title[:67] + "..."
-    date = ""
+def post_timestamp(urn):
+    """LinkedIn IDs are snowflakes: the top bits are a ms timestamp."""
+    pid = urn_id(urn)
+    return int(pid) >> 22 if pid else 0
+
+
+def month_year(iso_datetime):
     try:
-        date = parsedate_to_datetime(item["pubdate"]).strftime(" (%Y-%m)")
+        return datetime.strptime(iso_datetime[:10], "%Y-%m-%d").strftime("%B %Y")
     except (ValueError, TypeError):
-        pass
-    return f"{title}{date}" if title else date.strip(" ()")
+        return ""
+
+
+def fetch(url):
+    with urllib.request.urlopen(url, timeout=30) as resp:
+        return resp.read()
+
+
+def entries_from_args(urls):
+    for url in urls:
+        m = URN_RE.search(url)
+        if not m:
+            print("No post ID found in: %s" % url, file=sys.stderr)
+            sys.exit(1)
+        yield {"urn": "urn:li:%s:%s" % m.groups()}
+
+
+def entries_from_sociablekit(feed_url):
+    data = json.loads(fetch(feed_url))
+    for p in data.get("posts", []):
+        m = URN_RE.search(p.get("post_url") or "")
+        if not m:
+            continue
+        entry = {"urn": "urn:li:%s:%s" % m.groups()}
+        if str(p.get("reposted")) == "1":
+            entry["label"] = "Reposted by KrauthammerLab"
+        else:
+            entry["author"] = "KrauthammerLab"
+        date = month_year(p.get("post_date_time") or "")
+        if date:
+            entry["date"] = date
+        text = (p.get("raw_text") or p.get("description_raw") or "").strip()
+        if text:
+            entry["text"] = text
+        images = p.get("image_urls") or []
+        image = images[0] if images else (p.get("thumbnail_url") or "")
+        if image:
+            entry["image"] = image
+        yield entry
+
+
+def entries_from_rss(feed_url):
+    root = ET.fromstring(fetch(feed_url))
+    for item in root.iter("item"):
+        m = URN_RE.search((item.findtext("link") or "").strip())
+        if m:
+            yield {"urn": "urn:li:%s:%s" % m.groups()}
+
+
+def str_presenter(dumper, value):
+    if "\n" in value:
+        # Literal blocks cannot hold trailing spaces on a line.
+        value = "\n".join(line.rstrip() for line in value.splitlines())
+        return dumper.represent_scalar("tag:yaml.org,2002:str", value, style="|")
+    return dumper.represent_scalar("tag:yaml.org,2002:str", value)
+
+
+yaml.add_representer(str, str_presenter)
 
 
 def main():
-    urls_arg = " ".join(sys.argv[1:]).split()
-    feed_url = os.environ.get("LINKEDIN_RSS_URL")
-    if not urls_arg and not feed_url:
-        print("No post URLs given and LINKEDIN_RSS_URL is not set; nothing to do.")
-        return 0
+    raw = DATA_FILE.read_text()
+    header, marker, _ = raw.partition("\nposts:")
+    if not marker:
+        print("Could not find 'posts:' key in data file.", file=sys.stderr)
+        return 1
+    existing = yaml.safe_load(raw).get("posts") or []
+    by_id = {}
+    for e in existing:
+        pid = urn_id(e.get("urn") or e.get("src") or "")
+        if pid:
+            by_id[pid] = e
 
-    text = DATA_FILE.read_text()
-    existing = set(re.findall(r"urn:li:\w+:(\d+)", text))
+    incoming = []
+    incoming.extend(entries_from_args(" ".join(sys.argv[1:]).split()))
+    feed_url = os.environ.get("SOCIABLEKIT_FEED_URL", DEFAULT_SOCIABLEKIT_FEED)
+    if feed_url:
+        try:
+            incoming.extend(entries_from_sociablekit(feed_url))
+        except Exception as exc:  # a broken feed must not kill URL mode
+            print("SociableKIT feed failed: %s" % exc, file=sys.stderr)
+    if os.environ.get("LINKEDIN_RSS_URL"):
+        incoming.extend(entries_from_rss(os.environ["LINKEDIN_RSS_URL"]))
 
-    new_entries = []
+    added = updated = 0
+    for entry in incoming:
+        pid = urn_id(entry["urn"])
+        current = by_id.get(pid)
+        if current is None:
+            by_id[pid] = entry
+            added += 1
+        else:
+            # Only fill fields the existing entry is missing — manual
+            # edits (labels, tuned heights, curated text) always win.
+            missing = {k: v for k, v in entry.items() if not current.get(k)}
+            if missing:
+                current.update(missing)
+                updated += 1
 
-    for url in urls_arg:
-        m = ACTIVITY_RE.search(url)
-        if not m:
-            print(f"No post ID found in: {url}", file=sys.stderr)
-            return 1
-        kind, post_id = m.groups()
-        if post_id in existing:
-            print(f"Already listed: urn:li:{kind}:{post_id}")
-            continue
-        existing.add(post_id)
-        new_entries.append(f'  - urn: "urn:li:{kind}:{post_id}"\n')
-
-    for item in feed_items(feed_url) if feed_url else []:
-        m = ACTIVITY_RE.search(item["link"])
-        if not m or m.group(2) in existing:
-            continue
-        kind, post_id = m.groups()
-        existing.add(post_id)
-        entry = f'  - urn: "urn:li:{kind}:{post_id}"\n'
-        note = note_for(item)
-        if note:
-            entry += f'    note: "{note}"\n'
-        new_entries.append(entry)
-
-    if not new_entries:
+    if not added and not updated:
         print("No new LinkedIn posts found.")
         return 0
 
-    lines = text.splitlines(keepends=True)
-    for i, line in enumerate(lines):
-        if line.startswith("posts:"):
-            lines[i + 1 : i + 1] = new_entries
-            break
-    else:
-        print("Could not find 'posts:' key in data file.", file=sys.stderr)
-        return 1
-
-    DATA_FILE.write_text("".join(lines))
-    print(f"Added {len(new_entries)} new post(s) to {DATA_FILE.name}.")
+    merged = sorted(by_id.values(), key=lambda e: post_timestamp(e.get("urn") or e.get("src") or ""), reverse=True)
+    body = yaml.dump({"posts": merged}, allow_unicode=True, sort_keys=False, width=1000, default_flow_style=False)
+    DATA_FILE.write_text(header + "\n" + body)
+    print("Added %d and updated %d post(s) in %s." % (added, updated, DATA_FILE.name))
     return 0
 
 

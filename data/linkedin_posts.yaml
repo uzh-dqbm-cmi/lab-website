@@ -20,58 +20,133 @@
 #
 # PREFERRED compact-card fields — when `text:` is present the post renders
 # as a compact LinkedIn-style card (text clamped with an inline "...more",
-# media below). Copy the text from the post on LinkedIn:
-#   text:   the post's text, pasted verbatim (YAML block scalar, see below)
-#   author: display name of the post's author (default "KrauthammerLab")
+# image below). These are normally AUTO-FILLED from the SociableKIT data
+# feed by scripts/fetch_linkedin_posts.py (run daily by the GitHub Action;
+# free-plan caveat: sync the widget manually in the SociableKIT dashboard
+# first, or the feed serves stale data):
+#   text:   the post's text (YAML block scalar, see below)
+#   author: display name of the post's author (default "KrauthammerLab",
+#           left empty for reposts until filled in by hand)
 #   meta:   optional author subtitle, e.g. their headline
 #   date:   human-readable date shown in the card, e.g. "June 2026"
-#   media: true          — show the post's images/video (official compact embed)
-#   media_height: 300    — optional media height in px
+#   image:  URL of the post's image (SociableKIT's server; does not expire)
+#   media: true / media_height — legacy: LinkedIn's compact media embed,
+#           only used when no image is set
 # Entries without `text:` render as the full LinkedIn embed instead.
+# Manual edits always win: the sync script only fills in missing fields.
 #
-# Easier: on GitHub go to Actions -> "LinkedIn feed update" -> Run workflow
-# and paste the post's URL — it opens a pull request with the entry for you.
+# Easier than the manual steps above: on GitHub go to Actions ->
+# "LinkedIn feed update" -> Run workflow and paste the post's URL — it
+# opens a pull request with the entry for you.
 #
 # NOTE: only posts visible to logged-OUT visitors can be embedded. If an
 # embed shows "Sign in ... This post is unavailable", the author restricts
 # it and it cannot be shown here — remove the entry. Check embeds in the
 # PR's deploy preview (in a private browser window) before merging.
 posts:
-  - urn: "urn:li:ugcPost:7475160377027194881"
-    note: "Farhad Nooralahzadeh: RadVLM / healthcare AI (2026-06)"
-    label: "Reposted by KrauthammerLab"
-    author: "Farhad Nooralahzadeh"
-    meta: "Principal Scientist/Lecturer at ZHAW"
-    date: "June 2026"
-    media: true
-    text: |
-      It was a great opportunity to present our RadVLM project at the AWS AI Health Leaders Forum in Zurich and share how we are building a Vision Language Model for Radiology.
+- urn: urn:li:ugcPost:7475160377027194881
+  note: 'Farhad Nooralahzadeh: RadVLM / healthcare AI (2026-06)'
+  label: Reposted by KrauthammerLab
+  author: Farhad Nooralahzadeh
+  meta: Principal Scientist/Lecturer at ZHAW
+  date: June 2026
+  text: |-
+    It was a great opportunity to present our RadVLM project at the AWS AI Health Leaders Forum in Zurich and share how we are building a Vision Language Model for Radiology.
 
-      A big thank you to AWS for the invitation and for bringing together healthcare leaders, researchers, and AI innovators to discuss the future of AI in healthcare.
+    A big thank you to AWS for the invitation and for bringing together healthcare leaders, researchers, and AI innovators to discuss the future of AI in healthcare.
 
-      We are also grateful to AWS for providing the cloud infrastructure that enables us to serve our models efficiently, helping us bring cutting-edge AI capabilities closer to real-world clinical applications.
+    We are also grateful to AWS for providing the cloud infrastructure that enables us to serve our models efficiently, helping us bring cutting-edge AI capabilities closer to real-world clinical applications.
 
-      It was inspiring to exchange ideas with experts across the healthcare and AI ecosystem, and I look forward to future collaborations.
+    It was inspiring to exchange ideas with experts across the healthcare and AI ecosystem, and I look forward to future collaborations.
 
-      #RadVLM #HealthcareAI #MedicalImaging #VisionLanguageModels #AWS #AWSforHealth #AIinHealthcare KrauthammerLab
-  - urn: "urn:li:ugcPost:7469736481406910464"
-    note: "Farhad Nooralahzadeh: AI / generative AI / LLM (2026-06)"
-    label: "Reposted by KrauthammerLab"
-  - urn: "urn:li:ugcPost:7452640144106418177"
-    note: "Eline Meijer at ESCMID Global (2026-04)"
-    label: "Reposted by KrauthammerLab"
-  - urn: "urn:li:activity:7434250264225841153"
-    note: "PhD defense success (2026-03)"
-  - urn: "urn:li:activity:7429206344689164289"
-    note: "Lea Bogensperger: protein language models (2026-02)"
-    label: "Reposted by KrauthammerLab"
-  - urn: "urn:li:activity:7421523952058966016"
-    note: "Delegation visit from NII Tokyo and Kyoto University (2026-01)"
-  - urn: "urn:li:activity:7367153191555174400"
-    note: "Congratulations to Dr. Xiaochen Zheng (2025-08)"
-  - urn: "urn:li:activity:7302704453558673408"
-    note: "Ph.D. Position in AI for Cancer Genomics (2025-03)"
-  - urn: "urn:li:activity:7256616947218345984"
-    note: "Welcome to our new lab member, Bowen Fan (2024-10)"
-  - urn: "urn:li:activity:7191707989643321345"
-    note: "Lab visit to Yale (2024-04)"
+    #RadVLM #HealthcareAI #MedicalImaging #VisionLanguageModels #AWS #AWSforHealth #AIinHealthcare KrauthammerLab
+  image: https://data-image.sociablekit.com/sources/linkedin-page-posts/krauthammerlab/7475165430458855424-images-0.webp?nocache=1784734528
+- urn: urn:li:ugcPost:7469736481406910464
+  note: 'Farhad Nooralahzadeh: AI / generative AI / LLM (2026-06)'
+  label: Reposted by KrauthammerLab
+  date: June 2026
+  text: |-
+    Excited to have contributed to the CAS in Medical Leadership at the University of Zurich, together with Prof.Michael Krauthammer and Ahmed Allam.
+
+    As part of the Artificial Intelligence & Machine Learning module, we designed and delivered content focused on ML, Large Language Models (LLMs), and AI in Medicine, moving beyond the hype to explore how these systems are actually built, trained, and applied in healthcare.
+
+    The module aims to help healthcare leaders understand the foundations of AI and machine learning, machine learning workflows, real-world medical applications, and the opportunities and limitations of these technologies in clinical practice.
+
+    My contribution focused on:
+     🔹 The fundamentals of Large Language Models
+     🔹 How LLMs are trained and fine-tuned
+     🔹 Data, compute, and alignment considerations
+     🔹 Critical thinking around responsible AI adoption in medicine
+
+    What made this experience particularly rewarding was the opportunity to engage with healthcare professionals who are actively shaping the future of medicine and leadership. Bridging the gap between cutting-edge AI research and practical healthcare applications is one of the most important challenges—and opportunities—of our time.
+
+    A big thank you to Prof. Krauthammer, Ahmed Allam, Barbara Krieger, and the entire MedLead team for the collaboration and the stimulating discussions.
+
+    More info ---> https://lnkd.in/eeMWdJ_V
+
+    #AI #GenerativeAI #LLM #MachineLearning #HealthcareAI #DigitalHealth #MedicalLeadership #UZH #ExecutiveEducation #ArtificialIntelligence KrauthammerLab
+  image: https://data-image.sociablekit.com/sources/linkedin-page-posts/krauthammerlab/7469740338530889728-images-0.webp?nocache=1784734528
+- urn: urn:li:ugcPost:7459547750586785792
+  label: Reposted by KrauthammerLab
+  date: May 2026
+  text: |-
+    How can patient-reported pain be transformed into structured, interoperable clinical data?
+    Join our upcoming Digital Health webinar “From Sketch to Signal: Building a Digital Pain Drawing Tool from Anatomical Illustration to Structured Clinical Data” with Dr. Yanick Lukic (ZHAW).
+    In this session, we will explore how a digital pain drawing tool was developed — from the creation of an anatomically grounded, sex-neutral body illustration to an interactive prototype that enables intuitive pain marking and structured data capture.
+    The webinar will cover:
+    • interdisciplinary design challenges around neutrality, anatomical accuracy, and usability
+    • transforming pain drawings into analyzable, region-level clinical data
+    • integration with interoperable standards such as FHIR and SNOMED CT
+    • and the potential for patient-centered documentation and longitudinal pain assessment
+    The session offers insights into how human-centered design, clinical practice, and digital health technologies can come together to support more meaningful patient-reported data.
+
+    This webinar is a collaboration between Digital Health Zurich (funded by DIZH), the ZHAW Digital Health Lab, and the digital health center bülach (dhc).
+    #digitalhealth #painmanagement #digitalhealthinnovation #interoperability #fhir #snomedct #humancentereddesign #digitalhealthzurich
+- urn: urn:li:ugcPost:7452640144106418177
+  note: Eline Meijer at ESCMID Global (2026-04)
+  label: Reposted by KrauthammerLab
+- urn: urn:li:activity:7434250264225841153
+  note: PhD defense success (2026-03)
+- urn: urn:li:activity:7429206344689164289
+  note: 'Lea Bogensperger: protein language models (2026-02)'
+  label: Reposted by KrauthammerLab
+- urn: urn:li:activity:7421523952058966016
+  note: Delegation visit from NII Tokyo and Kyoto University (2026-01)
+- urn: urn:li:activity:7367153191555174400
+  note: Congratulations to Dr. Xiaochen Zheng (2025-08)
+- urn: urn:li:activity:7302704453558673408
+  note: Ph.D. Position in AI for Cancer Genomics (2025-03)
+- urn: urn:li:activity:7256616947218345984
+  note: Welcome to our new lab member, Bowen Fan (2024-10)
+- urn: urn:li:activity:7254059256058957824
+  author: KrauthammerLab
+  date: October 2024
+  image: https://images.sociablekit.com/sources/linkedin-page-posts/krauthammerlab/7254059256058957824-images-0.jpg?nocache=1729509000392
+- urn: urn:li:activity:7251575169222074368
+  author: KrauthammerLab
+  date: October 2024
+- urn: urn:li:activity:7244616632810000385
+  author: KrauthammerLab
+  date: September 2024
+  image: https://images.sociablekit.com/sources/linkedin-page-posts/krauthammerlab/7244616632810000385-images-0.jpg?nocache=1729509003399
+- urn: urn:li:activity:7244284443111112704
+  author: KrauthammerLab
+  date: September 2024
+  image: https://images.sociablekit.com/sources/linkedin-page-posts/krauthammerlab/7244284443111112704-images-0.jpg?nocache=1729509004898
+- urn: urn:li:activity:7243899932246503425
+  author: KrauthammerLab
+  date: September 2024
+  image: https://images.sociablekit.com/sources/linkedin-page-posts/krauthammerlab/7243899932246503425-images-0.jpg?nocache=1729509007911
+- urn: urn:li:activity:7240012885282697216
+  label: Reposted by KrauthammerLab
+  date: September 2024
+  image: https://images.sociablekit.com/sources/linkedin-page-posts/krauthammerlab/7240012885282697216-images-0.jpg?nocache=1729509009393
+- urn: urn:li:activity:7232028862119866368
+  label: Reposted by KrauthammerLab
+  date: August 2024
+  image: https://images.sociablekit.com/sources/linkedin-page-posts/krauthammerlab/7232028862119866368-images-0.jpg?nocache=1729509010903
+- urn: urn:li:activity:7223658524063498241
+  author: KrauthammerLab
+  date: August 2024
+- urn: urn:li:activity:7191707989643321345
+  note: Lab visit to Yale (2024-04)

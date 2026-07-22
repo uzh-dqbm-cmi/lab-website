@@ -40,11 +40,13 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Add posts (from input URLs and/or RSS feed)
+      - name: Add posts (from the SociableKIT data feed and/or input URLs)
         env:
           LINKEDIN_RSS_URL: ${{ secrets.LINKEDIN_RSS_URL }}
           POST_URLS: ${{ inputs.post_urls }}
-        run: python scripts/fetch_linkedin_posts.py $POST_URLS
+        run: |
+          pip install pyyaml
+          python scripts/fetch_linkedin_posts.py $POST_URLS
 
       - name: Open pull request with new posts
         uses: peter-evans/create-pull-request@v6
