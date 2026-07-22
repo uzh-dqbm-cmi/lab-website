@@ -1,0 +1,59 @@
+# Adds LinkedIn posts to data/linkedin_posts.yaml and opens a pull request —
+# merge the PR to publish them on the website.
+#
+# Normal use (free, no external service):
+#   After posting on LinkedIn, copy the post's URL, then on GitHub go to
+#   Actions -> "LinkedIn feed update" -> Run workflow, paste the URL(s) into
+#   the box, and run. Merge the PR it opens.
+#
+# Optional zero-touch mode:
+#   If the lab subscribes to an RSS feed of the LinkedIn page (e.g. rss.app,
+#   paid), store the feed URL as the repo secret LINKEDIN_RSS_URL and the
+#   daily run below will pick up new posts automatically. Without the secret
+#   the scheduled run exits without doing anything.
+#
+# One-time repo setting either way: Settings -> Actions -> General ->
+# "Allow GitHub Actions to create and approve pull requests".
+name: LinkedIn feed update
+
+on:
+  workflow_dispatch:
+    inputs:
+      post_urls:
+        description: "LinkedIn post URL(s), separated by spaces"
+        required: false
+        type: string
+  schedule:
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Add posts (from the SociableKIT data feed and/or input URLs)
+        env:
+          LINKEDIN_RSS_URL: ${{ secrets.LINKEDIN_RSS_URL }}
+          POST_URLS: ${{ inputs.post_urls }}
+        run: |
+          pip install pyyaml
+          python scripts/fetch_linkedin_posts.py $POST_URLS
+
+      - name: Open pull request with new posts
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto/linkedin-feed
+          title: "Add new LinkedIn posts to the website feed"
+          commit-message: "Add new LinkedIn posts to data/linkedin_posts.yaml"
+          body: >
+            New posts for the website's LinkedIn feed. Review the embeds in
+            the Netlify deploy preview, then merge to publish.
