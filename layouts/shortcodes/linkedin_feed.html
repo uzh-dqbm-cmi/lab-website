@@ -1,0 +1,68 @@
+{{/* Renders LinkedIn posts from data/linkedin_posts.yaml.
+     Usage: {{< linkedin_feed >}} or {{< linkedin_feed count="3" >}}
+
+     Entries WITH a `text:` field render as custom cards: author line,
+     text clamped at ~3 lines with an inline "...more" toggle (like
+     LinkedIn's feed), and the post's media via LinkedIn's official
+     compact embed. Entries WITHOUT `text:` fall back to the full
+     official embed, collapsed behind a Read more toggle when tall. */}}
+{{ $posts := slice }}
+{{ with site.Data.linkedin_posts }}{{ $posts = .posts | default $posts }}{{ end }}
+{{ with .Get "count" }}{{ $posts = first (int .) $posts }}{{ end }}
+<div class="linkedin-feed">
+  {{ range $posts }}{{ if or .src .urn }}
+  {{ if .text }}
+  {{ $url := printf "https://www.linkedin.com/feed/update/%s/" .urn }}
+  <div class="linkedin-post">
+    <div class="linkedin-card">
+      {{ with .label }}<div class="linkedin-post-label"><i class="fas fa-retweet"></i> {{ . }}</div>{{ end }}
+      {{ $author := .author }}{{ if and (not $author) (not .label) }}{{ $author = "KrauthammerLab" }}{{ end }}
+      <div class="linkedin-card-header">
+        <div>
+          {{ with $author }}<a class="linkedin-card-author" href="{{ $url }}" target="_blank" rel="noopener">{{ . }}</a>{{ end }}
+          <div class="linkedin-card-meta">{{ with .meta }}{{ . }} &middot; {{ end }}{{ .date }}</div>
+        </div>
+        <a class="linkedin-card-logo" href="{{ $url }}" target="_blank" rel="noopener" aria-label="View on LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="linkedin-card-body">
+        <div class="linkedin-card-text">
+          {{ range split .text "\n\n" }}<p>{{ replace (htmlEscape .) "\n" "<br>" | safeHTML }}</p>{{ end }}
+        </div>
+        <a class="linkedin-more" href="#" onclick="this.parentNode.querySelector('.linkedin-card-text').classList.add('expanded');this.style.display='none';return false;">&hellip;more</a>
+      </div>
+      {{ if .image }}
+      <div class="linkedin-card-media">
+        <a href="{{ $url }}" target="_blank" rel="noopener"><img src="{{ .image }}" alt="Image from LinkedIn post" loading="lazy"></a>
+      </div>
+      {{ else if .media }}
+      <div class="linkedin-card-media">
+        <iframe src="https://www.linkedin.com/embed/feed/update/{{ .urn }}?compact=true" height="{{ .media_height | default 300 }}" width="100%" frameborder="0" allowfullscreen="" loading="lazy" title="Media from LinkedIn post"></iframe>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ else }}
+  {{ $height := .height | default 570 }}
+  <div class="linkedin-post">
+    {{ with .label }}<div class="linkedin-post-label"><i class="fas fa-retweet"></i> {{ . }}</div>{{ end }}
+    {{ if gt $height 420 }}
+    <div class="linkedin-collapse">
+      <iframe src="{{ .src | default (printf "https://www.linkedin.com/embed/feed/update/%s" .urn) }}" height="{{ $height }}" width="100%" frameborder="0" allowfullscreen="" loading="lazy" title="Embedded LinkedIn post"></iframe>
+    </div>
+    <a class="linkedin-readmore" href="#" onclick="var c=this.previousElementSibling;this.textContent=c.classList.toggle('expanded')?'Show less':'Read more';return false;">Read more</a>
+    {{ else }}
+    <iframe src="{{ .src | default (printf "https://www.linkedin.com/embed/feed/update/%s" .urn) }}" height="{{ $height }}" width="100%" frameborder="0" allowfullscreen="" loading="lazy" title="Embedded LinkedIn post"></iframe>
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ end }}{{ end }}
+</div>
+<script>
+(function () {
+  document.querySelectorAll('.linkedin-card-text:not([data-clamp-checked])').forEach(function (t) {
+    t.setAttribute('data-clamp-checked', '1');
+    var more = t.parentNode.querySelector('.linkedin-more');
+    if (more && t.scrollHeight <= t.clientHeight + 2) { more.style.display = 'none'; }
+  });
+})();
+</script>

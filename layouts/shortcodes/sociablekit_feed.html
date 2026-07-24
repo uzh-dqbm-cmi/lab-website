@@ -1,0 +1,13 @@
+{{/* SociableKIT "LinkedIn Page Posts" widget.
+     Usage: {{< sociablekit_feed id="12345678" >}}
+     Get the embed id from sociablekit.com after creating a LinkedIn Page
+     Posts widget for linkedin.com/company/krauthammerlab: the embed code
+     they show contains data-embed-id="...". The script version is used
+     (not the iframe) so the widget sizes its own height responsively. */}}
+{{ $id := .Get "id" }}
+{{ if and $id (ne $id "REPLACE_WITH_WIDGET_ID") }}
+<div class="sk-ww-linkedin-page-post" data-embed-id="{{ $id }}"></div>
+<script src="https://widgets.sociablekit.com/linkedin-page-posts/widget.js" defer></script>
+{{ else }}
+<p style="text-align:center;color:#888">LinkedIn feed widget is not configured yet (missing SociableKIT embed id).</p>
+{{ end }}
