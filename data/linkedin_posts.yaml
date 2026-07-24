@@ -1,4 +1,9 @@
-# LinkedIn posts shown on the website (homepage section + /linkedin/ page).
+# FALLBACK archive of the lab's LinkedIn posts — NOT currently shown.
+# The website displays the SociableKIT widget instead (see content/home/
+# linkedin.md); this file plus the linkedin_feed shortcode are the
+# self-hosted fallback if SociableKIT ever goes away. To refresh this
+# archive, run scripts/fetch_linkedin_posts.py locally (needs pyyaml);
+# nothing runs automatically.
 # Newest first — display order follows this file.
 #
 # To add a post manually:
@@ -20,10 +25,9 @@
 #
 # PREFERRED compact-card fields — when `text:` is present the post renders
 # as a compact LinkedIn-style card (text clamped with an inline "...more",
-# image below). These are normally AUTO-FILLED from the SociableKIT data
-# feed by scripts/fetch_linkedin_posts.py (run daily by the GitHub Action;
-# free-plan caveat: sync the widget manually in the SociableKIT dashboard
-# first, or the feed serves stale data):
+# image below). These are AUTO-FILLED from the SociableKIT data feed when
+# the sync script is run (free-plan caveat: sync the widget in the
+# SociableKIT dashboard first, or the feed serves stale data):
 #   text:   the post's text (YAML block scalar, see below)
 #   author: display name of the post's author (default "KrauthammerLab",
 #           left empty for reposts until filled in by hand)
@@ -34,10 +38,6 @@
 #           only used when no image is set
 # Entries without `text:` render as the full LinkedIn embed instead.
 # Manual edits always win: the sync script only fills in missing fields.
-#
-# Easier than the manual steps above: on GitHub go to Actions ->
-# "LinkedIn feed update" -> Run workflow and paste the post's URL — it
-# opens a pull request with the entry for you.
 #
 # NOTE: only posts visible to logged-OUT visitors can be embedded. If an
 # embed shows "Sign in ... This post is unavailable", the author restricts

@@ -2,9 +2,8 @@
 """Sync data/linkedin_posts.yaml with the lab's LinkedIn posts.
 
 Sources, all optional and merged together:
-  1. Post URLs as command-line arguments (space- or newline-separated) —
-     used by the workflow_dispatch "Run workflow" box on GitHub. Adds a
-     minimal entry (no text); fill in details in the PR if wanted.
+  1. Post URLs as command-line arguments (space- or newline-separated).
+     Adds a minimal entry (no text); fill in details by hand if wanted.
   2. The SociableKIT data feed of the page (JSON) — the default source.
      Provides text, date, repost flag and a durable image URL, so posts
      arrive as complete compact cards. Override the URL with the
