@@ -21,8 +21,8 @@ organizations:
 # bio: Bioinformatics and Machine Learning.
 
 interests:
-- Machine Learning for Health Care
-- Biostatistics
+#- Machine Learning for Health Care
+#- Biostatistics
 
 education:
 
@@ -44,7 +44,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 
 I am a Health Sciences and Technology master's student with a strong interest in biostatistics and the application of machine learning techniques in healthcare. Currently, I am working on my master’s thesis, which focuses on extending a Vision Transformer–based diagnostic model for nailfold capillaroscopy.

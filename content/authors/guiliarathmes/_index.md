@@ -21,10 +21,10 @@ organisations:
 bio: 
 
 interests:
-- Epidemiology
-- Biostatistics
-- Machine Learning for Health Care
-- Internal Medicine
+#- Epidemiology
+#- Biostatistics
+#- Machine Learning for Health Care
+#- Internal Medicine
 
 education:
   courses:
@@ -57,7 +57,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Alumni
 ---
 
 I’m a medical doctor and epidemiologist by training. My interests lie in the application of machine learning techniques to advance healthcare and to achieve individualised medical treatments.

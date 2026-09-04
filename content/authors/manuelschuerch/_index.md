@@ -21,9 +21,9 @@ organizations:
 bio: 
 
 interests:
-- Machine Learning
-- Gaussian Processes
-- Time Series
+#- Machine Learning
+#- Gaussian Processes
+#- Time Series
 
 education:
   courses:
@@ -59,7 +59,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Affiliated Researchers
+- Alumni
 ---
 
 I studied Computer Science and Statistics with focus on Machine Learning and Computational Statistics. Afterwards, I’ve completed my PhD in Artificial Intelligence in the area of probabilistic Machine Learning models. In particular, I’ve work with scalable Gaussian Processes. My current research focus is probabilistic Time Series modelling for medical data. 
