@@ -21,8 +21,8 @@ organisations:
 bio: 
 
 interests:
-- Natural Language Processing
-- Computational Neuroscience
+#- Natural Language Processing
+#- Computational Neuroscience
 
 education:
   courses:
@@ -50,7 +50,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Senior Researchers and Postdocs
+- Alumni
 ---
 
 I have an interdisciplinary education in both biological and quantitative sciences, with a Master’s degree in neuroscience from the Ecole normale supérieure (France) and a PhD in computational neuroscience from the University of Bern  (Switzerland)
