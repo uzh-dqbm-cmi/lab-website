@@ -21,7 +21,7 @@ organizations:
 bio: 
 
 interests:
-- Machine Learning
+#- Machine Learning
 
 education:
   courses:
@@ -55,7 +55,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Senior Researchers and Postdocs
+- Alumni
 ---
 
 I studied Biomedical Engineering at Graz University of Technology. Subsequently, I completed my PhD studies in Computer Science, where I focused on variational methods in medical imaging using machine learning. Lately, I worked on generative models, including diffusion models, for medical image segmentation. My research interests lie at the intersection of deep learning and machine learning with applications in the medical domain.
