@@ -1,5 +1,6 @@
 ---
 title: LinkedIn
+type: page  # the theme shows no date on pages of this type
 summary: Posts from the Krauthammer Lab LinkedIn page.
 date: "2026-07-16T00:00:00+01:00"
 share: false
@@ -12,9 +13,6 @@ header:
   image: ""
 ---
 
-<!-- Live feed with filter buttons, loaded from the SociableKIT data feed
-     (see layouts/shortcodes/linkedin_live.html). Offline fallback from
-     the archived data file: {{</* linkedin_feed */>}} -->
 {{< linkedin_live >}}
 
 <p style="text-align:center">

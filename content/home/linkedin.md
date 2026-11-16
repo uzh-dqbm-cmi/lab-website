@@ -11,13 +11,10 @@ title = "LinkedIn"
 subtitle = ""
 
 [design]
-  # Full width so the embeds sit side by side (default is 2 columns).
+  # Full width so the post tiles sit side by side (default is 2 columns).
   columns = "1"
 +++
 
-<!-- Live feed with filter buttons, loaded from the SociableKIT data feed
-     (see layouts/shortcodes/linkedin_live.html). Offline fallback from
-     the archived data file: {{</* linkedin_feed count="6" */>}} -->
 {{< linkedin_live count="6" >}}
 
 <p style="text-align:center">
