@@ -151,7 +151,10 @@
       });
     });
 
-    fetch(root.dataset.feed)
+    // "no-cache": always ask the server whether the feed changed. The feed
+    // sends no caching headers, so browsers would otherwise keep an old
+    // copy for weeks and miss newly synced posts.
+    fetch(root.dataset.feed, { cache: "no-cache" })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (data) {
         var seen = {};

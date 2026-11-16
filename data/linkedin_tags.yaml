@@ -8,6 +8,8 @@
 #     or "urn:li:...:". Keep the quotes (the IDs are too long for numbers).
 #   - tags: any of research, social, talks. A post may have several.
 #   - posts without an entry (and without a hashtag) only show under "All".
+"7523101732877488128": [talks, research]  # Yann Bourdé presents CT-to-PET paper at MICAD2026
+"7515677839304577025": [social]           # Team dinner: welcoming new members, a goodbye
 "7475160377027194881": [talks, research]  # RadVLM presented at AWS AI Health Leaders Forum
 "7469736481406910464": [talks]            # AI module for CAS in Medical Leadership (teaching)
 "7459547750586785792": [talks]            # Digital Health webinar: digital pain drawing tool
