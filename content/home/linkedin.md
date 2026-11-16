@@ -17,8 +17,8 @@ subtitle = ""
 
 <!-- Live feed with filter buttons, loaded from the SociableKIT data feed
      (see layouts/shortcodes/linkedin_live.html). Offline fallback from
-     the archived data file: {{</* linkedin_feed count="3" */>}} -->
-{{< linkedin_live count="3" >}}
+     the archived data file: {{</* linkedin_feed count="6" */>}} -->
+{{< linkedin_live count="6" >}}
 
 <p style="text-align:center">
   <a href="https://www.linkedin.com/company/krauthammerlab" target="_blank" rel="noopener">Follow us on LinkedIn</a>
