@@ -1,0 +1,39 @@
+# Filter tags for LinkedIn posts published BEFORE the hashtag convention.
+#
+# New posts need no entry here: add #KLabResearch, #KLabSocial or
+# #KLabTalks to the post on LinkedIn and the website picks it up.
+#
+# Format:  "<post id>": [tags]   # note
+#   - post id: the number in the post's URL after "activity-", "ugcPost-"
+#     or "urn:li:...:". Keep the quotes (the IDs are too long for numbers).
+#   - tags: any of research, social, talks. A post may have several.
+#   - posts without an entry (and without a hashtag) only show under "All".
+"7475160377027194881": [talks, research]  # RadVLM presented at AWS AI Health Leaders Forum
+"7469736481406910464": [talks]            # AI module for CAS in Medical Leadership (teaching)
+"7459547750586785792": [talks]            # Digital Health webinar: digital pain drawing tool
+"7452640144106418177": [talks, research]  # Eline's poster at ESCMID Global
+"7450467874143518720": [research]         # Great work from team led by Morteza Rohanian
+"7445433722268672000": [research]         # Paper: speech-based prediction of psychosis symptoms
+"7432014219652526080": [talks]            # Startup Stories: AI in healthcare event
+"7434250260987744256": [social]           # PhD defense: Cécile Trottet
+"7429625519064854528": [talks]            # Digital Health webinar, 19 February
+"7429206344689164289": [research]         # Paper: CHASE, protein language models
+"7428005126042247168": [talks]            # Digital Health webinar, 19 February (repost)
+"7421523952058966016": [social]           # Visit from NII Tokyo and Kyoto University delegation
+"7419663225450934272": [talks]            # Digital Health webinar reminder, 22 January
+"7419004431989415936": [research]         # NeurIPS: Manuela's anesthesia control work
+"7414297081005232128": [research]         # Paper: AI and systemic sclerosis disease paths
+"7409558167350824961": [social]           # Lab Christmas dinner
+"7405176419561152512": [research]         # Paper: radiology report generation with RL
+"7399872902541746177": [research]         # Paper: kidney transplant prognostication
+"7389632219788656642": [research]         # Swiss AI Initiative grants for UZH projects
+"7398383996998594560": [talks]            # Reflections from ESC AI Summit 2025
+"7394035501487509507": [talks]            # Digital Health webinar: IT and healthcare transformation
+"7394018910167252992": [research]         # Paper: digital health app for supportive cancer care
+"7388912176859873283": [talks]            # UZH experts' AI ethics dialogues in Japan
+"7386682504579153920": [talks]            # Digital Health webinar tomorrow
+"7383834497932320768": [research]         # Collaboration milestone (USZ, Stanford, ETH, ...)
+"7371535329935167488": [research]         # Paper: flow matching for landmark localization
+"7377243160835579904": [research]         # Paper: predicting nursing workload
+"7373323126488760321": [social]           # Visiting researcher arrives in Zurich
+"7370803336226177024": [social]           # Welcome to the team, Manuela Merlo

@@ -1,6 +1,6 @@
 +++
-# LinkedIn feed section, rendered from data/linkedin_posts.yaml
-# via layouts/shortcodes/linkedin_feed.html.
+# LinkedIn feed section, loaded live from the SociableKIT data feed
+# via layouts/shortcodes/linkedin_live.html.
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
@@ -15,9 +15,10 @@ subtitle = ""
   columns = "1"
 +++
 
-<!-- SociableKIT widget. Fallback to our own cards / official embeds:
-     replace the line below with {{</* linkedin_feed count="3" */>}} -->
-{{< sociablekit_feed id="25699324" >}}
+<!-- Live feed with filter buttons, loaded from the SociableKIT data feed
+     (see layouts/shortcodes/linkedin_live.html). Offline fallback from
+     the archived data file: {{</* linkedin_feed count="3" */>}} -->
+{{< linkedin_live count="3" >}}
 
 <p style="text-align:center">
   <a href="https://www.linkedin.com/company/krauthammerlab" target="_blank" rel="noopener">Follow us on LinkedIn</a>
