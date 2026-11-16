@@ -191,11 +191,34 @@
   padding: 0.9rem;
   font-size: 0.9rem;
   line-height: 1.45;
+  // All tiles share one height; the text fills the space left over.
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+
+  // An expanded tile ("...more") grows to show the whole post.
+  &.li-open {
+    height: auto;
+  }
 
   // The article page styles add large margins to images; cancel them here.
   img {
     margin: 0;
   }
+}
+
+.li-head,
+.li-more,
+.li-media,
+.li-foot {
+  flex: none;
+}
+
+.li-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .li-head {
@@ -238,10 +261,13 @@
   overflow-wrap: anywhere;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
   overflow: hidden;
+  // Takes all remaining height; the script sets -webkit-line-clamp to the
+  // number of whole lines that fit.
+  flex: 1 1 auto;
+  min-height: 0;
 
-  &.li-open {
+  .li-open & {
     display: block;
   }
 }
@@ -253,6 +279,7 @@
   color: #666;
   font-size: 0.85rem;
   cursor: pointer;
+  align-self: flex-start;
 
   &:hover {
     color: #0a66c2;
@@ -265,35 +292,40 @@
   margin-top: 0.6rem;
   border-radius: 4px;
   overflow: hidden;
+  // Fixed image area, so every tile with photos has the same layout.
+  height: 220px;
+  grid-template-rows: 100%;
 
-  &.li-media-2,
-  &.li-media-4 {
+  &.li-media-2 {
     grid-template-columns: 1fr 1fr;
   }
 
+  // 3 photos: one large on the left, two stacked on the right.
   &.li-media-3 {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 
     .li-cell:first-child {
-      grid-column: 1 / -1;
+      grid-row: 1 / -1;
     }
+  }
+
+  &.li-media-4 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 
   .li-cell {
     position: relative;
     display: block;
+    min-height: 0;
   }
 
   img {
     display: block;
     width: 100%;
     height: 100%;
-    max-height: 320px;
     object-fit: cover;
-  }
-
-  &:not(.li-media-1) img {
-    aspect-ratio: 1 / 1;
   }
 
   .li-extra {

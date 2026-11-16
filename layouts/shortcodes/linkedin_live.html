@@ -81,8 +81,10 @@
     textNodes(text, (p.description_raw || "").trim());
     var more = el("button", "li-more", "…more"); more.type = "button"; more.hidden = true;
     more.addEventListener("click", function () {
-      var open = text.classList.toggle("li-open");
+      var open = c.classList.toggle("li-open");
       more.textContent = open ? "Show less" : "…more";
+      fit({ node: c, text: text, more: more });
+      more.hidden = false;
     });
     body.appendChild(text); body.appendChild(more);
     c.appendChild(body);
@@ -113,6 +115,27 @@
     return { node: c, text: text, more: more };
   }
 
+  // All tiles have the same fixed height. The text gets whatever space is
+  // left after the header, images and footer, so tiles without images show
+  // more text. Clamp at a whole line and show "...more" only if text is cut.
+  function fit(c) {
+    var t = c.text;
+    t.style.webkitLineClamp = "none";
+    t.style.height = "";
+    t.style.flex = "";
+    if (c.node.classList.contains("li-open")) { t.style.flex = "none"; return; }
+    c.more.hidden = true;
+    if (t.scrollHeight <= t.clientHeight + 1) return;
+    c.more.hidden = false;
+    // Size the box to exactly the whole lines that fit; the clamp alone
+    // would still show a part line below the "..." in a taller box.
+    var lineHeight = parseFloat(getComputedStyle(t).lineHeight) || 20;
+    var lines = Math.max(1, Math.floor(t.clientHeight / lineHeight));
+    t.style.flex = "none";
+    t.style.height = lines * lineHeight + "px";
+    t.style.webkitLineClamp = String(lines);
+  }
+
   document.querySelectorAll(".li-live:not([data-ready])").forEach(function (root) {
     root.setAttribute("data-ready", "1");
     var grid = root.querySelector(".li-grid");
@@ -136,10 +159,15 @@
       if (count) list = list.slice(0, count);
       grid.innerHTML = "";
       if (!list.length) { grid.appendChild(el("p", "li-status", "No posts in this category yet.")); return; }
-      var cards = list.map(function (p) { var c = card(p, root.dataset.avatar); grid.appendChild(c.node); return c; });
-      // Show "...more" only where the clamped text actually overflows.
-      cards.forEach(function (c) { c.more.hidden = c.text.scrollHeight <= c.text.clientHeight + 1; });
+      shown = list.map(function (p) { var c = card(p, root.dataset.avatar); grid.appendChild(c.node); return c; });
+      shown.forEach(fit);
     }
+
+    var shown = [], resizeTimer;
+    window.addEventListener("resize", function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(function () { shown.forEach(fit); }, 150);
+    });
 
     root.querySelectorAll(".li-filters button").forEach(function (b) {
       b.addEventListener("click", function () {
