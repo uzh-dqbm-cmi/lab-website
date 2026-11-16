@@ -1,0 +1,228 @@
+{{/* LinkedIn feed with filter buttons, rendered in the browser.
+     Usage: {{< linkedin_live >}} (all posts) or {{< linkedin_live count="6" >}}
+
+     Posts come live from the SociableKIT data feed of widget 25699324
+     (SociableKIT only supplies the data; it collects the posts from
+     LinkedIn). New posts appear after a sync in the SociableKIT
+     dashboard; nothing in this repo needs to change. If the feed cannot
+     be loaded, the section shows a link to the LinkedIn page instead.
+
+     Filter tags come from two places:
+       - hashtags in the post text: #KLabResearch, #KLabSocial, #KLabTalks
+       - data/linkedin_tags.yaml, for posts made before the hashtags */}}
+<div class="li-live"
+     data-feed="https://data.accentapi.com/feed/25699324.json"
+     data-count="{{ .Get "count" | default "0" }}"
+     data-tags="{{ site.Data.linkedin_tags | default dict | jsonify }}"
+     data-avatar="{{ "img/logo.png" | relURL }}"
+     data-page="https://www.linkedin.com/company/krauthammerlab">
+  <div class="li-filters" role="group" aria-label="Filter LinkedIn posts" hidden>
+    <button type="button" data-filter="all" aria-pressed="true">All</button>
+    <button type="button" data-filter="research" aria-pressed="false">Research</button>
+    <button type="button" data-filter="social" aria-pressed="false">Social</button>
+    <button type="button" data-filter="talks" aria-pressed="false">Talks</button>
+  </div>
+  <div class="li-grid" aria-live="polite"></div>
+  <noscript><p class="li-status"><a href="https://www.linkedin.com/company/krauthammerlab">See our posts on LinkedIn</a></p></noscript>
+</div>
+<script>
+(function () {
+  var TAG_RE = /#KLab(Research|Social|Talks)\b/gi;
+  var URL_RE = /(https?:\/\/[^\s]+)/g;
+  var TRAILING_PUNCT_RE = /[.,;:!?)\]'"]+$/;
+  var MAX_IMAGES = 4;
+
+  // Post ID and type from a LinkedIn URL or URN.
+  function postRef(url) {
+    var m = /(activity|ugcPost|share)[-:](\d+)/.exec(url || "");
+    return m ? { kind: m[1], id: m[2] } : null;
+  }
+
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+
+  function externalLink(node, href, label) {
+    node.href = href;
+    node.target = "_blank";
+    node.rel = "noopener";
+    if (label) node.setAttribute("aria-label", label);
+    return node;
+  }
+
+  // Post text as safe DOM nodes: plain text with clickable URLs. Punctuation
+  // right after a URL (e.g. "see https://x.y/z.") stays outside the link.
+  function textNodes(container, text) {
+    text.split(URL_RE).forEach(function (part, i) {
+      if (i % 2 === 1) {
+        var tail = (TRAILING_PUNCT_RE.exec(part) || [""])[0];
+        var url = part.slice(0, part.length - tail.length);
+        container.appendChild(externalLink(el("a", null, url), url));
+        if (tail) container.appendChild(document.createTextNode(tail));
+      } else if (part) {
+        container.appendChild(document.createTextNode(part));
+      }
+    });
+  }
+
+  function monthYear(s) {
+    var d = new Date(String(s || "").replace(" ", "T"));
+    return isNaN(d) ? "" : d.toLocaleDateString("en-US", { month: "long", year: "numeric" });
+  }
+
+  function card(p, avatarUrl) {
+    var c = el("article", "li-card");
+
+    var head = el("div", "li-head");
+    var av = el("img", "li-avatar"); av.src = avatarUrl; av.alt = "";
+    var who = el("div", "li-who");
+    who.appendChild(el("div", "li-name", p.profile_name || "KrauthammerLab"));
+    var meta = monthYear(p.post_date_time);
+    if (String(p.reposted) === "1") meta += (meta ? " · " : "") + "Repost";
+    who.appendChild(el("div", "li-meta", meta));
+    var logo = externalLink(el("a", "li-logo"), p._url, "View on LinkedIn");
+    logo.appendChild(el("i", "fab fa-linkedin"));
+    head.appendChild(av); head.appendChild(who); head.appendChild(logo);
+    c.appendChild(head);
+
+    var body = el("div", "li-body");
+    var text = el("div", "li-text");
+    textNodes(text, (p.description_raw || "").trim());
+    var more = el("button", "li-more", "…more"); more.type = "button"; more.hidden = true;
+    var tile = { node: c, text: text, more: more };
+    more.addEventListener("click", function () {
+      var open = c.classList.toggle("li-open");
+      more.textContent = open ? "Show less" : "…more";
+      fit(tile);
+      more.hidden = false;
+    });
+    body.appendChild(text); body.appendChild(more);
+    c.appendChild(body);
+
+    var imgs = (p.image_urls && p.image_urls.length) ? p.image_urls : (p.thumbnail_url ? [p.thumbnail_url] : []);
+    if (imgs.length) {
+      var imgCount = Math.min(imgs.length, MAX_IMAGES);
+      var media = externalLink(el("a", "li-media li-media-" + imgCount), p._url, "Open post on LinkedIn");
+      for (var i = 0; i < imgCount; i++) {
+        var cell = el("span", "li-cell");
+        var img = el("img"); img.src = imgs[i]; img.alt = ""; img.loading = "lazy";
+        img.onerror = function () { this.parentNode.style.display = "none"; };
+        cell.appendChild(img);
+        if (i === imgCount - 1 && imgs.length > imgCount) cell.appendChild(el("span", "li-extra", "+" + (imgs.length - imgCount)));
+        media.appendChild(cell);
+      }
+      c.appendChild(media);
+    }
+
+    var likes = +p.likes_count || 0, comments = +p.comments_count || 0;
+    if (likes || comments) {
+      var foot = el("div", "li-foot");
+      if (likes) { foot.appendChild(el("i", "far fa-thumbs-up")); foot.appendChild(document.createTextNode(" " + likes + "  ")); }
+      if (comments) { foot.appendChild(el("i", "far fa-comment")); foot.appendChild(document.createTextNode(" " + comments)); }
+      c.appendChild(foot);
+    }
+    return tile;
+  }
+
+  // All tiles have the same fixed height. The text gets whatever space is
+  // left after the header, images and footer, so tiles without images show
+  // more text. Clamp at a whole line and show "...more" only if text is cut.
+  function fit(tile) {
+    var t = tile.text;
+    t.style.webkitLineClamp = "none";
+    t.style.height = "";
+    t.style.flex = "";
+    if (tile.node.classList.contains("li-open")) { t.style.flex = "none"; return; }
+    tile.more.hidden = true;
+    if (t.scrollHeight <= t.clientHeight + 1) return;
+    tile.more.hidden = false;
+    // Size the box to exactly the whole lines that fit; the clamp alone
+    // would still show a part line below the "..." in a taller box.
+    var lineHeight = parseFloat(getComputedStyle(t).lineHeight) || 20;
+    var lines = Math.max(1, Math.floor(t.clientHeight / lineHeight));
+    t.style.flex = "none";
+    t.style.height = lines * lineHeight + "px";
+    t.style.webkitLineClamp = String(lines);
+  }
+
+  document.querySelectorAll(".li-live:not([data-ready])").forEach(function (root) {
+    root.setAttribute("data-ready", "1");
+    var grid = root.querySelector(".li-grid");
+    var filters = root.querySelector(".li-filters");
+    var count = parseInt(root.dataset.count, 10) || 0;
+    var manualTags = {};
+    try { manualTags = JSON.parse(root.dataset.tags) || {}; } catch (e) {}
+    var posts = [];
+    var filter = "all";
+    var tiles = [];
+    var resizeTimer;
+
+    grid.appendChild(el("p", "li-status", "Loading LinkedIn posts…"));
+
+    function fail() {
+      grid.innerHTML = "";
+      var msg = el("p", "li-status", "LinkedIn posts could not be loaded. ");
+      var a = el("a", null, "See them on LinkedIn"); a.href = root.dataset.page;
+      msg.appendChild(a);
+      grid.appendChild(msg);
+      filters.hidden = true;
+    }
+
+    function render() {
+      var list = posts.filter(function (p) { return filter === "all" || p._tags.indexOf(filter) !== -1; });
+      if (count) list = list.slice(0, count);
+      grid.innerHTML = "";
+      tiles = [];
+      if (!list.length) { grid.appendChild(el("p", "li-status", "No posts in this category yet.")); return; }
+      tiles = list.map(function (p) { var t = card(p, root.dataset.avatar); grid.appendChild(t.node); return t; });
+      tiles.forEach(fit);
+    }
+
+    window.addEventListener("resize", function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(function () { tiles.forEach(fit); }, 150);
+    });
+
+    filters.querySelectorAll("button").forEach(function (b) {
+      b.addEventListener("click", function () {
+        filter = b.dataset.filter;
+        filters.querySelectorAll("button").forEach(function (x) {
+          x.setAttribute("aria-pressed", String(x === b));
+        });
+        render();
+      });
+    });
+
+    // "no-cache": always ask the server whether the feed changed. The feed
+    // sends no caching headers, so browsers would otherwise keep an old
+    // copy for weeks and miss newly synced posts.
+    fetch(root.dataset.feed, { cache: "no-cache" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (data) {
+        var seen = {};
+        posts = (data.posts || []).filter(function (p) {
+          var ref = postRef(p.post_url);
+          if (!ref || seen[ref.id]) return false;
+          seen[ref.id] = true;
+          var tags = (manualTags[ref.id] || []).map(function (t) { return String(t).toLowerCase(); });
+          var m; TAG_RE.lastIndex = 0;
+          while ((m = TAG_RE.exec(p.description_raw || ""))) tags.push(m[1].toLowerCase());
+          p._id = ref.id;
+          p._tags = tags;
+          // Build the link ourselves instead of trusting the feed's URL.
+          p._url = "https://www.linkedin.com/feed/update/urn:li:" + ref.kind + ":" + ref.id;
+          return true;
+        });
+        // Newest first: LinkedIn IDs start with a millisecond timestamp.
+        posts.sort(function (a, b) { return a._id.length !== b._id.length ? b._id.length - a._id.length : (a._id < b._id ? 1 : a._id > b._id ? -1 : 0); });
+        if (!posts.length) return fail();
+        filters.hidden = false;
+        render();
+      })
+      .catch(fail);
+  });
+})();
+</script>

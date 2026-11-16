@@ -1,0 +1,213 @@
+/*
+  Site custom styles.
+  This file overrides the theme's empty assets/scss/custom.scss placeholder
+  and is compiled into academic.css via the theme's main.scss (@import "custom").
+*/
+
+// Live LinkedIn feed with filter buttons (layouts/shortcodes/linkedin_live.html).
+// Cards keep fixed light colours, like LinkedIn's own posts.
+.li-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+
+  // Our display: flex would otherwise override the hidden attribute.
+  &[hidden] {
+    display: none;
+  }
+
+  button {
+    border: 1px solid $sta-primary;
+    background: transparent;
+    color: $sta-primary;
+    border-radius: 999px;
+    padding: 0.3rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+
+    &[aria-pressed="true"] {
+      background: $sta-primary;
+      color: #fff;
+    }
+  }
+}
+
+.li-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  align-items: start;
+}
+
+.li-status {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #888;
+}
+
+.li-card {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.9);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 0.9rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  // All tiles share one height; the text fills the space left over.
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+
+  // An expanded tile ("...more") grows to show the whole post.
+  &.li-open {
+    height: auto;
+  }
+
+  // The article page styles add large margins to images; cancel them here.
+  img {
+    margin: 0;
+  }
+}
+
+.li-head,
+.li-more,
+.li-media,
+.li-foot {
+  flex: none;
+}
+
+.li-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.li-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.li-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.li-who {
+  flex: 1;
+  min-width: 0;
+}
+
+.li-name {
+  font-weight: 600;
+}
+
+.li-meta {
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.li-logo {
+  color: #0a66c2;
+  font-size: 1.5rem;
+  line-height: 1;
+  align-self: flex-start;
+}
+
+.li-text {
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  // Takes all remaining height; the script sets -webkit-line-clamp to the
+  // number of whole lines that fit.
+  flex: 1 1 auto;
+  min-height: 0;
+
+  .li-open & {
+    display: block;
+  }
+}
+
+.li-more {
+  border: 0;
+  background: none;
+  padding: 0;
+  color: #666;
+  font-size: 0.85rem;
+  cursor: pointer;
+  align-self: flex-start;
+
+  &:hover {
+    color: #0a66c2;
+  }
+}
+
+.li-media {
+  display: grid;
+  gap: 2px;
+  margin-top: 0.6rem;
+  border-radius: 4px;
+  overflow: hidden;
+  // Fixed image area, so every tile with photos has the same layout.
+  height: 220px;
+  grid-template-rows: 100%;
+
+  &.li-media-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  // 3 photos: one large on the left, two stacked on the right.
+  &.li-media-3 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    .li-cell:first-child {
+      grid-row: 1 / -1;
+    }
+  }
+
+  &.li-media-4 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .li-cell {
+    position: relative;
+    display: block;
+    min-height: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .li-extra {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+}
+
+.li-foot {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  color: #666;
+  white-space: pre;
+}
