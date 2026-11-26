@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Apparently, this member prefers to keep an air of mystery about them.
+bio: 👻
 
 interests:
 - Machine Learning
@@ -56,5 +56,4 @@ email: ""
 user_groups:
 - Senior Researchers and Postdocs
 ---
-
-Apparently, this member prefers to keep an air of mystery about them 👻.
+👻
