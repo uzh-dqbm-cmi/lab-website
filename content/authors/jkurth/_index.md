@@ -52,7 +52,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Alumni
+- Master Students
 
 ---
 I am currently in the final semester of my Master's studies at ETH Zurich. I am writing my Master's thesis at the Krauthammer Lab, where I am working on learning transcription factor interactions from cfDNA using Set Transformers.
