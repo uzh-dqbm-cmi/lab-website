@@ -47,7 +47,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Grad Students
+- Research Assistants
 ---
 
 I am studying for an MSc in Artificial Intelligence at the University of Zurich and doing my master thesis at the Krauthammer Lab. I am interested in applications of AI, large-scale computing, and data science in health care. In my thesis I work on deep learning for cell-free DNA (cfDNA) from blood. My project trains a U-Net to reconstruct high-coverage cfDNA fragment profiles from low-coverage sequencing, with the goal of telling apart prostate cancer subtypes from a blood draw instead of a biopsy.
