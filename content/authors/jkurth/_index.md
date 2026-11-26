@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Master Thesis Student
+role: Master Student
 
 # Organizations/Affiliations
 organizations:
