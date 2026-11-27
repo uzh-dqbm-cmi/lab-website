@@ -1,5 +1,5 @@
 ---
-title: LinkedIn
+title: Recent Posts
 type: page  # the theme shows no date on pages of this type
 summary: Posts from the Krauthammer Lab LinkedIn page.
 date: "2026-07-16T00:00:00+01:00"

@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 66  # After Recent Posts (65), before Talks (70).
 
-title = "LinkedIn"
+title = "Recent Posts"
 subtitle = ""
 
 [design]
